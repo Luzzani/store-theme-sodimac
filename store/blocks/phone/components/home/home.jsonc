@@ -28,5 +28,17 @@
       "marginTop": 8,
       "blockClass": "home__section-2--phone"
     }
+  },
+  "flex-layout.row#home__section-4--phone": {
+    "title": "home row section 4",
+    "children": [
+      "flex-layout.col#home__section4--phone"
+    ],
+    "props": {
+      "rowGap": 4,
+      "colGap": 4,
+      "marginTop": 8,
+      "blockClass": "home__section-2--phone"
+    }
   }
 }

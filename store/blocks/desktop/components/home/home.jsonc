@@ -5,7 +5,32 @@
       "slider-layout#section__1--banner"
     ],
     "props": {
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "home__section-1"
+    }
+  },
+  "flex-layout.row#home__section-2": {
+    "title": "fresh Aire Libre",
+    "children": [
+      "flex-layout.col#home__section--2"
+    ],
+    "props": {
+      "rowGap": 6,
+      "colGap": 4,
+      "width": "70%",
+      "marginTop": 8
+    }
+  },
+  "flex-layout.row#home__section-4--desktop": {
+    "title": "section 4 Mantente fresco",
+    "children": [
+      "flex-layout.col#home__section4--desktop"
+    ],
+    "props": {
+      "rowGap": 6,
+      "colGap": 4,
+      "width": "70%",
+      "marginTop": 8
     }
   }
 }
