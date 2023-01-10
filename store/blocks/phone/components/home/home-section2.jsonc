@@ -1,0 +1,65 @@
+{
+    "flex-layout.col#home__section2--phone": {
+        "title": "home col section 2 phone",
+        "children": [
+            "rich-text#section__2--title--phone",
+            "flex-layout.row#section2__row--2--phone",
+            "flex-layout.row#section2__row--3--phone",
+            "flex-layout.row#section2__row--4--phone",
+            "flex-layout.row#section2__row--5--phone"
+        ]
+    },
+    "flex-layout.row#section2__row--2--phone": {
+        "title": "section 2 row 2 phone",
+        "children": [
+            "image#row2__image--one"
+        ]
+    },
+    "flex-layout.row#section2__row--3--phone": {
+        "title": "section 2 row 3 phone",
+        "children": [
+            "flex-layout.col#row3__col--left",
+            "flex-layout.col#row3__col--right"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#row3__col--left": {
+        "title": "row 3 col left",
+        "children": [
+            "image#row2__image--two--left"
+        ],
+        "props": {
+            "width": "50%"
+        }
+    },
+    "flex-layout.col#row3__col--right": {
+        "title": "row 3 col right",
+        "children": [
+            "image#row2__image--two--right"
+        ],
+        "props": {
+            "width": "50%"
+        }
+    },
+    "flex-layout.row#section2__row--4--phone": {
+        "title": "section 2 row 4",
+        "children": [
+            "image#row2__image--three"
+        ]
+    },
+    "flex-layout.row#section2__row--5--phone": {
+        "title": "section 2 row 5",
+        "children": [
+            "image#row2__image--four"
+        ]
+    },
+    "rich-text#section__2--title--phone": {
+        "title": "sectio 2 title phone",
+        "props": {
+            "text": "### Aire Libre ",
+            "blockClass": "section__2--title--phone"
+        }
+    }
+}

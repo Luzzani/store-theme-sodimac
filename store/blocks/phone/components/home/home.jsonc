@@ -10,6 +10,13 @@
       "image#home__mobile--financing"
     ]
   },
+  "image#home__mobile--financing": {
+    "title": "desktop financing gif",
+    "props": {
+      "src": "https://www.sodimac.com.ar/static/home/images/Financiacion/2022/cyberweek-huincha-MOBILE.gif?auto=webp&disable=upscale&quality=70&width=720",
+      "width": "100%"
+    }
+  },
   "flex-layout.row#home__section-2--phone": {
     "title": "home row section 2 phone",
     "children": [
@@ -20,111 +27,6 @@
       "colGap": 4,
       "marginTop": 8,
       "blockClass": "home__section-2--phone"
-    }
-  },
-  "flex-layout.col#home__section2--phone": {
-    "title": "home col section 2 phone",
-    "children": [
-      "rich-text#section__2--title--phone",
-      "flex-layout.row#section2__row--2--phone",
-      "flex-layout.row#section2__row--3--phone",
-      "flex-layout.row#section2__row--4--phone",
-      "flex-layout.row#section2__row--5--phone"
-    ]
-  },
-  "flex-layout.row#section2__row--2--phone": {
-    "title": "section 2 row 2 phone",
-    "children": [
-      "image#row2__image--one"
-    ]
-  },
-  "flex-layout.row#section2__row--3--phone": {
-    "title": "section 2 row 3 phone",
-    "children": [
-      "flex-layout.col#row3__col--left",
-      "flex-layout.col#row3__col--right"
-    ],
-    "props": {
-      "preserveLayoutOnMobile": true
-    }
-  },
-  "flex-layout.col#row3__col--left": {
-    "title": "row 3 col left",
-    "children": [
-      "image#row2__image--two--left"
-    ],
-    "props": {
-      "width": "50%"
-    }
-  },
-  "flex-layout.col#row3__col--right": {
-    "title": "row 3 col right",
-    "children": [
-      "image#row2__image--two--right"
-    ],
-    "props": {
-      "width": "50%"
-    }
-  },
-  "flex-layout.row#section2__row--4--phone": {
-    "title": "section 2 row 4",
-    "children": [
-      "image#row2__image--three"
-    ]
-  },
-  "flex-layout.row#section2__row--5--phone": {
-    "title": "section 2 row 5",
-    "children": [
-      "image#row2__image--four"
-    ]
-  },
-  "rich-text#section__2--title--phone": {
-    "title": "sectio 2 title phone",
-    "props": {
-      "text": "### Aire Libre ",
-      "blockClass": "section__2--title--phone"
-    }
-  },
-  "image#home__mobile--financing": {
-    "title": "desktop financing gif",
-    "props": {
-      "src": "https://www.sodimac.com.ar/static/home/images/Financiacion/2022/cyberweek-huincha-MOBILE.gif?auto=webp&disable=upscale&quality=70&width=720",
-      "width": "100%"
-    }
-  },
-  "slider-layout#phone__section__1--banner": {
-    "title": "slider banner section 1",
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": [
-        "section__1--banner",
-        "banner--mobile"
-      ]
-    },
-    "children": [
-      "image#banner__pool--mobile",
-      "image#banner__air--mobile"
-    ]
-  },
-  "image#banner__pool--mobile": {
-    "props": {
-      "src": "assets/img/banner-pileta-mobile.jpeg",
-      "link": {
-        "url": "/"
-      }
-    }
-  },
-  "image#banner__air--mobile": {
-    "props": {
-      "src": "assets/img/banner-aire-acondicionado-mobile.jpeg",
-      "link": {
-        "url": "/"
-      }
     }
   }
 }
