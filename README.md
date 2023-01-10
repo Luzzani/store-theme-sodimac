@@ -567,4 +567,5 @@ Documentación de referemcia: [Reglas de uso](https://developers.vtex.com/vtex-d
 
 Esto con el fin de mantener las apps custom agnósticas a cada lógica de negocio y proyecto en particular, con el fin de que sea reutilizable en diferentes proyectos.
 #   s t o r e - t h e m e - s o d i m a c  
+ #   s t o r e - t h e m e - s o d i m a c  
  
