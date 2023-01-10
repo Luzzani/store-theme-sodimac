@@ -1,19 +1,11 @@
 {
   "flex-layout.row#home__section-1": {
-    "title": "DESKTOP Row with text",
+    "title": "DESKTOP row whit slider",
     "children": [
-      "rich-text#section-1"
-    ]
-  },
-
-  "rich-text#section-1": {
-    "title": "Text Favorites at desktop",
+      "slider-layout#section__1--banner"
+    ],
     "props": {
-      "blockClass": "",
-      "text": "Favoritos en DESKTOP",
-      "font": "t-heading-2",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "fullWidth": true
     }
   }
 }

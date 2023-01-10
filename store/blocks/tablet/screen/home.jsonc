@@ -1,6 +1,10 @@
 {
-  "responsive-layout.tablet#home__section-1": {
+  "responsive-layout.tablet#home__tablet": {
     "title": "Section 1 Tablet Home",
-    "children": ["flex-layout.row#tablet__home__section-1"]
+    "children": [
+      "flex-layout.row#home__section-financing",
+      "flex-layout.row#tablet__home__section-1",
+      "flex-layout.row#home__section-2--tablet"
+    ]
   }
 }

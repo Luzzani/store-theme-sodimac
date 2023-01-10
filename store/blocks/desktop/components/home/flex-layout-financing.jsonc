@@ -1,0 +1,20 @@
+{
+    "flex-layout.row#home__section-financing": {
+        "children": [
+            "image#home__desktop--financing"
+        ],
+        "props": {
+            "blockClass": "home__section-financing"
+        }
+    },
+    "image#home__desktop--financing": {
+        "title": "desktop financing gif",
+        "props": {
+            "src": "https://www.sodimac.com.ar/static/home/images/Financiacion/2022/cyberweek-huincha-DESKTOP.gif?auto=webp&disable=upscale&quality=70&width=1280",
+            "link": {
+                "url": "/"
+            },
+            "blockClass": "desktop--financing"
+        }
+    }
+}

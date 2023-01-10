@@ -1,6 +1,11 @@
 {
-  "responsive-layout.phone#home__section-1": {
+  "responsive-layout.phone#home__phone": {
     "title": "Section 1 Phone Home",
-    "children": ["flex-layout.row#phone__home__section-1"]
+    "children": [
+      "flex-layout.row#home__section--financing--mobile",
+      "flex-layout.row#phone__home__section-1",
+      "flex-layout.row#home__section-2--phone"
+    ]
   }
+
 }

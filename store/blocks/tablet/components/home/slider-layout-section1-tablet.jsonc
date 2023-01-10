@@ -1,0 +1,41 @@
+{
+    "slider-layout#section__1--banner--tablet": {
+        "title": "slider banner section 1",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": ["section__1--banner", "banner--mobile"],
+            "autoplay": {
+                "timeout": 5000
+            }
+        },
+        "children": [
+            "image#banner__pool",
+            "image#banner__air"
+        ]
+    },
+    "image#banner__pool": {
+        "props": {
+            "src": "assets/img/banner-pileta.jpeg",
+            "link": {
+                "url": "/"
+            },
+            "width": "100%",
+            "blockClass": "banner__air"
+        }
+    },
+    "image#banner__air": {
+        "props": {
+            "src": "assets/img/banner-aire-acondicionado.jpeg",
+            "link": {
+                "url": "/"
+            },
+            "width": "100%",
+            "blockClass": "banner__air"
+        }
+    }
+}

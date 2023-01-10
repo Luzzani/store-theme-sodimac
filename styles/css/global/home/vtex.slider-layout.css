@@ -1,0 +1,16 @@
+.paginationDotsContainer--section__1--banner{
+    transform: translateY(-20px);
+    gap: 1rem;
+}
+
+.paginationDot--section__1--banner {
+    height: 1rem!important;
+    width: 1rem!important;
+    opacity: .25;
+    background-color: #333;
+}
+
+.paginationDot--section__1--banner--isActive {
+    background: #333333;
+    opacity: 1;
+}

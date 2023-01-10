@@ -1,0 +1,8 @@
+.paginationDotsContainer--banner--mobile  {
+    transform: translateY(30px);
+}
+
+.paginationDot--banner--mobile {
+    height: 14px!important;
+    width: 14px!important;
+}

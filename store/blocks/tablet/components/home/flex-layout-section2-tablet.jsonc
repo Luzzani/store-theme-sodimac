@@ -1,0 +1,34 @@
+{
+    "flex-layout.row#home__section-2--tablet": {
+        "title": "fresh air row",
+        "children": [
+            "flex-layout.col#home__section--2--tablet"
+        ],
+        "props": {
+            "rowGap": 6,
+            "colGap": 4,
+            "width": "70%",
+            "marginTop": 8
+        }
+    },
+    "flex-layout.col#home__section--2--tablet": {
+        "title": "fresh air col",
+        "children": [
+            "flex-layout.row#section__2--row1--tablet",
+            "flex-layout.row#section__2--row2",
+            "flex-layout.row#section__2--row3"
+        ]
+    },
+    "flex-layout.row#section__2--row1--tablet": {
+        "title": "row title fresh air tablet",
+        "children": [
+            "rich-text#section__2--title--tablet"
+        ]
+    },
+    "rich-text#section__2--title--tablet": {
+        "title": "title fresh air tablet",
+        "props": {
+            "text": "### Aire Libre",
+            "blockClass": "section__2--title--tablet"        }
+    }
+}

@@ -1,0 +1,7 @@
+.imageElement--images--section2 {
+    border-radius: .2rem;
+}
+
+.imageElement--images--section2:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}

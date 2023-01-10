@@ -78,7 +78,7 @@
   },
   "semanticColors": {
     "background": {
-      "base": "#ffffff",
+      "base": "#f5f5f5",
       "base--inverted": "#03044e",
       "action-primary": "#0F3E99",
       "action-secondary": "#eef3f7",
@@ -324,21 +324,21 @@
     ],
     "styles": {
       "heading-1": {
-        "fontFamily": "Roboto-Bold, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Lato, sans-serif",
         "fontWeight": "normal",
         "fontSize": "3rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-2": {
-        "fontFamily": "Roboto-Medium, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Lato, sans-serif",
         "fontWeight": "normal",
         "fontSize": "2.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-3": {
-        "fontFamily": "Roboto-Medium, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Lato, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.75rem",
         "textTransform": "initial",
@@ -411,6 +411,13 @@
         "fontFamily": "Consolas, monaco, monospace",
         "fontWeight": "normal",
         "fontSize": "1rem",
+        "textTransform": "initial",
+        "letterSpacing": "0"
+      },
+      "prueba": {
+        "fontFamily": "Lato, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "2rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       }
