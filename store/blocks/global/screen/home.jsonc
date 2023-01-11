@@ -8,7 +8,6 @@
       "responsive-layout.mobile#phone__and__tablet",
       // "flex-layout.row#home__section--global",
       "modal-trigger#home__modal--opinion"
-
     ]
   }
 }
