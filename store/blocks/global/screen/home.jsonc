@@ -5,8 +5,10 @@
       "responsive-layout.desktop#home__desktop",
       "responsive-layout.tablet#home__tablet",
       "responsive-layout.phone#home__phone",
-      "responsive-layout.mobile#phone__and__tablet"
-      // "flex-layout.row#home__section--global"
+      "responsive-layout.mobile#phone__and__tablet",
+      // "flex-layout.row#home__section--global",
+      "modal-trigger#home__modal--opinion"
+
     ]
   }
 }

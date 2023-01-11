@@ -1,3 +1,10 @@
+.imageElement--modal__opinion--trigger {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+}
+
 .imageElement--images--section2 {
     border-radius: .2rem;
 }

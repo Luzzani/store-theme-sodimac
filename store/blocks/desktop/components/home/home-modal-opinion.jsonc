@@ -1,0 +1,21 @@
+{
+    "image#modal__opinion--trigger": {
+        "title": "image modal trigger",
+        "props": {
+            "src": "https://www.sodimac.com.ar/static/bot-opinion/img/danos-tu-opinion.svg",
+            "blockClass": "modal__opinion--trigger"
+        }
+    },
+    "modal-layout#modal__opinion--layout": {
+        "title": "modal layout opinion",
+        "children": [
+            "rich-text#modal__layout--content"
+        ]
+    },
+    "rich-text#modal__layout--content": {
+        "title": "modal layout text",
+        "props": {
+            "text": "hola"
+        }
+    }
+}

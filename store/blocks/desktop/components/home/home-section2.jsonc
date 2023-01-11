@@ -1,4 +1,16 @@
 {
+    "flex-layout.row#home__section-2": {
+        "title": "fresh air row",
+        "children": [
+            "flex-layout.col#home__section--2"
+        ],
+        "props": {
+            "rowGap": 6,
+            "colGap": 4,
+            "width": "70%",
+            "marginTop": 8
+        }
+    },
     "flex-layout.col#home__section--2": {
         "title": "fresh air col",
         "children": [
