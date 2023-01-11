@@ -1,5 +1,6 @@
 {
     "flex-layout.row#home__section-financing": {
+        "title": "row financing gif",
         "children": [
             "image#home__desktop--financing"
         ],

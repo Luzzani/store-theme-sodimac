@@ -1,0 +1,36 @@
+{
+    "image#modal__opinion--trigger": {
+        "title": "image modal trigger",
+        "props": {
+            "src": "https://www.sodimac.com.ar/static/bot-opinion/img/danos-tu-opinion.svg",
+            "blockClass": "modal__opinion--trigger"
+        }
+    },
+    "modal-layout#modal__opinion--layout": {
+        "title": "modal layout opinion",
+        "children": [
+            "modal-header#modal__option--header",
+            "rich-text#modal__layout--content"
+        ]
+    },
+    "modal-header#modal__option--header": {
+        "children": [
+            "logo"
+        ]
+    },
+    "logo": {
+        "props": {
+            "width": 132,
+            "height": 32,
+            "mobileWidth": 90,
+            "mobileHeight": 32,
+            "url": "https://nebula-cdn.kampyle.com/wu/577410/resources/image/1573231420458_sodimacps.png"
+        }
+    },
+    "rich-text#modal__layout--content": {
+        "title": "modal layout text",
+        "props": {
+            "text": "hola"
+        }
+    }
+}

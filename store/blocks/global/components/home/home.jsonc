@@ -1,4 +1,5 @@
 {
+ 
   // "flex-layout.row#home__section--global": {
   //   "title": "Global Row with text example",
   //   "children": [
@@ -11,7 +12,6 @@
   //     "borderColor": "success"
   //   }
   // },
-
   // "rich-text#home__section--global": {
   //   "title": "Text Favorites",
   //   "props": {

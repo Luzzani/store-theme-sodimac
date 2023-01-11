@@ -19,6 +19,7 @@
         ]
     },
     "image#banner__pool": {
+        "title": "image banner pool",
         "props": {
             "src": "assets/img/banner-pileta.jpeg",
             "link": {
@@ -29,6 +30,7 @@
         }
     },
     "image#banner__air": {
+        "title": "image banner air",
         "props": {
             "src": "assets/img/banner-aire-acondicionado.jpeg",
             "link": {
