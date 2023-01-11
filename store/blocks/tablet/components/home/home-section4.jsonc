@@ -1,0 +1,18 @@
+{
+    "flex-layout.col#home__section4--tablet": {
+        "title": "col section 4 tablet",
+        "children": [
+            "rich-text#section4__tablet--title",
+            "flex-layout.row#section4__row1--desktop",
+            "flex-layout.row#section4__row2--desktop",
+            "flex-layout.row#section4__row3--desktop"
+        ]
+    },
+    "rich-text#section4__tablet--title": {
+        "title": "section 4 title tablet Mantente Fresco",
+        "props": {
+            "text": "### Mantente Fresco",
+            "blockClass": "section__2--title"
+        }
+    }
+}

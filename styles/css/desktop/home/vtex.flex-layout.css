@@ -3,13 +3,19 @@
     margin: 50px auto;
     max-width: 1200px;
 } */
-
-.flexRow--home__section-financing {
+.flexRow--home__section-financing { 
     background-color: #fff;
 }
 
+.flexRowContent--home__section-1 {
+    max-width: 1920px !important;
+    margin: 0 auto;
+}
 
+.flexCol--home__section-1 {
+    width: 80% !important;
+}
 
 .flexCol--home__section--2 {
-    width: 78%!important;
+    width: 78% !important;
 }

@@ -4,6 +4,17 @@
     "children": [
       "slider-layout#section__1--banner--tablet"
     ]
+  },
+  "flex-layout.row#home__section-4--tablet": {
+    "title": "section 4 Mantente fresco tablet",
+    "children": [
+      "flex-layout.col#home__section4--tablet"
+    ],
+    "props": {
+      "rowGap": 5,
+      "colGap": 4,
+      "marginTop": 8
+    }
   }
 
   // "rich-text#tablet__section-1": {

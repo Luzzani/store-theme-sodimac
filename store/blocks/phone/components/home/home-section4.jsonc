@@ -1,0 +1,89 @@
+{
+    "flex-layout.col#home__section4--phone": {
+        "title": "section 4 mantenete fresco",
+        "children": [
+            "rich-text#section4__title",
+            "flex-layout.row#section4__row1",
+            "flex-layout.row#section4__row2",
+            "flex-layout.row#section4__row3",
+            "flex-layout.row#section4__row4",
+            "flex-layout.row#section4__row5",
+            "flex-layout.row#section4__row6"
+        ]
+    },
+    "rich-text#section4__title": {
+        "title": "title section 4",
+        "props": {
+            "text": "### Mantenete Fresco",
+            "blockClass": "section__2--title--phone"
+        }
+    },
+    "flex-layout.row#section4__row1": {
+        "title": "image row 1",
+        "children": [
+            "image#row1__image"
+        ]
+    },
+    "flex-layout.row#section4__row2": {
+        "title": "image row 2",
+        "children": [
+            "image#row2__image"
+        ]
+    },
+    "flex-layout.row#section4__row3": {
+        "title": "images row 3",
+        "children": [
+            "flex-layout.col#row3__image--left",
+            "flex-layout.col#row3__image--right"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#row3__image--left": {
+        "title": "image row 3 left",
+        "children": [
+            "image#row3__col--image--left"
+        ]
+    },
+    "flex-layout.col#row3__image--right": {
+        "title": "image row 3 right",
+        "children": [
+            "image#row3__col--image--right"
+        ]
+    },
+    "flex-layout.row#section4__row4": {
+        "title": "images row 4",
+        "children": [
+            "flex-layout.col#row4__image--left",
+            "flex-layout.col#row4__image--right"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#row4__image--left": {
+        "title": "image row 4 left",
+        "children": [
+            "image#row4__col--image--left"
+        ]
+    },
+    "flex-layout.col#row4__image--right": {
+        "title": "image row 4 right",
+        "children": [
+            "image#row4__col--image--right"
+        ]
+    },
+    "flex-layout.row#section4__row5":{
+        "title": "image row 5",
+        "children": [
+            "image#row5__image"
+        ]
+    },
+    "flex-layout.row#section4__row6":{
+        "title": "image row 6",
+        "children": [
+            "image#row6__image"
+        ]
+    }
+}
