@@ -1,0 +1,13 @@
+{
+    "header-row#header__top": {
+        "children": [
+            "rich-text#test"
+        ]
+    },
+    "header-row#header__middle": {},
+    "header-row#header__bottom": {},
+    "rich-text#test":{
+        "title": "prueba",
+        "props": {"text": "prueba de header en desktop"}
+    }
+}
