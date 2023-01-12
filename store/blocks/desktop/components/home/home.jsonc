@@ -9,7 +9,7 @@
     }
   },
   "flex-layout.row#home__section-2": {
-    "title": "fresh Aire Libre",
+    "title": "Section 2 Aire Libre",
     "children": [
       "flex-layout.col#home__section--2"
     ],
@@ -38,5 +38,17 @@
       "image#modal__opinion--trigger",
       "modal-layout#modal__opinion--layout"
     ]
+  },
+  "flex-layout.row#home__section-5--desktop": {
+    "title": "Section 5 Otras Categorias",
+    "children": [
+      "flex-layout.col#home__section5--desktop"
+    ],
+    "props": {
+      "rowGap": 5,
+      "colGap": 4,
+      "width": "70%",
+      "marginTop": 8
+    }
   }
 }

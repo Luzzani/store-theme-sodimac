@@ -1,5 +1,14 @@
+.imageElement--desktop__category--image {
+    width: 64px;
+    height: 64px;
+}
+
 .imageElement--images--row2 {
     border-radius: .2rem;
+}
+
+.imageElement--desktop__col1--image {
+    background-color: #fff;
 }
 
 .imageElement--images--row2:hover {

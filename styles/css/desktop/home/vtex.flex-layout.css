@@ -3,7 +3,16 @@
     margin: 50px auto;
     max-width: 1200px;
 } */
-.flexRow--home__section-financing { 
+.flexCol--section5__desktop--col {
+    padding: 1rem 1rem 0;
+    background-color: #ffffff;
+}
+
+.flexCol--section5__desktop--col:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.flexRow--home__section-financing {
     background-color: #fff;
 }
 

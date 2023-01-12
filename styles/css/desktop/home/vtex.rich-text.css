@@ -1,4 +1,8 @@
- .wrapper--section__2--title:first-child {
+.paragraph--text__image--category {
+    transform: translateY(-20px);
+}
+
+.wrapper--section__2--title:first-child {
      color: #585858;
  }
 
