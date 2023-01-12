@@ -17,25 +17,5 @@
             "image#banner__pool",
             "image#banner__air"
         ]
-    },
-    "image#banner__pool": {
-        "props": {
-            "src": "assets/img/banner-pileta.jpeg",
-            "link": {
-                "url": "/"
-            },
-            "width": "100%",
-            "blockClass": "banner__air"
-        }
-    },
-    "image#banner__air": {
-        "props": {
-            "src": "assets/img/banner-aire-acondicionado.jpeg",
-            "link": {
-                "url": "/"
-            },
-            "width": "100%",
-            "blockClass": "banner__air"
-        }
     }
 }

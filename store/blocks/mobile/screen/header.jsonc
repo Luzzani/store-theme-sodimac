@@ -7,10 +7,10 @@
     },
     "header-row#header__top--mobile": {
         "children": [
-            "rich-text#test"
+            "rich-text#test--mobile"
         ]
     },
-    "rich-text#test": {
+    "rich-text#test--mobile": {
         "title": "prueba",
         "props": {
             "text": "prueba de header en mobile"
