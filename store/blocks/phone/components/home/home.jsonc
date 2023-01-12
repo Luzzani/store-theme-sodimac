@@ -6,6 +6,7 @@
     ]
   },
   "flex-layout.row#home__section--financing--mobile": {
+    "title": "row financiamiento mobile",
     "children": [
       "image#home__mobile--financing"
     ]
