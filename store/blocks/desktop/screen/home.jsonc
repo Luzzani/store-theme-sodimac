@@ -7,7 +7,9 @@
       "flex-layout.row#home__section-2",
       // "flex-layout.row#home__section-3",
       "flex-layout.row#home__section-4--desktop",
-      "flex-layout.row#home__section-5--desktop"
+      "flex-layout.row#home__section-5--desktop",
+      "flex-layout.row#home__section-6--desktop",
+      "flex-layout.row#home__section-7--desktop"
     ]
   }
 }

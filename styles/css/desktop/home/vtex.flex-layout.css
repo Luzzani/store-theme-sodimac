@@ -1,30 +1,40 @@
-/* Example desktop:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
-} */
+.flexRowContent--section5__row2--desktop {
+    justify-content: space-between;
+    transform: translateX (5px);
+}
+
 .flexCol--section5__desktop--col {
-    padding: 1rem 1rem 0;
+    max-width: 134.53px;
+    max-height: 125px;
     background-color: #ffffff;
 }
 
+.flexCol--section6__desktop--col:hover,
 .flexCol--section5__desktop--col:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.flexCol--section6__desktop--col {
+    max-width: 185px;
+    max-height: 162px;
+    background-color: #ffffff;
 }
 
 .flexRow--home__section-financing {
     background-color: #fff;
 }
 
-.flexRowContent--home__section-1 {
-    max-width: 1920px !important;
-    margin: 0 auto;
-}
-
 .flexCol--home__section-1 {
-    width: 80% !important;
+    max-width: 1080px !important;
 }
 
 .flexCol--home__section--2 {
-    width: 78% !important;
+    max-width: 1080px !important;
+}
+
+.flexRowContent--section6__row2--desktop {
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 20px;
+    justify-content: space-between;
 }

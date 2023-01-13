@@ -1,0 +1,36 @@
+{
+    "flex-layout.row#section7__row2--tablet": {
+        "title": "row 2 info",
+        "children": [
+            "slider-layout#section__7--tablet"
+        ],
+        "props": {
+            "marginTop": 4
+        }
+    },
+    "slider-layout#section__7--tablet": {
+        "title": "slider info ",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 4,
+                "phone": 2
+            },
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "navigationStep": 1,
+            "infinite": false,
+            "centerMode": "to-the-left",
+            "centerModeSlidesGap": 3,
+            "blockClass": "section5__slider--tablet"
+        },
+        "children": [
+            "link#info1--phone",
+            "link#info2--phone",
+            "link#info3--phone",
+            "link#info4--phone",
+            "link#info5--phone",
+            "link#info6--phone"
+        ]
+    }
+}

@@ -5,6 +5,7 @@
       "slider-layout#section__1--banner"
     ],
     "props": {
+      "fullWidth": true,
       "blockClass": "home__section-1"
     }
   },
@@ -46,9 +47,43 @@
     ],
     "props": {
       "rowGap": 5,
-      "colGap": 4,
-      "width": "70%",
-      "marginTop": 8
+      "colGap": 1,
+      "marginTop": 8,
+      "marginBottom": 6
+    }
+  },
+  "flex-layout.row#home__section-6--desktop": {
+    "title": "Section 6",
+    "children": [
+      "image#section6__image--desktop"
+    ],
+    "props": {
+      "marginTop": 4
+    }
+  },
+  "image#section6__image--desktop": {
+    "title": "image descarga nuestra app",
+    "props": {
+      "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/bltde10a1539a69f397/6369211c29c3b338315e28de/BannerTwoOne-app.webp?auto=webp&disable=upscale&quality=70&width=1280",
+      "maxWidth": "1080px",
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#home__section-7--desktop": {
+    "title": "row 1 info",
+    "children": [
+      "link#info1",
+      "link#info2",
+      "link#info3",
+      "link#info4",
+      "link#info5",
+      "link#info6"
+    ],
+    "props": {
+      "blockClass": "section6__row2--desktop",
+      "rowGap": 5,
+      "colGap": 1,
+      "marginTop": 6
     }
   }
 }

@@ -1,0 +1,80 @@
+{
+    "flex-layout.col#section7__phone--col1": {
+        "title": "col 1 info",
+        "children": [
+            "image#phone__col1--image--info",
+            "rich-text#phone1__image--info--top",
+            "rich-text#phone1__image--info--bottom"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "blockClass": "section7__info--col"
+        }
+    },
+    "flex-layout.col#section7__phone--col2": {
+        "title": "col 2 info",
+        "children": [
+            "image#phone__col2--image--info",
+            "rich-text#phone2__image--info--top",
+            "rich-text#phone2__image--info--bottom"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "blockClass": "section7__info--col"
+        }
+    },
+    "flex-layout.col#section7__phone--col3": {
+        "title": "col 3 info",
+        "children": [
+            "image#phone__col3--image--info",
+            "rich-text#phone3__image--info--top",
+            "rich-text#phone3__image--info--bottom"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "blockClass": "section7__info--col"
+        }
+    },
+    "flex-layout.col#section7__phone--col4": {
+        "title": "col 4 info",
+        "children": [
+            "image#phone__col4--image--info",
+            "rich-text#phone4__image--info--top",
+            "rich-text#phone4__image--info--bottom"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "blockClass": "section7__info--col"
+        }
+    },
+    "flex-layout.col#section7__phone--col5": {
+        "title": "col 5 info",
+        "children": [
+            "image#phone__col5--image--info",
+            "rich-text#phone5__image--info--top",
+            "rich-text#phone5__image--info--bottom"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "blockClass": "section7__info--col"
+        }
+    },
+    "flex-layout.col#section7__phone--col6": {
+        "title": "col 6 info",
+        "children": [
+            "image#phone__col6--image--info",
+            "rich-text#phone6__image--info--top",
+            "rich-text#phone6__image--info--bottom"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "blockClass": "section7__info--col"
+        }
+    }
+}

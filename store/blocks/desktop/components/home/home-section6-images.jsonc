@@ -1,0 +1,44 @@
+{
+    "image#desktop__col1--image--info": {
+        "title": "image cuotas",
+        "props": {
+            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/bltadc590fbb4cf4fd9/5f68ea799db28146493a8b77/card.svg?auto=webp&disable=upscale&quality=70&width=1280",
+            "blockClass": "desktop__category--image"
+        }
+    },
+    "image#desktop__col2--image--info": {
+        "title": "image No esperes mas !",
+        "props": {
+            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blta121ad22626ffb79/62d01e508437a53767621f75/rayocolor.svg?auto=webp&disable=upscale&quality=70&width=1280",
+            "blockClass": "desktop__category--image"
+        }
+    },
+    "image#desktop__col3--image--info": {
+        "title": "image service e instalacion",
+        "props": {
+            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blta3b323ef0c1c8ff2/5f68ea78b038186a244b9fad/servicios-hogar.svg?auto=webp&disable=upscale&quality=70&width=1280",
+            "blockClass": "desktop__category--image"
+        }
+    },
+    "image#desktop__col4--image--info": {
+        "title": "image Nuestros Locales",
+        "props": {
+            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blt30ed490fd68a1095/5f68ea785e85ad4dee19088d/click-and-collect.svg?auto=webp&disable=upscale&quality=70&width=1280",
+            "blockClass": "desktop__category--image"
+        }
+    },
+    "image#desktop__col5--image--info": {
+        "title": "image Nuiestros Catalogos",
+        "props": {
+            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blt1eb17ab9fe3dcaff/62def11a16c1b67a18325743/catalogo2.svg?auto=webp&disable=upscale&quality=70&width=1280",
+            "blockClass": "desktop__category--image"
+        }
+    },
+    "image#desktop__col6--image--info": {
+        "title": "image compras por telefono",
+        "props": {
+            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blt20e67c6586d1172d/5f68ea780c4cec68838853f3/phone.svg?auto=webp&disable=upscale&quality=70&width=1280",
+            "blockClass": "desktop__category--image"
+        }
+    }
+}

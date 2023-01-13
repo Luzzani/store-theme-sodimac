@@ -7,3 +7,8 @@
     margin: 1rem 0;
 }
 
+.paragraph--text__info--top--phone {
+    font-size: 14px;
+    transform: translateY(-10px);
+    margin-bottom: 10px;
+}

@@ -366,16 +366,16 @@
         "letterSpacing": "0"
       },
       "body": {
-        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Lato, sans-serif",
         "fontWeight": "normal",
-        "fontSize": "1rem",
+        "fontSize": "1.06rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "small": {
-        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Lato-Regular",
         "fontWeight": "normal",
-        "fontSize": "0.875rem",
+        "fontSize": "17px",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
