@@ -5,3 +5,10 @@
 .imageElement--image__section2--row2 {
     height: 100%;
 }
+
+
+.imageElement--phone__info--image {
+    width: 32px;
+    height: 32px;
+    padding: 1rem 0 0 0 ;
+}

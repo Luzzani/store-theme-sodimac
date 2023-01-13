@@ -1,0 +1,83 @@
+{
+    "header-row#header__top": {
+        "title": "header fila superior",
+        "children": [
+            "rich-text#test"
+        ]
+    },
+    "header-row#header__middle": {
+        "title": "header fila media",
+        "children": [
+            "logo#header__middle--logo",
+            "header-spacer",
+            "rich-text#test--middle",
+            "header-spacer",
+            "minicart.v2",
+            "header-spacer",
+            "modal-trigger#header__login--modal"
+        ],
+        "props": {
+            "inverted": true,
+            "border": true,
+            "blockClass": "header__middle"
+        }
+    },
+    "header-row#header__bottom": {
+        "title": "header fila inferior",
+        "children": [
+            "rich-text#test--bottom"
+        ],
+        "props": {
+            "inverted": true
+        }
+    },
+    "modal-trigger#header__login--modal": {
+        "title": "header modal trigger",
+        "children": [
+            "rich-text#header__login--desktop",
+            "modal-layout#header__login--modal"
+        ]
+    },
+    "logo#header__middle--logo": {
+        "title": "logo header desktop",
+        "props": {
+            "width": 165,
+            "height": 26,
+            "mobileWidth": 90,
+            "mobileHeight": 32,
+            "href": "/",
+            "url": "https://nebula-cdn.kampyle.com/wu/577410/resources/image/1573231420458_sodimacps.png",
+            "blockClass": "header__middle--logo"
+        }
+    },
+    "rich-text#test": {
+        "title": "prueba",
+        "props": {
+            "text": "prueba de header en desktop"
+        }
+    },
+    "rich-text#test--middle": {
+        "title": "prueba",
+        "props": {
+            "text": "prueba de header en desktop middle"
+        }
+    },
+    "rich-text#test--bottom": {
+        "title": "prueba",
+        "props": {
+            "text": "prueba de header en desktop bottom"
+        }
+    },
+    "rich-text#header__login--desktop": {
+        "title": "prueba",
+        "props": {
+            "text": "login"
+        }
+    },
+    "modal-layout#header__login--modal": {
+        "title": "header login modal",
+        "children": [
+            "login-content"
+        ]
+    }
+}

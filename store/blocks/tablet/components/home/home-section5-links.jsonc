@@ -1,0 +1,74 @@
+{
+    "link#img1": {
+        "children": [
+            "flex-layout.col#section5__tablet--img1"
+        ],
+        "props": {
+            "href": "/",
+            "blockClass": "link__col1--category--images--tablet"
+        }
+    },
+    "link#img2": {
+        "children": [
+            "flex-layout.col#section5__tablet--img2"
+        ],
+        "props": {
+            "href": "/",
+            "blockClass": "link__col1--category--images--tablet"
+        }
+    },
+    "link#img3": {
+        "children": [
+            "flex-layout.col#section5__tablet--img3"
+        ],
+        "props": {
+            "href": "/",
+            "blockClass": "link__col1--category--images--tablet"
+        }
+    },
+    "link#img4": {
+        "children": [
+            "flex-layout.col#section5__tablet--img4"
+        ],
+        "props": {
+            "href": "/",
+            "blockClass": "link__col1--category--images--tablet"
+        }
+    },
+    "link#img5": {
+        "children": [
+            "flex-layout.col#section5__tablet--img5"
+        ],
+        "props": {
+            "href": "/",
+            "blockClass": "link__col1--category--images--tablet"
+        }
+    },
+    "link#img6": {
+        "children": [
+            "flex-layout.col#section5__tablet--img6"
+        ],
+        "props": {
+            "href": "/",
+            "blockClass": "link__col1--category--images--tablet"
+        }
+    },
+    "link#img7": {
+        "children": [
+            "flex-layout.col#section5__tablet--img7"
+        ],
+        "props": {
+            "href": "/",
+            "blockClass": "link__col1--category--images--tablet"
+        }
+    },
+    "link#img8": {
+        "children": [
+            "flex-layout.col#section5__tablet--img8"
+        ],
+        "props": {
+            "href": "/",
+            "blockClass": "link__col1--category--images--tablet"
+        }
+    }
+}

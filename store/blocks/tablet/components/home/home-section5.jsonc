@@ -1,0 +1,58 @@
+{
+    "flex-layout.col#home__section5--tablet": {
+        "title": "col section5",
+        "children": [
+            "flex-layout.row#section5__row1--tablet",
+            "flex-layout.row#section5__row2--tablet"
+        ],
+        "props": {
+            "blockClass": "home__section--2"
+        }
+    },
+    "flex-layout.row#section5__row1--tablet": {
+        "title": "row 1 title",
+        "children": [
+            "rich-text#section5__title--tablet"
+        ]
+    },
+    "rich-text#section5__title--tablet": {
+        "title": "title section 5 ",
+        "props": {
+            "text": "### Otras Categorías",
+            "blockClass": "section__5--title--tablet"
+        }
+    },
+    "flex-layout.row#section5__row2--tablet": {
+        "title": "row 2 otras categorias",
+        "children": [
+            "slider-layout#section__5--tablet"
+        ]
+    },
+    "slider-layout#section__5--tablet": {
+        "title": "slider banner section 1",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 4,
+                "phone": 2
+            },
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "navigationStep": 1,
+            "infinite": false,
+            "centerMode": "to-the-left",
+            "centerModeSlidesGap": 3,
+            "blockClass": "section5__slider--tablet"
+        },
+        "children": [
+            "link#img1",
+            "link#img2",
+            "link#img3",
+            "link#img4",
+            "link#img5",
+            "link#img6",
+            "link#img7",
+            "link#img8"
+        ]
+    }
+}

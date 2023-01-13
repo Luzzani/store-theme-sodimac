@@ -1,0 +1,66 @@
+{
+    "rich-text#tablet__col1--image": {
+        "title": "Bazar title",
+        "props": {
+            "text": "Bazar",
+            "textColor": "c-action-primary",
+            "blockClass": "text__image--category--tablet"
+        }
+    },
+    "rich-text#tablet__col2--image": {
+        "title": "Automóvil title",
+        "props": {
+            "text": "Automóvil",
+            "textColor": "c-action-primary",
+            "blockClass": "text__image--category--tablet"
+        }
+    },
+    "rich-text#tablet__col3--image": {
+        "title": "Dormitorio title",
+        "props": {
+            "text": "Dormitorio",
+            "textColor": "c-action-primary",
+            "blockClass": "text__image--category--tablet"
+        }
+    },
+    "rich-text#tablet__col4--image": {
+        "title": "Mascotas title",
+        "props": {
+            "text": "Mascotas",
+            "textColor": "c-action-primary",
+            "blockClass": "text__image--category--tablet"
+        }
+    },
+    "rich-text#tablet__col5--image": {
+        "title": "Herramientas title",
+        "props": {
+            "text": "Herramientas",
+            "textColor": "c-action-primary",
+            "blockClass": "text__image--category--tablet"
+        }
+    },
+    "rich-text#tablet__col6--image": {
+        "title": "Pinturas title",
+        "props": {
+            "text": "Pinturas",
+            "textColor": "c-action-primary",
+            "blockClass": "text__image--category--tablet"
+        }
+    },
+    "rich-text#tablet__col7--image": {
+        "title": "Construcción title",
+        "props": {
+            "text": "Construcción",
+            "textColor": "c-action-primary",
+            "blockClass": "text__image--category--tablet"
+        }
+    },
+    "rich-text#tablet__col8--image": {
+        "title": "Ferretería title",
+        "props": {
+            "text": "Ferretería",
+            "textColor": "c-action-primary",
+            "blockClass": "text__image--category--tablet"
+        }
+    }
+}

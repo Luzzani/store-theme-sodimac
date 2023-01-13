@@ -6,6 +6,7 @@
     ]
   },
   "flex-layout.row#home__section--financing--mobile": {
+    "title": "row financiamiento mobile",
     "children": [
       "image#home__mobile--financing"
     ]
@@ -39,6 +40,37 @@
       "colGap": 4,
       "marginTop": 8,
       "blockClass": "home__section-2--phone"
+    }
+  },
+  "flex-layout.row#home__section-5--phone": {
+    "title": "Section 5 Otras Categorias",
+    "children": [
+      "flex-layout.col#home__section5--phone"
+    ]
+  },
+  "flex-layout.row#home__section-6--phone": {
+    "title": "Section 6",
+    "children": [
+      "image#section6__image--phone"
+    ],
+    "props": {
+      "marginTop": 5
+    }
+  },
+  "image#section6__image--phone": {
+    "title": "image descarga nuestra app",
+    "props": {
+      "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/bltd8cf8e5679699db9/6369211c4acbcc466ea8e180/BannerTWO-app-mb.webp?auto=webp&disable=upscale&quality=70&width=720",
+      "width": "95%"
+    }
+  },
+  "flex-layout.row#home__section-7--phone": {
+    "title": "Section 7 info",
+    "children": [
+      "slider-layout#section__7--phone"
+    ],
+    "props": {
+      "marginTop": 4
     }
   }
 }

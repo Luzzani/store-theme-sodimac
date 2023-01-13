@@ -1,5 +1,21 @@
+.imageElement--desktop__category--image {
+    width: 64px;
+    height: 64px;
+    padding: 1rem 0 0 0 ;
+}
+
+.imageElement--phone__info--image {
+    width: 32px;
+    height: 32px;
+    padding: 1rem 0 0 0 ;
+}
+
 .imageElement--images--row2 {
     border-radius: .2rem;
+}
+
+.imageElement--desktop__col1--image {
+    background-color: #fff;
 }
 
 .imageElement--images--row2:hover {
@@ -13,3 +29,4 @@
 .imageElementLink--desktop--financing {
     width: 90% !important;
 }
+
