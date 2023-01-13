@@ -1,0 +1,45 @@
+{
+    "flex-layout.col#home__section5--phone": {
+        "title": "col section5",
+        "children": [
+            "flex-layout.row#section5__row1--tablet",
+            "flex-layout.row#section5__row2--phone"
+        ],
+        "props": {
+            "blockClass": "home__section--2"
+        }
+    },
+    "flex-layout.row#section5__row2--phone": {
+        "title": "row 2 otras categorias",
+        "children": [
+            "slider-layout#section__5--phone"
+        ]
+    },
+    "slider-layout#section__5--phone": {
+        "title": "slider banner section 1",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 4,
+                "phone": 2
+            },
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "navigationStep": 1,
+            "infinite": false,
+            // "centerMode": "center",
+            // "centerModeSlidesGap": 10,
+            "blockClass": "section5__slider--tablet"
+        },
+        "children": [
+            "link#img1",
+            "link#img2",
+            "link#img3",
+            "link#img4",
+            "link#img5",
+            "link#img6",
+            "link#img7",
+            "link#img8"
+        ]
+    }
+}

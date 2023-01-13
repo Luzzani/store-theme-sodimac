@@ -1,0 +1,98 @@
+{
+    "rich-text#phone1__image--info--top": {
+        "title": "Cuotas title",
+        "props": {
+            "text": "Pagá en cuotas",
+            "textColor": "c-action-primary",
+            "blockClass": "text__info--top--phone",
+            "font": "t-small"
+        }
+    },
+    "rich-text#phone1__image--info--bottom": {
+        "title": "Cuotas text",
+        "props": {
+            "text": "Hasta 12 cuotas sin interés",
+            "blockClass": "text__info--bottom"
+        }
+    },
+    "rich-text#phone2__image--info--top": {
+        "title": "Retiro title",
+        "props": {
+            "text": "¡No esperes más!",
+            "textColor": "c-action-primary",
+            "blockClass": "text__info--top--phone",
+            "font": "t-small"
+        }
+    },
+    "rich-text#phone2__image--info--bottom": {
+        "title": "Retiro text",
+        "props": {
+            "text": "Retiro en tienda en 2 horas",
+            "blockClass": "text__info--bottom"
+        }
+    },
+    "rich-text#phone3__image--info--top": {
+        "title": "Servicios title",
+        "props": {
+            "text": "Servicios e instalación",
+            "textColor": "c-action-primary",
+            "blockClass": "text__info--top--phone",
+            "font": "t-small"
+        }
+    },
+    "rich-text#phone3__image--info--bottom": {
+        "title": "Servicios text",
+        "props": {
+            "text": "Conocé mas",
+            "blockClass": "text__info--bottom"
+        }
+    },
+    "rich-text#phone4__image--info--top": {
+        "title": "Locales title",
+        "props": {
+            "text": "Nuestros locales",
+            "textColor": "c-action-primary",
+            "blockClass": "text__info--top--phone",
+            "font": "t-small"
+        }
+    },
+    "rich-text#phone4__image--info--bottom": {
+        "title": "Locales text",
+        "props": {
+            "text": "Retiro en tienda",
+            "blockClass": "text__info--bottom"
+        }
+    },
+    "rich-text#phone5__image--info--top": {
+        "title": "Catalogo title",
+        "props": {
+            "text": "Nuestros catálogos",
+            "textColor": "c-action-primary",
+            "blockClass": "text__info--top--phone",
+            "font": "t-small"
+        }
+    },
+    "rich-text#phone5__image--info--bottom": {
+        "title": "Catalogo text",
+        "props": {
+            "text": "Inspiración para tus proyectos",
+            "blockClass": "text__info--bottom"
+        }
+    },
+    "rich-text#phone6__image--info--top": {
+        "title": "Telefono title",
+        "props": {
+            "text": "Comprá por teléfono",
+            "textColor": "c-action-primary",
+            "blockClass": "text__info--top--phone",
+            "font": "t-small"
+        }
+    },
+    "rich-text#phone6__image--info--bottom": {
+        "title": "Telefono text",
+        "props": {
+            "text": "Lun a Sab. 09 a 20hs. 0810 666 7634",
+            "blockClass": "text__info--bottom"
+        }
+    }
+}

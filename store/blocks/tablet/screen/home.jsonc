@@ -5,7 +5,10 @@
       "flex-layout.row#home__section-financing",
       "flex-layout.row#tablet__home__section-1",
       "flex-layout.row#home__section-2--tablet",
-      "flex-layout.row#home__section-4--tablet"
+      "flex-layout.row#home__section-4--tablet",
+      "flex-layout.row#home__section-5--tablet",
+      "flex-layout.row#home__section-6--desktop",
+      "flex-layout.row#home__section-7--tablet"
     ]
   }
 }

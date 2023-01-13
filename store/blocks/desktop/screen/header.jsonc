@@ -1,0 +1,10 @@
+{
+    "header-layout.desktop": {
+        "title": "header desktop",
+        "children": [
+            "header-row#header__top",
+            "header-row#header__middle",
+            "header-row#header__bottom"
+        ]
+    }
+}

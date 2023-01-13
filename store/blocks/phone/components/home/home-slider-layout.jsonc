@@ -19,6 +19,7 @@
         ]
     },
     "image#banner__pool--mobile": {
+        "title": "imagen banner pool mobile",
         "props": {
             "src": "assets/img/banner-pileta-mobile.jpeg",
             "link": {
@@ -27,6 +28,7 @@
         }
     },
     "image#banner__air--mobile": {
+        "title": "imagen banner air mobile",
         "props": {
             "src": "assets/img/banner-aire-acondicionado-mobile.jpeg",
             "link": {

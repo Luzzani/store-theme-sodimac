@@ -79,7 +79,7 @@
   "semanticColors": {
     "background": {
       "base": "#f5f5f5",
-      "base--inverted": "#03044e",
+      "base--inverted": "#ffffff",
       "action-primary": "#0F3E99",
       "action-secondary": "#eef3f7",
       "emphasis": "#f71963",
@@ -129,7 +129,7 @@
       "muted-5": "#f2f4f5"
     },
     "text": {
-      "action-primary": "#0F3E99",
+      "action-primary": "#0072ce",
       "action-secondary": "#eef3f7",
       "link": "#0F3E99",
       "emphasis": "#f71963",
@@ -366,16 +366,16 @@
         "letterSpacing": "0"
       },
       "body": {
-        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Lato, sans-serif",
         "fontWeight": "normal",
-        "fontSize": "1rem",
+        "fontSize": "1.06rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "small": {
-        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Lato-Regular",
         "fontWeight": "normal",
-        "fontSize": "0.875rem",
+        "fontSize": "17px",
         "textTransform": "initial",
         "letterSpacing": "0"
       },

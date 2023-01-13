@@ -14,11 +14,13 @@
         ]
     },
     "modal-header#modal__option--header": {
+        "title": "modal header",
         "children": [
             "logo"
         ]
     },
     "logo": {
+        "title": "logo modal opinion",
         "props": {
             "width": 132,
             "height": 32,

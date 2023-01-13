@@ -15,16 +15,17 @@
       "colGap": 4,
       "marginTop": 8
     }
+  },
+  "flex-layout.row#home__section-5--tablet": {
+    "title": "Section 5 Otras Categorias",
+    "children": [
+      "flex-layout.col#home__section5--tablet"
+    ]
+  },
+  "flex-layout.row#home__section-7--tablet": {
+    "title": "Section 7 info",
+    "children": [
+      "flex-layout.row#section7__row2--tablet"
+    ]
   }
-
-  // "rich-text#tablet__section-1": {
-  //   "title": "Text Favorites",
-  //   "props": {
-  //     "blockClass": "",
-  //     "text": "Favoritos en TABLET",
-  //     "font": "t-heading-2",
-  //     "textAlignment": "CENTER",
-  //     "textPosition": "CENTER"
-  //   }
-  // }
 }

@@ -1,0 +1,56 @@
+{
+    "link#info1--phone": {
+        "children": [
+            "flex-layout.col#section7__phone--col1"
+        ],
+        "props": {
+            "href": "/",
+            "blockClass": "link__col1--category--images"
+        }
+    },
+    "link#info2--phone": {
+        "children": [
+            "flex-layout.col#section7__phone--col2"
+        ],
+        "props": {
+            "href": "/",
+            "blockClass": "link__col1--category--images"
+        }
+    },
+    "link#info3--phone": {
+        "children": [
+            "flex-layout.col#section7__phone--col3"
+        ],
+        "props": {
+            "href": "/",
+            "blockClass": "link__col1--category--images"
+        }
+    },
+    "link#info4--phone": {
+        "children": [
+            "flex-layout.col#section7__phone--col4"
+        ],
+        "props": {
+            "href": "/",
+            "blockClass": "link__col1--category--images"
+        }
+    },
+    "link#info5--phone": {
+        "children": [
+            "flex-layout.col#section7__phone--col5"
+        ],
+        "props": {
+            "href": "/",
+            "blockClass": "link__col1--category--images"
+        }
+    },
+    "link#info6--phone": {
+        "children": [
+            "flex-layout.col#section7__phone--col6"
+        ],
+        "props": {
+            "href": "/",
+            "blockClass": "link__col1--category--images"
+        }
+    }
+}

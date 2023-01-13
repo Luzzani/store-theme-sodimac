@@ -1,0 +1,63 @@
+{
+    "header-layout.mobile": {
+        "title": "header mobile",
+        "children": [
+            "header-row#header__top--mobile"
+        ]
+    },
+    "header-row#header__top--mobile": {
+        "title": "header superior mobile",
+        "children": [
+            "drawer#header__top--mobile",
+            "logo#header__top--mobile",
+            "rich-text#test--mobile",
+            "header-spacer",
+            "minicart.v2",
+            "login#header__mobile"
+        ]
+    },
+    "drawer#header__top--mobile": {
+        "title": "header medio mobile",
+        "children": [],
+        "blocks": [
+            "drawer-trigger"
+        ]
+    },
+    "drawer-trigger": {
+        "title": "trigger del menu",
+        "children": [
+            "rich-text#menu"
+        ]
+    },
+    "rich-text#menu": {
+        "title": "prueba menu",
+        "props": {
+            "text": "Menú"
+        }
+    },
+    "login#header__mobile": {
+        "props": {
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile": true
+        }
+    },
+    "logo#header__top--mobile": {
+        "title": "logo header mobile",
+        "props": {
+            "height": 25,
+            "href": "/",
+            "url": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blt7eecf54a5a3bbbc9/5f32c9051fe0e07eae8137a3/logo-header-mb.png?auto=webp&disable=upscale&quality=70&width=1024",
+            "blockClass": "header__top--mobile--logo"
+        }
+    },
+    "rich-text#test--mobile": {
+        "title": "prueba",
+        "props": {
+            "text": "prueba de header en mobile"
+        }
+    }
+}
