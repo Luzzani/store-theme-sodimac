@@ -169,6 +169,7 @@
         ]
     },
     "menu-item#category__construccion--materiales": {
+        "title": "menu materiales de construccion",
         "props": {
             "id": "category-construccion",
             "type": "custom",
@@ -183,6 +184,7 @@
         }
     },
     "menu-item#category__construccion--electricidad": {
+        "title": "menu electricidad",
         "props": {
             "id": "category-electricidad",
             "type": "custom",
@@ -197,6 +199,7 @@
         }
     },
     "menu-item#category__construccion--maquinaria": {
+        "title": "menu construccion maquinaria",
         "props": {
             "id": "category-maquinaria",
             "type": "custom",
@@ -211,6 +214,7 @@
         }
     },
     "menu-item#category__construccion--plomeria": {
+        "title": "menu construccion plomeria",
         "props": {
             "id": "category plomeria",
             "type": "custom",
@@ -225,6 +229,7 @@
         }
     },
     "menu-item#category__construccion--pinturas": {
+        "title": "menu materiales pinturas",
         "props": {
             "id": "category-pinturas",
             "type": "custom",
@@ -239,6 +244,7 @@
         }
     },
     "menu-item#category__construccion--seguridad": {
+        "title": "menu materiales seguridad",
         "props": {
             "id": "category-seguridad",
             "type": "custom",
@@ -253,6 +259,7 @@
         }
     },
     "menu-item#category__construccion--fijaciones": {
+        "title": "menu construccion fijaciones",
         "props": {
             "id": "category-fijaciones",
             "type": "custom",
@@ -267,6 +274,7 @@
         }
     },
     "menu-item#category__construccion--maderas": {
+        "title": "menu construccion maderas",
         "props": {
             "id": "category-maderas",
             "type": "custom",
@@ -281,6 +289,7 @@
         }
     },
     "menu-item#construccion__aislantes--termicos": {
+        "title": "menu construccion aislantes",
         "props": {
             "id": "item-aislantes-termicos",
             "type": "custom",
@@ -295,6 +304,7 @@
         }
     },
     "menu-item#construccion__aleros--toldos": {
+        "title": "menu construccion toldos",
         "props": {
             "id": "item-aleros-toldos",
             "type": "custom",
@@ -309,6 +319,7 @@
         }
     },
     "menu-item#construccion__cadenas--cuerdas": {
+        "title": "menu construccion cadenas",
         "props": {
             "id": "item-cadenas-cuerdas",
             "type": "custom",
@@ -323,6 +334,7 @@
         }
     },
     "menu-item#construccion__canaletas": {
+        "title": "menu construccion canaletas",
         "props": {
             "id": "item-canaletas",
             "type": "custom",
@@ -337,6 +349,7 @@
         }
     },
     "menu-item#construccion__cemento--complementos": {
+        "title": "menu construccion cemento",
         "props": {
             "id": "item-cemento-complementos",
             "type": "custom",
@@ -351,6 +364,7 @@
         }
     },
     "menu-item#construccion__seco": {
+        "title": "menu construccion seco",
         "props": {
             "id": "item-seco",
             "type": "custom",
@@ -365,6 +379,7 @@
         }
     },
     "menu-item#construccion__escaleras": {
+        "title": "menu construccion escaleras",
         "props": {
             "id": "item-escaleras",
             "type": "custom",
@@ -379,6 +394,7 @@
         }
     },
     "menu-item#construccion__hierro--acero": {
+        "title": "menu construccion aceros",
         "props": {
             "id": "item-hierro-acero",
             "type": "custom",
@@ -393,6 +409,7 @@
         }
     },
     "menu-item#category__construccion--vermas": {
+        "title": "menu construccion ver mas",
         "props": {
             "id": "item-ver-mas",
             "type": "custom",

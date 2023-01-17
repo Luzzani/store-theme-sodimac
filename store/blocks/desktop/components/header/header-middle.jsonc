@@ -1,11 +1,4 @@
 {
-    "modal-trigger#header__login--modal": {
-        "title": "header modal trigger",
-        "children": [
-            "rich-text#header__login--desktop",
-            "modal-layout#header__login--modal"
-        ]
-    },
     "logo#header__middle--logo": {
         "title": "logo header desktop",
         "props": {
@@ -19,6 +12,7 @@
         }
     },
     "search-bar#header__middle--desktop": {
+        "title": "search-bar",
         "blocks": [
             "autocomplete-result-list.v2"
         ],
@@ -26,22 +20,27 @@
             "openAutocompleteOnFocus": true
         }
     },
-    "rich-text#header__login--desktop": {
-        "title": "prueba",
-        "props": {
-            "text": "Mi cuenta"
-        }
-    },
     "rich-text#location": {
-        "title": "prueba",
+        "title": "futura geolocalizacion",
         "props": {
             "text": "En donde estas"
         }
     },
-    "modal-layout#header__login--modal": {
-        "title": "header login modal",
-        "children": [
-            "login-content"
-        ]
+    "minicart.v2": {
+        "title": "carrito de compras",
+        "props": {
+            "variation": "drawer"
+        }
+    },
+    "login#login__desktop": {
+        "title": "login en desktop",
+        "props": {
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "Ingresa tu correo electrónico",
+            "passwordPlaceholder": "Ingresa tu contraseña",
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile": true,
+            "iconLabel": "Mi Cuenta"
+        }
     }
 }

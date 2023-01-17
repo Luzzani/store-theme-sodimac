@@ -34,5 +34,18 @@
 
 :global(.vtex-store-header-2-x-headerRowContainer) :global(.vtex-store-components-3-x-searchBarContainer) {
   width: 35vw;
+}
+
+:global(.vtex-styleguide-9-x-input) {
   background-color: #fff;
+}
+
+:global(.vtex-minicart-2-x-cartIcon) {
+  height: 31px;
+  width: 31px;
+}
+
+:global(.vtex-login-2-x-profileIcon) {
+  height: 31px;
+  width: 31px;
 }

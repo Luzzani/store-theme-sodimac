@@ -26,10 +26,10 @@
             "header-spacer",
             "minicart.v2",
             "header-spacer",
-            "modal-trigger#header__login--modal"
+            "login#login__desktop"
         ],
         "props": {
-            "sticky":true,
+            "sticky": true,
             "inverted": true,
             "border": true,
             "blockClass": [

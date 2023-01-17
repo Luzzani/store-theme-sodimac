@@ -1,5 +1,6 @@
 {
     "menu-item#department1": {
+        "title": "menu departamento 1",
         "props": {
             "type": "custom",
             "itemProps": {
@@ -12,6 +13,7 @@
         ]
     },
     "menu-item#department2": {
+        "title": "menu departamento 2",
         "props": {
             "type": "custom",
             "itemProps": {
@@ -24,6 +26,7 @@
         ]
     },
     "menu-item#department3": {
+        "title": "menu departamento 3",
         "props": {
             "type": "custom",
             "itemProps": {
@@ -36,6 +39,7 @@
         ]
     },
     "menu-item#department4": {
+        "title": "menu departamento 4",
         "props": {
             "type": "custom",
             "itemProps": {
@@ -48,6 +52,7 @@
         ]
     },
     "menu-item#department5": {
+        "title": "menu departamento 5",
         "props": {
             "type": "custom",
             "itemProps": {
@@ -60,6 +65,7 @@
         ]
     },
     "menu-item#department6": {
+        "title": "menu departamento 6",
         "props": {
             "type": "custom",
             "itemProps": {
@@ -72,6 +78,7 @@
         ]
     },
     "menu-item#department7": {
+        "title": "menu departamento 7",
         "props": {
             "type": "custom",
             "itemProps": {
@@ -84,6 +91,7 @@
         ]
     },
     "menu-item#department8": {
+        "title": "menu departamento 8",
         "props": {
             "type": "custom",
             "itemProps": {
@@ -96,6 +104,7 @@
         ]
     },
     "menu-item#department9": {
+        "title": "menu departamento 9",
         "props": {
             "type": "custom",
             "itemProps": {
@@ -108,6 +117,7 @@
         ]
     },
     "menu-item#department10": {
+        "title": "menu departamento 10",
         "props": {
             "type": "custom",
             "itemProps": {

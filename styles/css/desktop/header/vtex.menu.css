@@ -25,22 +25,22 @@
 }
 
 .submenuWrapper--department2__materiales--contruccion--isOpen {
-    transform: translateX(-150px) translateY(17px);
+    transform: translateX(-148px) translateY(17px);
     background-color: #fff;
 }
 
 .submenuWrapper--department3__materiales--contruccion--isOpen {
-    transform: translateX(-310px) translateY(17px);
+    transform: translateX(-297px) translateY(17px);
     background-color: #fff;
 }
 
 .submenuWrapper--department4__materiales--contruccion--isOpen {
-    transform: translateX(-430px) translateY(17px);
+    transform: translateX(-435px) translateY(17px);
     background-color: #fff;
 }
 
 .submenuWrapper--department5__materiales--contruccion--isOpen {
-    transform: translateX(-550px) translateY(17px);
+    transform: translateX(-554px) translateY(17px);
     background-color: #fff;
 }
 
@@ -50,22 +50,22 @@
 }
 
 .submenuWrapper--department7__materiales--contruccion--isOpen {
-    transform: translateX(-850px) translateY(17px);
+    transform: translateX(-822px) translateY(17px);
     background-color: #fff;
 }
 
 .submenuWrapper--department8__materiales--contruccion--isOpen {
-    transform: translateX(-1000px) translateY(17px);
+    transform: translateX(-977px) translateY(17px);
     background-color: #fff;
 }
 
 .submenuWrapper--department9__materiales--contruccion--isOpen {
-    transform: translateX(-1120px) translateY(17px);
+    transform: translateX(-1113px) translateY(32px);
     background-color: #fff;
 }
 
 .submenuWrapper--department10__materiales--contruccion--isOpen {
-    transform: translateX(-1200px) translateY(17px);
+    transform: translateX(-1204px) translateY(17px);
     background-color: #fff;
 }
 
@@ -76,6 +76,7 @@
     background-color: #fff;
 }
 
+.menuItem--department__menu--desktop--isClosed,
 .menuItem--department__menu--desktop--isOpen {
     padding: 1rem;
     height: 100%;

@@ -1,3 +1,8 @@
 .link--link__col1--category--images {
     text-decoration: none;
 }
+
+.link--link__image--section6 {
+    display: flex;
+    justify-content: center;
+}

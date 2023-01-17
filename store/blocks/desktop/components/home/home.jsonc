@@ -55,10 +55,20 @@
   "flex-layout.row#home__section-6--desktop": {
     "title": "Section 6",
     "children": [
-      "image#section6__image--desktop"
+      "link#image__section6"
     ],
     "props": {
       "marginTop": 4
+    }
+  },
+  "link#image__section6": {
+    "title": "link whit image section 6",
+    "children": [
+      "image#section6__image--desktop"
+    ],
+    "props": {
+      "href": "/",
+      "blockClass": "link__image--section6"
     }
   },
   "image#section6__image--desktop": {
@@ -66,7 +76,8 @@
     "props": {
       "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/bltde10a1539a69f397/6369211c29c3b338315e28de/BannerTwoOne-app.webp?auto=webp&disable=upscale&quality=70&width=1280",
       "maxWidth": "1080px",
-      "width": "100%"
+      "width": "100%",
+      "blockClass": "images--row2"
     }
   },
   "flex-layout.row#home__section-7--desktop": {
