@@ -1,4 +1,6 @@
 .link--link__col1--category--images--tablet {
     text-decoration: none;
     transform: translateY(-20px);
+    width: 100%;
+    height: 100%;
 }

@@ -1,0 +1,83 @@
+{
+    "submenu#department2__construccion": {
+        "title": "Menu categorias",
+        "children": [
+            "menu#department1__materiales--contruccion"
+        ],
+        "props": {
+            "blockClass": "department2__materiales--contruccion"
+        }
+    },
+    "submenu#department3__construccion": {
+        "title": "Menu categorias",
+        "children": [
+            "menu#department1__materiales--contruccion"
+        ],
+        "props": {
+            "blockClass": "department3__materiales--contruccion"
+        }
+    },
+    "submenu#department4__construccion": {
+        "title": "Menu categorias",
+        "children": [
+            "menu#department1__materiales--contruccion"
+        ],
+        "props": {
+            "blockClass": "department4__materiales--contruccion"
+        }
+    },
+    "submenu#department5__construccion": {
+        "title": "Menu categorias",
+        "children": [
+            "menu#department1__materiales--contruccion"
+        ],
+        "props": {
+            "blockClass": "department5__materiales--contruccion"
+        }
+    },
+    "submenu#department6__construccion": {
+        "title": "Menu categorias",
+        "children": [
+            "menu#department1__materiales--contruccion"
+        ],
+        "props": {
+            "blockClass": "department6__materiales--contruccion"
+        }
+    },
+    "submenu#department7__construccion": {
+        "title": "Menu categorias",
+        "children": [
+            "menu#department1__materiales--contruccion"
+        ],
+        "props": {
+            "blockClass": "department7__materiales--contruccion"
+        }
+    },
+    "submenu#department8__construccion": {
+        "title": "Menu categorias",
+        "children": [
+            "menu#department1__materiales--contruccion"
+        ],
+        "props": {
+            "blockClass": "department8__materiales--contruccion"
+        }
+    },
+    "submenu#department9__construccion": {
+        "title": "Menu categorias",
+        "children": [
+            "menu#department1__materiales--contruccion"
+        ],
+        "props": {
+            "blockClass": "department9__materiales--contruccion"
+        }
+    },
+    "submenu#department10__construccion": {
+        "title": "Menu categorias",
+        "children": [
+            "menu#department1__materiales--contruccion"
+        ],
+        "props": {
+            "blockClass": "department10__materiales--contruccion"
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "modal-trigger#header__login--modal": {
+        "title": "header modal trigger",
+        "children": [
+            "rich-text#header__login--desktop",
+            "modal-layout#header__login--modal"
+        ]
+    },
+    "logo#header__middle--logo": {
+        "title": "logo header desktop",
+        "props": {
+            "width": 165,
+            "height": 26,
+            "mobileWidth": 90,
+            "mobileHeight": 32,
+            "href": "/",
+            "url": "https://nebula-cdn.kampyle.com/wu/577410/resources/image/1573231420458_sodimacps.png",
+            "blockClass": "header__middle--logo"
+        }
+    },
+    "search-bar#header__middle--desktop": {
+        "blocks": [
+            "autocomplete-result-list.v2"
+        ],
+        "props": {
+            "openAutocompleteOnFocus": true
+        }
+    },
+    "rich-text#header__login--desktop": {
+        "title": "prueba",
+        "props": {
+            "text": "Mi cuenta"
+        }
+    },
+    "rich-text#location": {
+        "title": "prueba",
+        "props": {
+            "text": "En donde estas"
+        }
+    },
+    "modal-layout#header__login--modal": {
+        "title": "header login modal",
+        "children": [
+            "login-content"
+        ]
+    }
+}

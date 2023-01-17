@@ -1,4 +1,26 @@
-.headerRowContainer--header__middle {
-    max-width: 1290px;
+
+.headerRowContainer--header__desktop {
+    max-width: 1280px;
     margin: 0 auto;
 }
+
+.headerRowContainer--header__desktop-top {
+    height: 28px;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.headerRowContainer--header__desktop-middle {
+    height: 91px;
+}
+
+.headerRowContainer--header__desktop-bottom {
+    height: 65px;
+}
+
+.headerRowBackground--header__desktop-bottom {
+    border-top: .2px solid #eeeeee;
+    border-bottom: .2px solid #eeeeee;
+}
+

@@ -1,0 +1,409 @@
+{
+    "submenu#department1__construccion": {
+        "title": "Menu categorias",
+        "children": [
+            "menu#department1__materiales--contruccion"
+        ],
+        "props": {
+            "blockClass": "department1__materiales--contruccion"
+        }
+    },
+    "menu#department1__materiales--contruccion": {
+        "title": "Menu Construcción y Reparación",
+        "children": [
+            "flex-layout.row#department1__row1",
+            "flex-layout.row#department1__row2"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "department1__materiales--construccion"
+        }
+    },
+    "flex-layout.row#department1__row1": {
+        "title": "departamento 1 fila 1",
+        "children": [
+            "flex-layout.col#department1__row1--col1",
+            "flex-layout.col#department1__row1--col2",
+            "flex-layout.col#department1__row1--col3",
+            "flex-layout.col#department1__row1--col4"
+        ],
+        "props": {
+            "colGap": 10,
+            "marginBottom": 5
+        }
+    },
+    "flex-layout.col#department1__row1--col1": {
+        "title": "departamento 1 fila 1 columna 1",
+        "children": [
+            "menu-item#category__construccion--materiales",
+            "menu-item#construccion__aislantes--termicos",
+            "menu-item#construccion__aleros--toldos",
+            "menu-item#construccion__cadenas--cuerdas",
+            "menu-item#construccion__canaletas",
+            "menu-item#construccion__cemento--complementos",
+            "menu-item#construccion__seco",
+            "menu-item#construccion__escaleras",
+            "menu-item#construccion__hierro--acero",
+            "menu-item#category__construccion--vermas"
+        ]
+    },
+    "flex-layout.col#department1__row1--col2": {
+        "title": "departamento 1 fila 1 columna 1",
+        "children": [
+            // menu electricidad
+            "menu-item#category__construccion--electricidad",
+            "menu-item#construccion__aislantes--termicos",
+            "menu-item#construccion__aleros--toldos",
+            "menu-item#construccion__cadenas--cuerdas",
+            "menu-item#construccion__canaletas",
+            "menu-item#construccion__cemento--complementos",
+            "menu-item#construccion__seco",
+            "menu-item#construccion__escaleras",
+            "menu-item#construccion__hierro--acero",
+            "menu-item#category__construccion--vermas"
+        ]
+    },
+    "flex-layout.col#department1__row1--col3": {
+        "title": "departamento 1 fila 1 columna 1",
+        "children": [
+            // menu maquinaria
+            "menu-item#category__construccion--maquinaria",
+            "menu-item#construccion__aislantes--termicos",
+            "menu-item#construccion__aleros--toldos",
+            "menu-item#construccion__cadenas--cuerdas",
+            "menu-item#construccion__canaletas",
+            "menu-item#construccion__cemento--complementos",
+            "menu-item#construccion__seco",
+            "menu-item#construccion__escaleras",
+            "menu-item#construccion__hierro--acero",
+            "menu-item#category__construccion--vermas"
+        ]
+    },
+    "flex-layout.col#department1__row1--col4": {
+        "title": "departamento 1 fila 1 columna 1",
+        "children": [
+            // menu plomeria
+            "menu-item#category__construccion--plomeria",
+            "menu-item#construccion__aislantes--termicos",
+            "menu-item#construccion__aleros--toldos",
+            "menu-item#construccion__cadenas--cuerdas",
+            "menu-item#construccion__canaletas",
+            "menu-item#construccion__cemento--complementos",
+            "menu-item#construccion__seco",
+            "menu-item#construccion__escaleras",
+            "menu-item#construccion__hierro--acero",
+            "menu-item#category__construccion--vermas"
+        ]
+    },
+    "flex-layout.row#department1__row2": {
+        "title": "departamento 1 fila 2",
+        "children": [
+            "flex-layout.col#department1__row2--col1",
+            "flex-layout.col#department1__row2--col2",
+            "flex-layout.col#department1__row2--col3",
+            "flex-layout.col#department1__row2--col4"
+        ]
+    },
+    "flex-layout.col#department1__row2--col1": {
+        "title": "departamento 1 fila 2 columna 1",
+        "children": [
+            // menu pinturas
+            "menu-item#category__construccion--pinturas",
+            "menu-item#construccion__aislantes--termicos",
+            "menu-item#construccion__aleros--toldos",
+            "menu-item#construccion__cadenas--cuerdas",
+            "menu-item#construccion__canaletas",
+            "menu-item#construccion__cemento--complementos",
+            "menu-item#construccion__seco",
+            "menu-item#construccion__escaleras",
+            "menu-item#construccion__hierro--acero",
+            "menu-item#category__construccion--vermas"
+        ]
+    },
+    "flex-layout.col#department1__row2--col2": {
+        "title": "departamento 1 fila 2 columna 2",
+        "children": [
+            // menu seguridad
+            "menu-item#category__construccion--seguridad",
+            "menu-item#construccion__aislantes--termicos",
+            "menu-item#construccion__aleros--toldos",
+            "menu-item#construccion__cadenas--cuerdas",
+            "menu-item#construccion__canaletas",
+            "menu-item#construccion__cemento--complementos",
+            "menu-item#construccion__seco",
+            "menu-item#construccion__escaleras",
+            "menu-item#construccion__hierro--acero",
+            "menu-item#category__construccion--vermas"
+        ]
+    },
+    "flex-layout.col#department1__row2--col3": {
+        "title": "departamento 1 fila 2 columna 3",
+        "children": [
+            // menu fijaciones
+            "menu-item#category__construccion--fijaciones",
+            "menu-item#construccion__aislantes--termicos",
+            "menu-item#construccion__aleros--toldos",
+            "menu-item#construccion__cadenas--cuerdas",
+            "menu-item#construccion__canaletas",
+            "menu-item#construccion__cemento--complementos",
+            "menu-item#construccion__seco",
+            "menu-item#construccion__escaleras",
+            "menu-item#construccion__hierro--acero",
+            "menu-item#category__construccion--vermas"
+        ]
+    },
+    "flex-layout.col#department1__row2--col4": {
+        "title": "departamento 1 fila 2 columna 4",
+        "children": [
+            // menu maderas
+            "menu-item#category__construccion--maderas",
+            "menu-item#construccion__aislantes--termicos",
+            "menu-item#construccion__aleros--toldos",
+            "menu-item#construccion__cadenas--cuerdas",
+            "menu-item#construccion__canaletas",
+            "menu-item#construccion__cemento--complementos",
+            "menu-item#construccion__seco",
+            "menu-item#construccion__escaleras",
+            "menu-item#construccion__hierro--acero",
+            "menu-item#category__construccion--vermas"
+        ]
+    },
+    "menu-item#category__construccion--materiales": {
+        "props": {
+            "id": "category-construccion",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Materiales de construcción",
+                "text": "Materiales de construcción >"
+            },
+            "blockClass": "department__category"
+        }
+    },
+    "menu-item#category__construccion--electricidad": {
+        "props": {
+            "id": "category-electricidad",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Electricidad",
+                "text": "Electricidad >"
+            },
+            "blockClass": "department__category"
+        }
+    },
+    "menu-item#category__construccion--maquinaria": {
+        "props": {
+            "id": "category-maquinaria",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Maquinarias y Herramientas de Construcción",
+                "text": "Maquinarias y Herramientas de Construcción >"
+            },
+            "blockClass": "department__category"
+        }
+    },
+    "menu-item#category__construccion--plomeria": {
+        "props": {
+            "id": "category plomeria",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Plomería",
+                "text": "Plomería >"
+            },
+            "blockClass": "department__category"
+        }
+    },
+    "menu-item#category__construccion--pinturas": {
+        "props": {
+            "id": "category-pinturas",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Pinturas",
+                "text": "Pinturas >"
+            },
+            "blockClass": "department__category"
+        }
+    },
+    "menu-item#category__construccion--seguridad": {
+        "props": {
+            "id": "category-seguridad",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Seguridad",
+                "text": "Seguridad >"
+            },
+            "blockClass": "department__category"
+        }
+    },
+    "menu-item#category__construccion--fijaciones": {
+        "props": {
+            "id": "category-fijaciones",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Fijaciones y adhesivos",
+                "text": "Fijaciones y adhesivos >"
+            },
+            "blockClass": "department__category"
+        }
+    },
+    "menu-item#category__construccion--maderas": {
+        "props": {
+            "id": "category-maderas",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Maderas y tableros",
+                "text": "Maderas y tableros >"
+            },
+            "blockClass": "department__category"
+        }
+    },
+    "menu-item#construccion__aislantes--termicos": {
+        "props": {
+            "id": "item-aislantes-termicos",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Aislantes térmicos",
+                "text": "Aislantes térmicos"
+            },
+            "blockClass": "department__category--submenu"
+        }
+    },
+    "menu-item#construccion__aleros--toldos": {
+        "props": {
+            "id": "item-aleros-toldos",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Aceros y toldos",
+                "text": "Aceros y toldos"
+            },
+            "blockClass": "department__category--submenu"
+        }
+    },
+    "menu-item#construccion__cadenas--cuerdas": {
+        "props": {
+            "id": "item-cadenas-cuerdas",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Cadenas, cuerdas y accesorios",
+                "text": "Cadenas, cuerdas y accesorios"
+            },
+            "blockClass": "department__category--submenu"
+        }
+    },
+    "menu-item#construccion__canaletas": {
+        "props": {
+            "id": "item-canaletas",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Canaletas",
+                "text": "Canaletas"
+            },
+            "blockClass": "department__category--submenu"
+        }
+    },
+    "menu-item#construccion__cemento--complementos": {
+        "props": {
+            "id": "item-cemento-complementos",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Cemento y complementos",
+                "text": "Cemento y complementos"
+            },
+            "blockClass": "department__category--submenu"
+        }
+    },
+    "menu-item#construccion__seco": {
+        "props": {
+            "id": "item-seco",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Construccion en seco",
+                "text": "Construccion en seco"
+            },
+            "blockClass": "department__category--submenu"
+        }
+    },
+    "menu-item#construccion__escaleras": {
+        "props": {
+            "id": "item-escaleras",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Escaleras",
+                "text": "Escaleras"
+            },
+            "blockClass": "department__category--submenu"
+        }
+    },
+    "menu-item#construccion__hierro--acero": {
+        "props": {
+            "id": "item-hierro-acero",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Hierro y acero",
+                "text": "Hierro y acero"
+            },
+            "blockClass": "department__category--submenu"
+        }
+    },
+    "menu-item#category__construccion--vermas": {
+        "props": {
+            "id": "item-ver-mas",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "ver mas",
+                "text": "ver mas >"
+            },
+            "blockClass": "department__category"
+        }
+    }
+}

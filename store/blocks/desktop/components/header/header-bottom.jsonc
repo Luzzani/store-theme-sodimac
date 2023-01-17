@@ -1,0 +1,122 @@
+{
+    "menu-item#department1": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "CONTRUCCIÓN Y REPARACIÓN"
+            },
+            "blockClass": "department__menu--desktop"
+        },
+        "blocks": [
+            "submenu#department1__construccion"
+        ]
+    },
+    "menu-item#department2": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "PISOS, PINTURAS Y TERMINACIONES"
+            },
+            "blockClass": "department__menu--desktop"
+        },
+        "blocks": [
+            "submenu#department2__construccion"
+        ]
+    },
+    "menu-item#department3": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "HERRAMIENTAS Y MAQUINARIAS"
+            },
+            "blockClass": "department__menu--desktop"
+        },
+        "blocks": [
+            "submenu#department3__construccion"
+        ]
+    },
+    "menu-item#department4": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "BAÑO, COCINA Y LIMPIEZA"
+            },
+            "blockClass": "department__menu--desktop"
+        },
+        "blocks": [
+            "submenu#department4__construccion"
+        ]
+    },
+    "menu-item#department5": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "ELECTROHOGAR Y CLIMATIZACIÓN"
+            },
+            "blockClass": "department__menu--desktop"
+        },
+        "blocks": [
+            "submenu#department5__construccion"
+        ]
+    },
+    "menu-item#department6": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "MUEBLES Y ORGANIZACIÓN"
+            },
+            "blockClass": "department__menu--desktop"
+        },
+        "blocks": [
+            "submenu#department6__construccion"
+        ]
+    },
+    "menu-item#department7": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "DECORACIÓN, ILUMINACIÓN Y BAZAR"
+            },
+            "blockClass": "department__menu--desktop"
+        },
+        "blocks": [
+            "submenu#department7__construccion"
+        ]
+    },
+    "menu-item#department8": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "AIRE LIBRE, JARDÍN Y MASCOTAS"
+            },
+            "blockClass": "department__menu--desktop"
+        },
+        "blocks": [
+            "submenu#department8__construccion"
+        ]
+    },
+    "menu-item#department9": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "AUTOMÓVIL"
+            },
+            "blockClass": "department__menu--desktop"
+        },
+        "blocks": [
+            "submenu#department9__construccion"
+        ]
+    },
+    "menu-item#department10": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "SERVICIOS HOGAR"
+            },
+            "blockClass": "department__menu--desktop"
+        },
+        "blocks": [
+            "submenu#department10__construccion"
+        ]
+    }
+}

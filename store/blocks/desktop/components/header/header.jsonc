@@ -2,270 +2,62 @@
     "header-row#header__top": {
         "title": "header fila superior",
         "children": [
-            "rich-text#test"
-        ]
+            "menu-item#top__service",
+            "menu-item#top__tiendas",
+            "menu-item#top__empresas",
+            "menu-item#top__financiacion",
+            "menu-item#top__proyecto"
+        ],
+        "props": {
+            "blockClass": [
+                "header__desktop",
+                "header__desktop-top"
+            ]
+        }
     },
     "header-row#header__middle": {
         "title": "header fila media",
         "children": [
             "logo#header__middle--logo",
             "header-spacer",
-            "rich-text#test--middle",
+            "search-bar#header__middle--desktop",
+            "header-spacer",
+            "rich-text#location",
             "header-spacer",
             "minicart.v2",
             "header-spacer",
             "modal-trigger#header__login--modal"
         ],
         "props": {
+            "sticky":true,
             "inverted": true,
             "border": true,
-            "blockClass": "header__middle"
+            "blockClass": [
+                "header__desktop",
+                "header__desktop-middle"
+            ]
         }
     },
     "header-row#header__bottom": {
         "title": "header fila inferior",
         "children": [
-            "rich-text#test--bottom",
             "menu-item#department1",
-            "menu-item#department2"
+            "menu-item#department2",
+            "menu-item#department3",
+            "menu-item#department4",
+            "menu-item#department5",
+            "menu-item#department6",
+            "menu-item#department7",
+            "menu-item#department8",
+            "menu-item#department9",
+            "menu-item#department10"
         ],
         "props": {
-            "inverted": true
-        }
-    },
-    "modal-trigger#header__login--modal": {
-        "title": "header modal trigger",
-        "children": [
-            "rich-text#header__login--desktop",
-            "modal-layout#header__login--modal"
-        ]
-    },
-    "logo#header__middle--logo": {
-        "title": "logo header desktop",
-        "props": {
-            "width": 165,
-            "height": 26,
-            "mobileWidth": 90,
-            "mobileHeight": 32,
-            "href": "/",
-            "url": "https://nebula-cdn.kampyle.com/wu/577410/resources/image/1573231420458_sodimacps.png",
-            "blockClass": "header__middle--logo"
-        }
-    },
-    "rich-text#test": {
-        "title": "prueba",
-        "props": {
-            "text": "prueba de header en desktop"
-        }
-    },
-    "rich-text#test--middle": {
-        "title": "prueba",
-        "props": {
-            "text": "prueba de header en desktop middle"
-        }
-    },
-    "rich-text#test--bottom": {
-        "title": "prueba",
-        "props": {
-            "text": "prueba de header en desktop bottom"
-        }
-    },
-    "rich-text#header__login--desktop": {
-        "title": "prueba",
-        "props": {
-            "text": "login"
-        }
-    },
-    "modal-layout#header__login--modal": {
-        "title": "header login modal",
-        "children": [
-            "login-content"
-        ]
-    },
-    "menu-item#department1": {
-        "props": {
-            "type": "custom",
-            "itemProps": {
-                "text": "Contrucción y Reparación"
-            }
-        },
-        "blocks": [
-            "submenu#department__construccion"
-        ]
-    },
-    "menu-item#department2": {
-        "props": {
-            "type": "custom",
-            "itemProps": {
-                "text": "Pisos, Pinturas y Terminaciones"
-            }
-        }
-    },
-    "submenu#department__construccion": {
-        "title": "Menu categorias",
-        "children": [
-            "menu#department__construccion"
-        ]
-    },
-    "menu#department__construccion": {
-        "title": "Menu Construcción y Reparación",
-        "children": [
-            "menu-item#category__construccion--materiales",
-            "menu-item#construccion__aislantes--termicos",
-            "menu-item#construccion__aleros--toldos",
-            "menu-item#construccion__cadenas--cuerdas",
-            "menu-item#construccion__canaletas",
-            "menu-item#construccion__cemento--complementos",
-            "menu-item#construccion__seco",
-            "menu-item#construccion__escaleras",
-            "menu-item#construccion__hierro--acero",
-            "menu-item#category__construccion--electricidad",
-            "menu-item#category__construccion--maquinaria",
-            "menu-item#category__construccion--plomeria",
-            "menu-item#category__construccion--pinturas",
-            "menu-item#category__construccion--seguridad",
-            "menu-item#category__construccion--fijaciones",
-            "menu-item#category__construccion--maderas",
-            "menu-item#category__construccion--vermas"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
-    },
-    "menu-item#category__construccion--materiales": {
-        "props": {
-            "type": "custom",
-            "itemProps": {
-                "text": "Materiales de construcción >"
-            }
-        }
-    },
-    "menu-item#category__construccion--electricidad": {
-        "props": {
-            "type": "custom",
-            "itemProps": {
-                "text": "Electricidad >"
-            }
-        }
-    },
-    "menu-item#category__construccion--maquinaria": {
-        "props": {
-            "type": "custom",
-            "itemProps": {
-                "text": "Maquinarias y Herramientas de Construcción >"
-            }
-        }
-    },
-    "menu-item#category__construccion--plomeria": {
-        "props": {
-            "type": "custom",
-            "itemProps": {
-                "text": "Plomería >"
-            }
-        }
-    },
-    "menu-item#category__construccion--pinturas": {
-        "props": {
-            "type": "custom",
-            "itemProps": {
-                "text": "Pinturas >"
-            }
-        }
-    },
-    "menu-item#category__construccion--seguridad": {
-        "props": {
-            "type": "custom",
-            "itemProps": {
-                "text": "Seguridad >"
-            }
-        }
-    },
-    "menu-item#category__construccion--fijaciones": {
-        "props": {
-            "type": "custom",
-            "itemProps": {
-                "text": "Fijaciones y adhesivos >"
-            }
-        }
-    },
-    "menu-item#category__construccion--maderas": {
-        "props": {
-            "type": "custom",
-            "itemProps": {
-                "text": "Maderas y tableros"
-            }
-        }
-    },
-    "menu-item#construccion__aislantes--termicos": {
-        "props": {
-            "type": "custom",
-            "itemProps": {
-                "text": "Aislantes térmicos"
-            }
-        }
-    },
-    "menu-item#construccion__aleros--toldos": {
-        "props": {
-            "type": "custom",
-            "itemProps": {
-                "text": "Aceros y toldos"
-            }
-        }
-    },
-    "menu-item#construccion__cadenas--cuerdas": {
-        "props": {
-            "type": "custom",
-            "itemProps": {
-                "text": "Cadenas, cuerdas y accesorios"
-            }
-        }
-    },
-    "menu-item#construccion__canaletas": {
-        "props": {
-            "type": "custom",
-            "itemProps": {
-                "text": "Canaletas"
-            }
-        }
-    },
-    "menu-item#construccion__cemento--complementos": {
-        "props": {
-            "type": "custom",
-            "itemProps": {
-                "text": "Cemento y complementos"
-            }
-        }
-    },
-    "menu-item#construccion__seco": {
-        "props": {
-            "type": "custom",
-            "itemProps": {
-                "text": "Construccion en seco"
-            }
-        }
-    },
-    "menu-item#construccion__escaleras": {
-        "props": {
-            "type": "custom",
-            "itemProps": {
-                "text": "Escaleras"
-            }
-        }
-    },
-    "menu-item#construccion__hierro--acero": {
-        "props": {
-            "type": "custom",
-            "itemProps": {
-                "text": "Hierro y acero"
-            }
-        }
-    },
-    "menu-item#category__construccion--vermas": {
-        "props": {
-            "type": "custom",
-            "itemProps": {
-                "text": "ver mas >"
-            }
+            "inverted": true,
+            "blockClass": [
+                "header__desktop",
+                "header__desktop-bottom"
+            ]
         }
     }
 }

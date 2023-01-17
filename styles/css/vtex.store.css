@@ -1,33 +1,38 @@
- :global(.vtex-store__template) {
-   --primary-color: #0c2340;
-   --primary-color-rgba: rgba(12, 35, 64, 0.502);
-   --secondary-color: #e56a54;
- }
+:global(.vtex-store__template) {
+  --primary-color: #0c2340;
+  --primary-color-rgba: rgba(12, 35, 64, 0.502);
+  --secondary-color: #e56a54;
+}
 
- :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
-   background-color: #ffffff !important;
-   padding: 1rem;
-   border-radius: 50%;
-   visibility: hidden;
-   opacity: 0;
-   transition: visibility .3s ease-out, opacity .3s ease-out, box-shadow .3s ease-out;
-  }
-  
-  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):hover :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
-   opacity: 1;
-   visibility: visible;
-  }
-  
-  :global(.vtex-slider-layout-0-x-sliderRightArrow) {
-    background-color: #ffffff !important;
-    padding: 1rem;
-    border-radius: 50%;
-    opacity: 0;
-    visibility: hidden;
-    transition: visibility .3s ease-out, opacity .3s ease-out, box-shadow .3s ease-out;
-  }
-  
-  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):hover :global(.vtex-slider-layout-0-x-sliderRightArrow) {
-   opacity: 1;
-   visibility: visible;
- }
+:global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+  background-color: #ffffff !important;
+  padding: 1rem;
+  border-radius: 50%;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility .3s ease-out, opacity .3s ease-out, box-shadow .3s ease-out;
+}
+
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):hover :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+  opacity: 1;
+  visibility: visible;
+}
+
+:global(.vtex-slider-layout-0-x-sliderRightArrow) {
+  background-color: #ffffff !important;
+  padding: 1rem;
+  border-radius: 50%;
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility .3s ease-out, opacity .3s ease-out, box-shadow .3s ease-out;
+}
+
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):hover :global(.vtex-slider-layout-0-x-sliderRightArrow) {
+  opacity: 1;
+  visibility: visible;
+}
+
+:global(.vtex-store-header-2-x-headerRowContainer) :global(.vtex-store-components-3-x-searchBarContainer) {
+  width: 35vw;
+  background-color: #fff;
+}
