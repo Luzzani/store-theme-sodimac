@@ -74,8 +74,8 @@
   "image#section6__image--desktop": {
     "title": "image descarga nuestra app",
     "props": {
-      "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/bltde10a1539a69f397/6369211c29c3b338315e28de/BannerTwoOne-app.webp?auto=webp&disable=upscale&quality=70&width=1280",
-      "maxWidth": "1080px",
+      "src": "assets/img/banner-descarga.jpeg",
+      "maxWidth": "1180px",
       "width": "100%",
       "blockClass": "images--row2"
     }

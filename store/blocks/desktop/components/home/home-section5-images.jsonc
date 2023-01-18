@@ -2,56 +2,56 @@
     "image#desktop__col1--image": {
         "title": "image Bazar",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blt64e3175e77598a82/63ab50c899beb9105fe6e341/bazar.svg?auto=webp&disable=upscale&quality=70&width=1280",
+            "src": "assets/img/bazar-icon.jpeg",
             "blockClass": "desktop__category--image"
         }
     },
     "image#desktop__col2--image": {
         "title": "image Automóvil",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blte155b5dc89fea792/63ab50c8e16cd11076825a74/automovil.svg?auto=webp&disable=upscale&quality=70&width=1280",
+            "src": "assets/img/neumaticos-icon.jpeg",
             "blockClass": "desktop__category--image"
         }
     },
     "image#desktop__col3--image": {
         "title": "image Dormitorio",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blte220292cabbfd2a0/63ab50c8093bae056a4e3a53/dormitorio.svg?auto=webp&disable=upscale&quality=70&width=1280",
+            "src": "assets/img/dormitorio-icon.jpeg",
             "blockClass": "desktop__category--image"
         }
     },
     "image#desktop__col4--image": {
         "title": "image Mascotas",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blt91748a8cf982a675/63ab53ecd21c86315ba50636/mascotas.svg?auto=webp&disable=upscale&quality=70&width=1280",
+            "src": "assets/img/mascotas-icon.jpeg",
             "blockClass": "desktop__category--image"
         }
     },
     "image#desktop__col5--image": {
         "title": "image Herramientas",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blt33118e6a955e2365/63ab50c8d517181f0137ca4f/herramientas.svg?auto=webp&disable=upscale&quality=70&width=1280",
+            "src": "assets/img/herramientas-icon.jpeg",
             "blockClass": "desktop__category--image"
         }
     },
     "image#desktop__col6--image": {
         "title": "image Pinturas",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blt7a42f063fb724787/63ab50c85ccc4b4bafa476c8/pinturas.svg?auto=webp&disable=upscale&quality=70&width=1280",
+            "src": "assets/img/pinturas-icon.jpeg",
             "blockClass": "desktop__category--image"
         }
     },
     "image#desktop__col7--image": {
         "title": "image Construcción",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/bltf6d32f78f33a4f56/63ab50c81d30ec7c2c53218f/construccion.svg?auto=webp&disable=upscale&quality=70&width=1280",
+            "src": "assets/img/construccion-icon.jpeg",
             "blockClass": "desktop__category--image"
         }
     },
     "image#desktop__col8--image": {
         "title": "image Ferretería",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blt38fa43084df2ae2c/63ab50c81877960a753c28d2/ferreteria.svg?auto=webp&disable=upscale&quality=70&width=1280",
+            "src": "assets/img/ferreteria-icon.jpeg",
             "blockClass": "desktop__category--image"
         }
     }

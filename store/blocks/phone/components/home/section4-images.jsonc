@@ -2,56 +2,56 @@
     "image#row1__image": {
         "title": "image 1 aire acondicionado",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blt261e54faaea8ce48/63a1c59bf2b81c35b49ae519/BannerTWO-aires-mb.webp?auto=webp&disable=upscale&quality=70&width=720",
+            "src": "assets/img/aire-acondicionado-mobile.jpeg",
             "blockClass": "images--row2--phone"
         }
     },
     "image#row2__image": {
         "title": "image 2 ventiladores",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blt68dac78e628f312a/63a1c59b7760ab1f00afec6e/BannerTWO-ventiladores-mb.webp?auto=webp&disable=upscale&quality=70&width=720",
+            "src": "assets/img/ventiladores-mobile.jpeg",
             "blockClass": "images--row2--phone"
         }
     },
     "image#row3__col--image--left": {
         "title": "image 4 pisos",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blt3aae9070853ab16d/63ab54925ccc4b4bafa476cc/Bannerfive-pisos-mb.webp?auto=webp&disable=upscale&quality=70&width=720",
+            "src": "assets/img/pisos-mobile.jpeg",
             "blockClass": ["image__section2--row2", "images--row2--phone"]
         }
     },
     "image#row3__col--image--right": {
         "title": "image 4 baños y cocinas",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blt561bf1ba62983474/63bc4d763b14fe612de4a0ff/Bannerfive-banoscocinas40-mb.webp?auto=webp&disable=upscale&quality=70&width=720",
+            "src": "assets/img/banos-cocinas-mobile.jpeg",
             "blockClass": ["image__section2--row2", "images--row2--phone"]
         }
     },
     "image#row4__col--image--left": {
         "title": "image 4 linea blanca",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blt098615386436b912/63bc4d76d91eb93e774bd09d/Bannerfive-lineablanca-mb.webp?auto=webp&disable=upscale&quality=70&width=720",
+            "src": "assets/img/linea-blanca-mobile.jpeg",
             "blockClass": ["image__section2--row2","images--row2--phone"]
         }
     },
     "image#row4__col--image--right": {
         "title": "image 5 smart TV",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/bltec5721d6e9485c46/63bc4d761930de5d357584dd/Bannerfive-smarttv2-mb.webp?auto=webp&disable=upscale&quality=70&width=720",
+            "src": "assets/img/smart-TV-mobile.jpeg",
             "blockClass": ["image__section2--row2","images--row2--phone"]
         }
     },
     "image#row5__image": {
         "title": "image 6 muebles interior",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blt43a12249a3f21303/63ab548d4bc6cf1270975cae/BannerTWO-mueblesint-mb.webp?auto=webp&disable=upscale&quality=70&width=720",
+            "src": "assets/img/muebles-interior-mobile.jpeg",
             "blockClass": "images--row2--phone"
         }
     },
     "image#row6__image":{
         "title": "image 7 decoracion",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blta387c8ec636481ce/63ab548dce24c111bb108983/BannerTWO-decoracion-mb.webp?auto=webp&disable=upscale&quality=70&width=720",
+            "src": "assets/img/decoracion-mobile.jpeg",
             "blockClass": "images--row2--phone"
         }
     }

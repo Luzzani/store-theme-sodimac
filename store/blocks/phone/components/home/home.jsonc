@@ -60,7 +60,7 @@
   "image#section6__image--phone": {
     "title": "image descarga nuestra app",
     "props": {
-      "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/bltd8cf8e5679699db9/6369211c4acbcc466ea8e180/BannerTWO-app-mb.webp?auto=webp&disable=upscale&quality=70&width=720",
+      "src": "assets/img/banner-descarga-mobile.jpeg",
       "width": "95%"
     }
   },

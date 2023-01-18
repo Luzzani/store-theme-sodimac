@@ -15,25 +15,12 @@
         "title": "search-bar",
         "blocks": [
             "autocomplete-result-list.v2"
-        ],
-        "props": {
-            "openAutocompleteOnFocus": true
-        }
+        ]
     },
     "rich-text#location": {
         "title": "futura geolocalizacion",
         "props": {
             "text": "En donde estas"
-        }
-    },
-    "minicart.v2": {
-        "title": "carrito de compras",
-        "props": {
-            "variation": "link",
-            "linkVariationUrl": "https://www.sodimac.com.ar/sodimac-ar/cart/",
-            "quantityDisplay": "always",
-            "itemCountMode": "total",
-            "blockClass": "minicart__v2"
         }
     },
     "login#login__desktop": {

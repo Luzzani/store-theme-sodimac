@@ -6,3 +6,9 @@
     display: flex;
     justify-content: center;
 }
+
+.childrenContainer--link__image--section6{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}

@@ -23,9 +23,17 @@
     },
     "overlay-layout": {
         "props": {
-            "placement": "top"        },
+            "placement": "top",
+            "blockClass": "overlay-search"
+        },
         "children": [
-            "search-bar#header__middle--desktop"
+            "search-bar#header__middle--mobile"
+        ]
+    },
+    "search-bar#header__middle--mobile": {
+        "title": "search-bar",
+        "blocks": [
+            "autocomplete-result-list.v2"
         ]
     },
     "mega-menu-trigger-btn": {

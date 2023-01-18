@@ -36,6 +36,12 @@
   width: 35vw;
 }
 
+:global(.vtex-overlay-layout-0-x-container) :global(.vtex-store-components-3-x-searchBarContainer) {
+  width: 100%;
+  max-width: 1024px;
+  transform: translateY(-15px);
+}
+
 :global(.vtex-input__suffix),
 :global(.vtex-styleguide-9-x-input) {
   background-color: #fff;
