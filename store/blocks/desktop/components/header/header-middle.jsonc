@@ -29,7 +29,11 @@
     "minicart.v2": {
         "title": "carrito de compras",
         "props": {
-            "variation": "drawer"
+            "variation": "link",
+            "linkVariationUrl": "https://www.sodimac.com.ar/sodimac-ar/cart/",
+            "quantityDisplay": "always",
+            "itemCountMode": "total",
+            "blockClass": "minicart__v2"
         }
     },
     "login#login__desktop": {

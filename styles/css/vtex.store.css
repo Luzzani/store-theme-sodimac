@@ -36,16 +36,41 @@
   width: 35vw;
 }
 
+:global(.vtex-input__suffix),
 :global(.vtex-styleguide-9-x-input) {
   background-color: #fff;
 }
 
+:global(.vtex-login-2-x-profileIcon),
 :global(.vtex-minicart-2-x-cartIcon) {
   height: 31px;
   width: 31px;
 }
 
-:global(.vtex-login-2-x-profileIcon) {
-  height: 31px;
-  width: 31px;
+:global(.vtex-store-components-3-x-searchIcon) {
+  height: 21px;
+  width: 21px;
+}
+
+:global(.vtex-store-header-2-x-headerRowContainer) :global(.vtex-button):hover {
+  background-color: transparent;
+}
+
+:global(.vtex-store-header-2-x-headerRowContainer) :global(.vtex-store-drawer-0-x-openIconContainer) {
+  color: #000;
+}
+
+:global(.vtex-login-2-x-label) {
+  text-transform: none;
+  padding-left: 0;
+  color: #000;
+  font-size: 14px;
+  line-height: 14px;
+  padding-top: 5px;
+  font-weight: lighter;
+  font-family: "Lato";
+}
+
+:global(.vtex-login-2-x-container) :global(.vtex-button__label) {
+  padding-right: 0;
 }

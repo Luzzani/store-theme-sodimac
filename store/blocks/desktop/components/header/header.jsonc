@@ -25,7 +25,6 @@
             "rich-text#location",
             "header-spacer",
             "minicart.v2",
-            "header-spacer",
             "login#login__desktop"
         ],
         "props": {
