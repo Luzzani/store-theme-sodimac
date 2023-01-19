@@ -47,6 +47,10 @@
   background-color: #fff;
 }
 
+:global(.vtex-input-prefix__group) {
+  border-radius: 0;
+}
+
 :global(.vtex-login-2-x-profileIcon),
 :global(.vtex-minicart-2-x-cartIcon) {
   height: 31px;
