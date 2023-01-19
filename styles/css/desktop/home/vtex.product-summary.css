@@ -1,0 +1,18 @@
+.element--search__result--shelf {
+    height: 424px;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: flex-start;
+    padding: 0 .3rem 0 .3rem;
+    border-radius: 0;
+}
+
+.containerNormal--search__result--shelf {
+    border-radius: 0.1875rem;
+}
+
+.element--search__result--shelf :global(.vtex-product-summary-2-x-imageNormal) {
+    max-height: 172px;
+    min-height: 172px;
+    width: 100%;
+}

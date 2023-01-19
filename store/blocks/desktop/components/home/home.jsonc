@@ -28,7 +28,6 @@
     ],
     "props": {
       "width": "70%",
-      "marginTop": 2,
       "blockClass": "home__section--3"
     }
   },
@@ -41,7 +40,7 @@
       "rowGap": 5,
       "colGap": 4,
       "width": "70%",
-      "marginTop": 8
+      "marginTop": 5
     }
   },
   "modal-trigger#home__modal--opinion": {

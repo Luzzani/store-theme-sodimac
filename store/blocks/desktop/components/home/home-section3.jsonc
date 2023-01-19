@@ -10,7 +10,7 @@
         "title": "section3 title",
         "props": {
             "text": "## Pensado para vos",
-            "blockClass": "section__2--title"
+            "blockClass": "section__3--title"
         }
     },
     "list-context.product-list": {
@@ -19,19 +19,21 @@
             "product-summary.shelf#search__result"
         ],
         "children": [
-            "slider-layout#test"
+            "slider-layout#slider__search--result"
         ]
     },
-    "slider-layout#test": {
+    "slider-layout#slider__search--result": {
         "title": "slider search result",
         "props": {
             "itemsPerPage": {
-                "desktop": 5,
+                "desktop": 6,
                 "tablet": 1,
                 "phone": 1
             },
+            "blockClass": "slider__search--result",
             "showNavigationArrows": "desktopOnly",
-            "showPaginationDots": "never"
+            "showPaginationDots": "never",
+            "infinite": false
         }
     },
     "search-result-layout.customQuery#header-search": {
@@ -84,8 +86,24 @@
         "children": [
             "product-summary-image",
             "product-summary-name",
+            "product-rating-inline",
             "product-selling-price",
-            "add-to-cart-button"
-        ]
+            // "add-to-cart-button",
+            "link.product#product__button--desktop"
+        ],
+        "props": {
+            "blockClass": [
+                "search__result--shelf"
+            ]
+        }
+    },
+    "link.product#product__button--desktop": {
+        "title": "boton ver producto",
+        "props": {
+            "label": "Ver producto",
+            "href": "/",
+            "displayMode": "button",
+            "blockClass": "product__button--desktop"
+        }
     }
 }

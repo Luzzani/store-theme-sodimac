@@ -21,16 +21,17 @@
     transform: translateY(-20px);
 }
 
-.wrapper--section__2--title:first-child {
-     color: #585858;
- }
+.headingLevel2--section__2--title {
+    color: #585858;
+    margin-bottom: 0;
+}
 
- .headingLevel2--section__2--title {
-     margin-bottom: 0;
- }
+.headingLevel2--section__3--title {
+    color: #585858;
+}
 
- .headingLevel2--section__5--title {
-     margin-top: 0;
-     color: #585858;
-     font-size: 35px;
- }
+.headingLevel2--section__5--title {
+    margin-top: 0;
+    color: #585858;
+    font-size: 35px;
+}

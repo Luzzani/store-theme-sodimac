@@ -16,7 +16,10 @@
         "title": "search-bar",
         "blocks": [
             "autocomplete-result-list.v2"
-        ]
+        ],
+        "props": {
+            "placeholder": "¿Qué estás buscando?"
+        }
     },
     "rich-text#location": {
         "title": "futura geolocalizacion",

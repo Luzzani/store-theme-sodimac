@@ -84,3 +84,24 @@
 :global(.vtex-login-2-x-container) :global(.vtex-button__label) {
   padding-right: 0;
 }
+
+:global(.vtex-reviews-and-ratings-3-x-inlineContainer) {
+  margin: 0;
+  transform: translateY(-20px);
+}
+
+:global(.vtex-product-summary-2-x-productBrand) {
+  font-size: 14px;
+}
+
+:global(.vtex-product-summary-2-x-nameContainer) {
+  padding-bottom: 0;
+}
+
+:global(.vtex-store-link-0-x-buttonLink--product__button--desktop) {
+  visibility: hidden;
+}
+
+:global(.vtex-product-summary-2-x-containerNormal):hover :global(.vtex-store-link-0-x-buttonLink--product__button--desktop) {
+  visibility: visible;
+}

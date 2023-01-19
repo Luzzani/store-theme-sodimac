@@ -7,8 +7,27 @@
     justify-content: center;
 }
 
-.childrenContainer--link__image--section6{
+.childrenContainer--link__image--section6 {
     display: flex;
     width: 100%;
     justify-content: center;
 }
+
+.buttonLink--product__button--desktop {
+    background-color: transparent;
+    border: 1px solid #DD0021;
+    color: #DD0021;
+    font-family: 'Lato';
+    font-size: 14px;
+    text-transform: none;
+    margin: 0 auto;
+    width: 100%;
+    transform: translateY(-6px);
+}
+
+.buttonLink--product__button--desktop:hover {
+    border: 1px solid #DD0021;
+    background-color: #DD0021;
+    color: white;
+}
+

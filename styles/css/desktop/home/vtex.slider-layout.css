@@ -1,0 +1,38 @@
+.sliderTrack--slider__search--result {
+    gap: .6rem;
+}
+
+.sliderTrack--slider__search--result :global(.vtex-button) {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.sliderTrack--slider__search--result:hover :global(.vtex-button) {
+    visibility: visible;
+    opacity: 1;
+}
+
+.sliderLeftArrow--slider__search--result {
+    transform: translateX(-30px);
+}
+
+.sliderRightArrow--slider__search--result {
+    transform: translateX(30px);
+}
+
+.slideChildrenContainer--slider__search--result:hover {
+    box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 30%);
+    transition: all 250ms ease-in-out;
+}
+
+.sliderLeftArrow--slider__search--result:disabled {
+    display: none;
+}
+
+.sliderRightArrow--slider__search--result:disabled {
+    display: none;
+}
+
+.sliderTrackContainer--slider__search--result {
+    padding: .2rem;   
+}

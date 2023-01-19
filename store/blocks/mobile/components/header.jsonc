@@ -34,7 +34,10 @@
         "title": "search-bar",
         "blocks": [
             "autocomplete-result-list.v2"
-        ]
+        ],
+        "props": {
+            "placeholder": "¿Qué estás buscando?"
+        }
     },
     "mega-menu-trigger-btn": {
         "title": "Mega menu btn",
