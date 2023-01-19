@@ -11,6 +11,7 @@
             "blockClass": "header__middle--logo"
         }
     },
+  
     "search-bar#header__middle--desktop": {
         "title": "search-bar",
         "blocks": [

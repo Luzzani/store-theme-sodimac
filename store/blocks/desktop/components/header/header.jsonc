@@ -20,6 +20,7 @@
         "children": [
             "logo#header__middle--logo",
             "header-spacer",
+            // "search-result-layout.custom#header-search",
             "search-bar#header__middle--desktop",
             "header-spacer",
             "rich-text#location",

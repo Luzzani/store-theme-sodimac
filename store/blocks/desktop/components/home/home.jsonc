@@ -96,5 +96,44 @@
       "colGap": 1,
       "marginTop": 6
     }
+  },
+  "search-result-layout.customQuery#header-search": {
+    "title": "search result desktop",
+    "props": {
+      "querySchema": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home__search--desktop",
+      "search-result-layout.mobile#home__search--mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#home__search--desktop": {
+    "title": "layout escritorio",
+    "children": [
+      "flex-layout.row#home__results"
+    ]
+  },
+  "flex-layout.row#home__results": {
+    "title": "home results",
+    "children": [
+      "flex-layout.col"
+    ]
+  },
+  "search-result-layout.mobile#home__search--mobile": {
+    "title": "layout mobile",
+    "children": [
+      "rich-text#test"
+    ]
+  },
+  "rich-text#test": {
+    "title": "prueba",
+    "props": {
+      "text": "prueba ",
+      "textAlignment": "CENTER"
+    }
   }
 }
