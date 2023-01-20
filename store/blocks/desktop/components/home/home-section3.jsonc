@@ -36,74 +36,76 @@
             "showPaginationDots": "never",
             "infinite": false
         }
-    },
-    "search-result-layout.customQuery#header-search": {
-        "title": "search result desktop",
-        "props": {
-            "querySchema": {
-                "skusFilter": "ALL",
-                "simulationBehavior": "skip",
-                "maxItemsPerPage": 4
+        // },
+        // "search-result-layout.customQuery#header-search": {
+        //     "title": "search result desktop",
+        //     "props": {
+        //         "querySchema": {
+        //             "skusFilter": "ALL",
+        //             "simulationBehavior": "skip",
+        //             "maxItemsPerPage": 4
+        //         }
+        //     },
+        //     "blocks": [
+        //         "search-result-layout.desktop#home__search--desktop",
+        //         "search-not-found-layout"
+        //     ]
+        // },
+        // "search-result-layout.desktop#home__search--desktop": {
+        //     "title": "layout escritorio",
+        //     "children": [
+        //         "flex-layout.row#home__results"
+        //     ]
+        // },
+        // "flex-layout.row#home__results": {
+        //     "title": "home results",
+        //     "children": [
+        //         "flex-layout.col#home__result--search"
+        //     ]
+        // },
+        // "flex-layout.col#home__result--search": {
+        //     "title": "col result search",
+        //     "children": [
+        //         "search-content#home__result--search"
+        //     ]
+        // },
+        // "search-content#home__result--search": {
+        //     "title": "search content result",
+        //     "blocks": [
+        //         "gallery",
+        //         "not-found"
+        //     ]
+        // },
+        // "gallery": {
+        //     "title": "gallery search result",
+        //     "blocks": [
+        //         "product-summary.shelf#search__result"
+        //     ]
+        // }
+        ,
+        "product-summary.shelf#search__result": {
+            "title": "shelf",
+            "children": [
+                "product-summary-image",
+                "product-summary-name",
+                "product-rating-inline",
+                "product-selling-price",
+                "link.product#product__button--desktop"
+            ],
+            "props": {
+                "blockClass": [
+                    "search__result--shelf"
+                ]
             }
         },
-        "blocks": [
-            "search-result-layout.desktop#home__search--desktop",
-            "search-not-found-layout"
-        ]
-    },
-    "search-result-layout.desktop#home__search--desktop": {
-        "title": "layout escritorio",
-        "children": [
-            "flex-layout.row#home__results"
-        ]
-    },
-    "flex-layout.row#home__results": {
-        "title": "home results",
-        "children": [
-            "flex-layout.col#home__result--search"
-        ]
-    },
-    "flex-layout.col#home__result--search": {
-        "title": "col result search",
-        "children": [
-            "search-content#home__result--search"
-        ]
-    },
-    "search-content#home__result--search": {
-        "title": "search content result",
-        "blocks": [
-            "gallery",
-            "not-found"
-        ]
-    },
-    "gallery": {
-        "title": "gallery search result",
-        "blocks": [
-            "product-summary.shelf#search__result"
-        ]
-    },
-    "product-summary.shelf#search__result": {
-        "title": "shelf",
-        "children": [
-            "product-summary-image",
-            "product-summary-name",
-            "product-rating-inline",
-            "product-selling-price",
-            "link.product#product__button--desktop"
-        ],
-        "props": {
-            "blockClass": [
-                "search__result--shelf"
-            ]
-        }
-    },
-    "link.product#product__button--desktop": {
-        "title": "boton ver producto",
-        "props": {
-            "label": "Ver producto",
-            "href": "/",
-            "displayMode": "button",
-            "blockClass": "product__button--desktop"
+        "link.product#product__button--desktop": {
+            "title": "boton ver producto",
+            "props": {
+                "label": "Ver producto",
+                "href": "/",
+                "displayMode": "button",
+                "blockClass": "product__button--desktop"
+            }
         }
     }
 }
