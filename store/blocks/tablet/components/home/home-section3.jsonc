@@ -1,0 +1,62 @@
+{
+    "flex-layout.col#home__section3--col": {
+        "title": "section 3 col",
+        "children": [
+            "rich-text#section3__tablet--title",
+            "list-context.product-list#tablet"
+        ]
+    },
+    "rich-text#section3__tablet--title": {
+        "title": "section 3 title",
+        "props": {
+            "text": "### Pensado para vos",
+            "blockClass": "section__3--title"
+        }
+    },
+    "list-context.product-list#tablet": {
+        "blocks": [
+            "product-summary.shelf#home__plp--mobile"
+        ],
+        "children": [
+            "slider-layout#slider__tablet-product"
+        ]
+    },
+    "product-summary.shelf#home__plp--mobile": {
+        "title": "shelf",
+        "children": [
+            "product-summary-image",
+            "product-summary-name",
+            "product-rating-inline",
+            "product-selling-price",
+            "link.product#product__button--mobile"
+        ],
+        "props": {
+            "blockClass": [
+                "home__plp--mobile"
+            ]
+        }
+    },
+    "link.product#product__button--mobile": {
+        "title": "boton ver producto",
+        "props": {
+            "label": "Ver producto",
+            "href": "/",
+            "displayMode": "button",
+            "blockClass": "product__button--mobile"
+        }
+    },
+    "slider-layout#slider__tablet-product": {
+        "title": "slider search result",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 6,
+                "tablet": 4,
+                "phone": 2
+            },
+            "blockClass": "slider__search--result",
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "never",
+            "infinite": false
+        }
+    }
+}

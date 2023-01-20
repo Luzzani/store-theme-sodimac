@@ -21,7 +21,7 @@
     "image#banner__pool": {
         "title": "image banner pool",
         "props": {
-            "src": "assets/img/banner-pileta.jpeg",
+            "src": "assets/img/banner-pile.jpeg",
             "link": {
                 "url": "/"
             },

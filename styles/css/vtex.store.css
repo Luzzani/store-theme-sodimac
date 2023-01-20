@@ -1,33 +1,153 @@
- :global(.vtex-store__template) {
-   --primary-color: #0c2340;
-   --primary-color-rgba: rgba(12, 35, 64, 0.502);
-   --secondary-color: #e56a54;
- }
+:global(.vtex-store__template) {
+  --primary-color: #0c2340;
+  --primary-color-rgba: rgba(12, 35, 64, 0.502);
+  --secondary-color: #e56a54;
+}
 
- :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
-   background-color: #ffffff !important;
-   padding: 1rem;
-   border-radius: 50%;
-   visibility: hidden;
-   opacity: 0;
-   transition: visibility .3s ease-out, opacity .3s ease-out, box-shadow .3s ease-out;
-  }
-  
-  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):hover :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
-   opacity: 1;
-   visibility: visible;
-  }
-  
-  :global(.vtex-slider-layout-0-x-sliderRightArrow) {
-    background-color: #ffffff !important;
-    padding: 1rem;
-    border-radius: 50%;
-    opacity: 0;
-    visibility: hidden;
-    transition: visibility .3s ease-out, opacity .3s ease-out, box-shadow .3s ease-out;
-  }
-  
-  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):hover :global(.vtex-slider-layout-0-x-sliderRightArrow) {
-   opacity: 1;
-   visibility: visible;
- }
+/* primer slider del home */
+:global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+  background-color: #ffffff !important;
+  padding: 1rem;
+  border-radius: 50%;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility .3s ease-out, opacity .3s ease-out, box-shadow .3s ease-out;
+}
+
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):hover :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+  opacity: 1;
+  visibility: visible;
+}
+
+:global(.vtex-slider-layout-0-x-sliderRightArrow) {
+  background-color: #ffffff !important;
+  padding: 1rem;
+  border-radius: 50%;
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility .3s ease-out, opacity .3s ease-out, box-shadow .3s ease-out;
+}
+
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):hover :global(.vtex-slider-layout-0-x-sliderRightArrow) {
+  opacity: 1;
+  visibility: visible;
+}
+
+:global(.vtex-store-header-2-x-headerRowContainer) :global(.vtex-store-components-3-x-searchBarContainer) {
+  width: 35vw;
+}
+
+
+/* barra de búsqueda mobile */
+
+:global(.vtex-overlay-layout-0-x-container) :global(.vtex-store-components-3-x-searchBarContainer) {
+  width: 100%;
+  max-width: 1024px;
+  height: 64px;
+  transform: translateY(-15px);
+  padding: 0;
+}
+
+:global(.vtex-store-header-2-x-headerStickyRow--header__mobile) :global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-input-prefix__group) {
+  height: 64px;
+  border: none;
+}
+
+:global(.vtex-store-header-2-x-headerStickyRow--header__mobile):global(.vtex-store-components-3-x-searchBarIcon--search) {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+
+:global(.vtex-store-header-2-x-headerStickyRow--header__mobile):global(.vtex-styleguide-9-x-input) {
+  padding-left: 40px;
+  font-size: 16px;
+}
+
+:global(.vtex-input__suffix),
+:global(.vtex-styleguide-9-x-input) {
+  background-color: #fff;
+}
+
+:global(.vtex-input-prefix__group) {
+  border-radius: 0;
+}
+
+:global(.vtex-login-2-x-profileIcon),
+:global(.vtex-minicart-2-x-cartIcon) {
+  height: 31px;
+  width: 31px;
+}
+
+:global(.vtex-store-components-3-x-searchIcon) {
+  height: 21px;
+  width: 21px;
+}
+
+:global(.vtex-store-header-2-x-headerRowContainer) :global(.vtex-button):hover {
+  background-color: transparent;
+}
+
+:global(.vtex-store-header-2-x-headerRowContainer) :global(.vtex-store-drawer-0-x-openIconContainer) {
+  color: #000;
+}
+
+/* login desktop */
+
+:global(.vtex-login-2-x-label) {
+  text-transform: none;
+  padding-left: 0;
+  color: #000;
+  font-size: 14px;
+  line-height: 14px;
+  padding-top: 5px;
+  font-weight: lighter;
+  font-family: "Lato";
+}
+
+:global(.vtex-login-2-x-container) :global(.vtex-button__label) {
+  padding-right: 0;
+}
+
+:global(.vtex-login-2-x-box) {
+  right: -60px !important;
+}
+
+:global(.vtex-login-2-x-sendButton) :global(.vtex-button),
+:global(.vtex-login-2-x-content):global(.vtex-login-2-x-content--loginOptions) :global(.vtex-button) {
+  background-color: #dd0021;
+  color: #fff;
+  text-transform: none;
+  font-size: 16px;
+  border-color: #dd0021;
+}
+
+:global(.vtex-login-2-x-sendButton) :global(.vtex-button):hover,
+:global(.vtex-login-2-x-content):global(.vtex-login-2-x-content--loginOptions) :global(.vtex-button):hover {
+  background-color: #ac0111;
+  border-color: #ac0111;
+}
+
+/* vitrina home*/
+
+:global(.vtex-reviews-and-ratings-3-x-inlineContainer) {
+  margin: 0;
+  transform: translateY(-20px);
+}
+
+:global(.vtex-product-summary-2-x-brandName):global(.vtex-product-summary-2-x-productBrand) {
+  font-size: 14px;
+  text-align: left;
+}
+
+:global(.vtex-product-summary-2-x-nameContainer) {
+  padding-bottom: 0;
+}
+
+:global(.vtex-store-link-0-x-buttonLink--product__button--desktop) {
+  visibility: hidden;
+}
+
+:global(.vtex-product-summary-2-x-containerNormal):hover :global(.vtex-store-link-0-x-buttonLink--product__button--desktop) {
+  visibility: visible;
+}

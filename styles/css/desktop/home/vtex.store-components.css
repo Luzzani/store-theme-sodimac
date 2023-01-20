@@ -4,6 +4,18 @@
     padding: 1rem 0 0 0 ;
 }
 
+.imageElement--desktop__category--image1 {
+    width: 64px;
+    height: 54px;
+    padding: 1rem 0 0 0 ;
+}
+
+.imageElement--desktop__category--image2 {
+    width: 50px;
+    height: 60px;
+    padding: 1rem 0 0 0 ;
+}
+
 .imageElement--phone__info--image {
     width: 32px;
     height: 32px;
@@ -29,4 +41,3 @@
 .imageElementLink--desktop--financing {
     width: 90% !important;
 }
-

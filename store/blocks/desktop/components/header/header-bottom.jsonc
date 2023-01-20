@@ -1,0 +1,132 @@
+{
+    "menu-item#department1": {
+        "title": "menu departamento 1",
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "CONTRUCCIÓN Y REPARACIÓN"
+            },
+            "blockClass": "department__menu--desktop"
+        },
+        "blocks": [
+            "submenu#department1__construccion"
+        ]
+    },
+    "menu-item#department2": {
+        "title": "menu departamento 2",
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "PISOS, PINTURAS Y TERMINACIONES"
+            },
+            "blockClass": "department__menu--desktop"
+        },
+        "blocks": [
+            "submenu#department2__construccion"
+        ]
+    },
+    "menu-item#department3": {
+        "title": "menu departamento 3",
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "HERRAMIENTAS Y MAQUINARIAS"
+            },
+            "blockClass": "department__menu--desktop"
+        },
+        "blocks": [
+            "submenu#department3__construccion"
+        ]
+    },
+    "menu-item#department4": {
+        "title": "menu departamento 4",
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "BAÑO, COCINA Y LIMPIEZA"
+            },
+            "blockClass": "department__menu--desktop"
+        },
+        "blocks": [
+            "submenu#department4__construccion"
+        ]
+    },
+    "menu-item#department5": {
+        "title": "menu departamento 5",
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "ELECTROHOGAR Y CLIMATIZACIÓN"
+            },
+            "blockClass": "department__menu--desktop"
+        },
+        "blocks": [
+            "submenu#department5__construccion"
+        ]
+    },
+    "menu-item#department6": {
+        "title": "menu departamento 6",
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "MUEBLES Y ORGANIZACIÓN"
+            },
+            "blockClass": "department__menu--desktop"
+        },
+        "blocks": [
+            "submenu#department6__construccion"
+        ]
+    },
+    "menu-item#department7": {
+        "title": "menu departamento 7",
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "DECORACIÓN, ILUMINACIÓN Y BAZAR"
+            },
+            "blockClass": "department__menu--desktop"
+        },
+        "blocks": [
+            "submenu#department7__construccion"
+        ]
+    },
+    "menu-item#department8": {
+        "title": "menu departamento 8",
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "AIRE LIBRE, JARDÍN Y MASCOTAS"
+            },
+            "blockClass": "department__menu--desktop"
+        },
+        "blocks": [
+            "submenu#department8__construccion"
+        ]
+    },
+    "menu-item#department9": {
+        "title": "menu departamento 9",
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "AUTOMÓVIL"
+            },
+            "blockClass": "department__menu--desktop"
+        },
+        "blocks": [
+            "submenu#department9__construccion"
+        ]
+    },
+    "menu-item#department10": {
+        "title": "menu departamento 10",
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "SERVICIOS HOGAR"
+            },
+            "blockClass": "department__menu--desktop"
+        },
+        "blocks": [
+            "submenu#department10__construccion"
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "image#desktop__col1--image--info": {
+        "title": "image cuotas",
+        "props": {
+            "src": "assets/img/tarjeta-icon.jpeg",
+            "blockClass": "desktop__category--image1"
+        }
+    },
+    "image#desktop__col2--image--info": {
+        "title": "image No esperes mas !",
+        "props": {
+            "src": "assets/img/rayo-icon.jpeg",
+            "blockClass": "desktop__category--image2"
+        }
+    },
+    "image#desktop__col3--image--info": {
+        "title": "image service e instalacion",
+        "props": {
+            "src": "assets/img/martillo-icon.jpeg",
+            "blockClass": "desktop__category--image"
+        }
+    },
+    "image#desktop__col4--image--info": {
+        "title": "image Nuestros Locales",
+        "props": {
+            "src": "assets/img/mercado-icon.jpeg",
+            "blockClass": "desktop__category--image"
+        }
+    },
+    "image#desktop__col5--image--info": {
+        "title": "image Nuiestros Catalogos",
+        "props": {
+            "src": "assets/img/libreta-icon.jpeg",
+            "blockClass": "desktop__category--image"
+        }
+    },
+    "image#desktop__col6--image--info": {
+        "title": "image compras por telefono",
+        "props": {
+            "src": "assets/img/telefono-icon.jpeg",
+            "blockClass": "desktop__category--image"
+        }
+    }
+}

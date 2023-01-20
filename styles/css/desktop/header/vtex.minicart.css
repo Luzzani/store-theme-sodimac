@@ -1,0 +1,8 @@
+.minicartQuantityBadge--minicart__v2 {
+    top: .3rem;
+    right: 2rem;
+    background-color: #dd0021;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 1.25rem;
+}

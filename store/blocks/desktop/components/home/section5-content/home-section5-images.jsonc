@@ -1,0 +1,58 @@
+{
+    "image#desktop__col1--image": {
+        "title": "image Bazar",
+        "props": {
+            "src": "assets/img/bazar-icon.jpeg",
+            "blockClass": "desktop__category--image"
+        }
+    },
+    "image#desktop__col2--image": {
+        "title": "image Automóvil",
+        "props": {
+            "src": "assets/img/neumaticos-icon.jpeg",
+            "blockClass": "desktop__category--image"
+        }
+    },
+    "image#desktop__col3--image": {
+        "title": "image Dormitorio",
+        "props": {
+            "src": "assets/img/dormitorio-icon.jpeg",
+            "blockClass": "desktop__category--image"
+        }
+    },
+    "image#desktop__col4--image": {
+        "title": "image Mascotas",
+        "props": {
+            "src": "assets/img/mascotas-icon.jpeg",
+            "blockClass": "desktop__category--image"
+        }
+    },
+    "image#desktop__col5--image": {
+        "title": "image Herramientas",
+        "props": {
+            "src": "assets/img/herramientas-icon.jpeg",
+            "blockClass": "desktop__category--image"
+        }
+    },
+    "image#desktop__col6--image": {
+        "title": "image Pinturas",
+        "props": {
+            "src": "assets/img/pinturas-icon.jpeg",
+            "blockClass": "desktop__category--image"
+        }
+    },
+    "image#desktop__col7--image": {
+        "title": "image Construcción",
+        "props": {
+            "src": "assets/img/construccion-icon.jpeg",
+            "blockClass": "desktop__category--image"
+        }
+    },
+    "image#desktop__col8--image": {
+        "title": "image Ferretería",
+        "props": {
+            "src": "assets/img/ferreteria-icon.jpeg",
+            "blockClass": "desktop__category--image"
+        }
+    }
+}

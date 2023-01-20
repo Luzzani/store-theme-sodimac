@@ -20,7 +20,8 @@
         "title": "title fresh air",
         "props": {
             "text": "## Aire Libre",
-            "blockClass": "section__2--title"        }
+            "blockClass": "section__2--title"
+        }
     },
     "flex-layout.row#section__2--row2": {
         "title": "row images top",
@@ -63,10 +64,10 @@
     "image#row2__image--left": {
         "title": "image left",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blt5f0305bbc66733e4/63a1c5a0be2db12f87053fd4/BannerTWOalto-mueblesext.webp?auto=webp&disable=upscale&quality=70&width=1280",
+            "src": "assets/img/muebles-exterior.jpeg",
             "height": "100%",
             "blockClass": "images--row2",
-            "link":{
+            "link": {
                 "url": "/"
             }
         }
@@ -74,10 +75,10 @@
     "image#row2__image--middle": {
         "title": "image middle",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blt9e6f1fde62185a94/63a1c5a14a0c6e56e77c7ae1/Bannerfive-parrillas.webp?auto=webp&disable=upscale&quality=70&width=1280",
+            "src": "assets/img/camping.jpeg",
             "height": "100%",
             "blockClass": "images--row2",
-            "link":{
+            "link": {
                 "url": "/"
             }
         }
@@ -85,10 +86,10 @@
     "image#row2__image--right": {
         "title": "image right",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blt8a4672a97ad0b276/63a1c5a94a0c6e56e77c7ae5/Bannerfive-iluexterior.webp?auto=webp&disable=upscale&quality=70&width=1280",
+            "src": "assets/img/jardin.jpeg",
             "height": "100%",
             "blockClass": "images--row2",
-            "link":{
+            "link": {
                 "url": "/"
             }
         }
@@ -103,9 +104,9 @@
     "image#row3__image--left": {
         "title": "image row3 left",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/bltf8c54846395938f3/63a1c5a0cfcb030f168fe09c/BannerTWO-iluext.webp?auto=webp&disable=upscale&quality=70&width=1280",
+            "src": "assets/img/iluminacion-exterior.jpeg",
             "blockClass": "images--row2",
-            "link":{
+            "link": {
                 "url": "/"
             }
         }
@@ -113,9 +114,9 @@
     "image#row3__image--right": {
         "title": "image row3 left",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blt7e9914bb3be38d75/63a1c59b66600623830ac67d/BannerTWO-parrillas.webp?auto=webp&disable=upscale&quality=70&width=1280",
+            "src": "assets/img/parrillas.jpeg",
             "blockClass": "images--row2",
-            "link":{
+            "link": {
                 "url": "/"
             }
         }

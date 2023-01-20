@@ -1,0 +1,27 @@
+.profileIcon--login__desktop {
+    width: 31px;
+    height: 31px;
+}
+
+.arrowUp {
+    background-color: #fff !important;
+}
+
+.content .content--loginOptions {
+    background-color: #fff;
+}
+
+.contentContainer .content {
+    background-color: #fff;
+}
+
+.dontHaveAccount,
+.formLinkContainer .forgotPasswordLink,
+.formFooter .backButton {
+    color: #0072ce
+}
+
+
+.contentContainer .content .formFooter .button {
+    background-color: #ac0111;
+}
