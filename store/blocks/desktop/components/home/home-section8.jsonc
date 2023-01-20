@@ -1,0 +1,47 @@
+{
+    "flex-layout.col#home__section-8--desktop": {
+        "title": "section 8 col",
+        "children": [
+            "rich-text#section8__text--title",
+            "rich-text#section8__text--content",
+            "rich-text#section8__text--content2",
+            "link#boton__arrepentimiento"
+        ]
+    },
+    "rich-text#section8__text--title": {
+        "title": "section 8 text",
+        "props": {
+            "text": "# Juntos construyendo sueños de hogar",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "section8__text--title"
+        }
+    },
+    "rich-text#section8__text--content": {
+        "title": "section 8 text",
+        "props": {
+            "text": "Encontrá en **Sodimac.com.ar** todo para el **mejorar el Hogar** al mejor precio, miles de productos <br> exclusivos en [Construcción](/), **[Terminaciones](/)**, [Pisos](/), **[Revestimientos](/)**, [Herramientas](/), **[Maquinarias](/)**, [Plomería](/), **[Electricidad](/)**, <br> [Baño](/), **[Cocina](/)**, [Electrohogar](/), [Muebles](/), **[Decoración](/)**, [Organización](/), **[Limpieza](/)**, [Automóvil](/), **[Aire libre](/)**, [Jardín](/), **[Servicios de Hogar](/)** y [Alquiler de Herramientas](/). Conocé nuestros beneficios bancarios con [Banco Francés](/), [Banco Provincia](/) y [Banco Santander](/).",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "section8__text--content"
+        }
+    },
+    "rich-text#section8__text--content2": {
+        "title": "section 8 text 2",
+        "props": {
+            "text": "Además conocé toda la [financiación](/).",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "section8__text--bottom"
+        }
+    },
+    "link#boton__arrepentimiento": {
+        "title": "boton arrepentimiento",
+        "props": {
+            "href": "/",
+            "displayMode": "button",
+            "label": "Botón de arrepentimiento",
+            "blockClass": "boton__arrepentimiento"
+        }
+    }
+}

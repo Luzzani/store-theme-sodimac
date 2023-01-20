@@ -1,4 +1,96 @@
-/* Example desktop:
-.styledLinkContainer {
-    margin: 0 12px;
-} */
+.styledLinkContainer--menu__item--top--first {
+    font-weight: bolder;
+}
+
+.styledLinkContainer--menu__item--top {
+    margin-left: .5rem;
+    margin-right: 0;
+    color: #333;
+}
+
+.styledLinkContainer--department__menu--desktop {
+    margin: 0;
+}
+
+.styledLinkContent--department__menu--desktop {
+    font-size: 10px;
+    white-space: break-spaces;
+    text-align: center;
+    line-height: 15px;
+    color: #000000;
+}
+
+.submenuWrapper--department1__materiales--contruccion--isOpen {
+    transform: translateX(-16px) translateY(17px);
+}
+
+.submenuWrapper--department2__materiales--contruccion--isOpen {
+    transform: translateX(-148px) translateY(17px);
+    background-color: #fff;
+}
+
+.submenuWrapper--department3__materiales--contruccion--isOpen {
+    transform: translateX(-297px) translateY(17px);
+    background-color: #fff;
+}
+
+.submenuWrapper--department4__materiales--contruccion--isOpen {
+    transform: translateX(-435px) translateY(17px);
+    background-color: #fff;
+}
+
+.submenuWrapper--department5__materiales--contruccion--isOpen {
+    transform: translateX(-554px) translateY(17px);
+    background-color: #fff;
+}
+
+.submenuWrapper--department6__materiales--contruccion--isOpen {
+    transform: translateX(-700px) translateY(17px);
+    background-color: #fff;
+}
+
+.submenuWrapper--department7__materiales--contruccion--isOpen {
+    transform: translateX(-822px) translateY(17px);
+    background-color: #fff;
+}
+
+.submenuWrapper--department8__materiales--contruccion--isOpen {
+    transform: translateX(-977px) translateY(17px);
+    background-color: #fff;
+}
+
+.submenuWrapper--department9__materiales--contruccion--isOpen {
+    transform: translateX(-1113px) translateY(32px);
+    background-color: #fff;
+}
+
+.submenuWrapper--department10__materiales--contruccion--isOpen {
+    transform: translateX(-1204px) translateY(17px);
+    background-color: #fff;
+}
+
+
+.submenuWrapper--department1__materiales--contruccion--isOpen,
+.menuContainerNav--department1__materiales--construccion,
+.menuItem--department__menu--desktop--isOpen {
+    background-color: #fff;
+}
+
+.menuItem--department__menu--desktop--isClosed,
+.menuItem--department__menu--desktop--isOpen {
+    padding: 1rem;
+    height: 100%;
+}
+
+.menuItem--department__menu--desktop--isOpen:hover {
+    box-shadow: 0 0 0.625rem 0.0625rem rgb(0 0 0 / 20%);
+}
+
+.styledLinkContent--department__category {
+    color: #0072ce;
+    font-size: 12px;
+}
+
+.styledLinkContent--department__category--submenu {
+    font-size: 12px;
+}

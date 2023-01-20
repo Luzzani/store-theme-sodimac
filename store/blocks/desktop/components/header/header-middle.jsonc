@@ -1,0 +1,41 @@
+{
+    "logo#header__middle--logo": {
+        "title": "logo header desktop",
+        "props": {
+            "width": 165,
+            "height": 26,
+            "mobileWidth": 90,
+            "mobileHeight": 32,
+            "href": "/",
+            "url": "assets/img/sodimac-logo.png",
+            "blockClass": "header__middle--logo"
+        }
+    },
+    "search-bar#header__middle--desktop": {
+        "title": "search-bar",
+        "blocks": [
+            "autocomplete-result-list.v2"
+        ],
+        "props": {
+            "placeholder": "¿Qué estás buscando?"
+        }
+    },
+    "rich-text#location": {
+        "title": "futura geolocalizacion",
+        "props": {
+            "text": "En donde estas"
+        }
+    },
+    "login#login__desktop": {
+        "title": "login en desktop",
+        "props": {
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "Ingresa tu correo electrónico",
+            "passwordPlaceholder": "Ingresa tu contraseña",
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile": true,
+            "iconLabel": "Mi Cuenta",
+            "blockClass": "nopuedo"
+        }
+    }
+}

@@ -2,7 +2,7 @@
     "image#row2__image--one": {
         "title": "section 2 image one ",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blt4e54bc5c37b6f3ed/63a1c5a0a937a810c29d0233/BannerTWO-mueblesext-mb.webp?auto=webp&disable=upscale&quality=70&width=720",
+            "src": "assets/img/muebles-exterior-mobile.jpeg",
             "blockClass": "images--row2--phone",
             "link": {
                 "url": "/"
@@ -12,7 +12,7 @@
     "image#row2__image--two--left": {
         "title": "section 2 image two left ",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blt9bbf5325cb689fbf/63a1c5a0b006bb10a289313e/Bannerfive-parrillas-mb.webp?auto=webp&disable=upscale&quality=70&width=720",
+            "src": "assets/img/camping-mobile.jpeg",
             "blockClass": ["images--row2--phone", "image__section2--row2"],
             "link": {
                 "url": "/"
@@ -22,7 +22,7 @@
     "image#row2__image--two--right": {
         "title": "section 2 image two right ",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/bltdb2d0075d740a83f/63a1c5a0addc6f6850c5a810/Bannerfive-iluexterior-mb.webp?auto=webp&disable=upscale&quality=70&width=720",
+            "src": "assets/img/jardin-mobile.jpeg",
             "blockClass": ["images--row2--phone", "image__section2--row2"],
             "width": "100%",
             "link": {
@@ -33,7 +33,7 @@
     "image#row2__image--three": {
         "title": "section 2 image three",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blt94b048acc067f069/63a1c59b221b8b684a7b0448/BannerTWO-iluext-mb.webp?auto=webp&disable=upscale&quality=70&width=720",
+            "src": "assets/img/iluminacion-exterior-mobile.jpeg",
             "link": {
                 "url": "/"
             },
@@ -43,7 +43,7 @@
     "image#row2__image--four": {
         "title": "section 2 image three",
         "props": {
-            "src": "https://images.sodimac.com/v3/assets/blt81efde09fd00e46f/blt12131cdc79d30284/63a1c5a97760ab1f00afec72/BannerTWO-parrillas-mb.webp?auto=webp&disable=upscale&quality=70&width=720",
+            "src": "assets/img/parrillas-mobile.jpeg",
             "link": {
                 "url": "/"
             },

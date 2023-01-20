@@ -16,7 +16,7 @@
 
 .flexCol--section6__desktop--col {
     max-width: 185px;
-    max-height: 162px;
+    max-height: 152px;
     background-color: #ffffff;
 }
 
@@ -24,17 +24,28 @@
     background-color: #fff;
 }
 
+.flexCol--home__section--2,
 .flexCol--home__section-1 {
-    max-width: 1080px !important;
+    max-width: 1180px !important;
 }
 
-.flexCol--home__section--2 {
-    max-width: 1080px !important;
+.flexRowContent--home__section-8--desktop,
+.flexRow--home__section--3 {
+    max-width: 1180px !important;
+    margin: 0 auto;
 }
 
 .flexRowContent--section6__row2--desktop {
-    max-width: 1080px;
+    max-width: 1180px;
     margin: 0 auto;
     margin-top: 20px;
     justify-content: space-between;
+}
+.flexRowContent--home__section-8--desktop :global(.vtex-flex-layout-0-x-flexColChild){
+    display: flex;
+    justify-content: center;
+}
+
+.flexRow--home__section-8--desktop {
+    margin-top: 1rem;
 }

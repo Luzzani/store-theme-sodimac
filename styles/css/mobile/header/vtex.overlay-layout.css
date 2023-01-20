@@ -1,0 +1,10 @@
+/* .popper--overlay-search {
+
+} */
+
+.container--overlay-search {
+    background-color: #fff;
+    width: 100vw;
+    height: 45px;
+    transform: translateY(-35px);
+}

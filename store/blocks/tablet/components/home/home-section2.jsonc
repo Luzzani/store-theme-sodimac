@@ -7,8 +7,9 @@
         "props": {
             "rowGap": 6,
             "colGap": 4,
-            "width": "70%",
-            "marginTop": 8
+            // "width": "70%",
+            "marginTop": 8,
+            "blockClass": "home__section-2--tablet"
         }
     },
     "flex-layout.col#home__section--2--tablet": {
@@ -29,6 +30,10 @@
         "title": "title fresh air tablet",
         "props": {
             "text": "### Aire Libre",
-            "blockClass": "section__2--title--tablet"        }
+            "blockClass": [
+                "section__3--title",
+                "section__2--title--tablet"
+            ]
+        }
     }
 }

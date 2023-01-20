@@ -380,9 +380,9 @@
         "letterSpacing": "0"
       },
       "mini": {
-        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Lato-Regular",
         "fontWeight": "normal",
-        "fontSize": "0.75rem",
+        "fontSize": "10px",
         "textTransform": "initial",
         "letterSpacing": "0"
       },

@@ -5,6 +5,12 @@
       "slider-layout#section__1--banner--tablet"
     ]
   },
+  "flex-layout.row#home__section-3--tablet": {
+    "title": "section 3 tablet",
+    "children": [
+      "flex-layout.col#home__section3--col"
+    ]
+  },
   "flex-layout.row#home__section-4--tablet": {
     "title": "section 4 Mantente fresco tablet",
     "children": [

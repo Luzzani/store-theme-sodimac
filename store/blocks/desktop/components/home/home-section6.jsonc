@@ -1,56 +1,21 @@
 {
-    "link#info1": {
+    "link#image__section6": {
+        "title": "link whit image section 6",
         "children": [
-            "flex-layout.col#section6__desktop--col1"
+            "image#section6__image--desktop"
         ],
         "props": {
             "href": "/",
-            "blockClass": "link__col1--category--images"
+            "blockClass": "link__image--section6"
         }
     },
-    "link#info2": {
-        "children": [
-            "flex-layout.col#section6__desktop--col2"
-        ],
+    "image#section6__image--desktop": {
+        "title": "image descarga nuestra app",
         "props": {
-            "href": "/",
-            "blockClass": "link__col1--category--images"
-        }
-    },
-    "link#info3": {
-        "children": [
-            "flex-layout.col#section6__desktop--col3"
-        ],
-        "props": {
-            "href": "/",
-            "blockClass": "link__col1--category--images"
-        }
-    },
-    "link#info4": {
-        "children": [
-            "flex-layout.col#section6__desktop--col4"
-        ],
-        "props": {
-            "href": "/",
-            "blockClass": "link__col1--category--images"
-        }
-    },
-    "link#info5": {
-        "children": [
-            "flex-layout.col#section6__desktop--col5"
-        ],
-        "props": {
-            "href": "/",
-            "blockClass": "link__col1--category--images"
-        }
-    },
-    "link#info6": {
-        "children": [
-            "flex-layout.col#section6__desktop--col6"
-        ],
-        "props": {
-            "href": "/",
-            "blockClass": "link__col1--category--images"
+            "src": "assets/img/banner-descarga.jpeg",
+            "maxWidth": "1180px",
+            "width": "100%",
+            "blockClass": "images--row2"
         }
     }
 }
