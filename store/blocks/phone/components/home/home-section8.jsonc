@@ -1,0 +1,66 @@
+{
+    "flex-layout.row#home__section-8--phone": {
+        "title": "section 8 boton de arrepentimiento",
+        "children": [
+            "flex-layout.col#home__section-8--phone"
+        ],
+        "props": {
+            "marginTop": 10,
+            "blockClass": "home__section-8--desktop"
+        }
+    },
+    "flex-layout.col#home__section-8--phone": {
+        "title": "section 8 col",
+        "children": [
+            "rich-text#section8__text--title--phone",
+            "rich-text#section8__text--content--phone",
+            "rich-text#section8__text--content2--phone",
+            "link#boton__arrepentimiento--phone"
+        ]
+    },
+    "rich-text#section8__text--title--phone": {
+        "title": "section 8 text",
+        "props": {
+            "text": "# Juntos construyendo sueños de hogar",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "section8__text--title",
+                "section8__text--title--phone"
+            ]
+        }
+    },
+    "rich-text#section8__text--content--phone": {
+        "title": "section 8 text",
+        "props": {
+            "text": "Encontrá en **Sodimac.com.ar** todo para el **mejorar el Hogar** al mejor precio, miles de productos exclusivos en [Construcción](/), **[Terminaciones](/)**, [Pisos](/), **[Revestimientos](/)**, [Herramientas](/), **[Maquinarias](/)**, [Plomería](/), **[Electricidad](/)**, [Baño](/), **[Cocina](/)**, [Electrohogar](/), [Muebles](/), **[Decoración](/)**, [Organización](/), **[Limpieza](/)**, [Automóvil](/), **[Aire libre](/)**, [Jardín](/), **[Servicios de Hogar](/)** y [Alquiler de Herramientas](/). Conocé nuestros beneficios bancarios con [Banco Francés](/), [Banco Provincia](/) y [Banco Santander](/).",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "section8__text--content",
+                "section8__text--content--phone"
+            ]
+        }
+    },
+    "rich-text#section8__text--content2--phone": {
+        "title": "section 8 text 2",
+        "props": {
+            "text": "Además conocé toda la [financiación](/).",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "section8__text--bottom",
+                "section8__text--content--phone"
+            ]
+        }
+    },
+    "link#boton__arrepentimiento--phone": {
+        "title": "boton arrepentimiento",
+        "props": {
+            "href": "/",
+            "displayMode": "button",
+            "label": "Botón de arrepentimiento",
+            "blockClass": "boton__arrepentimiento"
+        }
+    }
+}

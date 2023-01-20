@@ -46,5 +46,19 @@
 
 .paragraph--section8__text--content {
     max-width: 83.333%;
+    font-weight: 400;
     margin: 0 auto;
+    color: #585858;
+    line-height: 1.7rem;
+}
+
+.link--section8__text--bottom,
+.link--section8__text--content {
+    text-decoration: none;
+    color: #0072ce
+}
+
+.link--section8__text--bottom:hover,
+.link--section8__text--content:hover {
+    text-decoration: underline;
 }

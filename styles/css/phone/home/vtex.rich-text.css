@@ -12,3 +12,16 @@
     transform: translateY(-10px);
     margin-bottom: 10px;
 }
+
+.paragraph--section8__text--content.paragraph--section8__text--content--phone {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.wrapper--section8__text--content--phone .paragraph--section8__text--bottom {
+    font-size: 14px;
+}
+
+.headingLevel1--section8__text--title.headingLevel1--section8__text--title--phone {
+    font-size: 17px;
+}

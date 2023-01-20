@@ -20,7 +20,7 @@
     "rich-text#section8__text--content": {
         "title": "section 8 text",
         "props": {
-            "text": "Encontrá en **Sodimac.com.ar** todo para el mejorar el Hogar al mejor precio, miles de productos exclusivos en Construcción, Terminaciones, Pisos, Revestimientos, Herramientas, Maquinarias, Plomería, Electricidad, Baño, Cocina, Electrohogar, Muebles, Decoración, Organización, Limpieza, Automóvil, Aire libre, Jardín, Servicios de Hogar y Alquiler de Herramientas. Conocé nuestros beneficios bancarios con Banco Francés, Banco Provincia y Banco Santander.",
+            "text": "Encontrá en **Sodimac.com.ar** todo para el **mejorar el Hogar** al mejor precio, miles de productos <br> exclusivos en [Construcción](/), **[Terminaciones](/)**, [Pisos](/), **[Revestimientos](/)**, [Herramientas](/), **[Maquinarias](/)**, [Plomería](/), **[Electricidad](/)**, <br> [Baño](/), **[Cocina](/)**, [Electrohogar](/), [Muebles](/), **[Decoración](/)**, [Organización](/), **[Limpieza](/)**, [Automóvil](/), **[Aire libre](/)**, [Jardín](/), **[Servicios de Hogar](/)** y [Alquiler de Herramientas](/). Conocé nuestros beneficios bancarios con [Banco Francés](/), [Banco Provincia](/) y [Banco Santander](/).",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "blockClass": "section8__text--content"
@@ -29,9 +29,10 @@
     "rich-text#section8__text--content2": {
         "title": "section 8 text 2",
         "props": {
-            "text": "Además conocé toda la financiación.",
+            "text": "Además conocé toda la [financiación](/).",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": "section8__text--bottom"
         }
     },
     "link#boton__arrepentimiento": {

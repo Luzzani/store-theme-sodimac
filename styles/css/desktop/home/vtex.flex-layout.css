@@ -45,3 +45,7 @@
     display: flex;
     justify-content: center;
 }
+
+.flexRow--home__section-8--desktop {
+    margin-top: 1rem;
+}

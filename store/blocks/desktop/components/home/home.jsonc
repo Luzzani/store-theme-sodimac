@@ -94,6 +94,7 @@
       "flex-layout.col#home__section-8--desktop"
     ],
     "props": {
+      "marginTop": 10,
       "blockClass": "home__section-8--desktop"
     }
   }
