@@ -34,7 +34,8 @@
             "passwordPlaceholder": "Ingresa tu contraseña",
             "showPasswordVerificationIntoTooltip": true,
             "showIconProfile": true,
-            "iconLabel": "Mi Cuenta"
+            "iconLabel": "Mi Cuenta",
+            "blockClass": "nopuedo"
         }
     }
 }

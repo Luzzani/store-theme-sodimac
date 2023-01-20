@@ -4,6 +4,7 @@
   --secondary-color: #e56a54;
 }
 
+/* primer slider del home */
 :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
   background-color: #ffffff !important;
   padding: 1rem;
@@ -36,10 +37,31 @@
   width: 35vw;
 }
 
+
+/* barra de búsqueda mobile */
+
 :global(.vtex-overlay-layout-0-x-container) :global(.vtex-store-components-3-x-searchBarContainer) {
   width: 100%;
   max-width: 1024px;
+  height: 64px;
   transform: translateY(-15px);
+  padding: 0;
+}
+
+:global(.vtex-store-header-2-x-headerStickyRow--header__mobile) :global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-input-prefix__group) {
+  height: 64px;
+  border: none;
+}
+
+:global(.vtex-store-header-2-x-headerStickyRow--header__mobile):global(.vtex-store-components-3-x-searchBarIcon--search) {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+
+:global(.vtex-store-header-2-x-headerStickyRow--header__mobile):global(.vtex-styleguide-9-x-input) {
+  padding-left: 40px;
+  font-size: 16px;
 }
 
 :global(.vtex-input__suffix),
@@ -70,6 +92,8 @@
   color: #000;
 }
 
+/* login desktop */
+
 :global(.vtex-login-2-x-label) {
   text-transform: none;
   padding-left: 0;
@@ -84,6 +108,27 @@
 :global(.vtex-login-2-x-container) :global(.vtex-button__label) {
   padding-right: 0;
 }
+
+:global(.vtex-login-2-x-box) {
+  right: -60px !important;
+}
+
+:global(.vtex-login-2-x-sendButton) :global(.vtex-button),
+:global(.vtex-login-2-x-content):global(.vtex-login-2-x-content--loginOptions) :global(.vtex-button) {
+  background-color: #dd0021;
+  color: #fff;
+  text-transform: none;
+  font-size: 16px;
+  border-color: #dd0021;
+}
+
+:global(.vtex-login-2-x-sendButton) :global(.vtex-button):hover,
+:global(.vtex-login-2-x-content):global(.vtex-login-2-x-content--loginOptions) :global(.vtex-button):hover {
+  background-color: #ac0111;
+  border-color: #ac0111;
+}
+
+/* vitrina home*/
 
 :global(.vtex-reviews-and-ratings-3-x-inlineContainer) {
   margin: 0;

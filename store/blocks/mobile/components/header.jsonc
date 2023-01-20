@@ -1,6 +1,6 @@
 {
-    "header-row#header__top--mobile": {
-        "title": "header superior mobile",
+    "header-row#header__mobile": {
+        "title": "header mobile",
         "children": [
             "mega-menu-trigger-btn",
             "logo#header__top--mobile",
