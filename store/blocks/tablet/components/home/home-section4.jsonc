@@ -12,7 +12,7 @@
         "title": "section 4 title tablet Mantente Fresco",
         "props": {
             "text": "### Mantente Fresco",
-            "blockClass": "section__2--title"
+            "blockClass": "section__3--title"
         }
     }
 }

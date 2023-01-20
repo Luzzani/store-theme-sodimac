@@ -90,8 +90,9 @@
   transform: translateY(-20px);
 }
 
-:global(.vtex-product-summary-2-x-productBrand) {
+:global(.vtex-product-summary-2-x-brandName):global(.vtex-product-summary-2-x-productBrand) {
   font-size: 14px;
+  text-align: left;
 }
 
 :global(.vtex-product-summary-2-x-nameContainer) {

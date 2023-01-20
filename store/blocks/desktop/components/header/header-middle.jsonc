@@ -7,11 +7,10 @@
             "mobileWidth": 90,
             "mobileHeight": 32,
             "href": "/",
-            "url": "https://nebula-cdn.kampyle.com/wu/577410/resources/image/1573231420458_sodimacps.png",
+            "url": "assets/img/sodimac-logo.png",
             "blockClass": "header__middle--logo"
         }
     },
-  
     "search-bar#header__middle--desktop": {
         "title": "search-bar",
         "blocks": [

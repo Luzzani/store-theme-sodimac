@@ -4,6 +4,7 @@
         "children": [
             "rich-text#section3__title",
             "list-context.product-list"
+            // "search-result-layout.customQuery#header-search"
         ]
     },
     "rich-text#section3__title": {
@@ -42,7 +43,7 @@
             "querySchema": {
                 "skusFilter": "ALL",
                 "simulationBehavior": "skip",
-                "maxItemsPerPage": 5
+                "maxItemsPerPage": 4
             }
         },
         "blocks": [
@@ -88,7 +89,6 @@
             "product-summary-name",
             "product-rating-inline",
             "product-selling-price",
-            // "add-to-cart-button",
             "link.product#product__button--desktop"
         ],
         "props": {

@@ -1,4 +1,4 @@
-.element--search__result--shelf {
+.element--home__plp--mobile {
     height: 410px;
     max-width: 190px;
     justify-content: space-between;
@@ -6,13 +6,14 @@
     align-items: flex-start;
     padding: 0 .3rem 0 .3rem;
     border-radius: 0;
+    margin: 0 auto;
 }
 
-.containerNormal--search__result--shelf {
+.containerNormal--home__plp--mobile {
     border-radius: 0.1875rem;
 }
 
-.element--search__result--shelf :global(.vtex-product-summary-2-x-imageNormal) {
+.element--home__plp--mobile :global(.vtex-product-summary-2-x-imageNormal) {
     padding-top: .5rem;
     height: 172px;
     width: 100%;

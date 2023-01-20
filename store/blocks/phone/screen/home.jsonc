@@ -5,7 +5,7 @@
       "flex-layout.row#home__section--financing--mobile",
       "flex-layout.row#phone__home__section-1",
       "flex-layout.row#home__section-2--phone",
-      // "flex-layout.row#home__section-3--phone",
+      "flex-layout.row#home__section-3--tablet",
       "flex-layout.row#home__section-4--phone",
       "flex-layout.row#home__section-5--phone",
       "flex-layout.row#home__section-6--phone",

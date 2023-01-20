@@ -24,14 +24,12 @@
     background-color: #fff;
 }
 
+.flexCol--home__section--2,
 .flexCol--home__section-1 {
     max-width: 1180px !important;
 }
 
-.flexCol--home__section--2 {
-    max-width: 1180px !important;
-}
-
+.flexRowContent--home__section-8--desktop,
 .flexRow--home__section--3 {
     max-width: 1180px !important;
     margin: 0 auto;
@@ -42,4 +40,8 @@
     margin: 0 auto;
     margin-top: 20px;
     justify-content: space-between;
+}
+.flexRowContent--home__section-8--desktop :global(.vtex-flex-layout-0-x-flexColChild){
+    display: flex;
+    justify-content: center;
 }

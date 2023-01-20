@@ -1,0 +1,21 @@
+{
+    "link#image__section6": {
+        "title": "link whit image section 6",
+        "children": [
+            "image#section6__image--desktop"
+        ],
+        "props": {
+            "href": "/",
+            "blockClass": "link__image--section6"
+        }
+    },
+    "image#section6__image--desktop": {
+        "title": "image descarga nuestra app",
+        "props": {
+            "src": "assets/img/banner-descarga.jpeg",
+            "maxWidth": "1180px",
+            "width": "100%",
+            "blockClass": "images--row2"
+        }
+    }
+}
