@@ -17,9 +17,7 @@
             "flex-layout.col#footer__desktop--4"
         ],
         "props": {
-            "blockClass": "footer__desktop--middle",
-            "marginTop": 6
-        }
+            "blockClass": "footer__desktop--middle"        }
     },
     "flex-layout.row#footer__desktop--bottom": {
         "title": "row footer bottom",
@@ -27,8 +25,6 @@
             "flex-layout.col#all-rights-reserverd"
         ],
         "props": {
-            "blockClass": "footer__desktop--bottom",
-            "marginTop": 6
-        }
+            "blockClass": "footer__desktop--bottom"        }
     }
 }

@@ -1,7 +1,8 @@
 .flexRowContent--footer__desktop--middle {
     transform: translateY(20px);
     justify-content: center;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 .flexRowContent--footer__desktop--middle :global(.vtex-flex-layout-0-x-flexCol) {
@@ -18,12 +19,13 @@
 
 .flexRow--footer__desktop--bottom {
     background-color: #fff;
+    padding: 1rem 0;
 }
 
 .flexRow--footer__desktop--top {
     border-top: .0625rem solid #e1e1e1;
     background-color: #fff;
-    padding-bottom: 4rem;
+    padding-bottom: 5rem;
 }
 
 .flexRow--footer__desktop--middle::before {
@@ -65,4 +67,11 @@
 }
 .flexRowContent--footer__desktop--bottom {
     padding-bottom: 2rem;
+}
+
+.flexRowContent--social__networks--row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
 }

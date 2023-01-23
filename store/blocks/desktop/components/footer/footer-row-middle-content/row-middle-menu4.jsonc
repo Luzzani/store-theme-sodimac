@@ -48,31 +48,38 @@
     "flex-layout.row#social-networks": {
         "title": "social networks footer",
         "children": [
-            "social-networks"
-        ]
-    },
-    "social-networks": {
-        "title": "social networks icons",
+            "icon#facebook",
+            "icon#youtube",
+            "icon#pinterest",
+            "icon#instagram"
+        ],
         "props": {
-            "blockClass": "social__networks--footer",
-            "socialNetworks": [
-                {
-                    "url": "https://facebook.com",
-                    "name": "Facebook"
-                },
-                {
-                    "url": "https://youtube.com",
-                    "name": "Youtube"
-                },
-                {
-                    "url": "https://pinterest.com",
-                    "name": "Pinterest"
-                },
-                {
-                    "url": "https://instagram.com",
-                    "name": "Instagram"
-                }
-            ]
+            "blockClass": "social__networks--row"
+        }
+    },
+    "icon#facebook": {
+        "props": {
+            "id": "hpa-facebook",
+            "size": 37,
+            "activeClassName": "icon__facebook"
+        }
+    },
+    "icon#youtube": {
+        "props": {
+            "id": "hpa-youtube",
+            "size": 32
+        }
+    },
+    "icon#pinterest": {
+        "props": {
+            "id": "hpa-pinterest",
+            "size": 39
+        }
+    },
+    "icon#instagram": {
+        "props": {
+            "id": "hpa-instagram",
+            "size": 40
         }
     }
 }
