@@ -3,7 +3,7 @@
 }
 
 .menuItem--footer__menu--countries {
-    transform: translateY(17px);
+    transform: translateY(27px);
     border: 2px solid transparent;
     border-radius: 5px;
 }
@@ -24,4 +24,7 @@
 .styledLinkContainer--footer__menu--countries {
     padding: 0;
     margin: 0;
+}
+.menuItem--footer__menu--countries--isOpen :global(.vtex-menu-2-x-submenuWrapper--isOpen){
+    background-color: #fff;
 }

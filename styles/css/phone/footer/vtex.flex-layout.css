@@ -25,3 +25,8 @@
 .flexRowContent--footer__tablet--bottom :global(.vtex-flex-layout-0-x-flexRowContent--all-rights-reserved) {
     display: flex;
 }
+
+.flexCol--footer__phone--col  {
+    padding-top: 1rem;
+    gap: .5rem;
+}
