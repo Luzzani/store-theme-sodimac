@@ -18,7 +18,8 @@
     border: transparent;
     background-color: #399f4a;
 }
-
-.buttonLink--telephone__sales::before {
-    content: "\E932";
+.childrenContainer--telephone__sales {
+    position: relative;
+    left: -65px;
+    top: -35px;
 }

@@ -2,6 +2,7 @@
     background-color: #fff;
     border-top: .0625rem solid #e1e1e1;
     border-bottom: .0625rem solid #e1e1e1;
+    padding: 25px 0;
 }
 
 .flexRow--footer__tablet--bottom :global(.vtex-flex-layout-0-x-flexRow--all-rights-reserved) {
@@ -28,7 +29,7 @@
     height: 10px;
     background-color: #fff;
     position: absolute;
-    transform: translateY(-11px);
+    transform: translateY(-36px);
 }
 
 .flexRowContent--footer__tablet--top {

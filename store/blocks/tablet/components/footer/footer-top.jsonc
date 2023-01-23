@@ -6,6 +6,16 @@
             "displayMode": "button",
             "label": "Venta telefónica",
             "blockClass": "telephone__sales"
+        },
+        "children": [
+            "icon#telephone"
+        ]
+    },
+    "icon#telephone": {
+        "props": {
+            "id": "hpa-telephone",
+            "size": 19,
+            "activeClassName": "icon__telephone"
         }
     }
 }

@@ -152,10 +152,6 @@
   visibility: visible;
 }
 
-/* social networks en footer */
-
-:global(.vtex-store-footer-2-x-socialNetworkLink) {
-  margin-top: 0;
-  border-radius: 10px;
-  background-color: #333;
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child:first-child {
+  transform: translateY(-3px);
 }
