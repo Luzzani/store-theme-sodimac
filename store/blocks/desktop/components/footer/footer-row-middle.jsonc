@@ -1,0 +1,55 @@
+{
+    "flex-layout.col#footer__desktop--1": {
+        "title": "footer medio columna 1",
+        "children": [
+            "menu-item#customer-service",
+            "menu-item#legal",
+            "menu-item#privacy",
+            "menu-item#terms-and-conditions",
+            "menu-item#consumer-defense",
+            "menu-item#sodimac-companies"
+        ],
+        "props": {
+            "width": "21%"
+        }
+    },
+    "flex-layout.col#footer__desktop--2": {
+        "title": "footer medio columna 2",
+        "children": [
+            "flex-layout.row#column2__title",
+            "menu-item#recover-my-password",
+            "flex-layout.row#column2__duo",
+            "menu-item#order-tracking"
+        ],
+        "props": {
+            "width": "21%"
+        }
+    },
+    "flex-layout.col#footer__desktop--3": {
+        "title": "footer medio columna 3",
+        "children": [
+            "flex-layout.row#column3__title",
+            "menu-item#accountability",
+            "menu-item#integrity-channel",
+            "menu-item#code-of-ethics",
+            "menu-item#anti-bribery-policy",
+            "menu-item#free-competition-policy",
+            "menu-item#prevention-policy"
+        ],
+        "props": {
+            "width": "21%"
+        }
+    },
+    "flex-layout.col#footer__desktop--4": {
+        "title": "footer medio columna 4",
+        "children": [
+            "menu-item#download-app",
+            "menu-item#apple-store",
+            "menu-item#google-play",
+            "flex-layout.row#social-networks"
+        ],
+        "props": {
+            "width": "21%"
+        }
+    }
+}

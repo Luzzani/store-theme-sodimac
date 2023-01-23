@@ -3,6 +3,7 @@
     height: 100px;
     position: fixed;
     bottom: 0;
+    z-index: 9;
 }
 
 .imageElement--images--section2 {

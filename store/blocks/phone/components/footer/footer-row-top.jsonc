@@ -1,0 +1,13 @@
+{
+    "flex-layout.col#footer__phone--col": {
+        "title": "col phone",
+        "children": [
+            "flex-layout.row#social-networks",
+            "link#telephone-sales"
+        ],
+        "props": {
+            "blockClass": "footer__phone--col",
+            "horizontalAlign": "center"
+        }
+    }
+}

@@ -3,7 +3,10 @@
     "title": "TABLET Row whit banner",
     "children": [
       "slider-layout#section__1--banner--tablet"
-    ]
+    ],
+    "props": {
+      "blockClass": "tablet__home--section1"
+    }
   },
   "flex-layout.row#home__section-3--tablet": {
     "title": "section 3 tablet",

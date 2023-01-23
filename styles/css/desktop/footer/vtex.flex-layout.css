@@ -1,0 +1,68 @@
+.flexRowContent--footer__desktop--middle {
+    transform: translateY(20px);
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.flexRowContent--footer__desktop--middle :global(.vtex-flex-layout-0-x-flexCol) {
+    gap: .8rem;
+    font-size: 14px;
+    height: fit-content;
+}
+
+.flexRow--footer__desktop--middle {
+    background-color: #fff;
+    padding-bottom: 1rem;
+    border-bottom: .0625rem solid #e1e1e1;
+}
+
+.flexRow--footer__desktop--bottom {
+    background-color: #fff;
+}
+
+.flexRow--footer__desktop--top {
+    border-top: .0625rem solid #e1e1e1;
+    background-color: #fff;
+    padding-bottom: 4rem;
+}
+
+.flexRow--footer__desktop--middle::before {
+    content: "";
+    width: 100%;
+    height: 40px;
+    background-color: #fafafa;
+    position: absolute;
+    transform: translateY(-21px);
+}
+
+.flexRow--footer__desktop--top::before {
+    content: "";
+    width: 100%;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    transform: translateY(-21px);
+}
+
+.flexRow--footer__desktop--top :global(.vtex-store-components-3-x-container) {
+    max-width: 1180px;
+}
+
+.flexRow--footer__desktop--middle :global(.vtex-store-components-3-x-container) {
+    max-width: 1180px;
+}
+
+.flexRowContent--row__title--item1 {
+    width: 60%;
+}
+
+.flexRowContent--all-rights-reserved {
+    justify-content: center;
+}
+
+.flexRowContent--all-rights-reserved :global(.vtex-flex-layout-0-x-stretchChildrenWidth ){
+    width: auto !important;
+}
+.flexRowContent--footer__desktop--bottom {
+    padding-bottom: 2rem;
+}

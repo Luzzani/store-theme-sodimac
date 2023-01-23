@@ -1,0 +1,9 @@
+{
+    "responsive-layout.tablet#footer__tablet": {
+        "title": "footer layout tablet",
+        "children": [
+            "flex-layout.row#footer__tablet--top",
+            "flex-layout.row#footer__tablet--bottom"
+        ]
+    }
+}

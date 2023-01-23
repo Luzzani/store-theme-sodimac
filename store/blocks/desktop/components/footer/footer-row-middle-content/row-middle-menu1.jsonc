@@ -1,0 +1,87 @@
+{
+    "menu-item#customer-service": {
+        "props": {
+            "id": "customer-service",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Servicio al cliente",
+                "text": "Servicio al cliente"
+            },
+            "blockClass": "first__item--footer"
+        }
+    },
+    "menu-item#legal": {
+        "props": {
+            "id": "legal",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Legales",
+                "text": "Legales"
+            }
+        }
+    },
+    "menu-item#privacy": {
+        "props": {
+            "id": "privacy",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Privacidad",
+                "text": "Privacidad"
+            }
+        }
+    },
+    "menu-item#terms-and-conditions": {
+        "props": {
+            "id": "terms-and-conditions",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Términos y Condiciones",
+                "text": "Términos y Condiciones"
+            }
+        }
+    },
+    "menu-item#consumer-defense": {
+        "props": {
+            "id": "consumer-defense",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Defensa al consumidor",
+                "text": "Defensa al consumidor"
+            }
+        }
+    },
+    "menu-item#sodimac-companies": {
+        "props": {
+            "id": "sodimac-companies",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Sodimac Empresas",
+                "text": "Sodimac Empresas"
+            }
+        }
+    }
+}

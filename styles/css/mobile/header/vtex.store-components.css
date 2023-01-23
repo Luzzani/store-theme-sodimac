@@ -1,3 +1,7 @@
 .logoContainer--header__top--mobile--logo{
     padding: 0;
 }
+
+.logoImage--header__top--mobile--logo {
+    margin-left: 10px!important;
+}

@@ -1,0 +1,9 @@
+.imageElement--argentina__logo {
+ transform: translateY(18px);
+}
+
+.imageElement--data__fiscal--image {
+    width: 100px;
+    padding-bottom: 5rem;
+    transform: translateY(40px);
+}

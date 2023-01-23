@@ -1,0 +1,27 @@
+.flexColChild--footer__phone--col :global(.vtex-store-link-0-x-buttonLink--telephone__sales) {
+    transform: translateX(10px);
+}
+
+.flexColChild--footer__phone--col :global(.vtex-store-footer-2-x-socialNetworksContainer--social__networks--footer) {
+    padding-bottom: 1rem;
+}
+
+.flexRow--footer__phone--row--top {
+    background-color: #fff;
+    border-top: .0625rem solid #e1e1e1;
+    border-bottom: .0625rem solid #e1e1e1;
+    padding-top: 10px;
+}
+
+.flexRow--footer__phone--row--top::before {
+    content: "";
+    width: 100%;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    transform: translateY(-21px);
+}
+
+.flexRowContent--footer__tablet--bottom :global(.vtex-flex-layout-0-x-flexRowContent--all-rights-reserved) {
+    display: flex;
+}
