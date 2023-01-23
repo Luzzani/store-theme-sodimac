@@ -2,11 +2,8 @@
     "minicart.v2": {
         "title": "carrito de compras",
         "props": {
-            "variation": "popup",
-            // "linkVariationUrl": "/",
             "quantityDisplay": "always",
-            "itemCountMode": "total",
-            "blockClass": "minicart__v2"
+            "itemCountMode": "total"
         },
         "children": [
             "minicart-base-content"
@@ -60,6 +57,44 @@
             "text": "El carrito esta vacío",
             "textAlignment": "CENTER",
             "textPosition": "CENTER"
+        }
+    },
+    "minicart-product-list": {
+        "title": "product list minicart",
+        "blocks": [
+            "product-list#minicart"
+        ]
+    },
+    "product-list#minicart": {
+        "title": "product list",
+        "blocks": [
+            "product-list-content-desktop"
+        ]
+    },
+    "product-list-content-desktop": {
+        "title": "product list desktop",
+        "children": [
+            "flex-layout.row#minicart__row--desktop"
+        ]
+    },
+    "flex-layout.row#minicart__row--desktop": {
+        "title": "row minicart content",
+        "children": [
+            "flex-layout.col#minicart__col"
+        ]
+    },
+    "flex-layout.col#minicart__col": {
+        "title": "col image",
+        "children": [
+            "product-list-image",
+            "vtex.product-list:product-name",
+            "quantity-selector#minicart",
+            "price"
+        ]
+    },
+    "quantity-selector#minicart": {
+        "props": {
+            "mode": "stepper"
         }
     }
 }
