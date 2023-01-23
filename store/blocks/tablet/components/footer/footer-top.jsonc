@@ -1,0 +1,11 @@
+{
+    "link#telephone-sales": {
+        "title": "boton venta telefonica",
+        "props": {
+            "href": "/",
+            "displayMode": "button",
+            "label": "Venta telefónica",
+            "blockClass": "telephone__sales"
+        }
+    }
+}

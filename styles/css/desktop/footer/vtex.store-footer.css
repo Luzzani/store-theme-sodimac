@@ -2,3 +2,8 @@
 .flexCol--footer__main--column2{
     padding-bottom: 80px;
 } */
+
+.socialNetworksContainer--social__networks--footer  {
+    justify-content: start;
+    padding-left: 20px;
+}

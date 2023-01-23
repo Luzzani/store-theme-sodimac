@@ -1,0 +1,122 @@
+{
+    "flex-layout.row#column3__title": {
+        "title": "row items middel",
+        "children": [
+            "menu-item#our-company",
+            "menu-item#Sustainability"
+        ]
+    },
+    "menu-item#our-company": {
+        "props": {
+            "id": "our-company",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Nuestra empresa",
+                "text": "Nuestra empresa"
+            },
+            "blockClass": "first__item--footer"
+        }
+    },
+    "menu-item#Sustainability": {
+        "props": {
+            "id": "Sustainability",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Sostenibilidad",
+                "text": "Sostenibilidad"
+            }
+        }
+    },
+    "menu-item#accountability": {
+        "props": {
+            "id": "accountability",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Rendición de cuentas",
+                "text": "Rendición de cuentas"
+            }
+        }
+    },
+    "menu-item#integrity-channel": {
+        "props": {
+            "id": "integrity-channel",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Canal de integridad",
+                "text": "Canal de integridad"
+            }
+        }
+    },
+    "menu-item#code-of-ethics": {
+        "props": {
+            "id": "code-of-ethics",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Código de ética",
+                "text": "Código de ética"
+            }
+        }
+    },
+    "menu-item#anti-bribery-policy": {
+        "props": {
+            "id": "anti-bribery-policy",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Política Antisobornos",
+                "text": "Política Antisobornos"
+            }
+        }
+    },
+    "menu-item#free-competition-policy": {
+        "props": {
+            "id": "free-competition-polic",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Política libre competencia",
+                "text": "Política libre competencia"
+            }
+        }
+    },
+    "menu-item#prevention-policy": {
+        "props": {
+            "id": "prevention-policy",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Política de prevención",
+                "text": "Política de prevención"
+            }
+        }
+    }
+}

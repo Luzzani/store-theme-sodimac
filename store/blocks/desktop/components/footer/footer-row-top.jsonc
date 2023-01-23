@@ -1,0 +1,160 @@
+{
+    "vtex.menu@2.x:menu#footer__countries": {
+        "title": "menu countries",
+        "children": [
+            "image#argentina__logo",
+            "menu-item#footer__countries"
+        ],
+        "props": {
+            "blockClass": "footer__menu--countries"
+        }
+    },
+    "image#argentina__logo": {
+        "title": "argentina image",
+        "props": {
+            "src": "assets/img/bandera-argentina.jpeg",
+            "maxHeight": "20px",
+            "maxWidth": "30px",
+            "blockClass": "argentina__logo"
+        }
+    },
+    "menu-item#footer__countries": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Argentina",
+                "text": "Argentina"
+            },
+            "blockClass": "footer__menu--countries"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#countries"
+        ]
+    },
+    "vtex.menu@2.x:submenu#countries": {
+        "title": "menu countries",
+        "children": [
+            "vtex.menu@2.x:menu#submenucountries"
+        ]
+    },
+    "vtex.menu@2.x:menu#submenucountries": {
+        "title": "menu countries",
+        "children": [
+            "flex-layout.col#menu__countries"
+        ]
+    },
+    "flex-layout.col#menu__countries": {
+        "title": "menu countries",
+        "children": [
+            "menu-item#Chile",
+            "menu-item#Uruguay",
+            "menu-item#Argentina",
+            "menu-item#Colombia",
+            "menu-item#Perú",
+            "menu-item#Brasil",
+            "menu-item#México"
+        ]
+    },
+    "menu-item#Chile": {
+        "props": {
+            "id": "menu-item-chile",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Chile",
+                "text": "Chile"
+            }
+        }
+    },
+    "menu-item#Uruguay": {
+        "props": {
+            "id": "menu-item-uruguay",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Uruguay",
+                "text": "Uruguay"
+            }
+        }
+    },
+    "menu-item#Argentina": {
+        "props": {
+            "id": "menu-item-argentina",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Argentina",
+                "text": "Argentina"
+            }
+        }
+    },
+    "menu-item#Colombia": {
+        "props": {
+            "id": "menu-item-colombia",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Colombia",
+                "text": "Colombia"
+            }
+        }
+    },
+    "menu-item#Perú": {
+        "props": {
+            "id": "menu-item-perú",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Perú",
+                "text": "Perú"
+            }
+        }
+    },
+    "menu-item#Brasil": {
+        "props": {
+            "id": "menu-item-brasil",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Brasil",
+                "text": "Brasil"
+            }
+        }
+    },
+    "menu-item#México": {
+        "props": {
+            "id": "menu-item-méxico",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "México",
+                "text": "México"
+            }
+        }
+    }
+}

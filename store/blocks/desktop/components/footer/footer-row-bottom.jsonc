@@ -1,0 +1,39 @@
+{
+    "flex-layout.col#all-rights-reserverd": {
+        "title": "derechos reservados columna",
+        "children": [
+            "flex-layout.row#all-rights-reserved",
+            "flex-layout.row#data-fiscal"
+        ]
+    },
+    "flex-layout.row#all-rights-reserved": {
+        "title": "row all rights reserved",
+        "children": [
+            "logo#header__top--mobile",
+            "rich-text#all-rights-reserved"
+        ],
+        "props": {
+            "blockClass": "all-rights-reserved"
+        }
+    },
+    "flex-layout.row#data-fiscal": {
+        "title": "row data fiscal",
+        "children": [
+            "image#data-fiscal"
+        ]
+    },
+    "rich-text#all-rights-reserved": {
+        "title": "all rights reserved",
+        "props": {
+            "text": "Todos los derechos reservados Sodimac S.A. 2022",
+            "blockClass": "all__rights-text"
+        }
+    },
+    "image#data-fiscal": {
+        "title": "data fiscal qr",
+        "props": {
+            "src": "assets/img/data-fiscal.jpeg",
+            "blockClass": "data__fiscal--image"
+        }
+    }
+}

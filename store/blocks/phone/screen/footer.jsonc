@@ -1,0 +1,9 @@
+{
+    "responsive-layout.phone#footer__phone": {
+        "title": "footer layout phone",
+        "children": [
+            "flex-layout.row#footer__phone--top",
+            "flex-layout.row#footer__phone--bottom"
+        ]
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "flex-layout.row#column2__title": {
+        "title": "row items middle",
+        "children": [
+            "menu-item#my-acount",
+            "menu-item#register"
+        ],
+        "props": {
+            "blockClass": "row__title--item1"
+        }
+    },
+    "flex-layout.row#column2__duo": {
+        "title": "row items middle",
+        "children": [
+            "menu-item#key-change",
+            "menu-item#virtual-agents"
+        ]
+    },
+    "menu-item#my-acount": {
+        "props": {
+            "id": "my-acount",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Mi cuenta",
+                "text": "Mi cuenta"
+            },
+            "blockClass": "first__item--footer"
+        }
+    },
+    "menu-item#register": {
+        "props": {
+            "id": "register",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Regístrate ahora",
+                "text": "Regístrate ahora"
+            }
+        }
+    },
+    "menu-item#recover-my-password": {
+        "props": {
+            "id": "recover-my-password",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Recuperar mi clave",
+                "text": "Recuperar mi clave"
+            }
+        }
+    },
+    "menu-item#key-change": {
+        "props": {
+            "id": "key-change",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Cambio de clave",
+                "text": "Cambio de clave"
+            }
+        }
+    },
+    "menu-item#virtual-agents": {
+        "props": {
+            "id": "virtual-agents",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Agente Virtual",
+                "text": "Agente Virtual"
+            }
+        }
+    },
+    "menu-item#order-tracking": {
+        "props": {
+            "id": "order-tracking",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Seguimiento de la orden",
+                "text": "Seguimiento de la orden"
+            }
+        }
+    }
+}

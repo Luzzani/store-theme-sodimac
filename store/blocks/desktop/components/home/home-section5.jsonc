@@ -32,6 +32,7 @@
         }
     },
     "link#col1": {
+        "title": "link 1",
         "children": [
             "flex-layout.col#section5__desktop--col1"
         ],
@@ -41,6 +42,7 @@
         }
     },
     "link#col2": {
+        "title": "link 2",
         "children": [
             "flex-layout.col#section5__desktop--col2"
         ],
@@ -50,6 +52,7 @@
         }
     },
     "link#col3": {
+        "title": "link 3",
         "children": [
             "flex-layout.col#section5__desktop--col3"
         ],
@@ -59,6 +62,7 @@
         }
     },
     "link#col4": {
+        "title": "link 4",
         "children": [
             "flex-layout.col#section5__desktop--col4"
         ],
@@ -68,6 +72,7 @@
         }
     },
     "link#col5": {
+        "title": "link 5",
         "children": [
             "flex-layout.col#section5__desktop--col5"
         ],
@@ -77,6 +82,7 @@
         }
     },
     "link#col6": {
+        "title": "link 6",
         "children": [
             "flex-layout.col#section5__desktop--col6"
         ],
@@ -86,6 +92,7 @@
         }
     },
     "link#col7": {
+        "title": "link 7",
         "children": [
             "flex-layout.col#section5__desktop--col7"
         ],
@@ -95,6 +102,7 @@
         }
     },
     "link#col8": {
+        "title": "link 8",
         "children": [
             "flex-layout.col#section5__desktop--col8"
         ],

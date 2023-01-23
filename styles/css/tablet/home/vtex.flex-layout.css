@@ -3,3 +3,7 @@
     height: 125px;
     background-color: #ffffff !important;
 }
+
+.flexRow--tablet__home--section1 :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
