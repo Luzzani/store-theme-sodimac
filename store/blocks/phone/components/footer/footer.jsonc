@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#footer__phone--top": {
+        "title": "row top phone",
+        "children": [
+            "flex-layout.col#footer__phone--col"
+        ],
+        "props": {
+            "blockClass": "footer__phone--row--top",
+            "marginBottom": 6
+        }
+    },
+    "flex-layout.row#footer__phone--bottom": {
+        "title": "row bottom phone",
+        "children": [
+            "flex-layout.col#all-rights-reserverd"
+        ],
+        "props": {
+            "blockClass": "footer__tablet--bottom"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#footer__tablet--top": {
+        "title": "row 1 footer tablet",
+        "children": [
+            "flex-layout.row#social-networks",
+            "link#telephone-sales"
+        ],
+        "props": {
+            "blockClass": "footer__tablet--top"
+        }
+    },
+    "flex-layout.row#footer__tablet--bottom": {
+        "title": "row 2 footer tablet",
+        "children": [
+            "flex-layout.col#all-rights-reserverd"
+        ],
+        "props": {
+            "blockClass": "footer__tablet--bottom"
+        }
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "menu-item#download-app": {
+        "title": "item download",
+        "props": {
+            "id": "download-app",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Descargá nuestra APP",
+                "text": "Descargá nuestra APP"
+            },
+            "blockClass": "first__item--footer"
+        }
+    },
+    "menu-item#apple-store": {
+        "title": "item apple store",
+        "props": {
+            "id": "apple-store",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Apple store",
+                "text": "Apple store"
+            }
+        }
+    },
+    "menu-item#google-play": {
+        "title": "item google play",
+        "props": {
+            "id": "google-play",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Google play",
+                "text": "Google play"
+            }
+        }
+    },
+    "flex-layout.row#social-networks": {
+        "title": "social networks footer",
+        "children": [
+            "social-networks"
+        ]
+    },
+    "social-networks": {
+        "title": "social networks icons",
+        "props": {
+            "blockClass": "social__networks--footer",
+            "socialNetworks": [
+                {
+                    "url": "https://facebook.com",
+                    "name": "Facebook"
+                },
+                {
+                    "url": "https://youtube.com",
+                    "name": "Youtube"
+                },
+                {
+                    "url": "https://pinterest.com",
+                    "name": "Pinterest"
+                },
+                {
+                    "url": "https://instagram.com",
+                    "name": "Instagram"
+                }
+            ]
+        }
+    }
+}

@@ -151,3 +151,11 @@
 :global(.vtex-product-summary-2-x-containerNormal):hover :global(.vtex-store-link-0-x-buttonLink--product__button--desktop) {
   visibility: visible;
 }
+
+/* social networks en footer */
+
+:global(.vtex-store-footer-2-x-socialNetworkLink) {
+  margin-top: 0;
+  border-radius: 10px;
+  background-color: #333;
+}

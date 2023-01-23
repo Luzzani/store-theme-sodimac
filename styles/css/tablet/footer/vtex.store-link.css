@@ -1,0 +1,24 @@
+.buttonLink--telephone__sales {
+    height: 2.5rem;
+    width: 16.9375rem !important;
+    display: inline-block;
+    line-height: 2.5rem;
+    border-radius: 1.25rem;
+    background-color: #399f4a !important;
+    color: #fff;
+    font-size: .875rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    border: transparent;
+    transform: translateX(26px);
+}
+
+.buttonLink--telephone__sales:hover {
+    border: transparent;
+    background-color: #399f4a;
+}
+
+.buttonLink--telephone__sales::before {
+    content: "\E932";
+}

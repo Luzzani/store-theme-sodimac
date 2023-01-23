@@ -1,0 +1,34 @@
+{
+    "flex-layout.row#footer__desktop--top": {
+        "title": "row footer top",
+        "children": [
+            "vtex.menu@2.x:menu#footer__countries"
+        ],
+        "props": {
+            "blockClass": "footer__desktop--top"
+        }
+    },
+    "flex-layout.row#footer__desktop--middle": {
+        "title": "row footer top",
+        "children": [
+            "flex-layout.col#footer__desktop--1",
+            "flex-layout.col#footer__desktop--2",
+            "flex-layout.col#footer__desktop--3",
+            "flex-layout.col#footer__desktop--4"
+        ],
+        "props": {
+            "blockClass": "footer__desktop--middle",
+            "marginTop": 6
+        }
+    },
+    "flex-layout.row#footer__desktop--bottom": {
+        "title": "row footer bottom",
+        "children": [
+            "flex-layout.col#all-rights-reserverd"
+        ],
+        "props": {
+            "blockClass": "footer__desktop--bottom",
+            "marginTop": 6
+        }
+    }
+}
