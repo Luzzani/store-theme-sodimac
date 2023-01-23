@@ -3,13 +3,19 @@
     "title": "PHONE Row with banner",
     "children": [
       "slider-layout#phone__section__1--banner"
-    ]
+    ],
+    "props": {
+      "blockClass": "phone__home__section-1"
+    }
   },
   "flex-layout.row#home__section--financing--mobile": {
     "title": "row financiamiento mobile",
     "children": [
       "image#home__mobile--financing"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section--financing--mobile"
+    }
   },
   "image#home__mobile--financing": {
     "title": "desktop financing gif",
