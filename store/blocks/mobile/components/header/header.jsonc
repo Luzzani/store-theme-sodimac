@@ -36,7 +36,8 @@
             "autocomplete-result-list.v2"
         ],
         "props": {
-            "placeholder": "¿Qué estás buscando?"
+            "placeholder": "¿Qué estás buscando?",
+            "hasIconLeft": true
         }
     },
     "mega-menu-trigger-btn": {
