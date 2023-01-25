@@ -1,0 +1,62 @@
+.flexRowContent--row__breadcrumb :global(.vtex-breadcrumb-1-x-link) {
+    color: #1980cc;
+    font-size: 12px;
+}
+
+.flexRowContent--title__quantity :global(.vtex-search-result-3-x-galleryTitle--layout) {
+    font-size: 28px;
+}
+
+.flexRowContent--title__quantity {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flexRowContent--title__quantity :global(.vtex-search-result-3-x-totalProducts--layout) {
+    font-size: 18px;
+    color: #585858;
+    padding-left: 1rem;
+    text-transform: lowercase;
+    font-weight: lighter;
+}
+
+.flexRowContent--title__quantity :global(.vtex-search-result-3-x-totalProducts--layout)::after {
+    content: ")";
+}
+
+.flexRowContent--title__quantity :global(.vtex-search-result-3-x-totalProducts--layout)::before {
+    content: "(";
+}
+
+.flexRowContent--switcher__order {
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+    height: 60px;
+    margin-left: 20px;
+    margin-bottom: 1rem;
+}
+
+.flexColChild--button__column :global(.vtex-button) {
+    visibility: hidden;
+    background-color: transparent;
+    border: 1px solid #DD0021;
+    width: 90%;
+    border-radius: 0;
+    color: #DD0021;
+    font-size: 14px;
+    text-transform: none;
+    font-family: "Lato";
+}
+
+.flexColChild--button__column :global(.vtex-button):hover {
+    background-color: #DD0021;
+    border: 1px solid #DD0021;
+    color: #FFF;
+}
+
+.flexColChild--button__column :global(.vtex-button):active {
+    background-color: #ac0111;
+    border: 1px solid #ac0111;
+    color: #FFF;
+}

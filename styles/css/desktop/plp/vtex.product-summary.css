@@ -1,0 +1,51 @@
+.containerNormal--search--grid {
+    max-width: 236px;
+    min-width: 210px;
+    height: 600px;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-bottom: 4rem;
+}
+
+.element--search--grid {
+    justify-content: space-between;
+}
+
+
+.containerNormal--search--grid:hover :global(.vtex-button) {
+    visibility: visible;
+}
+
+.containerNormal--search__list--gallery {
+    max-width: none !important;
+    background-color: #FFF;
+}
+
+.clearLink--search__list--gallery :global(.vtex-button) {
+    visibility: hidden;
+    background-color: transparent;
+    border: 1px solid #DD0021;
+    width: 90%;
+    border-radius: 0;
+    color: #DD0021;
+    font-size: 14px;
+    text-transform: none;
+    font-family: "Lato";
+}
+
+.clearLink--search__list--gallery :global(.vtex-button):hover {
+    background-color: #DD0021;
+    border: 1px solid #DD0021;
+    color: #FFF;
+}
+
+.clearLink--search__list--gallery :global(.vtex-button):active {
+    background-color: #ac0111;
+    border: 1px solid #ac0111;
+    color: #FFF;
+
+}
+
+.containerNormal--search__list--gallery:hover :global(.vtex-button) {
+    visibility: visible;
+}

@@ -155,3 +155,7 @@
 :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child:first-child {
   transform: translateY(-3px);
 }
+
+:global(.vtex-toast) {
+  background-color: #0c2340;
+}
