@@ -1,0 +1,96 @@
+{
+    "flex-layout.row#breadcrumb--tablet": {
+        "title": "breadcrumb search",
+        "children": [
+            "breadcrumb.search#tablet"
+        ],
+        "props": {
+            "blockClass": "row__breadcrumb"
+        }
+    },
+    "breadcrumb.search#tablet": {
+        "title": "breadcrumb",
+        "props": {
+            "homeIconSize": 16,
+            "showOnMobile": true
+        }
+    },
+    "flex-layout.row#image__filter--container": {
+        "title": "filter images container",
+        "children": [
+            "flex-layout.col#filtercontainer"
+        ],
+        "props": {
+            "blockClass": "filter__images-container"
+        }
+    },
+    "flex-layout.col#filtercontainer": {
+        "title": "filter images container col",
+        "children": [
+            "flex-layout.row#images__filter--tablet"
+        ],
+        "props": {
+            "blockClass": "filter__images-container--col"
+        }
+    },
+    "flex-layout.row#images__filter--tablet": {
+        "title": "filtro fila de imagenes",
+        "children": [
+            "flex-layout.col#images__filter1",
+            "flex-layout.col#images__filter2",
+            "flex-layout.col#images__filter3",
+            "flex-layout.col#images__filter4",
+            "flex-layout.col#images__filter5",
+            "flex-layout.col#images__filter6",
+            "flex-layout.col#images__filter7"
+        ],
+        "props": {
+            "blockClass": [
+                "image__filter--conainer",
+                "image__filter--conainer--tablet"
+            ]
+        }
+    },
+    "flex-layout.row#products--tablet": {
+        "title": "products container",
+        "children": [
+            "search-content#content__products--tablet"
+        ],
+        "props": {
+            "blockClass": "product__tablet--container"
+        }
+    },
+    "search-content#content__products--tablet": {
+        "title": "products content",
+        "blocks": [
+            "gallery#tablet",
+            "not-found"
+        ],
+        "props": {
+            "blockClass": "product__tablet--childrenContainer"
+        }
+    },
+    "gallery#tablet": {
+        "title": "gallery tablet",
+        "props": {
+            "layouts": [
+                {
+                    "name": "grid",
+                    "component": "GridSummary",
+                    "itemsPerRow": {
+                        "desktop": 4,
+                        "tablet": 2,
+                        "phone": 2
+                    }
+                },
+                {
+                    "name": "list",
+                    "component": "ListSummary",
+                    "itemsPerRow": 1
+                }
+            ],
+            "ListSummary": "product-summary.shelf#search__list--tablet",
+            "GridSummary": "product-summary.shelf#search__grid--tablet"
+        }
+    }
+}

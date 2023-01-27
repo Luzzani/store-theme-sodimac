@@ -1,0 +1,8 @@
+.drawerTriggerContainer--drawer__trigger--filter {
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 47px;
+    box-shadow: 0 2px 6px -2px rgb(0 0 0 / 20%);
+}

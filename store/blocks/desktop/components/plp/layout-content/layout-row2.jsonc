@@ -1,0 +1,19 @@
+{
+    "flex-layout.row#title__quantity": {
+        "title": "section title and quantity",
+        "children": [
+            "search-title.v2",
+            "total-products.v2"
+        ],
+        "props": {
+            "blockClass": "title__quantity",
+            "colSizing": "auto"
+        }
+    },
+    "search-title.v2": {
+        "title": "search title",
+        "props": {
+            "showFacetQuantity": true
+        }
+    }
+}

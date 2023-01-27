@@ -1,0 +1,163 @@
+{
+    "flex-layout.col#images__filter1": {
+        "title": "image filter 1",
+        "children": [
+            "image#filter__image--1",
+            "rich-text#filter__text--1"
+        ]
+    },
+    "flex-layout.col#images__filter2": {
+        "title": "image filter 2",
+        "children": [
+            "image#filter__image--2",
+            "rich-text#filter__text--2"
+        ]
+    },
+    "flex-layout.col#images__filter3": {
+        "title": "image filter 3",
+        "children": [
+            "image#filter__image--3",
+            "rich-text#filter__text--3"
+        ]
+    },
+    "flex-layout.col#images__filter4": {
+        "title": "image filter 4",
+        "children": [
+            "image#filter__image--4",
+            "rich-text#filter__text--4"
+        ]
+    },
+    "flex-layout.col#images__filter5": {
+        "title": "image filter 5",
+        "children": [
+            "image#filter__image--5",
+            "rich-text#filter__text--5"
+        ]
+    },
+    "flex-layout.col#images__filter6": {
+        "title": "image filter 6",
+        "children": [
+            "image#filter__image--6",
+            "rich-text#filter__text--6"
+        ]
+    },
+    "flex-layout.col#images__filter7": {
+        "title": "image filter 7",
+        "children": [
+            "image#filter__image--7",
+            "rich-text#filter__text--7"
+        ]
+    },
+    "rich-text#filter__text--1": {
+        "title": "filter image text",
+        "props": {
+            "text": "Materiales de <br/> construccion",
+            "blockClass": "filter__image--text",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#filter__text--2": {
+        "title": "filter image text",
+        "props": {
+            "text": "Puertas",
+            "blockClass": "filter__image--text",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#filter__text--3": {
+        "title": "filter image text",
+        "props": {
+            "text": "Plomería",
+            "blockClass": "filter__image--text",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#filter__text--4": {
+        "title": "filter image text",
+        "props": {
+            "text": "Ventanas",
+            "blockClass": "filter__image--text",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#filter__text--5": {
+        "title": "filter image text",
+        "props": {
+            "text": "Electricidad",
+            "blockClass": "filter__image--text",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#filter__text--6": {
+        "title": "filter image text",
+        "props": {
+            "text": "Ferretería",
+            "blockClass": "filter__image--text",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#filter__text--7": {
+        "title": "filter image text",
+        "props": {
+            "text": "Fijaciones y <br/> adhesivos",
+            "blockClass": "filter__image--text",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "image#filter__image--1": {
+        "title": "image filter 1",
+        "props": {
+            "src": "assets/img/ladrillos.jpeg",
+            "blockClass": ["image-filter-department", "image-filter-department--active"]
+        }
+    },
+    "image#filter__image--2": {
+        "title": "image filter 2",
+        "props": {
+            "src": "assets/img/puerta.jpeg",
+            "blockClass": "image-filter-department"
+        }
+    },
+    "image#filter__image--3": {
+        "title": "image filter 3",
+        "props": {
+            "src": "assets/img/motor.jpeg",
+            "blockClass": "image-filter-department"
+        }
+    },
+    "image#filter__image--4": {
+        "title": "image filter 4",
+        "props": {
+            "src": "assets/img/ventana.jpeg",
+            "blockClass": "image-filter-department"
+        }
+    },
+    "image#filter__image--5": {
+        "title": "image filter 5",
+        "props": {
+            "src": "assets/img/pinzas.jpeg",
+            "blockClass": "image-filter-department"
+        }
+    },
+    "image#filter__image--6": {
+        "title": "image filter 6",
+        "props": {
+            "src": "assets/img/herramientas.jpeg",
+            "blockClass": "image-filter-department"
+        }
+    },
+    "image#filter__image--7": {
+        "title": "image filter 7",
+        "props": {
+            "src": "assets/img/destornillador.jpeg",
+            "blockClass": "image-filter-department"
+        }
+    }
+}

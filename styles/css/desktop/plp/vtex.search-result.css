@@ -24,10 +24,6 @@
     display: none;
 }
 
-/* .filterTemplateOverflow--filter__navigator--desktop {
-    display: none;
-} */
-
 .filterContent--filter__navigator--desktop {
     background-color: #fff;
     padding: .5rem;
@@ -51,11 +47,20 @@
     transform: translateY(-12px);
 }
 
+.filtersWrapper--filter__navigator--desktop--department {
+    transform: translateY(-25px);
+}
+
 .gallery--grid {
     padding: 0;
+    margin-bottom: 1rem;
     gap: 10px;
 }
 
+.galleryItem--grid {
+    padding-right: 0;
+    padding-left: .2rem;
+}
 
 .filtersWrapper--filter__navigator--desktop :global(.vtex-checkbox__label) {
     margin-bottom: .7rem;
@@ -68,14 +73,7 @@
     padding: .2rem;
 }
 
-/* .filterTemplateOverflow--filter__navigator--desktop {
-    background-color: #fff;
-    margin-bottom: .5rem;
-    margin-top: 18px;
-    padding: 1rem;
-} */
 .filterItem.filterItem--filter__navigator--desktop.selectedFilterItem.selectedFilterItem--filter__navigator--desktop.filterItem.filterItem--filter__navigator--desktop--selected {
     background-color: #fff;
-    margin-top: 17px;
     padding: .5rem;
 }

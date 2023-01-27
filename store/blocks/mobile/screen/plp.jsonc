@@ -1,0 +1,11 @@
+{
+    "search-result-layout.mobile": {
+        "title": "search layout mobile",
+        "children": [
+            "responsive-layout.tablet#plp"
+        ],
+        "props": {
+            "showFacetQuantity": true
+        }
+    }
+}

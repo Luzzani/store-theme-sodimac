@@ -1,0 +1,23 @@
+.flexRow--filter__images-container {
+    overflow-x: auto;
+}
+
+.flexRowContent--filter__images-container {
+    width: 1050px;
+}
+
+/* .flexRowContent--product__tablet--container :global(.vtex-search-result-3-x-galleryItem) {
+    max-width: 47% !important;
+} */
+
+.flexRowContent--product__tablet--container :global(.vtex-search-result-3-x-gallery) {
+    /* justify-content: space-between; */
+    gap: 0;
+}
+
+.flexRowContent--product__tablet--container :global(.vtex-product-summary-2-x-container) {
+    border-radius: 0;
+    background-color: #FFF;
+    padding: 1rem;
+    max-width: 450px;
+}

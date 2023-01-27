@@ -1,10 +1,9 @@
 .containerNormal--search--grid {
-    max-width: 236px;
-    min-width: 210px;
-    height: 600px;
+    min-height: 550px;
     background-color: #fff;
     margin-left: 10px;
     margin-bottom: 4rem;
+    border-radius: 0px;
 }
 
 .element--search--grid {
@@ -19,6 +18,7 @@
 .containerNormal--search__list--gallery {
     max-width: none !important;
     background-color: #FFF;
+    border-radius: 0px;
 }
 
 .clearLink--search__list--gallery :global(.vtex-button) {
@@ -48,4 +48,30 @@
 
 .containerNormal--search__list--gallery:hover :global(.vtex-button) {
     visibility: visible;
+}
+
+.productNameContainer,
+.productBrandContainer {
+    text-align: left;
+    font-size: 14px;
+    color: #585858;
+}
+
+.element--search--grid :global(.vtex-flex-layout-0-x-flexRow) {
+    font-size: 17px;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.imageStackContainer {
+    padding-right: 1rem;
+    width: 100%;
+}
+
+:global(.vtex-product-summary-2-x-imageNormal) {
+    width: 100%;
+}
+.nameContainer {
+    padding-top: .2rem;
+    justify-content: flex-start;
 }
