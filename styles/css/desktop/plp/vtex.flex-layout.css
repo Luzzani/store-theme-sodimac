@@ -110,3 +110,12 @@
     max-height: 190px;
     padding: 20px 0;
 }
+
+.flexColChild--product__tablet {
+    height: fit-content !important;
+}
+
+.flexCol--product__tablet {
+    justify-content: space-between;
+    height: 510px;
+}

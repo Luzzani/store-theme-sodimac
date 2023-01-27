@@ -1,0 +1,22 @@
+.wrapper--filter__order {
+    color: #2E72C8;
+    font-size: 14px;
+}
+
+.wrapper--dummy__check {
+    margin-top: .5rem;
+    font-size: 14px;
+}
+
+.wrapper--dummy__check.wrapper--dummy__uncheck--list {
+    margin-top: .2rem;
+}
+
+.wrapper--dummy__check.wrapper--dummy__check--list  {
+    margin-top: 1rem;
+}
+
+.wrapper--dummy__check--color::first-letter {
+    color: rgb(11, 205, 11);
+    font-weight: bolder;
+}

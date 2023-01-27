@@ -1,14 +1,14 @@
 {
-    "flex-layout.row#breadcrumb--tablet": {
+    "flex-layout.row#breadcrumb--mobile": {
         "title": "breadcrumb search",
         "children": [
-            "breadcrumb.search#tablet"
+            "breadcrumb.search#mobile"
         ],
         "props": {
             "blockClass": "row__breadcrumb"
         }
     },
-    "breadcrumb.search#tablet": {
+    "breadcrumb.search#mobile": {
         "title": "breadcrumb",
         "props": {
             "homeIconSize": 16,
@@ -27,13 +27,13 @@
     "flex-layout.col#filtercontainer": {
         "title": "filter images container col",
         "children": [
-            "flex-layout.row#images__filter--tablet"
+            "flex-layout.row#images__filter--mobile"
         ],
         "props": {
             "blockClass": "filter__images-container--col"
         }
     },
-    "flex-layout.row#images__filter--tablet": {
+    "flex-layout.row#images__filter--mobile": {
         "title": "filtro fila de imagenes",
         "children": [
             "flex-layout.col#images__filter1",
@@ -51,27 +51,48 @@
             ]
         }
     },
+    "responsive-layout.tablet#products__tablet": {
+        "title": "seach content on tablet",
+        "children": [
+            "flex-layout.row#products--tablet"
+        ]
+    },
+    "responsive-layout.phone#products__phone": {
+        "title": "seach content on phone",
+        "children": [
+            "flex-layout.row#products--phone"
+        ]
+    },
+    "flex-layout.row#products--phone": {
+        "title": "products container",
+        "children": [
+            "search-content#content__products--mobile"
+        ],
+        "props": {
+            "blockClass": ["product__phone--container", "product__tablet--container"]
+        }
+    },
     "flex-layout.row#products--tablet": {
         "title": "products container",
         "children": [
-            "search-content#content__products--tablet"
+            "search-content#content__products--mobile"
         ],
         "props": {
             "blockClass": "product__tablet--container"
         }
     },
-    "search-content#content__products--tablet": {
+    "search-content#content__products--mobile": {
         "title": "products content",
         "blocks": [
-            "gallery#tablet",
+            "gallery#mobile",
             "not-found"
         ],
         "props": {
             "blockClass": "product__tablet--childrenContainer"
         }
     },
-    "gallery#tablet": {
-        "title": "gallery tablet",
+    "gallery#mobile": {
+        "title": "gallery mobile",
         "props": {
             "layouts": [
                 {
@@ -89,8 +110,8 @@
                     "itemsPerRow": 1
                 }
             ],
-            "ListSummary": "product-summary.shelf#search__list--tablet",
-            "GridSummary": "product-summary.shelf#search__grid--tablet"
+            "ListSummary": "product-summary.shelf#search--list--mobile",
+            "GridSummary": "product-summary.shelf#search__grid--mobile"
         }
     }
 }

@@ -2,10 +2,16 @@
     "search-result-layout.mobile": {
         "title": "search layout mobile",
         "children": [
-            "responsive-layout.tablet#plp"
+            "flex-layout.row#breadcrumb--mobile",
+            "flex-layout.row#image__filter--container",
+            "flex-layout.row#title__quantity",
+            "flex-layout.row#filter--mobile",
+            "responsive-layout.tablet#products__tablet",
+            "responsive-layout.phone#products__phone"
         ],
         "props": {
-            "showFacetQuantity": true
+            "showFacetQuantity": true,
+            "blockClass": "layout__shelf--mobile"
         }
     }
 }

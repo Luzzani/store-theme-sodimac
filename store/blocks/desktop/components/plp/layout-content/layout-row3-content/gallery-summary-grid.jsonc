@@ -36,6 +36,7 @@
     "flex-layout.col#image--title": {
         "title": "col image",
         "children": [
+            "rich-text#buy",
             "product-summary-image",
             "product-summary-brand",
             "product-summary-name#departament",
@@ -46,7 +47,9 @@
         "title": "col image",
         "children": [
             "product-list-price",
-            "product-selling-price"
+            "product-selling-price",
+            "rich-text#pickup",
+            "rich-text#shipping"
         ]
     },
     "flex-layout.col#button": {

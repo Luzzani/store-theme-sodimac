@@ -11,11 +11,21 @@
     "flex-layout.row#product-summary-list": {
         "title": "product summary list",
         "children": [
+            "flex-layout.col#product__buy--checkbox",
             "flex-layout.col#product-image",
             "flex-layout.col#product-summary-details"
         ],
         "props": {
             "blockClass": "product__summary--row"
+        }
+    },
+    "flex-layout.col#product__buy--checkbox": {
+        "title": "dummy buy checkbox",
+        "children": [
+            "rich-text#buy"
+        ],
+        "props": {
+            "width": "10%"
         }
     },
     "flex-layout.col#product-image": {
@@ -24,7 +34,7 @@
             "product-summary-image#shelf"
         ],
         "props": {
-            "width": "40%"
+            "width": "30%"
         }
     },
     "product-summary-image#shelf": {
@@ -76,10 +86,45 @@
     "flex-layout.col#content__info": {
         "title": "summary content info",
         "children": [
-            "product-specification-group"
+            "product-specification-group",
+            "flex-layout.row#shipping__pickup"
         ],
         "props": {
             "blockClass": "content__info"
+        }
+    },
+    "flex-layout.row#shipping__pickup": {
+        "title": "shipping and pickup row",
+        "children": [
+            "flex-layout.col#shipping__pickup"
+        ]
+    },
+    "flex-layout.col#shipping__pickup": {
+        "title": "shipping and pickup col",
+        "children": [
+            "rich-text#pickup#product__list",
+            "rich-text#shipping#product__list"
+        ]
+    },
+    "rich-text#pickup#product__list": {
+        "title": "dummy pickup uncheked",
+        "props": {
+            "text": "&cross; No disponible para envio",
+            "blockClass": [
+                "dummy__check",
+                "dummy__check--list"
+            ]
+        }
+    },
+    "rich-text#shipping#product__list": {
+        "title": "dummy shipping checked",
+        "props": {
+            "text": "&check; Disponible para retiro",
+            "blockClass": [
+                "dummy__check",
+                "dummy__uncheck--list",
+                "dummy__check--color"
+            ]
         }
     },
     "product-specification-group": {

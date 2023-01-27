@@ -1,9 +1,12 @@
 {
-    "flex-layout.row#filter--tablet": {
+    "flex-layout.row#filter--mobile": {
         "title": "filter container",
         "children": [
             "drawer#filter"
-        ]
+        ],
+        "props": {
+            "blockClass": "filter__tablet--triggerContainer"
+        }
     },
     "drawer#filter": {
         "title": "filter drawer",
@@ -35,7 +38,7 @@
         "children": [
             "disclosure-layout",
             "order-by.v2",
-            "filter-navigator.v3#tablet"
+            "filter-navigator.v3#mobile"
         ],
         "props": {
             "orientation": "vertical"
@@ -66,8 +69,8 @@
             "gallery-layout-switcher"
         ]
     },
-    "filter-navigator.v3#tablet": {
-        "title": "filter navigator tablet",
+    "filter-navigator.v3#mobile": {
+        "title": "filter navigator mobile",
         "props": {
             "blockClass": "filter__navigator--tablet",
             "fullWidthOnMobile": true,
