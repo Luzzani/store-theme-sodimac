@@ -1,0 +1,7 @@
+/* :global(.vtex-product-specifications-1-x-specificationValue):global(.vtex-product-specifications-1-x-specificationValue--first):global(.vtex-product-specifications-1-x-specificationValue--last):last-child {
+    display: none;
+}
+
+:global(.vtex-product-specifications-1-x-specificationValue):global(.vtex-product-specifications-1-x-specificationValue--first):global(.vtex-product-specifications-1-x-specificationValue--last) {
+    font-size: 14px;
+} */

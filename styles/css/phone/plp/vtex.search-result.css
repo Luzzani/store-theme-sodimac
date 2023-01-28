@@ -1,0 +1,5 @@
+.container--layout--search__result--mobile :global(.vtex-store-components-3-x-container),
+.searchResultContainer--search__result--mobile {
+    padding: 0;
+}
+

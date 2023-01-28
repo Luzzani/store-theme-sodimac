@@ -39,3 +39,7 @@
 .flexRowContent--footer__tablet--top :global(.vtex-store-footer-2-x-socialNetworksContainer) {
     padding-top: 30px;
 }
+
+.flexRowContent--footer__tablet--top .stretchChildrenWidth:last-child {
+    justify-content: end;
+}

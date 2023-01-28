@@ -1,0 +1,20 @@
+.paragraph--dummy__direction--message {
+    font-size: 12px;
+    width: 100%;
+    color: #585858;
+}
+
+.link--dummy__direction--message {
+    text-decoration: none;
+    color: #0072ce;
+    font-weight: bold;
+}
+
+.paragraph--quantity__message {
+    font-size: 14px;
+    color: #000;
+}
+
+.container--quantity__message--last {
+    transform: translateY(-3px) translateX(5px);
+}

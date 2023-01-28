@@ -1,0 +1,64 @@
+.flexRow--back__link--container {
+    padding-left: 19px;
+    margin-top: 10px;
+}
+
+.flexRow--modal__trigger--container {
+    margin-top: 20px;
+    background-color: #FFF;
+    padding: 10px;
+}
+
+.flexRowContent--modal__trigger--container {
+    align-items: center;
+    border: 1px solid rgb(191, 191, 191);
+    padding: .3rem;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+}
+
+.flexRowContent--modal__trigger--container :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(even) {
+    width: 100% !important;
+    padding-left: 10px;
+}
+
+.flexRowContent--message__product--container {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.flexRow--message__product--container :global(.vtex-search-result-3-x-totalProducts--layout) {
+    padding: 0;
+}
+
+.flexRow--message__product--container :global(.vtex-search-result-3-x-totalProducts--layout):first-child:first-child {
+    font-size: 14px;
+    text-transform: lowercase;
+}
+
+.flexRow--message__product--container :global(.vtex-search-result-3-x-totalProductsMessage) {
+    color: #000;
+}
+
+.flexRow--message__product--container :global(.vtex-search-result-3-x-galleryTitle--layout) {
+    color: #000;
+    font-size: 14px;
+    margin: 0;
+}
+
+.flexRow--message__product--container :global(.vtex-search-result-3-x-galleryTitle--layout)::before {
+    content: '"';
+}
+
+.flexRow--message__product--container :global(.vtex-search-result-3-x-galleryTitle--layout)::after {
+    content: '"';
+}
+
+.flexRow--message__product--container :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    transform: translateX(5px);
+}
+
+.flexRow--message__product--container {
+    padding: 20px;
+}
