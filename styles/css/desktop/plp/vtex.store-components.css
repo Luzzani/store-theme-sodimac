@@ -1,0 +1,21 @@
+/* .image,
+.imageContainer,
+.discountContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.imageElement--image-filter-department {
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.imageElement--image-filter-department--active,
+.imageElement--image-filter-department:hover {
+    box-shadow: 1px 1px 5px 2px rgb(0 0 0 / 30%);
+} */

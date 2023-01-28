@@ -89,10 +89,12 @@
             "product-list-image",
             "vtex.product-list:product-name",
             "quantity-selector#minicart",
-            "price"
+            "price",
+            "remove-button"
         ]
     },
     "quantity-selector#minicart": {
+        "title": "quantity selector",
         "props": {
             "mode": "stepper"
         }

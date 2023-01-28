@@ -1,0 +1,10 @@
+{
+    "search-result-layout": {
+        "title": "search result layout",
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    }
+}

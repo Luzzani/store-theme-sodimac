@@ -58,6 +58,7 @@
         }
     },
     "icon#facebook": {
+        "title": "facebook icon",
         "props": {
             "id": "hpa-facebook",
             "size": 37,
@@ -65,18 +66,21 @@
         }
     },
     "icon#youtube": {
+        "title": "youtube icon",
         "props": {
             "id": "hpa-youtube",
             "size": 32
         }
     },
     "icon#pinterest": {
+        "title": "pinterest icon",
         "props": {
             "id": "hpa-pinterest",
             "size": 39
         }
     },
     "icon#instagram": {
+        "title": "instagram icon",
         "props": {
             "id": "hpa-instagram",
             "size": 40

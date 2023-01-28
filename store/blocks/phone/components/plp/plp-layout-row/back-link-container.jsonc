@@ -1,0 +1,20 @@
+{
+    "image#left__arrow": {
+        "title": "arrow left",
+        "props": {
+            "link": {
+                "url": "/"
+            },
+            "src": "assets/img/left-chevron.png",
+            "blockClass": "arrow__left"
+        }
+    },
+    "link.product#back__home--page": {
+        "title": "back home link",
+        "props": {
+            "href": "/",
+            "label": "volver",
+            "blockClass": "back__home--page"
+        }
+    }
+}

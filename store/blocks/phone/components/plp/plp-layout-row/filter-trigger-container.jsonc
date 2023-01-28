@@ -1,0 +1,34 @@
+{
+    "drawer#filter__navigator": {
+        "children": [
+            "menu#drawer"
+        ],
+        "blocks": [
+            "drawer-trigger"
+        ]
+    },
+    "drawer-trigger": {
+        "children": [
+            "rich-text#open-drawer"
+        ]
+    },
+    "rich-text#open-drawer": {
+        "props": {
+            "text": "Open drawer"
+        }
+    },
+    "menu#drawer": {
+        "children": [
+            "filter-navigator.v3#phone"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "filter-navigator.v3#phone": {
+        "title": "filter navigator",
+        "props": {
+            "layout": "desktop"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "modal-trigger#location--form": {
+        "title": "modal trigger location form",
+        "children": [
+            "icon#down__arrow",
+            "modal-layout#location__form"
+        ]
+    },
+    "modal-layout#location__form": {
+        "title": "modal location form",
+        "children": [
+            "rich-text#dummy__direction--message"
+        ]
+    },
+    "icon#icon__location": {
+        "title": "icon location",
+        "props": {
+            "id": "hpa-location-marker",
+            "size": 25
+        }
+    },
+    "rich-text#dummy__direction--message": {
+        "title": "fake direction message",
+        "props": {
+            "text": "El retiro y despacho varían según la localidad. <br/> **Estás en:** [General San Martin](#)",
+            "blockClass": "dummy__direction--message"
+        }
+    },
+    "icon#down__arrow": {
+        "title": "down arrow",
+        "props": {
+            "id": "mpa-angle--down",
+            "size": 25
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "rich-text#quantity__message--first": {
+        "title": "first part message quantity",
+        "props": {
+            "text": "Hemos encontrado &nbsp;",
+            "blockClass": "quantity__message"
+        }
+    },
+    "rich-text#quantity__message--second": {
+        "title": "second part message queantity",
+        "props": {
+            "text": "asociados a tu &nbsp;",
+            "blockClass": [
+                "quantity__message",
+                "quantity__message--last"
+            ]
+        }
+    },
+    "rich-text#quantity__message--last": {
+        "title": "last part message quantity",
+        "props": {
+            "text": "búsqueda de &nbsp;",
+            "blockClass": [
+                "quantity__message",
+                "quantity__message--last"
+            ]
+        }
+    }
+}

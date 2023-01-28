@@ -1,10 +1,19 @@
  /* Example Phone: */
-.flexRow--home__section-2--phone {
-    padding: 0 .5rem;
-} 
+ .flexRow--home__section-2--phone {
+     padding: 0 .5rem;
+ }
 
-.flexCol--section7__info--col {
-    max-width: 134.53px;
-    max-height: 125px;
-    background-color: #ffffff;
-}
+ .flexCol--section7__info--col {
+     max-width: 134.53px;
+     max-height: 125px;
+     background-color: #ffffff;
+ }
+
+ .flexRowContent--home__section--financing--mobile {
+     transform: translateY(3px);
+ }
+
+ .flexRow--phone__home__section-1 :global(.vtex-store-components-3-x-container),
+ .flexRow--home__section--financing--mobile :global(.vtex-store-components-3-x-container) {
+     padding: 0;
+ }
