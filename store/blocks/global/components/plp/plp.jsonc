@@ -1,13 +1,10 @@
 {
     "search-result-layout": {
-        "title": "search layout",
+        "title": "search result layout",
         "blocks": [
             "search-result-layout.desktop",
             "search-result-layout.mobile",
             "search-not-found-layout"
-        ],
-        "props": {
-            "blockClass": "search__layout"
-        }
+        ]
     }
 }

@@ -56,7 +56,7 @@
             }
         },
         "blocks": [
-            "search-result-layout#department"
+            "search-result-layout"
         ]
     }
 }

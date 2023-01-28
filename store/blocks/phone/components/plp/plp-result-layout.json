@@ -1,0 +1,52 @@
+{
+    "flex-layout.row#back__link--container": {
+        "title": "back link container",
+        "children": [
+            "image#left__arrow",
+            "link.product#back__home--page"
+        ],
+        "props": {
+            "blockClass": "back__link--container",
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "colJustify": "left"
+        }
+    },
+    "flex-layout.row#modal__trigger--container": {
+        "title": "modal trigger container",
+        "children": [
+            "icon#icon__location",
+            "rich-text#dummy__direction--message",
+            "modal-trigger#location--form"
+        ],
+        "props": {
+            "blockClass": "modal__trigger--container",
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.row#message__product--container": {
+        "title": "product quantity message",
+        "children": [
+            "rich-text#quantity__message--first",
+            "total-products.v2",
+            "rich-text#quantity__message--second",
+            "rich-text#quantity__message--last",
+            "search-title.v2"
+        ],
+        "props": {
+            "blockClass": "message__product--container",
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.row#filter__trigger--container": {
+        "title": "filter trigger container",
+        "children": [
+            "drawer#filter__navigator"
+        ]
+    },
+    "flex-layout.row#gallery__result--container": {
+        "title": ""
+    }
+}
