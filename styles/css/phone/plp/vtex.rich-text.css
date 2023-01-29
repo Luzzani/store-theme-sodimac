@@ -18,3 +18,29 @@
 .container--quantity__message--last {
     transform: translateY(-3px) translateX(5px);
 }
+
+.paragraph--open__drawer--filter {
+    font-size: 14px;
+    color: #2E72C8;
+}
+
+.paragraph--dummy__buy--checkbox {
+    font-size: 12px;
+    color: #585858;
+}
+
+.paragraph--isActive--list-grid {
+    color: #ADADAD;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.paragraph--dummy__buy--checkbox--list {
+    font-size: 14px;
+    color: #585858;
+}
+
+.paragraph--disclosure__text--trigger {
+    font-size: 16px;
+    color: #000;
+}

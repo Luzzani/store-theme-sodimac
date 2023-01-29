@@ -159,3 +159,26 @@
 :global(.vtex-toast) {
   background-color: #0c2340;
 }
+
+:global(.vtex-store-drawer-0-x-overlay):global(.vtex-store-drawer-0-x-overlay--visible) {
+  background-color: #000;
+  opacity: .7 !important;
+}
+
+:global(.vtex-store-icons-0-x-inlineGridIcon),
+:global(.vtex-store-icons-0-x-gridIcon) {
+  color: #ADADAD;
+}
+
+:global(.vtex-search-result-3-x-galleryLayoutOptionButton--selected) :global(.vtex-store-icons-0-x-gridIcon),
+:global(.vtex-search-result-3-x-galleryLayoutOptionButton--selected) :global(.vtex-store-icons-0-x-inlineGridIcon) {
+  color: #000;
+}
+
+:global(.vtex-search-result-3-x-galleryLayoutOptionButton--selected) .wrapper--isActive--list-grid {
+  background-color: #d3d3;
+}
+
+:global(.vtex-search-result-3-x-galleryLayoutOptionButton):global(.vtex-search-result-3-x-galleryLayoutOptionButton--selected) :global(.vtex-rich-text-0-x-container--isActive--list-grid) :global(.vtex-rich-text-0-x-wrapper--isActive--list-grid) :global(.vtex-rich-text-0-x-paragraph--isActive--list-grid) {
+  color: #000 !important;
+}

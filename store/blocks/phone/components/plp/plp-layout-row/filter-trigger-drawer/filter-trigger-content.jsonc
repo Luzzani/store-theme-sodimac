@@ -1,0 +1,86 @@
+{
+    "disclosure-layout#drawer--filter": {
+        "title": "disclosure gallery switcher",
+        "children": [
+            "disclosure-trigger#gallery__switcher",
+            "disclosure-content#gallery__switcher"
+        ]
+    },
+    "disclosure-trigger#gallery__switcher": {
+        "title": "disclosure trigger",
+        "children": [
+            "rich-text#disclosure__trigger--switcher",
+            "image#down__arrow"
+        ]
+    },
+    "image#down__arrow": {
+        "title": "down arrow",
+        "props": {
+            "src": "assets/img/arrow-down.png",
+            "blockClass": "down__arrow"
+        }
+    },
+    "rich-text#disclosure__trigger--switcher": {
+        "title": "text disclosure trigger",
+        "props": {
+            "text": "Vista de productos",
+            "blockClass": "disclosure__text--trigger"
+        }
+    },
+    "disclosure-content#gallery__switcher": {
+        "title": "disclosure switcher content",
+        "children": [
+            "gallery-layout-switcher"
+        ]
+    },
+    "filter-navigator.v3#phone": {
+        "title": "filter navigator",
+        "props": {
+            "layout": "desktop"
+        }
+    },
+    "gallery-layout-switcher": {
+        "title": "gallery switcher",
+        "children": [
+            "gallery-layout-option#list",
+            "gallery-layout-option#grid"
+        ],
+        "props": {
+            "blockClass": "gallery-layout"
+        }
+    },
+    "gallery-layout-option#grid": {
+        "title": "gallery layout grid",
+        "props": {
+            "name": "grid"
+        },
+        "children": [
+            "icon-grid",
+            "rich-text#grid"
+        ]
+    },
+    "gallery-layout-option#list": {
+        "title": "gallery layout list",
+        "props": {
+            "name": "list"
+        },
+        "children": [
+            "icon-inline-grid",
+            "rich-text#inline-grid"
+        ]
+    },
+    "rich-text#inline-grid": {
+        "title": "List text",
+        "props": {
+            "text": "Listado",
+            "blockClass": "isActive--list-grid"
+        }
+    },
+    "rich-text#grid": {
+        "title": "Grid text",
+        "props": {
+            "text": "Mosaico",
+            "blockClass": "isActive--list-grid"
+        }
+    }
+}

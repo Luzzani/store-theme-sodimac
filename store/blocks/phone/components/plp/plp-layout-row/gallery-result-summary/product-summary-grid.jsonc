@@ -1,0 +1,72 @@
+{
+    "product-summary.shelf#grid__summary": {
+        "title": "product summary grid",
+        "children": [
+            "flex-layout.row#grid__summary--top",
+            "flex-layout.row#grid__summary--bottom"
+        ],
+        "props": {
+            "blockClass": "grid__summary"
+        }
+    },
+    "flex-layout.row#grid__summary--top": {
+        "title": "grid summary top row",
+        "children": [
+            "flex-layout.col#grid__summary--top"
+        ]
+    },
+    "flex-layout.col#grid__summary--top": {
+        "title": "grid summary top col",
+        "children": [
+            "rich-text#dummy__buy--checkbox",
+            "product-summary-image#grid__summary",
+            "product-summary-brand",
+            "product-summary-name#grid__summary",
+            "product-rating-inline"
+        ]
+    },
+    "flex-layout.row#grid__summary--bottom": {
+        "title": "grid summary bottom row",
+        "children": [
+            "flex-layout.col#grid__summary--bottom"
+        ]
+    },
+    "flex-layout.col#grid__summary--bottom": {
+        "title": "grid summary bottom col",
+        "children": [
+            "product-list-price",
+            "product-selling-price",
+            "add-to-cart-button#grid__summary"
+        ],
+        "props": {
+            "blockClass": "grid__summary--button"
+        }
+    },
+    "rich-text#dummy__buy--checkbox": {
+        "title": "dummy checkbox",
+        "props": {
+            "text": "&#x2610; **Comprar**",
+            "blockClass": "dummy__buy--checkbox"
+        }
+    },
+    "product-summary-image#grid__summary": {
+        "title": "product image",
+        "props": {
+            "height": 160,
+            "width": 160
+        }
+    },
+    "product-summary-name#grid__summary": {
+        "title": "product name",
+        "props": {
+            "blockClass": "grid__summary--name",
+            "tag": "div"
+        }
+    },
+    "add-to-cart-button#grid__summary": {
+        "title": "add to cart button",
+        "props": {
+            "blockClass": "grid__summary"
+        }
+    }
+}

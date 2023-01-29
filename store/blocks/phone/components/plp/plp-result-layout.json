@@ -3,7 +3,7 @@
         "title": "back link container",
         "children": [
             "image#left__arrow",
-            "link.product#back__home--page"
+            "link#back__home--page"
         ],
         "props": {
             "blockClass": "back__link--container",
@@ -44,9 +44,20 @@
         "title": "filter trigger container",
         "children": [
             "drawer#filter__navigator"
-        ]
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "filter__trigger--container"
+        }
     },
     "flex-layout.row#gallery__result--container": {
-        "title": ""
+        "title": "gallery result container",
+        "children": [
+            "search-content#results__content--products"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "gallery__result--container"
+        }
     }
 }

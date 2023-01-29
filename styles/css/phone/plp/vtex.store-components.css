@@ -2,3 +2,8 @@
     width: 15px;
     transform: translateY(5px);
 }
+
+.imageElement--down__arrow {
+    transform: translateY(5px);
+    width: 15px;
+}

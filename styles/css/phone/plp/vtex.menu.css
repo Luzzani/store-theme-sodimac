@@ -1,0 +1,33 @@
+.menuContainer--open__drawer--filter :global(.vtex-disclosure-layout-1-x-trigger) {
+    background-color: transparent;
+    border: transparent;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e3e4e6;
+}
+
+.menuContainer--open__drawer--filter :global(.vtex-disclosure-layout-1-x-trigger--visible) :global(.vtex-store-components-3-x-imageElement--down__arrow) {
+    transform: rotate(180deg);
+}
+
+.menuContainer--open__drawer--filter :global(.vtex-disclosure-layout-1-x-content--visible) {
+    padding: 10px;
+}
+
+.menuContainer--open__drawer--filter :global(.vtex-search-result-3-x-filters--layout) {
+    margin: 0;
+}
+
+.menuContainer--open__drawer--filter :global(.vtex-search-result-3-x-filter__container--title) {
+    display: none;
+}
+
+.menuContainer--open__drawer--filter :global(.vtex-search-result-3-x-caretIcon) {
+    color: #000;
+}
+
+.menuContainer--open__drawer--filter :global(.vtex-search-result-3-x-filterTitle) {
+    margin-left: 20px;
+    margin-right: 5px;
+}

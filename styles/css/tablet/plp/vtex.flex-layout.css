@@ -1,0 +1,107 @@
+.flexRow--result__layout--tablet {
+    padding: 0 29px;
+    margin-top: 10px;
+}
+
+.flexColChild--result__layout--tablet .flexRowContent--filter__trigger--container {
+    display: block;
+}
+
+.flexColChild--result__layout--tablet :global(.vtex-search-result-3-x-gallery--grid) {
+    margin-top: 10px;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+
+
+.flexColChild--result__layout--tablet :global(.vtex-search-result-3-x-galleryItem--grid) {
+    background: #FFF;
+    max-width: 49% !important;
+    height: 546px;
+    padding-top: 0;
+}
+
+
+.flexColChild--result__layout--tablet :global(.vtex-product-summary-2-x-containerNormal) {
+    margin: 0;
+    max-width: none !important;
+}
+
+.flexColChild--result__layout--tablet :global(.vtex-search-result-3-x-gallery--grid) {
+    margin-bottom: 150px;
+}
+
+.flexColChild--result__layout--tablet :global(.vtex-product-summary-2-x-element) {
+    justify-content: space-between;
+}
+
+.flexCol--summary__top--col--tablet {
+    align-items: flex-start;
+}
+
+.flexColChild--summary__middle--col--tablet {
+    text-align: left;
+}
+
+.flexColChild--summary__middle--col--tablet :global(.vtex-product-price-1-x-currencyCode) {
+    display: none;
+}
+
+.flexColChild--summary__middle--col--tablet :global(.vtex-product-price-1-x-sellingPrice)::before {
+    content: "$";
+}
+
+.flexColChild--summary__middle--col--tablet :global(.vtex-product-price-1-x-sellingPrice) {
+    transform: translateX(-5px);
+}
+
+.flexColChild--summary__top--col--tablet :global(.vtex-product-summary-2-x-productBrandName) {
+    font-size: 14px;
+    color: #585858;
+}
+
+.flexRowContent--summary__bottom--tablet :global(.vtex-button) {
+    background-color: transparent;
+    border: 1px solid #DD0021;
+    color: #DD0021;
+    text-transform: none;
+    align-self: center;
+}
+
+/* back to top button */
+
+.flexColChild--result__layout--tablet :global(.vtex-store-components-3-x-backToTopButtonContainer) {
+    width: 100% !important;
+    left: 0 !important;
+}
+
+.flexColChild--result__layout--tablet :global(.vtex-store-components-3-x-backToTopButtonContainer) :global(.vtex-button) {
+    width: 100%;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%);
+    background-color: #F4f4f4;
+    border: 1px solid #ededed;
+    height: 60px;
+    color: #000;
+    position: relative;
+}
+
+.flexColChild--result__layout--tablet :global(.vtex-store-components-3-x-backToTopButtonContainer) :global(.vtex-button) :global(.vtex-button__label) {
+    display: none;
+}
+
+.flexColChild--result__layout--tablet :global(.vtex-store-components-3-x-backToTopButtonContainer) :global(.vtex-button)::after {
+    content: "Subir al inicio de la página";
+    text-transform: none;
+    color: #4a4a4a;
+    font-size: 18px;
+}
+
+.flexColChild--result__layout--tablet :global(.vtex-store-components-3-x-backToTopButtonContainer) :global(.vtex-button)::before {
+    content: "";
+    background-image: url(assets/img/icons8-collapse-arrow-50.png);
+    position: absolute;
+    height: 25px;
+    width: 35px;
+    top: 10px;
+    transform: translateX(-40px);
+}

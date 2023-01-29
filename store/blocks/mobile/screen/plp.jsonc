@@ -2,7 +2,8 @@
     "search-result-layout.mobile": {
         "title": "",
         "children": [
-            "responsive-layout.phone#search__result-layout"
+            "responsive-layout.phone#search__result-layout",
+            "responsive-layout.tablet#search__result-layout"
         ],
         "props": {
             "blockClass": "search__result--mobile"

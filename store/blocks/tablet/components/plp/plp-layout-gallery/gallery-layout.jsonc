@@ -1,0 +1,44 @@
+{
+    "flex-layout.row#gallery__result--container--tablet": {
+        "title": "gallery result container",
+        "children": [
+            "search-content#results__content--products--tablet"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "search-content#results__content--products--tablet": {
+        "title": "result content products",
+        "blocks": [
+            "gallery#tablet",
+            "not-found"
+        ],
+        "props": {
+            "blockClass": "result__content--product--tablet"
+        }
+    },
+    "gallery#tablet": {
+        "title": "gallery",
+        "props": {
+            "layouts": [
+                {
+                    "name": "grid",
+                    "component": "GridSummary",
+                    "itemsPerRow": {
+                        "desktop": 4,
+                        "tablet": 2,
+                        "phone": 2
+                    }
+                },
+                {
+                    "name": "list",
+                    "component": "ListSummary",
+                    "itemsPerRow": 1
+                }
+            ],
+            "GridSummary": "product-summary.shelf#grid__summary--tablet",
+            "ListSummary": "product-summary.shelf#list__summary--tablet"
+        }
+    }
+}
