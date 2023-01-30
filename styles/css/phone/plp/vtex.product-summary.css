@@ -1,0 +1,92 @@
+.nameContainer--grid__summary--name {
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    color: #333333;
+    overflow: hidden;
+    white-space: unset;
+    max-height: 3.6em;
+}
+
+.element--grid__summary {
+    justify-content: space-between;
+}
+
+.clearLink--grid__summary :global(.vtex-product-summary-2-x-productBrandName) {
+    font-size: 12px;
+    color: #585858;
+    text-align: left;
+    width: 100%;
+    display: block;
+}
+
+.element--grid__summary :global(.vtex-reviews-and-ratings-2-x-inlineContainer) {
+    margin-left: 0;
+    display: flex;
+}
+
+.element--grid__summary :global(.vtex-product-price-1-x-sellingPrice) {
+    display: flex;
+}
+
+.element--grid__summary :global(.vtex-product-price-1-x-sellingPrice)::before {
+    content: "$";
+    left: 5px;
+    position: absolute;
+}
+
+.element--grid__summary :global(.vtex-button) {
+    background-color: transparent;
+    border: 1px solid #DD0021;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-self: flex-end;
+}
+
+.element--list__summary :global(.vtex-button)::before,
+.element--grid__summary :global(.vtex-button)::before {
+    content: "";
+    background-image: url(assets/svg/cart.svg);
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    width: 26px;
+    height: 28px;
+}
+
+.element--list__summary :global(.vtex-button)::after,
+.element--grid__summary :global(.vtex-button)::after {
+    content: "+";
+    position: absolute;
+    left: 5px;
+    top: 8px;
+    font-size: 18px;
+    color: #DD0021;
+}
+
+.element--grid__summary :global(.vtex-button__label) {
+    display: none;
+}
+
+.element--list__summary :global(.vtex-product-price-1-x-currencyCode),
+.element--grid__summary :global(.vtex-product-price-1-x-currencyCode) {
+    visibility: hidden;
+}
+
+.brandName--grid__summary--name.brandName--list__summary {
+    font-size: 17px;
+}
+
+.element--list__summary :global(.vtex-product-price-1-x-sellingPrice)::before {
+    content: "$";
+    position: absolute;
+    font-weight: bolder;
+    color: #333333;
+}
+
+.element--list__summary :global(.vtex-product-price-1-x-sellingPriceValue) {
+    font-weight: bold;
+    color: #333333;
+}

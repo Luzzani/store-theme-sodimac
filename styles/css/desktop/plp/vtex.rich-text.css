@@ -1,5 +1,9 @@
-/* .wrapper--filter__image--text {
+.container--filter__image--text {
     color: #333;
+    font-size: 14px;
+}
+
+/* .wrapper--filter__image--text {
     font-size: 14px;
     text-align: center;
     max-height: 40px;

@@ -1,0 +1,8 @@
+{
+    "product-summary.shelf#list__summary--desktop": {
+        "title": "product summary list",
+        "children": [
+            "flex-layout.row#list__summary--container"
+        ]
+    }
+}

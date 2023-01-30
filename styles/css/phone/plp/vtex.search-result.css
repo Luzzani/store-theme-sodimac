@@ -3,3 +3,33 @@
     padding: 0;
 }
 
+.galleryLayoutSwitcher--gallery-layout {
+    gap: 50px;
+}
+
+.orderByButton--drawer__order--by {
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e3e4e6;
+    height: 45px;
+}
+
+.filterPopupTitle--drawer__order--by {
+    visibility: hidden;
+}
+
+.filterPopupTitle--drawer__order--by::before {
+    content: "Ordenar por";
+    visibility: visible;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #000;
+    text-transform: none;
+}
+
+.caretIcon--drawer__order--by {
+    transform: scale(1.3) translateX(3px);
+}
+
+
