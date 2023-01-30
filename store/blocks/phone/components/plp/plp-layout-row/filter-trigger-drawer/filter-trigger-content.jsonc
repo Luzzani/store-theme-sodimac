@@ -37,6 +37,7 @@
         "title": "filter navigator",
         "props": {
             "layout": "desktop",
+            "priceRangeLayout": "inputAndSlider",
             "initiallyCollapsed": true
         }
     },

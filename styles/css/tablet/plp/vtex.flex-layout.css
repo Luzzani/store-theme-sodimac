@@ -67,6 +67,7 @@
     border: 1px solid #DD0021;
     color: #DD0021;
     text-transform: none;
+    border-radius: 0;
     align-self: center;
 }
 

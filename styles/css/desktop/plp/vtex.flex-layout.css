@@ -2,7 +2,6 @@
     max-width: 1280px;
     margin: 0 auto;
     width: 100%;
-    height: 100vh;
     padding: 0 29px;
 }
 
@@ -68,6 +67,65 @@
     background-color: transparent;
 }
 
+.flexRowContent--products__container--desktop {
+    margin-top: 25px;
+    margin-bottom: 125px;
+}
+
+.flexRowContent--products__container--desktop :global(.vtex-search-result-3-x-gallery--grid) {
+    padding: 0;
+    gap: 10px;
+}
+
+.flexRowContent--products__container--desktop :global(.vtex-search-result-3-x-galleryItem--grid) {
+    background-color: #FFF;
+    height: 554px;
+}
+
+.flexRowContent--products__container--desktop :global(.vtex-product-summary-2-x-element) {
+    justify-content: space-between;
+}
+
+.flexRowContent--products__container--desktop :global(.vtex-button):hover {
+    background-color: #DD0021;
+    color: #FFF;
+}
+
+.flexRowContent--products__container--desktop :global(.vtex-button):active {
+    background-color: #ac0111;
+}
+
+.flexRowContent--products__container--desktop :global(.vtex-button) {
+    visibility: hidden;
+}
+
+.flexRowContent--products__container--desktop :global(.vtex-search-result-3-x-galleryItem--grid):hover :global(.vtex-button) {
+    visibility: visible;
+}
+
+.flexRowContent--products__container--desktop :global(.vtex-search-result-3-x-gallery--list) {
+    padding: 0;
+    gap: 5px;
+}
+
+.flexRowContent--products__container--desktop :global(.vtex-search-result-3-x-galleryItem):global(.vtex-search-result-3-x-galleryItem--normal):global(.vtex-search-result-3-x-galleryItem--list) {
+    background-color: #FFF;
+}
+
+.flexRowContent--products__container--desktop :global(.vtex-product-summary-2-x-container):global(.vtex-product-summary-2-x-containerNormal) {
+    max-width: none !important;
+}
+
+.flexRowContent--products__container--desktop :global(.vtex-product-summary-2-x-imageNormal):global(.vtex-product-summary-2-x-image) {
+    width: 200px !important;
+    height: 200px !important;
+    max-height: none !important;
+    max-width: none !important;
+}
+
+.flexRowContent--products__container--desktop :global(.vtex-search-result-3-x-galleryItem--list):hover :global(.vtex-button) {
+    visibility: visible;
+}
 
 /* .flexRowContent--row__breadcrumb :global(.vtex-breadcrumb-1-x-link) {
     color: #1980cc;

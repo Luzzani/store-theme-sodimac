@@ -66,6 +66,10 @@
     "flex-layout.row#products__container": {
         "title": "products container",
         "children": [
-        ]
+            "search-content#results__content--products--desktop"
+        ],
+        "props": {
+            "blockClass": "products__container--desktop"
+        }
     }
 }
