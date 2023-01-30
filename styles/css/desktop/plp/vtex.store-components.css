@@ -1,3 +1,17 @@
+.imageElement--image-filter-desktop {
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.imageElement--image-filter-desktop--active,
+.imageElement--image-filter-desktop:hover {
+    box-shadow: 1px 1px 5px 2px rgb(0 0 0 / 30%);
+}
 /* .image,
 .imageContainer,
 .discountContainer {

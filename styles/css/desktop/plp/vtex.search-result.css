@@ -1,3 +1,91 @@
+.filter__container--filter__navigator--desktop--title {
+    display: none;
+}
+
+.filter__container--filter__navigator--desktop:global(.vtex-search-result-3-x-filter__container--selectedFilters) {
+    display: none;
+}
+
+.filterContent--filter__navigator--desktop {
+    font-size: 12px;
+    color: #333333;
+}
+
+.filterTemplateOverflow--filter__navigator--desktop :global(.vtex-slider-container) {
+    display: none;
+}
+
+.filterIcon--filter__navigator--desktop {
+    color: #000;
+}
+
+.priceRangeInputWrapper--filter__navigator--desktop :global(.vtex-button__label) {
+    display: none;
+}
+
+.priceRangeInputWrapper--filter__navigator--desktop :global(.vtex-button) {
+    background-color: #E6E6E6;
+    border: transparent;
+    padding: 0 .2rem;
+    border-radius: 0;
+    margin-right: 15px;
+}
+
+.priceRangeInputWrapper--filter__navigator--desktop :global(.vtex-button)::after {
+    content: ">";
+    color: #000;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.priceRangeInput--filter__navigator--desktop :global(.vtex-input__prefix) {
+    display: none;
+}
+
+.priceRangeInput--filter__navigator--desktop {
+    position: relative;
+    width: 60px;
+}
+
+.priceRangeInput--filter__navigator--desktop {
+    transform: translateX(20px);
+    font-size: 12px;
+}
+
+.priceRangeInput--filter__navigator--desktop::before {
+    content: "$";
+    position: absolute;
+    left: -15px;
+    top: 7px;
+}
+
+.filter--filter__navigator--desktop {
+    background-color: #FFF;
+    height: fit-content;
+    padding: 10px 0px 10px 17px;
+    margin-bottom: 5px;
+}
+
+.filter__container--filter__navigator--desktop {
+    border: transparent;
+}
+
+.filterTemplateOverflow--filter__navigator--desktop {
+    background-color: #FFF;
+    margin-bottom: 5px;
+    height: fit-content;
+    padding-left: 5px;
+}
+
+.priceRangeInputWrapper--filter__navigator--desktop {
+    padding-top: 16px;
+}
+
+.filtersWrapper--filter__navigator--desktop :global(.vtex-input-prefix__group) {
+    border: 1px solid black;
+}
+
+
 /* .container--layout--search__layout {
     max-width: 1180px;
 }

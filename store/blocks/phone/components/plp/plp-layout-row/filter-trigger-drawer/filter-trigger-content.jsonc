@@ -36,7 +36,8 @@
     "filter-navigator.v3#phone": {
         "title": "filter navigator",
         "props": {
-            "layout": "desktop"
+            "layout": "desktop",
+            "initiallyCollapsed": true
         }
     },
     "gallery-layout-switcher": {

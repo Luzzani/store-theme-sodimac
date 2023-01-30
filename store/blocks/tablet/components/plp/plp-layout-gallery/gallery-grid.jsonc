@@ -37,6 +37,7 @@
     "add-to-cart-button#grid__summary--tablet": {
         "title": "add to cart button",
         "props": {
+            "text": "Agregar al carro",
             "blockClass": "grid__summary--tablet"
         }
     },

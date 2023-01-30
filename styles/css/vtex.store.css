@@ -132,7 +132,7 @@
 
 :global(.vtex-reviews-and-ratings-3-x-inlineContainer) {
   margin: 0;
-  transform: translateY(-20px);
+  text-align: left;
 }
 
 :global(.vtex-product-summary-2-x-brandName):global(.vtex-product-summary-2-x-productBrand) {

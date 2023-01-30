@@ -1,3 +1,74 @@
+.flexRow--result__layout--desktop {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    padding: 0 29px;
+}
+
+.flexRow--result__layout--desktop :global(.vtex-breadcrumb-1-x-container) {
+    font-size: 12px;
+    color: #1980CC;
+}
+
+.flexRow--result__layout--desktop :global(.vtex-breadcrumb-1-x-link) {
+    color: #1980CC;
+}
+
+
+.flexRow--images__links--container {
+    background-color: #FFF;
+}
+
+.flexRowContent--images__links--container {
+    justify-content: space-around;
+}
+
+.flexCol--images__links--col {
+    width: 120px !important;
+    padding: 1.4rem 0;
+}
+
+.flexRowContent--search__title--container {
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 15px;
+}
+
+.flexRowContent--search__title--container :global(.vtex-search-result-3-x-galleryTitle--layout) {
+    font-size: 28px;
+}
+
+.flexRowContent--search__title--container :global(.vtex-search-result-3-x-totalProducts--layout) {
+    padding: 0;
+    text-transform: lowercase;
+    font-size: 18px;
+    color: #585858;
+}
+
+.flexRowContent--search__title--container :global(.vtex-search-result-3-x-totalProductsMessage) {
+    color: #585858;
+}
+
+.flexRowContent--search__title--container :global(.vtex-search-result-3-x-totalProducts--layout)::before {
+    content: "(";
+}
+
+.flexRowContent--search__title--container :global(.vtex-search-result-3-x-totalProducts--layout)::after {
+    content: ")";
+}
+
+.flexRowContent--order__switcher--container {
+    background-color: #fff;
+    justify-content: flex-start;
+    transform: translateY(-3px);
+}
+
+.flexRowContent--order__switcher--container :global(.vtex-search-result-3-x-orderByButton) {
+    background-color: transparent;
+}
+
+
 /* .flexRowContent--row__breadcrumb :global(.vtex-breadcrumb-1-x-link) {
     color: #1980cc;
     font-size: 12px;

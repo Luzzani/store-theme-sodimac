@@ -55,6 +55,8 @@
     transform: translateX(-5px);
 }
 
+
+.flexColChild--summary__right--top--tablet,
 .flexColChild--summary__top--col--tablet :global(.vtex-product-summary-2-x-productBrandName) {
     font-size: 14px;
     color: #585858;
@@ -104,4 +106,86 @@
     width: 35px;
     top: 10px;
     transform: translateX(-40px);
+}
+
+.flexColChild--middle__left--tablet {
+    font-size: 14px;
+    text-align: left;
+    text-transform: lowercase;
+}
+
+.flexColChild--middle__left--tablet :global(.vtex-product-specifications-1-x-specificationName) {
+    display: none;
+}
+
+.flexColChild--middle__left--tablet :global(.vtex-product-specifications-1-x-specificationValue--last):last-child {
+    display: none;
+}
+
+.flexColChild--result__layout--tablet :global(.vtex-search-result-3-x-galleryItem--list) {
+    height: 261px;
+    background-color: #FFF;
+    padding: .5rem;
+    padding-bottom: 0;
+}
+
+.flexColChild--result__layout--tablet :global(.vtex-search-result-3-x-gallery--list) {
+    margin-top: 25px;
+    gap: 5px;
+}
+
+.flexRowContent--list__summary--container,
+.flexRow--list__summary--container {
+    height: 100%;
+}
+
+
+.flexCol--summary__right--top--tablet {
+    align-items: flex-start;
+}
+
+.flexCol--middle__right--tablet {
+    text-align: right;
+    padding: 1rem;
+    transform: translateY(35px);
+    font-weight: bold;
+}
+
+.flexRowContent--summary__right--bottom--tablet {
+    padding-top: 20px;
+    padding-right: 1rem;
+}
+
+.flexColChild--bottom__right--table :global(.vtex-button) {
+    color: #DD0021;
+    background-color: transparent;
+    border: 1px solid #DD0021;
+    text-transform: none;
+    font-size: 14px;
+    width: 180px;
+    border-radius: 0;
+
+}
+
+.flexColChild--bottom__right--table :global(.vtex-button):active {
+    background-color: #a9011b;
+    color: #FFF;
+}
+
+.flexCol--bottom__right--table {
+    align-items: flex-end;
+}
+
+.flexColChild--middle__right--tablet :global(.vtex-product-price-1-x-currencyCode) {
+    display: none;
+}
+
+.flexColChild--middle__right--tablet :global(.vtex-product-price-1-x-sellingPrice ):first-child::before {
+    content: "$";
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.flexColChild--result__layout--tablet {
+    margin-bottom: 9px;
 }

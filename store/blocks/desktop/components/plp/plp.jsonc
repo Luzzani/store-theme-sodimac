@@ -1,0 +1,26 @@
+{
+    "search-result-layout.desktop": {
+        "title": "search result desktop",
+        "children": [
+            "flex-layout.row#result__layout--desktop"
+        ]
+    },
+    "flex-layout.row#result__layout--desktop": {
+        "title": "result layout container row",
+        "children": [
+            "flex-layout.col#result__layout--desktop"
+        ],
+        "props": {
+            "blockClass": "result__layout--desktop"
+        }
+    },
+    "flex-layout.col#result__layout--desktop": {
+        "title": "search result container column",
+        "children": [
+            "breadcrumb.search#desktop",
+            "flex-layout.row#images__links--container",
+            "flex-layout.row#search__title--container",
+            "flex-layout.row#filters__products--container"
+        ]
+    }
+}

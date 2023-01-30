@@ -1,3 +1,150 @@
 {
-    "product-summary.shelf#list__summary--tablet": {}
+    "product-summary.shelf#list__summary--tablet": {
+        "title": "product summary list",
+        "children": [
+            "flex-layout.row#list__summary--container"
+        ]
+    },
+    "flex-layout.row#list__summary--container": {
+        "title": "product summary container",
+        "children": [
+            "flex-layout.col#list__summary--left--tablet",
+            "flex-layout.col#list__summary--right--tablet"
+        ],
+        "props": {
+            "blockClass": "list__summary--container",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#list__summary--left--tablet": {
+        "title": "summary container left",
+        "children": [
+            "rich-text#dummy__buy--checkbox--tablet",
+            "product-summary-image#list__summary--tablet"
+        ],
+        "props": {
+            "width": "40%"
+        }
+    },
+    "product-summary-image#list__summary--tablet": {
+        "title": "image list on tablet",
+        "props": {
+            "height": 145,
+            "width": 145
+        }
+    },
+    "flex-layout.col#list__summary--right--tablet": {
+        "title": "summary container right",
+        "children": [
+            "flex-layout.row#summary__right--top--tablet",
+            "flex-layout.row#summary__right--middle--tablet",
+            "flex-layout.row#summary__right--bottom--tablet"
+        ],
+        "props": {
+            "blockClass": "list__summary--right--tablet"
+        }
+    },
+    "flex-layout.row#summary__right--top--tablet": {
+        "title": "summary right top row",
+        "children": [
+            "flex-layout.col#summary__right--top--tablet"
+        ]
+    },
+    "flex-layout.col#summary__right--top--tablet": {
+        "title": "summary name and rating container",
+        "children": [
+            "product-summary-brand",
+            "product-summary-name#list__summary--name--tablet",
+            "product-rating-inline"
+        ],
+        "props": {
+            "blockClass": "summary__right--top--tablet"
+        }
+    },
+    "product-summary-name#list__summary--name--tablet": {
+        "title": "product name",
+        "props": {
+            "blockClass": "list__summary--name--tablet",
+            "tag": "div"
+        }
+    },
+    "flex-layout.row#summary__right--middle--tablet": {
+        "title": "",
+        "children": [
+            "flex-layout.col#middle__left--tablet",
+            "flex-layout.col#middle__right--tablet"
+        ]
+    },
+    "flex-layout.col#middle__left--tablet": {
+        "title": "summary info container",
+        "children": [
+            "product-specification-group"
+        ],
+        "props": {
+            "blockClass": "middle__left--tablet"
+        }
+    },
+    "product-specification-group": {
+        "title": "specification group",
+        "children": [
+            "product-specification"
+        ]
+    },
+    "product-specification": {
+        "title": "specification product",
+        "children": [
+            "product-specification-values"
+        ]
+    },
+    "product-specification-values": {
+        "title": "specification values",
+        "children": [
+            "product-specification-text#value"
+        ],
+        "props": {
+            "blockClass": "specification__values"
+        }
+    },
+    "product-specification-text#value": {
+        "title": "specification values message",
+        "props": {
+            "message": "{specificationValue}"
+        }
+    },
+    "flex-layout.col#middle__right--tablet": {
+        "title": "summary price container",
+        "children": [
+            "product-list-price",
+            "product-selling-price"
+        ],
+        "props": {
+            "blockClass": "middle__right--tablet"
+        }
+    },
+    "flex-layout.row#summary__right--bottom--tablet": {
+        "title": "",
+        "children": [
+            "flex-layout.col#bottom__left--tablet",
+            "flex-layout.col#bottom__right--tablet"
+        ],
+        "props": {
+            "blockClass": "summary__right--bottom--tablet"
+        }
+    },
+    "flex-layout.col#bottom__left--tablet": {
+        "title": "shipping and pickup container",
+        "children": [
+            "rich-text#pickup",
+            "rich-text#shipping"
+        ]
+    },
+    "flex-layout.col#bottom__right--tablet": {
+        "title": "add to cart button container",
+        "children": [
+            "add-to-cart-button#grid__summary--tablet"
+        ],
+        "props": {
+            "blockClass": "bottom__right--table"
+        }
+    }
 }

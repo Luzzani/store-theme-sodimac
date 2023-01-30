@@ -1,0 +1,71 @@
+{
+    "flex-layout.col#filter__col": {
+        "title": "filter container",
+        "children": [
+            "filter-navigator.v3#filter__navigator--desktop"
+        ],
+        "props": {
+            "width": "20%",
+            "blockClass": "filter__col"
+        }
+    },
+    "filter-navigator.v3#filter__navigator--desktop": {
+        "title": "filter desktop",
+        "props": {
+            "blockClass": "filter__navigator--desktop",
+            "priceRangeLayout": "inputAndSlider",
+            "showQuantityBadgeOnMobile": true
+        }
+    },
+    "flex-layout.col#products__col": {
+        "title": "products container",
+        "children": [
+            "flex-layout.row#order__switcher--container",
+            "flex-layout.row#products__container"
+        ]
+    },
+    "flex-layout.row#order__switcher--container": {
+        "title": "order by and switcher container",
+        "children": [
+            "order-by.v2",
+            "gallery-layout-switcher#layout__switcher--desktop"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "order__switcher--container"
+        }
+    },
+    "gallery-layout-switcher#layout__switcher--desktop": {
+        "title": "gallery switcher",
+        "children": [
+            "gallery-layout-option#list--desktop",
+            "gallery-layout-option#grid--desktop"
+        ],
+        "props": {
+            "blockClass": "gallery-layout-desktop"
+        }
+    },
+    "gallery-layout-option#grid--desktop": {
+        "title": "gallery layout grid",
+        "props": {
+            "name": "grid"
+        },
+        "children": [
+            "icon-grid"
+        ]
+    },
+    "gallery-layout-option#list--desktop": {
+        "title": "gallery layout list",
+        "props": {
+            "name": "list"
+        },
+        "children": [
+            "icon-inline-grid"
+        ]
+    },
+    "flex-layout.row#products__container": {
+        "title": "products container",
+        "children": [
+        ]
+    }
+}

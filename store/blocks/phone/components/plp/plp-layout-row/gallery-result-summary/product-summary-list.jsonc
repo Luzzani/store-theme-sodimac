@@ -25,7 +25,7 @@
             "product-summary-image#list__summary"
         ],
         "props": {
-            "width": "30%"
+            "width": "20%"
         }
     },
     "rich-text#dummy__buy--checkbox--list": {
