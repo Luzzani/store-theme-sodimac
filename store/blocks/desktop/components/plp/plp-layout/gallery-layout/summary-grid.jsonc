@@ -1,0 +1,10 @@
+{
+    "product-summary.shelf#grid__summary--desktop": {
+        "title": "product summary grid",
+        "children": [
+            "flex-layout.row#summary--top--tablet",
+            "flex-layout.row#summary--middle--tablet",
+            "flex-layout.row#summary--bottom--tablet"
+        ]
+    }
+}

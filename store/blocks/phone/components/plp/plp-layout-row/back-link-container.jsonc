@@ -9,7 +9,7 @@
             "blockClass": "arrow__left"
         }
     },
-    "link.product#back__home--page": {
+    "link#back__home--page": {
         "title": "back home link",
         "props": {
             "href": "/",

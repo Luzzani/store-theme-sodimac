@@ -1,0 +1,35 @@
+{
+    "search-content#results__content--products--desktop": {
+        "title": "result content products",
+        "blocks": [
+            "gallery#desktop",
+            "not-found"
+        ],
+        "props": {
+            "blockClass": "result__content--product--desktop"
+        }
+    },
+    "gallery#desktop": {
+        "title": "gallery",
+        "props": {
+            "layouts": [
+                {
+                    "name": "grid",
+                    "component": "GridSummary--desktop",
+                    "itemsPerRow": {
+                        "desktop": 4,
+                        "tablet": 2,
+                        "phone": 2
+                    }
+                },
+                {
+                    "name": "list",
+                    "component": "ListSummary--desktop",
+                    "itemsPerRow": 1
+                }
+            ],
+            "GridSummary--desktop": "product-summary.shelf#grid__summary--desktop",
+            "ListSummary--desktop": "product-summary.shelf#list__summary--desktop"
+        }
+    }
+}

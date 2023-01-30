@@ -1,0 +1,24 @@
+.drawerTriggerContainer--filter__navigator--trigger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drawer--filter__navigator--drawer {
+    background-color: #FFF;
+}
+
+:global(.vtex-store-drawer-0-x-opened) .closeIconButton--filter__navigator--drawer {
+    position: absolute;
+    right: -15%;
+    color: #FFF;
+}
+
+.childrenContainer--filter__navigator--drawer {
+    width: 100%;
+    overflow: hidden;
+}
+
+.childrenContainer--filter__navigator--drawer :global(.vtex-menu-2-x-menuContainerNav) {
+    width: 100%;
+}

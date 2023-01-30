@@ -1,0 +1,97 @@
+{
+    "product-summary.shelf#list__summary": {
+        "title": "product summary list",
+        "children": [
+            "flex-layout.row#list__summary"
+        ],
+        "props": {
+            "blockClass": "list__summary"
+        }
+    },
+    "flex-layout.row#list__summary": {
+        "title": "list summary",
+        "children": [
+            "flex-layout.col#list__summary--left",
+            "flex-layout.col#list__summary--right"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#list__summary--left": {
+        "title": "list summary left column",
+        "children": [
+            "rich-text#dummy__buy--checkbox--list",
+            "product-summary-image#list__summary"
+        ],
+        "props": {
+            "width": "20%"
+        }
+    },
+    "rich-text#dummy__buy--checkbox--list": {
+        "title": "dummy checkbox",
+        "props": {
+            "text": "&#x2610; Comprar",
+            "blockClass": "dummy__buy--checkbox--list"
+        }
+    },
+    "product-summary-image#list__summary": {
+        "title": "image list summary",
+        "props": {
+            "width": 125,
+            "height": 125
+        }
+    },
+    "flex-layout.col#list__summary--right": {
+        "title": "list summary right column",
+        "children": [
+            "flex-layout.row#name__brand--rating--container",
+            "flex-layout.row#price__button--container"
+        ],
+        "props": {
+            "blockClass": "list__summary--right"
+        }
+    },
+    "flex-layout.row#name__brand--rating--container": {
+        "title": "name, brand and rating container",
+        "children": [
+            "flex-layout.col#name__brand--rating"
+        ],
+        "props": {
+            "blockClass": "name__brand--rating--container"
+        }
+    },
+    "flex-layout.col#name__brand--rating": {
+        "title": "name, brand and rating col",
+        "children": [
+            "product-summary-brand",
+            "product-summary-name#list__summary",
+            "product-rating-inline"
+        ],
+        "props": {
+            "blockClass": "name__brand--rating"
+        }
+    },
+    "product-summary-name#list__summary": {
+        "title": "summary name list",
+        "props": {
+            "blockClass": [
+                "list__summary",
+                "grid__summary--name"
+            ]
+        }
+    },
+    "flex-layout.row#price__button--container": {
+        "title": "price and button container",
+        "children": [
+            "product-list-price",
+            "product-selling-price",
+            "add-to-cart-button#grid__summary"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "price__button--container",
+            "colSizing": "auto"
+        }
+    }
+}

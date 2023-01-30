@@ -1,34 +1,71 @@
 {
     "drawer#filter__navigator": {
+        "title": "drawer filter navigator",
         "children": [
-            "menu#drawer"
+            "menu#drawer__filter"
         ],
         "blocks": [
-            "drawer-trigger"
-        ]
-    },
-    "drawer-trigger": {
-        "children": [
-            "rich-text#open-drawer"
-        ]
-    },
-    "rich-text#open-drawer": {
+            "drawer-trigger#filter__navigator"
+        ],
         "props": {
-            "text": "Open drawer"
+            "maxWidth": "90%",
+            "blockClass": "filter__navigator--drawer"
         }
     },
-    "menu#drawer": {
+    "drawer-trigger#filter__navigator": {
+        "title": "drawer trigger - filter",
         "children": [
+            "icon#filter",
+            "rich-text#open__drawer--filter"
+        ],
+        "props": {
+            "blockClass": "filter__navigator--trigger"
+        }
+    },
+    "rich-text#open__drawer--filter": {
+        "title": "drawer trigger text",
+        "props": {
+            "text": "&nbsp; Filtrar y ordenar",
+            "blockClass": "open__drawer--filter"
+        }
+    },
+    "menu#drawer__filter": {
+        "title": "menu drawer - filter",
+        "children": [
+            "flex-layout.row#back__link--drawer",
+            "disclosure-layout#drawer--filter",
+            "order-by.v2#drawer--order",
             "filter-navigator.v3#phone"
         ],
         "props": {
-            "orientation": "vertical"
+            "orientation": "vertical",
+            "blockClass": "open__drawer--filter"
         }
     },
-    "filter-navigator.v3#phone": {
-        "title": "filter navigator",
+    "order-by.v2#drawer--order":{
+        "title": "drawer order by",
         "props": {
-            "layout": "desktop"
+            "blockClass": "drawer__order--by"
+        }
+    },
+    "flex-layout.row#back__link--drawer": {
+        "title": "back link drawer",
+        "children": [
+            "image#left__arrow",
+            "link#back__home--page"
+        ],
+        "props": {
+            "blockClass": "back__link--drawer",
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "colJustify": "left"
+        }
+    },
+    "icon#filter": {
+        "title": "down arrow",
+        "props": {
+            "id": "mpa-filter--outline",
+            "size": 15
         }
     }
 }

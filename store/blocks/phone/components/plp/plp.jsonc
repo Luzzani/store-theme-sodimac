@@ -18,7 +18,11 @@
             "flex-layout.row#modal__trigger--container",
             "flex-layout.row#message__product--container",
             "flex-layout.row#filter__trigger--container",
-            "flex-layout.row#gallery__result--container"
-        ]
+            "flex-layout.row#gallery__result--container",
+            "back-to-top-button"
+        ],
+        "props": {
+            "blockClass": "result__layout--containerChildren"
+        }
     }
 }

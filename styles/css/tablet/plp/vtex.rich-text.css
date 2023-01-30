@@ -1,0 +1,19 @@
+.paragraph--dummy__buy--checkbox--tablet {
+    font-size: 14px;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+}
+
+.paragraph--dummy__buy--checkbox--tablet::first-letter {
+    font-size: 23px;
+    color: #d2d0d0;
+}
+
+.paragraph--dummy_shipping--data,
+.paragraph--dummy_pickup--data {
+    font-size: 14px;
+}
+
+.paragraph--dummy_pickup--data::first-letter {
+    color: rgb(106, 210, 1)
+}

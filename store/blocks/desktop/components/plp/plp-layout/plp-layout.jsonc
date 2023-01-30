@@ -1,0 +1,51 @@
+{
+    "breadcrumb.search#desktop": {
+        "title": "breadcrumb",
+        "props": {
+            "homeIconSize": 16,
+            "showOnMobile": true
+        }
+    },
+    "flex-layout.row#images__links--container": {
+        "title": "images links container",
+        "children": [
+            "flex-layout.col#images__links--col",
+            "flex-layout.col#images__links--col2",
+            "flex-layout.col#images__links--col3",
+            "flex-layout.col#images__links--col4",
+            "flex-layout.col#images__links--col5",
+            "flex-layout.col#images__links--col6",
+            "flex-layout.col#images__links--col7"
+        ],
+        "props": {
+            "blockClass": "images__links--container"
+        }
+    },
+    "flex-layout.row#search__title--container": {
+        "title": "search title container",
+        "children": [
+            "search-title.v2",
+            "total-products.v2"
+        ],
+        "props": {
+            "blockClass": "search__title--container",
+            "colSizing": "auto"
+        }
+    },
+    "search-title.v2": {
+        "title": "search title",
+        "props": {
+            "showFacetQuantity": true
+        }
+    },
+    "flex-layout.row#filters__products--container": {
+        "title": "filter and products container",
+        "children": [
+            "flex-layout.col#filter__col",
+            "flex-layout.col#products__col"
+        ],
+        "props": {
+            "colGap": 4
+        }
+    }
+}

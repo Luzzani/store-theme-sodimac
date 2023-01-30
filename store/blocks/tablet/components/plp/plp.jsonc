@@ -1,0 +1,30 @@
+{
+    "responsive-layout.tablet#search__result-layout": {
+        "title": "search result tablet",
+        "children": [
+            "flex-layout.row#back__link--container",
+            "flex-layout.row#result__layout--tablet"
+        ]
+    },
+    "flex-layout.row#result__layout--tablet": {
+        "title": "result layout container",
+        "children": [
+            "flex-layout.col#result__layout--containerChildren--tablet"
+        ],
+        "props": {
+            "blockClass": "result__layout--tablet"
+        }
+    },
+    "flex-layout.col#result__layout--containerChildren--tablet": {
+        "title": "result layout container children",
+        "children": [
+            "flex-layout.row#message__product--container",
+            "flex-layout.row#filter__trigger--container",
+            "flex-layout.row#gallery__result--container--tablet",
+            "back-to-top-button"
+        ],
+        "props": {
+            "blockClass": "result__layout--tablet"
+        }
+    }
+}
