@@ -1,0 +1,28 @@
+{
+    "flex-layout.row#product__details--layout": {
+        "title": "product details layout row",
+        "children": [
+            "flex-layout.col#product__details--layout"
+        ],
+        "props": {
+            "marginBottom": 10
+        }
+    },
+    "flex-layout.col#product__details--layout": {
+        "title": "product details container col",
+        "children": [
+            "breadcrumb#prodcut__details--breadcrumb",
+            "flex-layout.row#modal__trigger--container",
+            "flex-layout.row#product__details--card"
+        ]
+    },
+    "breadcrumb#prodcut__details--breadcrumb": {
+        "title": "prodcut detail breadcrumb",
+        "props": {
+            "showOnMobile": true
+        }
+    }
+}
+// "product-images",
+// "product-price"
+// "shelf.relatedProducts"

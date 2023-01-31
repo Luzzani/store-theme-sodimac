@@ -1,0 +1,55 @@
+{
+    "flex-layout.row#product__details--card": {
+        "title": "product details container",
+        "children": [
+            "flex-layout.col#product__details--card"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#product__details--card": {
+        "title": "products details container",
+        "children": [
+            "flex-layout.row#details__card--top",
+            "flex-layout.row#details__card--middle"
+        ]
+    },
+    "flex-layout.row#details__card--top": {
+        "title": "details card top",
+        "children": [
+            "flex-layout.col#product__details--name",
+            "flex-layout.col#product__details--indetifier"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#product__details--name": {
+        "title": "product details name",
+        "children": [
+            "vtex.store-components:product-name#product__details--phone",
+            "product-rating-inline"
+        ]
+    },
+    "vtex.store-components:product-name#product__details--phone": {
+        "title": "product details name",
+        "props": {
+            "showSku": true,
+            "showBrandName": true
+        }
+    },
+    "flex-layout.col#product__details--indetifier": {
+        "title": "prodcut details identifier",
+        "children": [
+            "product-identifier.product"
+        ]
+    },
+    "flex-layout.row#details__card--middle": {
+        "title": "details card middle",
+        "children": [
+            "product-images",
+            "product-price"
+        ]
+    }
+}
