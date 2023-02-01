@@ -1,4 +1,21 @@
-/* Example Phone:
-.currencyGroup--info__data--price{
-    font-size: large;
-} */
+.sellingPrice--product__price {
+    font-size: 24px;
+    color: #333333;
+}
+
+
+.listPrice--product__list .currencyCode--product__list,
+.savings--product__savings .currencyCode--product__savings,
+.sellingPrice--product__price .currencyCode--product__price{
+    display: none;
+}
+
+.savings--product__savings {
+    color: #008A00;
+    font-size: 14px;
+}
+
+.listPrice--product__list {
+    color: #595959;
+    font-size: 20px;
+}

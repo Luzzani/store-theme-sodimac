@@ -5,7 +5,8 @@
             "flex-layout.col#product__details--card"
         ],
         "props": {
-            "preserveLayoutOnMobile": true
+            "preserveLayoutOnMobile": true,
+            "blockClass": "product__details--card"
         }
     },
     "flex-layout.col#product__details--card": {
@@ -13,7 +14,10 @@
         "children": [
             "flex-layout.row#details__card--top",
             "flex-layout.row#details__card--middle"
-        ]
+        ],
+        "props": {
+            "blockClass": "product__details--card"
+        }
     },
     "flex-layout.row#details__card--top": {
         "title": "details card top",
@@ -22,34 +26,80 @@
             "flex-layout.col#product__details--indetifier"
         ],
         "props": {
-            "preserveLayoutOnMobile": true
+            "preserveLayoutOnMobile": true,
+            "blockClass": "details__card--top"
         }
     },
     "flex-layout.col#product__details--name": {
         "title": "product details name",
         "children": [
-            "vtex.store-components:product-name#product__details--phone",
+            "vtex.store-components:product-brand",
+            "vtex.store-components:product-name#product__details--name",
             "product-rating-inline"
-        ]
+        ],
+        "props": {
+            "blockClass": "product__details--name"
+        }
     },
-    "vtex.store-components:product-name#product__details--phone": {
+    "vtex.store-components:product-name#product__details--name": {
         "title": "product details name",
         "props": {
             "showSku": true,
-            "showBrandName": true
+            "showBrandName": true,
+            "blockClass": "product__details--name"
         }
     },
     "flex-layout.col#product__details--indetifier": {
         "title": "prodcut details identifier",
         "children": [
-            "product-identifier.product"
-        ]
+            "product-identifier.product#product__details"
+        ],
+        "props": {
+            "width": "30%"
+        }
+    },
+    "product-identifier.product#product__details": {
+        "title": "product identifier",
+        "props": {
+            "blockClass": "product__details--identifier",
+            "label": "custom",
+            "customLabel": "Código"
+        }
     },
     "flex-layout.row#details__card--middle": {
         "title": "details card middle",
         "children": [
-            "product-images",
-            "product-price"
+            "product-images#product__details--phone",
+            "product-selling-price#product__price",
+            "product-price-savings#product__savings",
+            "product-list-price#product__list"
         ]
+    },
+    "product-images#product__details--phone": {
+        "title": "product images",
+        "props": {
+            "showNavigationArrows": false
+        }
+    },
+    "product-selling-price#product__price": {
+        "title": "product price",
+        "props": {
+            "message": "$ {sellingPriceValue} c/u",
+            "blockClass": "product__price"
+        }
+    },
+    "product-price-savings#product__savings": {
+        "title": "product savings",
+        "props": {
+            "blockClass": "product__savings",
+            "message": "$ {savingsValue} c/u"
+        }
+    },
+    "product-list-price#product__list": {
+        "title": "product list",
+        "props": {
+            "blockClass": "product__list",
+            "message": "$ {listPriceValue} c/u"
+        }
     }
 }

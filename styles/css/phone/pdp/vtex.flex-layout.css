@@ -1,0 +1,79 @@
+.flexColChild--product__details--layout {
+    margin-top: 15px;
+}
+
+.flexColChild--product__details--layout .flexRow--modal__trigger--container {
+    padding-bottom: 0;
+}
+
+
+.flexColChild--product__details--layout :global(.vtex-breadcrumb-1-x-link) {
+    color: #1980CC;
+    font-size: 16px;
+    margin-left: 19px;
+}
+
+.flexColChild--product__details--layout .flexRow--modal__trigger--container {
+    background-color: transparent !important;
+}
+
+.flexRowContent--product__details--card {
+    padding: 10px;
+    background-color: #FFF;
+}
+
+.flexRowContent--product__details--card :global(.vtex-store-components-3-x-productImageTag--main) {
+    min-height: 400px;
+}
+
+
+.flexRowContent--product__details--card :global(.vtex-product-identifier-0-x-product-identifier--productReference) {
+    font-size: 12px;
+    color: #595959;
+}
+
+.flexColChild--product__details--name :global(.vtex-store-components-3-x-productBrandName) {
+    font-size: 14px;
+    color: #585858;
+}
+
+.flexRow--satisfaction__guaranteed--container {
+    border: 1px dashed #bfbfbf;
+    padding: 1rem;
+    border-radius: 3px;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.flexCol--satisfaction__guarantee-link {
+    text-align: right;
+}
+
+.flexRow--product__details--layout :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
+.flexRow--delivery__options--title {
+    background-color: #FFF;
+    padding-left: 10px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.flexRow--delivery__options--shipping {
+    padding: 10px 0;
+    background-color: #FFF;
+}
+
+.flexRowContent--shipping__text--left :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    align-items: center;
+    padding-left: 10px;
+}
+
+.flexColChild--options__shipping--right {
+    text-align: right;
+    padding-right: 15px;
+}
+
+.flexRowContent--shipping__text--left {
+    justify-content: flex-start;
+}

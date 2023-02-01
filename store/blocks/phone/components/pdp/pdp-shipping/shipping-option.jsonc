@@ -1,0 +1,99 @@
+{
+    "flex-layout.row#delivery__options--shipping": {
+        "title": "delivery option shipping",
+        "children": [
+            "flex-layout.col#options__shipping--left",
+            "flex-layout.col#options__shipping--right"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "delivery__options--shipping"
+        }
+    },
+    "flex-layout.col#options__shipping--left": {
+        "title": "options shipping left",
+        "children": [
+            "flex-layout.row#shipping__text--left"
+        ],
+        "props": {
+            "blockClass": "options__shipping--left"
+        }
+    },
+    "flex-layout.row#shipping__text--left": {
+        "title": "options shipping left",
+        "children": [
+            "image#shipping__icon--left",
+            "flex-layout.col#shipping__text--left"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "shipping__text--left",
+            "colSizing": "auto",
+            "colGap": 3
+        }
+    },
+    "flex-layout.col#shipping__text--left": {
+        "title": "shipping text container",
+        "children": [
+            "rich-text#shipping__text--top",
+            "rich-text#shipping__text--bottom"
+        ]
+    },
+    "image#shipping__icon--left": {
+        "title": "shipping icon",
+        "props": {
+            "src": "assets/img/truck.png",
+            "maxHeight": "30px",
+            "maxWidth": "30px"
+        }
+    },
+    "rich-text#shipping__text--top": {
+        "title": "shipping text top",
+        "props": {
+            "text": "Disponible",
+            "blockClass": [
+                "shipping__text",
+                "shipping__text--top"
+            ]
+        }
+    },
+    "rich-text#shipping__text--bottom": {
+        "title": "shipping text bottom",
+        "props": {
+            "text": "Envío a domicilio",
+            "blockClass": [
+                "shipping__text",
+                "shipping__text--bottom"
+            ]
+        }
+    },
+    "flex-layout.col#options__shipping--right": {
+        "title": "options shipping right",
+        "children": [
+            "modal-trigger#options__shipping--right"
+        ],
+        "props": {
+            "blockClass": "options__shipping--right"
+        }
+    },
+    "modal-trigger#options__shipping--right": {
+        "title": "modal trigger shipping",
+        "children": [
+            "rich-text#shipping__link",
+            "modal-layout#options__shipping--content"
+        ]
+    },
+    "rich-text#shipping__link": {
+        "title": "shipping link modal",
+        "props": {
+            "text": "ver fechas",
+            "blockClass": "shipping__link"
+        }
+    },
+    "modal-layout#options__shipping--content": {
+        "title": "modal shipping content",
+        "children": [
+            "shipping-simulator"
+        ]
+    }
+}

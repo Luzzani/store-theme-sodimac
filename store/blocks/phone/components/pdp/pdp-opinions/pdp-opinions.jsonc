@@ -1,0 +1,44 @@
+{
+    "flex-layout.row#client__opinions": {
+        "title": "client opinions",
+        "children": [
+            "modal-trigger#client__opinions--trigger"
+        ]
+    },
+    "modal-trigger#client__opinions--trigger": {
+        "title": "modal client trigger",
+        "children": [
+            "flex-layout.row#opinions__trigger",
+            "modal-layout#client__opinions--content"
+        ]
+    },
+    "flex-layout.row#opinions__trigger": {
+        "title": "opnion trigger container",
+        "children": [
+            "flex-layout.col#opinions__trigger--left",
+            "flex-layout.col#opinions__trigger--right"
+        ]
+    },
+    "flex-layout.col#opinions__trigger--left": {
+        "title": "opinions trigger left col",
+        "children": [
+            "rich-text#opinion__clients--title",
+            "product-rating-inline"
+        ]
+    },
+    "flex-layout.col#opinions__trigger--right": {
+        "title": "opinions trigger right col"
+    },
+    "rich-text#opinion__clients--title": {
+        "title": "opinions clientes text",
+        "props": {
+            "text": "Opiniones de clientes"
+        }
+    },
+    "modal-layout#client__opinions--content": {
+        "title": "modal layout opinions",
+        "children": [
+            "product-reviews"
+        ]
+    }
+}

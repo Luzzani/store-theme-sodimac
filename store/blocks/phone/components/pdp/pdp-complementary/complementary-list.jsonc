@@ -1,0 +1,44 @@
+{
+    "flex-layout.row#complementary-products": {
+        "title": "complementary products row",
+        "children": [
+            "flex-layout.col#complementary-products"
+        ]
+    },
+    "flex-layout.col#complementary-products": {
+        "title": "complementary products col",
+        "children": [
+            "rich-text#complementary-products",
+            "list-context.product-list#complementary-products"
+        ]
+    },
+    "rich-text#complementary-products": {
+        "title": "complementary products title",
+        "props": {
+            "text": "Lo más elegidos para complementar tu compra"
+        }
+    },
+    "list-context.product-list#complementary-products": {
+        "title": "product list",
+        "blocks": [
+            "product-summary.shelf#list__summary"
+        ],
+        "children": [
+            "slider-layout#complementary-products"
+        ]
+    },
+    "slider-layout#complementary-products": {
+        "title": "slider search result",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "blockClass": "slider__search--result",
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "never",
+            "infinite": false
+        }
+    }
+}

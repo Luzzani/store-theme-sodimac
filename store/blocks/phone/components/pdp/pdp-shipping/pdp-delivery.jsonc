@@ -1,0 +1,34 @@
+{
+    "flex-layout.row#shipping--pickup": {
+        "title": "shipping simulator and pick up",
+        "children": [
+            "flex-layout.col#shipping__pickup--container"
+        ]
+    },
+    "flex-layout.col#shipping__pickup--container": {
+        "title": "shipping pickup container",
+        "children": [
+            "flex-layout.row#delivery__options--title",
+            "flex-layout.row#delivery__options--shipping",
+            "flex-layout.row#delivery__options--withdrawal",
+            "flex-layout.row#delivery__options--stock"
+        ]
+    },
+    "flex-layout.row#delivery__options--title": {
+        "title": "delivery option title",
+        "children": [
+            "rich-text#delivery__options--title"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "delivery__options--title"
+        }
+    },
+    "rich-text#delivery__options--title": {
+        "title": "delivery option title",
+        "props": {
+            "text": "**Opciones de entrega** <span> para <span/> [General San Martin](/)",
+            "blockClass": "delivery__options--title"
+        }
+    }
+}
