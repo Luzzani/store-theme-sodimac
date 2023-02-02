@@ -55,7 +55,8 @@
             "product-identifier.product#product__details"
         ],
         "props": {
-            "width": "30%"
+            "width": "30%",
+            "blockClass": "product__details--indetifier"
         }
     },
     "product-identifier.product#product__details": {

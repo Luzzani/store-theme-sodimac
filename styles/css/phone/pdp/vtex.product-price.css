@@ -6,7 +6,7 @@
 
 .listPrice--product__list .currencyCode--product__list,
 .savings--product__savings .currencyCode--product__savings,
-.sellingPrice--product__price .currencyCode--product__price{
+.sellingPrice--product__price .currencyCode--product__price {
     display: none;
 }
 
@@ -18,4 +18,31 @@
 .listPrice--product__list {
     color: #595959;
     font-size: 20px;
+}
+
+.sellingPrice--complementary__card--bottom {
+    text-align: right;
+    margin-right: 20px;
+    transform: translateY(20px);
+}
+
+.sellingPrice--complementary__card--bottom--hasUnitMultiplier,
+.currencyContainer--complementary__card--bottom {
+    font-size: 17px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.currencyCode--complementary__card--bottom {
+    display: none;
+}
+
+.currencyCode--related__card--bottom {
+    display: none;
+}
+
+.sellingPrice--related__card--bottom {
+    font-size: 17px;
+    color: #333333;
+    font-weight: bold;
 }

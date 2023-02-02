@@ -50,3 +50,19 @@
     color: #333333;
     font-weight: bold;
 }
+
+.headingLevel4--complementary-products--title {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.headingLevel4--related-products {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.wrapper--opinions__trigger {
+    font-size: 18px;
+    color: #152935;
+    font-weight: bold;
+}

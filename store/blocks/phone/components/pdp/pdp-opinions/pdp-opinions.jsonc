@@ -3,42 +3,79 @@
         "title": "client opinions",
         "children": [
             "modal-trigger#client__opinions--trigger"
-        ]
+        ],
+        "props": {
+            "blockClass": "client__opinions"
+        }
     },
     "modal-trigger#client__opinions--trigger": {
         "title": "modal client trigger",
         "children": [
             "flex-layout.row#opinions__trigger",
             "modal-layout#client__opinions--content"
-        ]
+        ],
+        "props": {
+            "blockClass": "client__opinions"
+        }
     },
     "flex-layout.row#opinions__trigger": {
         "title": "opnion trigger container",
         "children": [
             "flex-layout.col#opinions__trigger--left",
             "flex-layout.col#opinions__trigger--right"
-        ]
+        ],
+        "props": {
+            "blockClass": "client__opinions--container",
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "colJustify": "between"
+        }
     },
     "flex-layout.col#opinions__trigger--left": {
         "title": "opinions trigger left col",
         "children": [
             "rich-text#opinion__clients--title",
-            "product-rating-inline"
+            "product-rating-summary"
         ]
     },
     "flex-layout.col#opinions__trigger--right": {
-        "title": "opinions trigger right col"
+        "title": "opinions trigger right col",
+        "children": [
+            "icon#right-arrow"
+        ],
+        "props": {
+            "verticalAlign": "middle"
+        }
+    },
+    "icon#right-arrow": {
+        "title": "right arrow",
+        "props": {
+            "id": "nav-caret--right",
+            "size": 25
+        }
     },
     "rich-text#opinion__clients--title": {
         "title": "opinions clientes text",
         "props": {
-            "text": "Opiniones de clientes"
+            "text": "Opiniones de clientes",
+            "blockClass": "opinions__trigger"
         }
     },
     "modal-layout#client__opinions--content": {
         "title": "modal layout opinions",
         "children": [
-            "product-reviews"
-        ]
+            "modal-header",
+            "product-reviews#client__opinions"
+        ],
+        "props": {
+            "blockClass": "opinions__modal",
+            "fullScreen": true
+        }
+    },
+    "product-reviews#client__opinions": {
+        "title": "product reviews",
+        "props": {
+            "blockClass": "client__opinions"
+        }
     }
 }

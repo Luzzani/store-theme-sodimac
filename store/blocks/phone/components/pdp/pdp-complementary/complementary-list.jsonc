@@ -15,17 +15,22 @@
     "rich-text#complementary-products": {
         "title": "complementary products title",
         "props": {
-            "text": "Lo más elegidos para complementar tu compra"
+            "text": "#### Los más elegidos para complementar tu compra",
+            "blockClass":"complementary-products--title",
+            "font": "t-body"
         }
     },
     "list-context.product-list#complementary-products": {
         "title": "product list",
         "blocks": [
-            "product-summary.shelf#list__summary"
+            "product-summary.shelf#complementary-shelf"
         ],
         "children": [
             "slider-layout#complementary-products"
-        ]
+        ],
+        "props": {
+            "blockClass": "complementary__products"
+        }
     },
     "slider-layout#complementary-products": {
         "title": "slider search result",
@@ -35,7 +40,7 @@
                 "tablet": 1,
                 "phone": 1
             },
-            "blockClass": "slider__search--result",
+            "blockClass": "slider__complementary-products",
             "showNavigationArrows": "desktopOnly",
             "showPaginationDots": "never",
             "infinite": false

@@ -36,6 +36,9 @@
         "title": "product specifications",
         "children": [
             "product-specifications"
-        ]
+        ],
+        "props": {
+            "blockClass": "product-specifications"
+        }
     }
 }

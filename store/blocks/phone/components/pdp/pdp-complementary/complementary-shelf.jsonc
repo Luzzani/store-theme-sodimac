@@ -1,0 +1,108 @@
+{
+    "product-summary.shelf#complementary-shelf": {
+        "title": "product summary complementary",
+        "children": [
+            "flex-layout.row#complementary__products--card"
+        ],
+        "props": {
+            "blockClass": "complementary-shelf"
+        }
+    },
+    "flex-layout.row#complementary__products--card": {
+        "title": "complementary product card",
+        "children": [
+            "flex-layout.col#complementary__products--card"
+        ],
+        "props": {
+            "blockClass": "complementary__products--card"
+        }
+    },
+    "flex-layout.col#complementary__products--card": {
+        "title": "complementary product card",
+        "children": [
+            "flex-layout.row#complementary__card--top",
+            "flex-layout.row#complementary__card--bottom"
+        ]
+    },
+    "flex-layout.row#complementary__card--top": {
+        "title": "complementary card top",
+        "children": [
+            "flex-layout.col#complementary__image",
+            "flex-layout.col#complementary__name--brand",
+            "flex-layout.col#complementary__button"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#complementary__image": {
+        "title": "complementary product image",
+        "children": [
+            "product-summary-image#complementary__image"
+        ],
+        "props": {
+            "width": "25%"
+        }
+    },
+    "product-summary-image#complementary__image": {
+        "title": "image list summary",
+        "props": {
+            "width": 70,
+            "height": 70
+        }
+    },
+    "flex-layout.col#complementary__name--brand": {
+        "title": "complementary product name and brand",
+        "children": [
+            "product-summary-brand#complementary__products",
+            "product-summary-name#complementary__products"
+        ],
+        "props": {
+            "blockClass": "complementary__name--brand"
+        }
+    },
+    "product-summary-brand#complementary__products": {
+        "title": "complementary product brand",
+        "props": {
+            "blockClass": "complementary__products"
+        }
+    },
+    "product-summary-name#complementary__products": {
+        "title": "complementary product name",
+        "props": {
+            "blockClass": "complementary__products"
+        }
+    },
+    "flex-layout.col#complementary__button": {
+        "title": "complementary product button",
+        "children": [
+            "add-to-cart-button#complementary__button"
+        ],
+        "props": {
+            "width": "10%",
+            "blockClass": "complementary__button"
+        }
+    },
+    "add-to-cart-button#complementary__button": {
+        "title": "complementary button",
+        "props": {
+            "blockClass": "complementary__button"
+        }
+    },
+    "flex-layout.row#complementary__card--bottom": {
+        "title": "complementary product price",
+        "children": [
+            "product-selling-price#complementary__price"
+        ],
+        "props": {
+            "blockClass": "complementary__card--bottom"
+        }
+    },
+    "product-selling-price#complementary__price": {
+        "title": "complementary price",
+        "props": {
+            "blockClass": "complementary__card--bottom",
+            "message": "$ {sellingPriceValue} C/U"
+        }
+    }
+}
