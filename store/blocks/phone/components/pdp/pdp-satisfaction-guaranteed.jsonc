@@ -1,0 +1,97 @@
+{
+    "flex-layout.row#satisfaction__guaranteed--container": {
+        "title": "satisfaction guaranteed container",
+        "children": [
+            "flex-layout.col#satisfaction__guaranteed--left",
+            "flex-layout.col#satisfaction__guaranteed--right"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "satisfaction__guaranteed--container"
+        }
+    },
+    "flex-layout.col#satisfaction__guaranteed--left": {
+        "title": "satisfaction guaranteed icon",
+        "children": [
+            "image#satisfaction__guaranteed"
+        ],
+        "props": {
+            "width": "10%"
+        }
+    },
+    "image#satisfaction__guaranteed": {
+        "title": "satisfaction guaranteed icon",
+        "props": {
+            "src": "assets/img/satisfaction-guarantee.jpg",
+            "maxHeight": "50px",
+            "maxWidth": "50px",
+            "blockClass":"satisfaction__guaranteed"
+        }
+    },
+    "flex-layout.col#satisfaction__guaranteed--right": {
+        "title": "satisfaction guaranteed text",
+        "children": [
+            "flex-layout.row#satisfaction-guarantee--title--link",
+            "flex-layout.row#satisfaction-guarantee--content"
+        ]
+    },
+    "flex-layout.row#satisfaction-guarantee--title--link": {
+        "title": "title and show more link",
+        "children": [
+            "flex-layout.col#satisfaction__guarantee--title",
+            "flex-layout.col#satisfaction__guarantee--link"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "satisfaction-guarantee--title--link",
+            "colJustify": "between"
+        }
+    },
+    "flex-layout.col#satisfaction__guarantee--title": {
+        "title": "satisfaction guarantee title container",
+        "children": [
+            "rich-text#satisfaction__guarantee--title"
+        ],
+        "props": {
+            "width": "70%"
+        }
+    },
+    "flex-layout.col#satisfaction__guarantee--link": {
+        "title": "satisfaction guarantee link container",
+        "children": [
+            "link#satisfaction__guarantee--show-more"
+        ],
+        "props": {
+            "width": "30%",
+            "blockClass": "satisfaction__guarantee-link"
+        }
+    },
+    "flex-layout.row#satisfaction-guarantee--content": {
+        "title": "text content",
+        "children": [
+            "rich-text#satisfaction__guarantee--content"
+        ]
+    },
+    "rich-text#satisfaction__guarantee--title": {
+        "title": "satisfaction guarantee title",
+        "props": {
+            "text": "Satisfacción Garantizada",
+            "blockClass": "satisfaction__guarantee--title"
+        }
+    },
+    "link#satisfaction__guarantee--show-more": {
+        "title": "satisfaction guarantee show more",
+        "props": {
+            "href": "#",
+            "label": "ver más",
+            "blockClass": "satisfaction__guarantee--link"
+        }
+    },
+    "rich-text#satisfaction__guarantee--content": {
+        "title": "satisfaction guarantee content",
+        "props": {
+            "text": "Si este producto no cumple con tus expectativas podés devolverlo. Verificá los plazos de devolución en 'ver más'.",
+            "blockClass": "satisfaction__guarantee--content"
+        }
+    }
+}

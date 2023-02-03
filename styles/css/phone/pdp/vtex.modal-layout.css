@@ -1,0 +1,108 @@
+.paper--opinions__modal {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.container--opinions__modal :global(.vtex-modal-layout-0-x-headerContainer) {
+    border: transparent;
+}
+
+.container--opinions__modal :global(.vtex-reviews-and-ratings-3-x-reviewsHeading) {
+    display: none;
+}
+
+.container--opinions__modal :global(.vtex-reviews-and-ratings-3-x-reviewsRating) {
+    width: 60%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.container--opinions__modal :global(.vtex-reviews-and-ratings-3-x-reviewsRating)::before {
+    content: "Opiniones";
+    font-size: 24px;
+    position: absolute;
+    top: 3px;
+    left: -120px;
+    font-weight: bold;
+}
+
+.container--opinions__modal :global(.vtex-reviews-and-ratings-3-x-reviewsRating)::after {
+    content: "de clientes";
+    font-size: 24px;
+    position: absolute;
+    top: 35px;
+    left: -120px;
+    font-weight: bold;
+}
+
+.container--opinions__modal :global(.vtex-reviews-and-ratings-3-x-reviewsRatingAverage) {
+    width: 57px;
+    height: 40px;
+    font-size: 42px;
+    overflow: hidden;
+}
+
+
+.container--opinions__modal :global(.vtex-reviews-and-ratings-3-x-reviewsRatingCount) {
+    position: relative;
+    width: fit-content;
+}
+
+.container--opinions__modal :global(.vtex-reviews-and-ratings-3-x-starsContainer) {
+    position: absolute;
+    left: 55px;
+    top: 10px;
+    font-size: 20px;
+}
+
+.container--opinions__modal :global(.vtex-reviews-and-ratings-3-x-graphBar) {
+    background-color: #1980cc;
+    height: 10px;
+    border-radius: 6px;
+    transform: translateY(12px);
+}
+
+.container--opinions__modal :global(.vtex-reviews-and-ratings-3-x-graphBarPercent) {
+    z-index: 2;
+}
+
+.container--opinions__modal :global(.vtex-reviews-and-ratings-3-x-graphTextLabel) {
+    color: #1980cc;
+}
+
+.backdrop--options__shipping--content {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container--options__shipping--content {
+    height: 95%;
+    margin-top: 7%;
+}
+
+.container--options__shipping--content :global(.vtex-store-components-3-x-shippingContainer) {
+    padding: 10px;
+}
+
+.container--options__shipping--content :global(.vtex-store-components-3-x-shippingContainer)::before {
+    content: "";
+    width: 100px;
+    top: 10px;
+    left: calc(50% - 50px);
+    height: 10px;
+    background-color: #b5b5b5;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.container--options__shipping--content :global(.vtex-button) {
+    border: 1px solid #1980cc;
+    color: #1980cc;
+    text-transform: none;
+}
+
+.paper--options__shipping--content :global(.vtex-modal-layout-0-x-headerContainer) {
+    border: transparent;
+}

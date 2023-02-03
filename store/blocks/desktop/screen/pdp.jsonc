@@ -1,0 +1,11 @@
+{
+    "responsive-layout.desktop#product__details-layout": {
+        "title": "product details desktop",
+        "children": [
+            "flex-layout.row#product__details--tablet"
+        ],
+        "props": {
+            "blockClass": "layout__details--desktop"
+        }
+    }
+}

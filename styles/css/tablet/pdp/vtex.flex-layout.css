@@ -1,0 +1,116 @@
+.flexRow--product__details--row--tablet {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flexRow--product__details--row--tablet :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
+.flexColChild--product__details--col--tablet :global(.vtex-breadcrumb-1-x-container) {
+    margin-left: 10px;
+}
+
+.flexColChild--product__details--col--tablet :global(.vtex-breadcrumb-1-x-link) {
+    color: #1980CC;
+    font-size: 12px;
+}
+
+.flexColChild--product__details--col--tablet :global(.vtex-breadcrumb-1-x-term) {
+    font-size: 12px;
+}
+
+.flexRowContent--product__details--row {
+    gap: 10px;
+}
+
+.flexColChild--product__details--row--info {
+    gap: 10px;
+    margin-right: 10px;
+}
+
+.flexRow--product__details--row--tablet .flexRow--satisfaction__guaranteed--container {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.flexRow--product__info--tablet {
+    background-color: #FFF;
+    padding: 15px;
+}
+
+.flexRowContent--product__details--brand--code {
+    justify-content: space-between;
+}
+
+.flexRowContent--product__details--brand--code :global(.vtex-product-identifier-0-x-product-identifier--productReference) {
+    text-align: right;
+    font-size: 12px;
+    color: #595959;
+}
+
+.flexRowContent--product__details--brand--code .productNameContainer--product__name--tablet {
+    font-size: 14px;
+    color: #585858;
+}
+
+.flexColChild--product__details--content :global(.vtex-reviews-and-ratings-3-x-stars) {
+    font-size: 25px;
+}
+
+.flexColChild--product__details--content :global(.vtex-product-price-1-x-sellingPrice) {
+    font-size: 35px;
+}
+
+.flexColChild--product__details--content :global(.vtex-product-price-1-x-savings) {
+    font-size: 20px;
+}
+
+.flexColChild--product__details--content :global(.vtex-product-price-1-x-listPrice) {
+    font-size: 24px;
+}
+
+.flexCol--product__details--col--tablet :global(.vtex-product-summary-2-x-container--related-products):global(.vtex-product-summary-2-x-container) {
+    max-width: 190px !important;
+}
+
+.flexRow--product__details--row--tablet :global(.vtex-slider-layout-0-x-sliderTrack--slider__complementary-products) {
+    gap: 5px;
+}
+
+
+.flexRow--product__details--row--tablet :global(.vtex-product-summary-2-x-productNameContainer--realted__products) {
+    position: relative;
+    top: -25px;
+}
+
+.flexRow--product__details--row--tablet :global(.vtex-flex-layout-0-x-flexCol--related__products--card) :global(.vtex-reviews-and-ratings-3-x-inlineContainer) {
+    position: relative;
+    top: -45px;
+}
+
+.flexRow--product__details--row--tablet :global(.vtex-product-price-1-x-sellingPrice--related__card--bottom) {
+    position: relative;
+    top: -55px;
+}
+
+.flexColChild--product__details--col--tablet :global(.vtex-store-components-3-x-specificationsTitle) {
+    background: #FFF;
+    padding: 1rem;
+}
+
+.flexColChild--product__details--col--tablet .flexRowContent--product-specifications :global(.vtex-store-components-3-x-specificationsTableRow):nth-child(even) {
+    background-color: #fff;
+    border-spacing: 0;
+    font-size: 16px;
+}
+
+.flexColChild--product__details--col--tablet .flexRowContent--product-specifications :global(.vtex-store-components-3-x-specificationsTableRow):nth-child(odd) {
+    background-color: #EFEFEF;
+    border-spacing: 0;
+    font-size: 16px;
+}
+
+.flexColChild--product__details--col--tablet .flexRowContent--product-specifications :global(.vtex-store-components-3-x-specificationsTableHead) {
+    display: none;
+}

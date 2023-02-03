@@ -1,0 +1,102 @@
+{
+    "flex-layout.row#withdrawal__options": {
+        "title": "withdrawal options",
+        "children": [
+            "flex-layout.col#options"
+        ]
+    },
+    "flex-layout.col#options": {
+        "title": "options",
+        "children": [
+            "flex-layout.row#option__title--container",
+            "flex-layout.row#options__1",
+            "flex-layout.row#options__2",
+            "flex-layout.row#options__3",
+            "flex-layout.row#options__4"
+        ],
+        "props": {
+                "blockClass": "options__col"
+        }   
+    },
+    "flex-layout.row#option__title--container": {
+        "title": "option title container",
+        "children": [
+            "image#withdrawal__icon--left",
+            "rich-text#option__title"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "blockClass": ["opinions__content--row", "options__title"]
+        }
+    },
+    "rich-text#option__title": {
+        "title": "option title",
+        "props": {
+            "text": "#### Retiro en tienda \n Opciones disponibles para",
+            "blockClass": "options__whitdrawal--text"
+        }
+    },
+    "flex-layout.row#options__1": {
+        "title": "option 2",
+        "children": [
+            "rich-text#date__option",
+            "rich-text#option__place"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "blockClass": "opinions__content--row"
+        }
+    },
+    "flex-layout.row#options__2": {
+        "title": "option 2",
+        "children": [
+            "rich-text#date__option",
+            "rich-text#option__place"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "blockClass": "opinions__content--row"
+        }
+    },
+    "flex-layout.row#options__3": {
+        "title": "option 3",
+        "children": [
+            "rich-text#date__option",
+            "rich-text#option__place"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "blockClass": "opinions__content--row"
+        }
+    },
+    "flex-layout.row#options__4": {
+        "title": "option 4",
+        "children": [
+            "rich-text#date__option",
+            "rich-text#option__place"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "blockClass": "opinions__content--row"
+        }
+    },
+    "rich-text#date__option": {
+        "title": "option date",
+        "props": {
+            "text": "03 \n FEB",
+            "blockClass": "options__whitdrawal--date"
+        }
+    },
+    "rich-text#option__place": {
+        "title": "option place",
+        "props": {
+            "text": "#### HC SAN MARTIN \n AV. SAN MARTIN 420",
+            "blockClass": "options__whitdrawal--text"
+        }
+    }
+}

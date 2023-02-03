@@ -1,0 +1,68 @@
+{
+    "product-summary.shelf#related-products": {
+        "title": "realted products",
+        "children": [
+            "flex-layout.row#related__products--card"
+        ],
+        "props": {
+            "blockClass": "related-products"
+        }
+    },
+    "flex-layout.row#related__products--card": {
+        "title": "realted products card",
+        "children": [
+            "flex-layout.col#related__products--card"
+        ],
+        "props": {
+            "blockClass": "related__products--card"
+        }
+    },
+    "flex-layout.col#related__products--card": {
+        "title": "related products card",
+        "children": [
+            "product-summary-image#realted__products",
+            "product-summary-brand#realted__products",
+            "product-summary-name#realted__products",
+            "product-rating-inline",
+            "product-selling-price#related__price",
+            "add-to-cart-button#related__button"
+        ],
+        "props": {
+            "blockClass": "related__products--card"
+        }
+    },
+    "product-summary-image#realted__products": {
+        "title": "realted products image",
+        "props": {
+            "blockClass": "realted__products",
+            "width": 171,
+            "height": 171
+        }
+    },
+    "product-summary-brand#realted__products": {
+        "title": "realted products brand",
+        "props": {
+            "blockClass": "realted__products"
+        }
+    },
+    "product-summary-name#realted__products": {
+        "title": "realted products name",
+        "props": {
+            "blockClass": "realted__products"
+        }
+    },
+    "product-selling-price#related__price": {
+        "title": "related price",
+        "props": {
+            "blockClass": "related__card--bottom",
+            "message": "$ {sellingPriceValue} C/U"
+        }
+    },
+    "add-to-cart-button#related__button": {
+        "title": "related button",
+        "props": {
+            "blockClass": "related__button",
+            "text": "Agregar al carro"
+        }
+    }
+}

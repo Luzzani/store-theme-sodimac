@@ -1,0 +1,90 @@
+{
+    "flex-layout.row#stock__options": {
+        "title": "withdrawal options",
+        "children": [
+            "flex-layout.col#stock__options"
+        ],
+        "props": {
+            "blockClass": "stock__options--container"
+        }
+    },
+    "flex-layout.col#stock__options": {
+        "title": "options",
+        "children": [
+            "flex-layout.row#stock__title--container",
+            "flex-layout.row#options__1--stock",
+            "flex-layout.row#options__2--stock",
+            "flex-layout.row#options__3--stock",
+            "flex-layout.row#options__4--stock"
+        ],
+        "props": {
+            "blockClass": "options__col"
+        }
+    },
+    "flex-layout.row#stock__title--container": {
+        "title": "option title container",
+        "children": [
+            "image#withdrawal__icon--left",
+            "rich-text#stock__title"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "blockClass": [
+                "opinions__content--row",
+                "options__title"
+            ]
+        }
+    },
+    "rich-text#stock__title": {
+        "title": "stock title",
+        "props": {
+            "text": "#### Stock en tienda \n Opciones para \n Stock en tienda referencia visual y puede variar durante el dia",
+            "blockClass": "options__whitdrawal--text"
+        }
+    },
+    "flex-layout.row#options__1--stock": {
+        "title": "option 2",
+        "children": [
+            "rich-text#option__place"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "blockClass": "opinions__content--row"
+        }
+    },
+    "flex-layout.row#options__2--stock": {
+        "title": "option 2",
+        "children": [
+            "rich-text#option__place"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "blockClass": "opinions__content--row"
+        }
+    },
+    "flex-layout.row#options__3--stock": {
+        "title": "option 3",
+        "children": [
+            "rich-text#option__place"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "blockClass": "opinions__content--row"
+        }
+    },
+    "flex-layout.row#options__4--stock": {
+        "title": "option 4",
+        "children": [
+            "rich-text#option__place"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "blockClass": "opinions__content--row"
+        }
+    }
+}
