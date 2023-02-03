@@ -1,0 +1,82 @@
+.paragraph--satisfaction__guarantee--title {
+    font-size: 17px;
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.paragraph--satisfaction__guarantee--content {
+    font-size: 14px;
+    color: #333333;
+}
+
+.wrapper--delivery__options--title {
+    padding: 15px 0;
+}
+
+.wrapper--delivery__options--title :global(.vtex-rich-text-0-x-link) {
+    color: #2E72C8;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.wrapper--delivery__options--title :global(.vtex-rich-text-0-x-paragraph) {
+    font-size: 14px;
+}
+
+.wrapper--delivery__options--title :global(.vtex-rich-text-0-x-strong) {
+    font-size: 17px;
+}
+
+.paragraph--shipping__text {
+    font-size: 14px;
+}
+
+.wrapper--shipping__link :global(.vtex-rich-text-0-x-paragraph) {
+    color: #2E72C8;
+    font-size: 14px;
+    text-align: right;
+}
+
+.paragraph--shipping__text--left:nth-child(2n) {
+    color: red;
+}
+
+.paragraph--shipping__text--top {
+    color: #5E9E66;
+}
+
+.paragraph--shipping__text--bottom {
+    color: #333333;
+    font-weight: bold;
+}
+
+.headingLevel4--complementary-products--title {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.headingLevel4--related-products {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.wrapper--opinions__trigger {
+    font-size: 18px;
+    color: #152935;
+    font-weight: bold;
+}
+
+
+.headingLevel4--options__whitdrawal--text {
+    margin: 0;
+}
+
+
+.paragraph--options__whitdrawal--text {
+    font-size: 14px;
+}
+
+.paragraph--options__whitdrawal--text::first-line {
+    font-size: 16px;
+}

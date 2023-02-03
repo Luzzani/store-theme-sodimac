@@ -1,0 +1,104 @@
+{
+    "flex-layout.row#delivery__options--withdrawal": {
+        "title": "delivery option withdrawal",
+        "children": [
+            "flex-layout.col#options__withdrawal--left",
+            "flex-layout.col#options__withdrawal--right"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "delivery__options--shipping"
+        }
+    },
+    "flex-layout.col#options__withdrawal--left": {
+        "title": "options withdrawal left",
+        "children": [
+            "flex-layout.row#withdrawal__text--left"
+        ],
+        "props": {
+            "blockClass": "options__shipping--left"
+        }
+    },
+    "flex-layout.row#withdrawal__text--left": {
+        "title": "options withdrawal left",
+        "children": [
+            "image#withdrawal__icon--left",
+            "flex-layout.col#withdrawal__text--left"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "shipping__text--left",
+            "colSizing": "auto",
+            "colGap": 3
+        }
+    },
+    "flex-layout.col#withdrawal__text--left": {
+        "title": "shipping text container",
+        "children": [
+            "rich-text#withdrawal__text--top",
+            "rich-text#withdrawal__text--bottom"
+        ]
+    },
+    "image#withdrawal__icon--left": {
+        "title": "withdrawal icon",
+        "props": {
+            "src": "assets/img/mercado-icon.jpeg",
+            "maxHeight": "30px",
+            "maxWidth": "30px"
+        }
+    },
+    "rich-text#withdrawal__text--top": {
+        "title": "withdrawal text top",
+        "props": {
+            "text": "Disponible",
+            "blockClass": [
+                "shipping__text",
+                "shipping__text--top"
+            ]
+        }
+    },
+    "rich-text#withdrawal__text--bottom": {
+        "title": "withdrawal text bottom",
+        "props": {
+            "text": "Retiro en tienda",
+            "blockClass": [
+                "shipping__text",
+                "shipping__text--bottom"
+            ]
+        }
+    },
+    "flex-layout.col#options__withdrawal--right": {
+        "title": "options withdrawal right",
+        "children": [
+            "modal-trigger#options__withdrawal--right"
+        ],
+        "props": {
+            "blockClass": "options__shipping--right"
+        }
+    },
+    "modal-trigger#options__withdrawal--right": {
+        "title": "modal trigger withdrawal",
+        "children": [
+            "rich-text#withdrawal__link",
+            "modal-layout#options__withdrawal--content"
+        ]
+    },
+    "rich-text#withdrawal__link": {
+        "title": "withdrawal link modal",
+        "props": {
+            "text": "ver tiendas",
+            "blockClass": "shipping__link"
+        }
+    },
+    "modal-layout#options__withdrawal--content": {
+        "title": "modal withdrawal content",
+        "children": [
+            "modal-header",
+            "flex-layout.row#withdrawal__options"
+        ],
+        "props": {
+            "blockClass": "options__shipping--content",
+            "fullScreen": true
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.productNameContainer--product__details--name {
+    font-size: 17px;
+    color: #333333;
+}
+
+.imageElement--satisfaction__guaranteed {
+    position: relative;
+    left: -13px;
+    top: 0;
+}

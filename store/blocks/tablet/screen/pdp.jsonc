@@ -1,0 +1,12 @@
+{
+    "responsive-layout.tablet#product__details-layout": {
+        "title": "product details layout",
+        "children": [
+            "flex-layout.row#product__details--tablet",
+            "flex-layout.row#add__to--cart--button"
+        ],
+        "props": {
+            "blockClass": "product__details--layout--tablet"
+        }
+    }
+}

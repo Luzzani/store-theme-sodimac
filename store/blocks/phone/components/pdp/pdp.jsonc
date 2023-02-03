@@ -1,0 +1,90 @@
+{
+    "flex-layout.row#product__details--layout": {
+        "title": "product details layout row",
+        "children": [
+            "flex-layout.col#product__details--layout"
+        ],
+        "props": {
+            "marginBottom": 10,
+            "blockClass": "product__details--layout"
+        }
+    },
+    "flex-layout.col#product__details--layout": {
+        "title": "product details container col",
+        "children": [
+            "breadcrumb#prodcut__details--breadcrumb",
+            "flex-layout.row#modal__trigger--container",
+            "flex-layout.row#product__details--card",
+            "flex-layout.row#satisfaction__guaranteed--container",
+            "flex-layout.row#shipping--pickup",
+            "flex-layout.row#complementary-products",
+            "flex-layout.row#related-products",
+            "flex-layout.row#product-specifications",
+            "flex-layout.row#client__opinions"
+        ],
+        "props": {
+            "blockClass": "product__details--layout"
+        }
+    },
+    "breadcrumb#prodcut__details--breadcrumb": {
+        "title": "prodcut detail breadcrumb",
+        "props": {
+            "showOnMobile": true
+        }
+    },
+    "flex-layout.row#product-specifications": {
+        "title": "product specifications",
+        "children": [
+            "product-specifications"
+        ],
+        "props": {
+            "blockClass": "product-specifications"
+        }
+    },
+    "flex-layout.row#add__to--cart--button": {
+        "title": "add to cart button container",
+        "children": [
+            "flex-layout.col#quantity__button",
+            "flex-layout.col#cart__button"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "add__to--cart--button",
+            "colSizing": "auto",
+            "colGap": 3
+        }
+    },
+    "flex-layout.col#quantity__button": {
+        "title": "quantity button container",
+        "children": [
+            "product-quantity#quantity__button"
+        ],
+        "props": {
+            "blockClass": "quantity__button--container"
+        }
+    },
+    "flex-layout.col#cart__button": {
+        "title": "cart button container",
+        "children": [
+            "add-to-cart-button#add-to-cart"
+        ],
+        "props": {
+            "blockClass": "cart__button--container",
+            "width": "100%"
+        }
+    },
+    "product-quantity#quantity__button": {
+        "title": "quantity button",
+        "props": {
+            "showLabel": false,
+            "blockClass": "quantity__button"
+        }
+    },
+    "add-to-cart-button#add-to-cart": {
+        "title": "add to cart button",
+        "props": {
+            "text": "Agregar al carro",
+            "blockClass": "cart__button"
+        }
+    }
+}

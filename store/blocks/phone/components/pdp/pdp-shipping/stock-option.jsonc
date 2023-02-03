@@ -1,0 +1,104 @@
+{
+    "flex-layout.row#delivery__options--stock": {
+        "title": "delivery option stock",
+        "children": [
+            "flex-layout.col#options__stock--left",
+            "flex-layout.col#options__stock--right"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "delivery__options--shipping"
+        }
+    },
+    "flex-layout.col#options__stock--left": {
+        "title": "options stock left",
+        "children": [
+            "flex-layout.row#stock__text--left"
+        ],
+        "props": {
+            "blockClass": "options__shipping--left"
+        }
+    },
+    "flex-layout.row#stock__text--left": {
+        "title": "options stock left",
+        "children": [
+            "image#stock__icon--left",
+            "flex-layout.col#stock__text--left"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "shipping__text--left",
+            "colSizing": "auto",
+            "colGap": 3
+        }
+    },
+    "flex-layout.col#stock__text--left": {
+        "title": "stock text container",
+        "children": [
+            "rich-text#stock__text--top",
+            "rich-text#stock__text--bottom"
+        ]
+    },
+    "image#stock__icon--left": {
+        "title": "stock icon",
+        "props": {
+            "src": "assets/img/truck.png",
+            "maxHeight": "30px",
+            "maxWidth": "30px"
+        }
+    },
+    "rich-text#stock__text--top": {
+        "title": "stock text top",
+        "props": {
+            "text": "Disponible",
+            "blockClass": [
+                "shipping__text",
+                "shipping__text--top"
+            ]
+        }
+    },
+    "rich-text#stock__text--bottom": {
+        "title": "stock text bottom",
+        "props": {
+            "text": "Stock en tienda",
+            "blockClass": [
+                "shipping__text",
+                "shipping__text--bottom"
+            ]
+        }
+    },
+    "flex-layout.col#options__stock--right": {
+        "title": "options stock right",
+        "children": [
+            "modal-trigger#options__stock--right"
+        ],
+        "props": {
+            "blockClass": "options__shipping--right"
+        }
+    },
+    "modal-trigger#options__stock--right": {
+        "title": "modal trigger stock",
+        "children": [
+            "rich-text#stock__link",
+            "modal-layout#options__stock--content"
+        ]
+    },
+    "rich-text#stock__link": {
+        "title": "stock link modal",
+        "props": {
+            "text": "ver tiendas",
+            "blockClass": "shipping__link"
+        }
+    },
+    "modal-layout#options__stock--content": {
+        "title": "modal stock content",
+        "children": [
+            "modal-header",
+            "flex-layout.row#stock__options"
+        ],
+        "props": {
+            "blockClass": "options__shipping--content",
+            "fullScreen": true
+        }
+    }
+}

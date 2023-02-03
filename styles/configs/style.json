@@ -345,21 +345,21 @@
         "letterSpacing": "0"
       },
       "heading-4": {
-        "fontFamily": "Roboto-Regular, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Lato, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.5rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-5": {
-        "fontFamily": "Roboto-Light, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Lato, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-6": {
-        "fontFamily": "Roboto-Light, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Lato, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",

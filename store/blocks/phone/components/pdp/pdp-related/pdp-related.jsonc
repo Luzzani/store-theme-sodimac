@@ -1,0 +1,49 @@
+{
+    "flex-layout.row#related-products": {
+        "title": "related products container",
+        "children": [
+            "flex-layout.col#related-products"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "related-products"
+        }
+    },
+    "flex-layout.col#related-products": {
+        "title": "complementary products col",
+        "children": [
+            "rich-text#related-products",
+            "list-context.product-list#related-products"
+        ]
+    },
+    "rich-text#related-products": {
+        "title": "complementary products title",
+        "props": {
+            "text": "#### Productos relacionados",
+            "blockClass": "related-products"
+        }
+    },
+    "list-context.product-list#related-products": {
+        "title": "product list",
+        "blocks": [
+            "product-summary.shelf#related-products"
+        ],
+        "children": [
+            "slider-layout#related-products"
+        ]
+    },
+    "slider-layout#related-products": {
+        "title": "slider search result",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 6,
+                "tablet": 3,
+                "phone": 2
+            },
+            "blockClass": "slider__related--products",
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "never",
+            "infinite": false
+        }
+    }
+}

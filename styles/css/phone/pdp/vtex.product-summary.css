@@ -1,0 +1,45 @@
+.containerNormal--complementary-shelf {
+    max-width: none !important;
+    background-color: #FFF;
+    padding: 10px;
+    padding-top: 5px;
+    height: 145px;
+    border-radius: 0;
+}
+
+.productBrandContainer--complementary__products {
+    text-align: left;
+    color: #585858;
+    font-size: 15px;
+}
+
+.nameContainer--complementary__products {
+    padding: 0;
+}
+
+.nameContainer--complementary__products {
+    justify-content: flex-start;
+}
+
+.nameWrapper--complementary__products {
+    text-align: left;
+}
+
+.nameWrapper--complementary__products .brandName--complementary__products {
+    font-size: 15px;
+    color: #333333;
+}
+
+.nameContainer--realted__products {
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+.productBrand--realted__products {
+    font-size: 14px;
+    color: #333333;
+}
+
+.nameWrapper--realted__products {
+    text-align: left;
+}

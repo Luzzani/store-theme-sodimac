@@ -1,0 +1,9 @@
+{
+    "responsive-layout.phone#product__details-layout": {
+        "title": "product details container row",
+        "children": [
+            "flex-layout.row#product__details--layout",
+            "flex-layout.row#add__to--cart--button"
+        ]
+    }
+}
