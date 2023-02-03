@@ -4,6 +4,7 @@
     padding: 10px;
     padding-top: 5px;
     height: 145px;
+    border-radius: 0;
 }
 
 .productBrandContainer--complementary__products {
@@ -37,4 +38,8 @@
 .productBrand--realted__products {
     font-size: 14px;
     color: #333333;
+}
+
+.nameWrapper--realted__products {
+    text-align: left;
 }

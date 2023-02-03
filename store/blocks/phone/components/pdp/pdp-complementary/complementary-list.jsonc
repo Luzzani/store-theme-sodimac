@@ -16,7 +16,7 @@
         "title": "complementary products title",
         "props": {
             "text": "#### Los más elegidos para complementar tu compra",
-            "blockClass":"complementary-products--title",
+            "blockClass": "complementary-products--title",
             "font": "t-body"
         }
     },
@@ -36,12 +36,12 @@
         "title": "slider search result",
         "props": {
             "itemsPerPage": {
-                "desktop": 1,
+                "desktop": 2,
                 "tablet": 1,
                 "phone": 1
             },
             "blockClass": "slider__complementary-products",
-            "showNavigationArrows": "desktopOnly",
+            "showNavigationArrows": "never",
             "showPaginationDots": "never",
             "infinite": false
         }

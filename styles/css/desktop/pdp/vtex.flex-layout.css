@@ -1,0 +1,16 @@
+.flexCol--product__details--row--info {
+    gap: 10px;
+    height: fit-content;
+}
+
+.flexRow--product-specifications {
+    margin-top: 8px;
+}
+
+.flexRowContent--product-specifications :global(.vtex-store-components-3-x-specificationsTableContainer){
+    padding-left: 0;
+}
+
+.flexRowContent--product-specifications :global(.vtex-store-components-3-x-specificationsTitle){
+    margin-bottom: 2px;
+}

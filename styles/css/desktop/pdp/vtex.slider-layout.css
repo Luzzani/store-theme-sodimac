@@ -1,0 +1,11 @@
+.sliderArrows--slider__related--products:disabled {
+    display: none;
+}
+
+.sliderLeftArrow--slider__related--products {
+    left: -25px;
+}
+
+.sliderRightArrow--slider__related--products {
+    right: -43px;
+}

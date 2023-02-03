@@ -1,0 +1,11 @@
+.productImageTag--details__tablet--left {
+    max-width: 420px;
+    max-height: 420px !important;
+    display: block;
+    margin: 0 auto;
+    min-height: 300px;
+}
+
+.productImagesContainer--details__tablet--left {
+    background-color: #FFF;
+}
