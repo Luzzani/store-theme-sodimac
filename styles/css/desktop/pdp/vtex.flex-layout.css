@@ -7,10 +7,18 @@
     margin-top: 8px;
 }
 
-.flexRowContent--product-specifications :global(.vtex-store-components-3-x-specificationsTableContainer){
+.flexRowContent--product-specifications :global(.vtex-store-components-3-x-specificationsTableContainer) {
     padding-left: 0;
 }
 
-.flexRowContent--product-specifications :global(.vtex-store-components-3-x-specificationsTitle){
+.flexRowContent--product-specifications :global(.vtex-store-components-3-x-specificationsTitle) {
     margin-bottom: 2px;
+}
+
+.flexRowContent--realted__products--desktop :global(.vtex-flex-layout-0-x-flexRow--related__products--card) :global(.vtex-button) {
+    visibility: hidden;
+}
+
+.flexRowContent--realted__products--desktop :global(.vtex-flex-layout-0-x-flexRow--related__products--card):hover :global(.vtex-button) {
+    visibility: visible;
 }

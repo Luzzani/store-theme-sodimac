@@ -62,4 +62,13 @@
     background-color: #1980cc;
     height: 10px;
     border-radius: 6px;
+    transform: translateY(12px);
+}
+
+.container--opinions__modal :global(.vtex-reviews-and-ratings-3-x-graphBarPercent) {
+    z-index: 2;
+}
+
+.container--opinions__modal :global(.vtex-reviews-and-ratings-3-x-graphTextLabel) {
+    color: #1980cc;
 }

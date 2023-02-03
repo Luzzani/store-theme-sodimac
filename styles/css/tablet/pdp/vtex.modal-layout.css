@@ -1,0 +1,13 @@
+.paper--opinions__modal--tablet {
+    margin: 0;
+    max-height: none;
+    width: 70%;
+}
+
+.container--opinions__modal--tablet {
+    justify-content: flex-end;
+}
+
+.container--opinions__modal--tablet {
+    background: rgba(0, 0, 0, 0.8);
+}
