@@ -92,6 +92,13 @@
     },
     "modal-layout#options__stock--content": {
         "title": "modal stock content",
-        "children": []
+        "children": [
+            "modal-header",
+            "flex-layout.row#stock__options"
+        ],
+        "props": {
+            "blockClass": "options__shipping--content",
+            "fullScreen": true
+        }
     }
 }

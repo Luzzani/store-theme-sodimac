@@ -93,7 +93,18 @@
     "modal-layout#options__shipping--content": {
         "title": "modal shipping content",
         "children": [
+            "modal-header",
             "shipping-simulator"
-        ]
+        ],
+        "props": {
+            "blockClass": "options__shipping--content",
+            "fullScreen": true
+        }
+    },
+    "shipping-simulator": {
+        "title": "shipping simulator",
+        "props": {
+            "blockClass": "modal__shipping--simulator"
+        }
     }
 }

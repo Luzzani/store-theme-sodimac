@@ -42,7 +42,7 @@
     "image#withdrawal__icon--left": {
         "title": "withdrawal icon",
         "props": {
-            "src": "assets/img/truck.png",
+            "src": "assets/img/mercado-icon.jpeg",
             "maxHeight": "30px",
             "maxWidth": "30px"
         }
@@ -92,6 +92,13 @@
     },
     "modal-layout#options__withdrawal--content": {
         "title": "modal withdrawal content",
-        "children": []
+        "children": [
+            "modal-header",
+            "flex-layout.row#withdrawal__options"
+        ],
+        "props": {
+            "blockClass": "options__shipping--content",
+            "fullScreen": true
+        }
     }
 }

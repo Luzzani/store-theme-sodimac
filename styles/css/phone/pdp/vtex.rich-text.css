@@ -67,3 +67,16 @@
     font-weight: bold;
 }
 
+
+.headingLevel4--options__whitdrawal--text {
+    margin: 0;
+}
+
+
+.paragraph--options__whitdrawal--text {
+    font-size: 14px;
+}
+
+.paragraph--options__whitdrawal--text::first-line {
+    font-size: 16px;
+}
