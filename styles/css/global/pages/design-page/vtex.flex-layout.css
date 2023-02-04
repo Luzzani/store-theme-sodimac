@@ -1,5 +1,5 @@
 .flexCol--design__project {
-    background-color: #F9F9F9;
+    background-color: #FAFAFA;
 }
 
 .flexRow--design__project--info-cards {
@@ -9,18 +9,10 @@
     width: 100%;
 }
 
-/* 
-.flexColChild--design__project {
-    max-width: 1170px;
-    margin-bottom: 60px;
-    margin: 0 auto;
-    width: 100%;
-} */
-
-/* .flexColChild--design__project:first-child {
-    width: 100%;
-    max-width: none;
-} */
+.flexCol--projects__step--card {
+    padding: 25px;
+    padding-right: 0;
+}
 
 .flexCol--design__project--service {
     padding: 12px;
@@ -37,9 +29,47 @@
 .flexRowContent--design__project--info-cards {
     padding: 0 20px;
     column-gap: 30px;
+    margin-bottom: 85px;
+}
+
+.flexRowContent--design__project--info-cards--tablet {
+    margin-bottom: 100px;
 }
 
 .flexRowContent--design__project--info-cards--tablet {
     padding: 0 20px;
     display: block;
+}
+
+.flexColChild--projects__step--card {
+    height: fit-content !important;
+    position: relative;
+}
+
+.flexRow--design__project--steps {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.flexColChild--step__card--line:first-child::after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 35px;
+    left: 70px;
+    height: 1px;
+    width: calc(100% - 95px);
+    background-color: #000000;
+}
+
+.flexColChild--step__card--line:first-child::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 33px;
+    right: 25px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #000000;
 }
