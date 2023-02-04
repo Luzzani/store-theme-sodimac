@@ -54,7 +54,6 @@
                 "tablet": 2,
                 "phone": 1
             },
-            "centerMode": "to-the-left",
             "showNavigationArrows": "never",
             "autoplay": {
                 "timeout": 6000
