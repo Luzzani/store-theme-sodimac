@@ -1,0 +1,10 @@
+/* .imageElement--design__project--image {
+    width: 400px;
+    height: 190px;
+    max-width: none;
+    margin-right: 10px;
+} */
+
+.imageElement--design__project--image {
+    height: 190px;
+}

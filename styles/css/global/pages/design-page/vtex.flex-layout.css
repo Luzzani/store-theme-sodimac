@@ -1,0 +1,45 @@
+.flexCol--design__project {
+    background-color: #F9F9F9;
+}
+
+.flexRow--design__project--info-cards {
+    max-width: 1170px;
+    margin-bottom: 60px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* 
+.flexColChild--design__project {
+    max-width: 1170px;
+    margin-bottom: 60px;
+    margin: 0 auto;
+    width: 100%;
+} */
+
+/* .flexColChild--design__project:first-child {
+    width: 100%;
+    max-width: none;
+} */
+
+.flexCol--design__project--service {
+    padding: 12px;
+}
+
+.flexCol--design__project--info-cards {
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 5px -3px #E6E6E6;
+    padding: 30px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+.flexRowContent--design__project--info-cards {
+    padding: 0 20px;
+    column-gap: 30px;
+}
+
+.flexRowContent--design__project--info-cards--tablet {
+    padding: 0 20px;
+    display: block;
+}

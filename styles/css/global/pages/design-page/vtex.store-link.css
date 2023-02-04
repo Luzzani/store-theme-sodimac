@@ -1,0 +1,22 @@
+.buttonLink--project__service--button  {
+    background-color: transparent;
+    border: 1px solid #0079D7;
+    color: #0079D7;
+    margin: 40px;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 25px;
+    width: fit-content;
+}
+
+.buttonLink--project__service--button:active  {
+    background-color: #0079D7;
+    color: #FFFFFF;
+    border: transparent;
+}
+
+.buttonLink--project__service--button:hover  {
+    background-color: #0079D7;
+    color: #FFFFFF;
+    border: transparent;
+}

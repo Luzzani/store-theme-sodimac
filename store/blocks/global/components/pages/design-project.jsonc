@@ -1,0 +1,12 @@
+{
+    "flex-layout.row#design__project--container": {
+        "title": "design project container",
+        "children": [
+            "flex-layout.col#design__project"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "design__project--container"
+        }
+    }
+}

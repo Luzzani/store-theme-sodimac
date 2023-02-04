@@ -1,0 +1,59 @@
+.container--design__project--title {
+    background-color: #FFFFFF;
+}
+
+.wrapper--design__project--title {
+    font-size: 23px;
+    background-color: #4072CC;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 25px;
+    line-height: 25px;
+    margin-top: 85px;
+    width: 100%;
+}
+
+
+.container--design__project--title.container--design__project--title--desktop {
+    background-color: transparent;
+}
+
+.wrapper--design__project--title.wrapper--design__project--title-desktop {
+    margin-top: 0px;
+}
+
+.headingLevel1--project__service--message {
+    font-size: 25px;
+    color: #545454;
+    text-align: center;
+    margin-top: 65px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.headingLevel2--project__service--message {
+    font-size: 19px;
+    color: #545454;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 400;
+    max-width: 750px;
+    margin-bottom: 10px;
+}
+
+.headingLevel2--info__card--text {
+    font-size: 19px;
+    color: #545454;
+    margin-bottom: 10px;
+}
+
+.paragraph--info__card--text {
+    color: #545454;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.paragraph--projects__steps--title {
+    margin-top: 80px;
+}
