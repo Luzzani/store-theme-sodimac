@@ -1,0 +1,19 @@
+{
+    "flex-layout.col#design__project": {
+        "title": "design container global",
+        "children": [
+            "responsive-layout.desktop#project__title--desktop",
+            "responsive-layout.mobile#project__title--mobile",
+            "flex-layout.row#design__project--service",
+            "responsive-layout.phone#project__info--cards",
+            "responsive-layout.tablet#project__info--cards",
+            "responsive-layout.desktop#project__info--cards",
+            "flex-layout.row#design__project--slider-images",
+            "rich-text#projects__steps--title",
+            "flex-layout.row#design__project--steps"
+        ],
+        "props": {
+            "blockClass": "design__project"
+        }
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "flex-layout.row#design__project--steps": {
+        "title": "design project steps",
+        "children": [
+            "flex-layout.col#projects__step--1",
+            "flex-layout.col#projects__step--2",
+            "flex-layout.col#projects__step--3",
+            "flex-layout.col#projects__step--4",
+            "flex-layout.col#projects__step--5"
+        ]
+    },
+    "rich-text#projects__steps--title": {
+        "title": "projects steps title",
+        "props": {
+            "text": "CREÁ EL ESPACIO DE TUS SUEÑOS EN SOLO **5 PASOS**",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "projects__steps--title"
+        }
+    },
+    "flex-layout.col#projects__step--1": {
+        "title": "get inspired",
+        "children": [
+            "image#step__1",
+            "rich-text#step__1--text"
+        ]
+    },
+    "flex-layout.col#projects__step--2": {
+        "title": "measure your space",
+        "children": [
+            "image#step__2",
+            "rich-text#step__2--text"
+        ]
+    },
+    "flex-layout.col#projects__step--3": {
+        "title": "plan",
+        "children": [
+            "image#step__3",
+            "rich-text#step__3--text"
+        ]
+    },
+    "flex-layout.col#projects__step--4": {
+        "title": "complements everything",
+        "children": [
+            "image#step__4",
+            "rich-text#step__4--text"
+        ]
+    },
+    "flex-layout.col#projects__step--5": {
+        "title": "services",
+        "children": [
+            "image#step__5",
+            "rich-text#step__5--text"
+        ]
+    },
+    "image#step__1": {
+        "title": "image step 1",
+        "props": {
+            "src": "assets/img/design-picture.png"
+        }
+    },
+    "rich-text#step__1--text": {
+        "title": "spet 1 text",
+        "props": {
+            "text": "### 01 INSPÍRATE \n Tenemos toda la inspiración para tu proyecto perfecto: Conocé en nuestras tiendas las últimas tendencias, diseños innovadores y complementos perfectos para tus espacios."
+        }
+    },
+    "image#step__2": {
+        "title": "image step 2",
+        "props": {
+            "src": "assets/img/design-pincel.png"
+        }
+    },
+    "rich-text#step__2--text": {
+        "title": "spet 2 text",
+        "props": {
+            "text": "### 02 MEDÍ TU ESPACIO \n La medición precisa de tus espacios a renovar/remodelar es esencial para garantizar la mejor experiencia y que nuestros productos se adapten perfectamente a tus espacios."
+        }
+    },
+    "image#step__3": {
+        "title": "image step 3",
+        "props": {
+            "src": "assets/img/design-list.png"
+        }
+    },
+    "rich-text#step__3--text": {
+        "title": "spet 3 text",
+        "props": {
+            "text": "### 03 ¡PLANIFICÁ! \n Vení a nuestro Centro de Proyectos. Dejalo en manos expertas, ¡estamos felices de ayudarte! con nuestra asesoría podrás concretar tu proyecto soñado."
+        }
+    },
+    "image#step__4": {
+        "title": "image step 4",
+        "props": {
+            "src": "assets/img/design-house.png"
+        }
+    },
+    "rich-text#step__4--text": {
+        "title": "spet 4 text",
+        "props": {
+            "text": "### 04 COMPLEMENTA TODO \n Opciones para tu cocina, desde lavaplatos, griferías, sanitarios y línea blanca. Para tu baño, muebles, deco y mucho más lo encuentran en nuestras tiendas y sodimac.com"
+        }
+    },
+    "image#step__5": {
+        "title": "image step 5",
+        "props": {
+            "src": "assets/img/design-tools.png"
+        }
+    },
+    "rich-text#step__5--text": {
+        "title": "spet 5 text",
+        "props": {
+            "text": "### 05 SERVICIOS \n Disponemos de una amplia gama de servicios para que hagas realidad todos tus proyectos de baños y cocinas. Confiá en nosotros y dejalo en nuestras manos."
+        }
+    }
+}
