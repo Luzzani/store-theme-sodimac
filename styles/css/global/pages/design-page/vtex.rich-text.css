@@ -42,12 +42,18 @@
     margin-bottom: 10px;
 }
 
+.paragraph--projects__steps--title,
 .headingLevel2--info__card--text {
     font-size: 19px;
     color: #545454;
     margin-bottom: 10px;
 }
 
+.paragraph--step__text {
+    padding-right: 25px;
+}
+
+.paragraph--step__text,
 .paragraph--info__card--text {
     color: #545454;
     font-size: 15px;
@@ -56,4 +62,10 @@
 
 .paragraph--projects__steps--title {
     margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.heading--step__text {
+    font-size: 17px;
+    color: #545454;
 }
