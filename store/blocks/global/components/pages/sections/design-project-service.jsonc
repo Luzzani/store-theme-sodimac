@@ -1,0 +1,43 @@
+{
+    "flex-layout.row#design__project--service": {
+        "title": "design project service",
+        "children": [
+            "flex-layout.col#design__project--service"
+        ]
+    },
+    "flex-layout.col#design__project--service": {
+        "title": "design project service",
+        "children": [
+            "rich-text#project__service--title",
+            "rich-text#project__service--message",
+            "link#project__service--button"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "design__project--service"
+        }
+    },
+    "rich-text#project__service--title": {
+        "title": "project service title",
+        "props": {
+            "text": "# SERVICIO DE DISEÑO PARA COCINAS Y BAÑOS",
+            "blockClass": "project__service--message"
+        }
+    },
+    "rich-text#project__service--message": {
+        "title": "project service message",
+        "props": {
+            "text": "## Contamos con los mejores expertos para que diseñes y renueves tus espacios con nosotros. No pierdas tiempo, sacá turno y te asesoramos gratis en nuestros locales.",
+            "blockClass": "project__service--message"
+        }
+    },
+    "link#project__service--button": {
+        "title": "project service button",
+        "props": {
+            "label": "SACAR TURNO GRATIS",
+            "href": "#",
+            "displayMode": "button",
+            "blockClass": "project__service--button"
+        }
+    }
+}

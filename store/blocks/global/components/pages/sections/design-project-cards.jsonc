@@ -1,0 +1,158 @@
+{
+    //--------------------------responsive layout------------------------------------------
+    "responsive-layout.desktop#project__title--desktop": {
+        "title": "design project title desktop",
+        "children": [
+            "rich-text#design__project--title--desktop"
+        ]
+    },
+    "responsive-layout.mobile#project__title--mobile": {
+        "title": "design project title mobile",
+        "children": [
+            "rich-text#design__project--title--mobile"
+        ]
+    },
+    "rich-text#design__project--title--mobile": {
+        "title": "design project title",
+        "props": {
+            "text": "Bienvenido al **Centro de Proyectos**",
+            "blockClass": "design__project--title"
+        }
+    },
+    "rich-text#design__project--title--desktop": {
+        "title": "design project title",
+        "props": {
+            "text": "Bienvenido al **Centro de Proyectos**",
+            "blockClass": [
+                "design__project--title",
+                "design__project--title-desktop"
+            ]
+        }
+    },
+    "responsive-layout.phone#project__info--cards": {
+        "title": "info card on phone",
+        "children": [
+            "flex-layout.row#design__project--info-cards"
+        ]
+    },
+    "responsive-layout.tablet#project__info--cards": {
+        "title": "info card on tablet",
+        "children": [
+            "flex-layout.row#design__project--info-cards-tablet"
+        ]
+    },
+    "responsive-layout.desktop#project__info--cards": {
+        "title": "info card on desktop",
+        "children": [
+            "flex-layout.row#design__project--info-cards-desktop"
+        ]
+    },
+    "flex-layout.row#design__project--info-cards": {
+        "title": "design projects info cards",
+        "children": [
+            "flex-layout.col#project__info--card-1",
+            "flex-layout.col#project__info--card-2",
+            "flex-layout.col#project__info--card-3"
+        ],
+        "props": {
+            "blockClass": "design__project--info-cards"
+        }
+    },
+    "flex-layout.row#design__project--info-cards-tablet": {
+        "title": "design projects info cards",
+        "children": [
+            "flex-layout.col#project__info--card-1",
+            "flex-layout.col#project__info--card-2",
+            "flex-layout.col#project__info--card-3"
+        ],
+        "props": {
+            "blockClass": "design__project--info-cards--tablet",
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.row#design__project--info-cards-desktop": {
+        "title": "design projects info cards",
+        "children": [
+            "flex-layout.col#project__info--card-1",
+            "flex-layout.col#project__info--card-2",
+            "flex-layout.col#project__info--card-3"
+        ],
+        "props": {
+            "blockClass": "design__project--info-cards",
+            "marginBottom": 10
+        }
+    },
+    //--------------------------global layout------------------------------------------
+    "flex-layout.col#project__info--card-1": {
+        "title": "info card 1",
+        "children": [
+            "rich-text#info__card--1-title",
+            "rich-text#info__card--1-message"
+        ],
+        "props": {
+            "blockClass": "design__project--info-cards"
+        }
+    },
+    "flex-layout.col#project__info--card-2": {
+        "title": "info card 2",
+        "children": [
+            "rich-text#info__card--2-title",
+            "rich-text#info__card--2-message"
+        ],
+        "props": {
+            "blockClass": "design__project--info-cards"
+        }
+    },
+    "flex-layout.col#project__info--card-3": {
+        "title": "info card 3",
+        "children": [
+            "rich-text#info__card--3-title",
+            "rich-text#info__card--3-message"
+        ],
+        "props": {
+            "blockClass": "design__project--info-cards"
+        }
+    },
+    "rich-text#info__card--1-title": {
+        "title": "info card title",
+        "props": {
+            "text": "## LA MEJOR **ATENCION**",
+            "blockClass": "info__card--text"
+        }
+    },
+    "rich-text#info__card--1-message": {
+        "title": "info card message",
+        "props": {
+            "text": "Podrás realizar cambios de revestimientos, plomería, pintura, instalación de muebles, artefactos de iluminación y colocación de mesadas, entre otros. Aprovechamos al máximo todos tus espacios.",
+            "blockClass": "info__card--text"
+        }
+    },
+    "rich-text#info__card--2-title": {
+        "title": "info card title",
+        "props": {
+            "text": "## NUESTROS **SERVICIOS**",
+            "blockClass": "info__card--text"
+        }
+    },
+    "rich-text#info__card--2-message": {
+        "title": "info card message",
+        "props": {
+            "text": "Disfrutá de una atención personalizada. Nuestros diseñadores te ayudarán a definir el proyecto que querés de acuerdo a tus necesidades. Acercáte a nosotros, queremos que ésta sea una gran experiencia.",
+            "blockClass": "info__card--text"
+        }
+    },
+    "rich-text#info__card--3-title": {
+        "title": "info card title",
+        "props": {
+            "text": "## PACK DE **DISEÑO**",
+            "blockClass": "info__card--text"
+        }
+    },
+    "rich-text#info__card--3-message": {
+        "title": "info card message",
+        "props": {
+            "text": "Tenemos un servicio único para tu proyecto de Cocina o Baño. Nuestro pack de diseño te ayudará desde la medición y revisión del ambiente a remodelar, hasta la visualización de la propuesta en diseño 3D.",
+            "blockClass": "info__card--text"
+        }
+    }
+}

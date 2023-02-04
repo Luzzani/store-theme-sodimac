@@ -1,0 +1,8 @@
+{
+    "store.custom#design__project": {
+        "title": "design project page",
+        "blocks": [
+            "flex-layout.row#design__project--container"
+        ]
+    }
+}

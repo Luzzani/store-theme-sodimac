@@ -1,0 +1,120 @@
+{
+    "flex-layout.row#design__project--slider-images": {
+        "title": "design project slider images",
+        "children": [
+            "responsive-layout.mobile#design__slider--container",
+            "responsive-layout.desktop#design__slider--container"
+        ],
+        "props": {
+            "colSizing": "auto"
+        }
+    },
+    "responsive-layout.mobile#design__slider--container": {
+        "title": "design slider container",
+        "children": [
+            "slider-layout#design__project"
+        ]
+    },
+    "responsive-layout.desktop#design__slider--container": {
+        "title": "design slider container",
+        "children": [
+            "slider-layout#design__project--desktop"
+        ]
+    },
+    "slider-layout#design__project": {
+        "title": "design project slider",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 6000
+            },
+            "fullWidth": true,
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "blockClass": "design__project--slider"
+        },
+        "children": [
+            "image#design__project--image-1",
+            "image#design__project--image-2",
+            "image#design__project--image-3",
+            "image#design__project--image-4",
+            "image#design__project--image-5",
+            "image#design__project--image-6"
+        ]
+    },
+    "slider-layout#design__project--desktop": {
+        "title": "design project slider",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 1
+            },
+            "centerMode": "to-the-left",
+            "showNavigationArrows": "never",
+            "autoplay": {
+                "timeout": 6000
+            },
+            "fullWidth": true,
+            "showPaginationDots": "never",
+            "blockClass": [
+                "design__project--slider--desktop",
+                "design__project--slider"
+            ]
+        },
+        "children": [
+            "image#design__project--image-1",
+            "image#design__project--image-2",
+            "image#design__project--image-3",
+            "image#design__project--image-4",
+            "image#design__project--image-5",
+            "image#design__project--image-6"
+        ]
+    },
+    "image#design__project--image-1": {
+        "title": "slider image 1",
+        "props": {
+            "src": "assets/img/design-image-1.jpg",
+            "blockClass": "design__project--image"
+        }
+    },
+    "image#design__project--image-2": {
+        "title": "slider image 2",
+        "props": {
+            "src": "assets/img/design-image-2.jpg",
+            "blockClass": "design__project--image"
+        }
+    },
+    "image#design__project--image-3": {
+        "title": "slider image 3",
+        "props": {
+            "src": "assets/img/design-image-3.jpg",
+            "blockClass": "design__project--image"
+        }
+    },
+    "image#design__project--image-4": {
+        "title": "slider image 4",
+        "props": {
+            "src": "assets/img/design-image-4.jpg",
+            "blockClass": "design__project--image"
+        }
+    },
+    "image#design__project--image-5": {
+        "title": "slider image 5",
+        "props": {
+            "src": "assets/img/design-image-5.jpg",
+            "blockClass": "design__project--image"
+        }
+    },
+    "image#design__project--image-6": {
+        "title": "slider image 6",
+        "props": {
+            "src": "assets/img/design-image-6.jpg",
+            "blockClass": "design__project--image"
+        }
+    }
+}
