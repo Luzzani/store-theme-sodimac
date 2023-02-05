@@ -20,10 +20,18 @@
             "placeholder": "¿Qué estás buscando?"
         }
     },
+    "icon#dummy__location": {
+        "title": "dummy location logo",
+        "props": {
+        "id": "hpa-location-marker",
+        "size": 24
+        }
+    },
     "rich-text#location": {
         "title": "futura geolocalizacion",
         "props": {
-            "text": "En donde estas"
+            "text": "Estás comprando en \n **General San Martin**",
+            "blockClass": "dummy__location"
         }
     },
     "login#login__desktop": {
