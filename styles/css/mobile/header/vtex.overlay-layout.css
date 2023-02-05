@@ -3,8 +3,16 @@
 } */
 
 .container--overlay-search {
-    background-color: #fff;
+    background-color: #FFFFFF;
     width: 100vw;
     height: 45px;
     transform: translateY(-35px);
+}
+
+.container--overlay-search :global(.vtex-input__prefix) {
+    background-color: #FFFFFF;
+}
+
+.container--overlay-search :global(.vtex-input__suffix) {
+    display: none;
 }

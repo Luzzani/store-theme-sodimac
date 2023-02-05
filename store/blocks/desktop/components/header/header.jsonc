@@ -23,8 +23,9 @@
             // "search-result-layout.custom#header-search",
             "search-bar#header__middle--desktop",
             "header-spacer",
+            "icon#dummy__location",
             "rich-text#location",
-            "header-spacer",
+            // "header-spacer",
             "minicart.v2",
             "login#login__desktop"
         ],

@@ -12,7 +12,8 @@
         ],
         "props": {
             "blockClass": "header__mobile",
-            "inverted": true
+            "inverted": true,
+            "sticky": true
         }
     },
     "overlay-trigger": {

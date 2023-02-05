@@ -3,9 +3,6 @@
         "title": "header mobile",
         "children": [
             "header-row#header__mobile"
-        ],
-        "props": {
-            "sticky": true
-        }
+        ]
     }
 }
