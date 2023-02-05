@@ -1,7 +1,10 @@
-
 .headerRowContainer--header__desktop {
     max-width: 1280px;
     margin: 0 auto;
+}
+
+.headerRowContentContainer--header__desktop {
+    padding: 0;
 }
 
 .headerRowContainer--header__desktop-top {
@@ -15,6 +18,63 @@
     height: 91px;
 }
 
+.headerRowContainer--header__desktop-middle :global(.vtex-input-prefix__group) {
+    border: 0.0625rem solid #f0f0f0;
+    font-family: "Helvetica Neue,Helvetica,Arial,sans-serif";
+    font-size: 1rem;
+}
+
+.headerRowContainer--header__desktop-middle :global(.vtex-input__suffix) {
+    padding: 0;
+}
+
+.headerRowContainer--header__desktop-middle :global(.vtex-styleguide-9-x-input)::placeholder {
+    font-family: "Helvetica Neue,Helvetica,Arial,sans-serif";
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+.headerRowContainer--header__desktop-middle :global(.vtex-styleguide-9-x-input) {
+    padding-left: 0px;
+}
+
+.headerRowContainer--header__desktop-middle :global(.vtex-minicart-2-x-openIconContainer) {
+    padding: 0;
+}
+
+.headerRowContainer--header__desktop-middle :global(.vtex-login-2-x-profile) {
+    font-size: 14px;
+    text-transform: none;
+    padding: 0;
+    overflow: unset;
+    width: 40px;
+    white-space: break-spaces;
+    color: #000000;
+}
+
+.headerRowContainer--header__desktop-middle :global(.vtex-minicart-2-x-minicartWrapperContainer) {
+    margin-right: 15px;
+}
+
+
+.headerRowContainer--header__mobile :global(.vtex-minicart-2-x-minicartQuantityBadge),
+.headerRowContainer--header__desktop-middle :global(.vtex-minicart-2-x-minicartQuantityBadge) {
+    position: absolute;
+    padding: .3rem;
+    top: 3px;
+    left: -25px;
+    background-color: #DD0021;
+}
+
+.headerRowContainer--header__desktop-middle :global(.vtex-login-2-x-container) {
+    margin-right: 20px;
+}
+
+.headerRowContainer--header__mobile :global(.vtex-login-2-x-container) :global(.vtex-button__label),
+.headerRowContainer--header__desktop-middle :global(.vtex-login-2-x-container) :global(.vtex-button__label) {
+    padding: 0;
+}
+
 .headerRowContainer--header__desktop-bottom {
     height: 65px;
 }
@@ -24,3 +84,20 @@
     border-bottom: .2px solid #eeeeee;
 }
 
+.headerRowContentContainer--header__mobile {
+    padding: 8px 0;
+}
+
+.headerRowContentContainer--header__mobile :global(.vtex-overlay-layout-0-x-trigger) {
+    margin-right: 50px;
+}
+
+.headerRowContainer--header__mobile :global(.vtex-minicart-2-x-openIconContainer) {
+    padding: 0;
+}
+
+.headerRowContentContainer--header__mobile :global(.vtex-styleguide-9-x-input)::placeholder {
+    padding-left: 0;
+    font-size: 16px;
+    color: #717171;
+}

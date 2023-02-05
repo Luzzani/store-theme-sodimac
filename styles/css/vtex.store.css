@@ -59,10 +59,10 @@
   top: 20px;
 }
 
-:global(.vtex-store-header-2-x-headerStickyRow--header__mobile):global(.vtex-styleguide-9-x-input) {
+/* :global(.vtex-store-header-2-x-headerStickyRow--header__mobile):global(.vtex-styleguide-9-x-input) {
   padding-left: 40px;
   font-size: 16px;
-}
+} */
 
 :global(.vtex-input__suffix),
 :global(.vtex-styleguide-9-x-input) {
@@ -103,10 +103,6 @@
   padding-top: 5px;
   font-weight: lighter;
   font-family: "Lato";
-}
-
-:global(.vtex-login-2-x-container) :global(.vtex-button__label) {
-  padding-right: 0;
 }
 
 :global(.vtex-login-2-x-box) {
