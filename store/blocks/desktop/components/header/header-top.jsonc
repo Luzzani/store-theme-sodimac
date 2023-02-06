@@ -5,7 +5,10 @@
             "itemProps": {
                 "text": "SERVICIO AL CLIENTE"
             },
-            "blockClass": ["menu__item--top", "menu__item--top--first"]
+            "blockClass": [
+                "menu__item--top",
+                "menu__item--top--first"
+            ]
         }
     },
     "menu-item#top__tiendas": {
@@ -14,7 +17,9 @@
             "itemProps": {
                 "text": "| TIENDAS |"
             },
-            "blockClass": ["menu__item--top"]
+            "blockClass": [
+                "menu__item--top"
+            ]
         }
     },
     "menu-item#top__empresas": {
@@ -23,7 +28,9 @@
             "itemProps": {
                 "text": "SODIMAC EMPRESAS |"
             },
-            "blockClass": ["menu__item--top"]
+            "blockClass": [
+                "menu__item--top"
+            ]
         }
     },
     "menu-item#top__financiacion": {
@@ -32,16 +39,22 @@
             "itemProps": {
                 "text": "FINANCIACIÓN |"
             },
-            "blockClass": ["menu__item--top"]
+            "blockClass": [
+                "menu__item--top"
+            ]
         }
     },
     "menu-item#top__proyecto": {
         "props": {
             "type": "custom",
             "itemProps": {
-                "text": "DISEÑÁ TU PROYECTO "
+                "text": "DISEÑÁ TU PROYECTO ",
+                "type": "internal",
+                "href": "/design"
             },
-            "blockClass": ["menu__item--top"]
+            "blockClass": [
+                "menu__item--top"
+            ]
         }
     }
 }
