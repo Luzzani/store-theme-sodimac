@@ -1,0 +1,13 @@
+.flexRow--not__found--url {
+    background-color: #FFFFFF;
+    padding-bottom: 100px;
+}
+
+.flexRowContent--not__found--url {
+    max-width: 1030px;
+    margin: 0 auto;
+}
+
+.flexRow--not__found--search {
+    position: relative;
+}
