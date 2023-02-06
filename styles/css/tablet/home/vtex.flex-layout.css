@@ -8,3 +8,28 @@
     padding: 0;
 }
 
+
+
+
+.flexColChild--home__section3--mobile :global(.vtex-store-link-0-x-link):global(.vtex-store-link-0-x-link--product__button--desktop):global(.vtex-store-link-0-x-buttonLink):global(.vtex-store-link-0-x-buttonLink--product__button--desktop) {
+    visibility: visible !important;
+}
+
+/* 
+.buttonLink--product__button--mobile {
+    background-color: transparent;
+    border: 1px solid #DD0021;
+    color: #DD0021;
+    font-family: 'Lato';
+    font-size: 14px;
+    text-transform: none;
+    margin: 0 auto;
+    width: 100%;
+    transform: translateY(-6px);
+}
+
+.buttonLink--product__button--mobile:hover {
+    border: 1px solid #DD0021;
+    background-color: #DD0021;
+    color: white;
+} */

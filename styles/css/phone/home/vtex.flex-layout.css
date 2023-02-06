@@ -9,11 +9,15 @@
      background-color: #ffffff;
  }
 
- .flexRowContent--home__section--financing--mobile {
-     transform: translateY(3px);
- }
-
  .flexRow--phone__home__section-1 :global(.vtex-store-components-3-x-container),
  .flexRow--home__section--financing--mobile :global(.vtex-store-components-3-x-container) {
      padding: 0;
+ }
+
+ .flexColChild--home__section3--phone :global(.vtex-product-summary-2-x-element):global(.vtex-product-summary-2-x-element--search__result--shelf) {
+     height: 340px !important;
+ }
+
+ .flexColChild--home__section3--phone :global(.vtex-store-link-0-x-link):global(.vtex-store-link-0-x-link--product__button--desktop):global(.vtex-store-link-0-x-buttonLink):global(.vtex-store-link-0-x-buttonLink--product__button--desktop) {
+     display: none !important;
  }

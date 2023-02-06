@@ -8,7 +8,6 @@
     transform: translateX(10px);
 }
 
-
 .headingLevel3--section__2--title--tablet {
     margin-bottom: 0;
 }
@@ -16,4 +15,5 @@
 .headingLevel3--section__3--title {
     color: #585858;
     font-size: 24px;
+    padding-left: 10px;
 }
