@@ -1,0 +1,57 @@
+.flexRow--not__found--page-layout :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
+.flexColChild--not__found--page-layout {
+    max-width: 1635px;
+}
+
+.flexRow--not__found--icon-container {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.flexRow--not__found--text-1 {
+    padding-bottom: 30px;
+}
+
+.flexRow--not__found--list {
+    padding: 20px 0;
+    background-color: #FFFFFF;
+}
+
+.flexRow--not__found--slider-title {
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.flexCol--not__found--slider-col {
+    height: 110px;
+}
+
+.flexRow--not__found__bottom--info {
+    background-color: #FFFFFF;
+    padding: 20px 15px;
+}
+
+.flexRow--not__found__bottom--info-desktop {
+    background-color: #FFFFFF;
+    padding: 20px 15px 10px 15px;
+}
+
+.flexRow--not__found__bottom--info-desktop {
+    margin-bottom: 50px;
+}
+
+.flexRowContent--not__found__bottom--info-desktop :global(.vtex-rich-text-0-x-container) {
+    width: 500px !important;
+}
+
+.flexRowContent--not__found__bottom--info-desktop :global(.vtex-store-link-0-x-link) {
+    width: fit-content !important;
+}
+
+.flexRow--not__found--slider {
+    margin: 0 auto;
+    max-width: 844px;
+}

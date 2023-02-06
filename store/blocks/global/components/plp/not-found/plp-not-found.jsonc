@@ -1,0 +1,160 @@
+{
+    "search-not-found-layout": {
+        "title": "product not found",
+        "children": [
+            "flex-layout.row#not-found-page"
+        ]
+    },
+    "flex-layout.row#not-found-page": {
+        "title": "producto not found layout",
+        "children": [
+            "flex-layout.col#not-found-page"
+        ],
+        "props": {
+            "blockClass": "not__found--page-layout"
+        }
+    },
+    "flex-layout.col#not-found-page": {
+        "title": "product not found layout",
+        "children": [
+            "flex-layout.row#not__found--icon-container",
+            "flex-layout.row#not__found--text-1",
+            "flex-layout.row#not__found--list",
+            "flex-layout.row#not__found--slider-title",
+            "flex-layout.row#not__found--slider",
+            "responsive-layout.mobile#not__found--info",
+            "responsive-layout.desktop#not__found--info"
+        ],
+        "props": {
+            "blockClass": "not__found--page-layout"
+        }
+    },
+    "responsive-layout.mobile#not__found--info": {
+        "title": "info on mobile",
+        "children": [
+            "flex-layout.row#not__found__bottom--info"
+        ]
+    },
+    "responsive-layout.desktop#not__found--info": {
+        "title": "info on desktop",
+        "children": [
+            "flex-layout.row#not__found__bottom--info-desktop"
+        ]
+    },
+    "flex-layout.row#not__found__bottom--info-desktop": {
+        "title": "bottom content",
+        "children": [
+            "rich-text#more__info--not-found",
+            "flex-layout.row#not__found__bottom"
+        ],
+        "props": {
+            "blockClass": "not__found__bottom--info-desktop",
+            "colSizing": "auto",
+            "colJustify": "between"
+        }
+    },
+    "flex-layout.row#not__found__bottom--info": {
+        "title": "bottom content",
+        "children": [
+            "flex-layout.col#not__found__bottom--info"
+        ],
+        "props": {
+            "blockClass": "not__found__bottom--info",
+            "colGap": 2
+        }
+    },
+    "flex-layout.col#not__found__bottom--info": {
+        "title": "bottom info content",
+        "children": [
+            "rich-text#more__info--not-found",
+            "flex-layout.row#not__found__bottom"
+        ],
+        "props": {
+            "blockClass": "not__found__bottom--info",
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.row#not__found__bottom": {
+        "title": "bottom content",
+        "children": [
+            "link#QA__button",
+            "link#coments__button"
+        ]
+    },
+    "flex-layout.row#not__found--icon-container": {
+        "title": "not found row 1",
+        "children": [
+            "icon#search__icon--not-found"
+        ],
+        "props": {
+            "blockClass": "not__found--icon-container"
+        }
+    },
+    "flex-layout.row#not__found--text-1": {
+        "title": "not found row 2",
+        "children": [
+            "rich-text#product-not-found"
+        ],
+        "props": {
+            "blockClass": "not__found--text-1"
+        }
+    },
+    "flex-layout.row#not__found--list": {
+        "title": "not found row 3",
+        "children": [
+            "rich-text#not-found-list"
+        ],
+        "props": {
+            "blockClass": "not__found--list"
+        }
+    },
+    "icon#search__icon--not-found": {
+        "title": "search icon not found",
+        "props": {
+            "id": "hpa-search",
+            "size": 55,
+            "bockClass": "search__icon--not-found"
+        }
+    },
+    "rich-text#product-not-found": {
+        "title": "product not found text",
+        "props": {
+            "text": "Tu búsqueda no arrojó resultados",
+            "blockClass": "product-not-found",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#not-found-list": {
+        "title": "product not found text",
+        "props": {
+            "text": "**Intenta nuevamente siguiendo estos consejos:** \n - Utiliza términos generales \n - Revisa la ortografía \n - Limita las palabras de búsqueda a una o dos máximo",
+            "blockClass": "not-found-list"
+        }
+    },
+    "rich-text#more__info--not-found": {
+        "title": "more info",
+        "props": {
+            "text": "Para más información, puedes comunicarte a nuestro servicio de venta telefónica al 0810 666 7634 y un ejecutivo te ayudará en tu compra.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "not__found--more-info"
+        }
+    },
+    "link#QA__button": {
+        "title": "QA button",
+        "props": {
+            "displayMode": "button",
+            "label": "Ir a preguntas frecuentes",
+            "blockClass": "QA__button"
+        }
+    },
+    "link#coments__button": {
+        "title": "QA button",
+        "props": {
+            "displayMode": "button",
+            "label": "Dejar un comentario",
+            "blockClass": "coments__button"
+        }
+    }
+}
