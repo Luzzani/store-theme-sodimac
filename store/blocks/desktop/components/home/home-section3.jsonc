@@ -40,16 +40,110 @@
     "product-summary.shelf#search__result": {
         "title": "shelf",
         "children": [
-            "product-summary-image",
-            "product-summary-name",
-            "product-rating-inline",
-            "product-selling-price",
-            "link.product#product__button--desktop"
+            "flex-layout.row#home__product--top",
+            "flex-layout.row#home__product--middle"
         ],
         "props": {
             "blockClass": [
                 "search__result--shelf"
             ]
+        }
+    },
+    "flex-layout.row#home__product--top": {
+        "title": "prodcut top section",
+        "children": [
+            "flex-layout.col#home__product--top"
+        ],
+        "props": {
+            "blockClass": "home__product--top"
+        }
+    },
+    "flex-layout.col#home__product--top": {
+        "title": "prodcut top section",
+        "children": [
+            "flex-layout.row#product__top--first",
+            "product-rating-inline"
+        ],
+        "props": {
+            "blockClass": "home__product--top"
+        }
+    },
+    "flex-layout.row#product__top--first": {
+        "title": "product top first",
+        "children": [
+            "flex-layout.col#product__top--first"
+        ]
+    },
+    "flex-layout.col#product__top--first": {
+        "title": "product top first",
+        "children": [
+            "product-summary-image",
+            "product-summary-brand#home__product",
+            "product-summary-name#home__product"
+        ]
+    },
+    "product-summary-brand#home__product": {
+        "title": "home product brand",
+        "props": {
+            "blockClass": "home__product--brand"
+        }
+    },
+    "product-summary-name#home__product": {
+        "title": "home product name",
+        "props": {
+            "blockClass": "home__product--name"
+        }
+    },
+    "flex-layout.row#home__product--middle": {
+        "title": "prodcut middle section",
+        "children": [
+            "flex-layout.col#home__product--middle"
+        ],
+        "props": {
+            "blockClass": "home__product--middle"
+        }
+    },
+    "flex-layout.col#home__product--middle": {
+        "title": "prodcut middle section",
+        "children": [
+            "flex-layout.row#product__middle--first",
+            "link.product#product__button--desktop"
+        ],
+        "props": {
+            "blockClass": "home__product--middle"
+        }
+    },
+    "flex-layout.row#product__middle--first": {
+        "title": "prodcut middle section",
+        "children": [
+            "flex-layout.col#product__middle--first"
+        ],
+        "props": {
+            "blockClass": "product__middle--first"
+        }
+    },
+    "flex-layout.col#product__middle--first": {
+        "title": "prodcut middle section",
+        "children": [
+            "product-selling-price#home__page",
+            "product-price-savings#home__page"
+        ],
+        "props": {
+            "blockClass": "product__middle--first"
+        }
+    },
+    "product-selling-price#home__page": {
+        "title": "product price",
+        "props": {
+            "message": "${sellingPriceValue} c/u",
+            "blockClass": "selling__price--home"
+        }
+    },
+    "product-price-savings#home__page": {
+        "title": "saving price on home",
+        "props": {
+            "blockClass": "savings__price--home",
+            "message": "Normal:  ${savingsValue} c/u"
         }
     },
     "link.product#product__button--desktop": {

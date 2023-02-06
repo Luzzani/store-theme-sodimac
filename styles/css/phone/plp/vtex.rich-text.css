@@ -16,7 +16,7 @@
 }
 
 .container--quantity__message--last {
-    transform: translateY(-3px) translateX(5px);
+    transform: translateX(5px);
 }
 
 .paragraph--open__drawer--filter {

@@ -60,7 +60,6 @@
 .flexRowContent--order__switcher--container {
     background-color: #fff;
     justify-content: flex-start;
-    transform: translateY(-3px);
 }
 
 .flexRowContent--order__switcher--container :global(.vtex-search-result-3-x-orderByButton) {
