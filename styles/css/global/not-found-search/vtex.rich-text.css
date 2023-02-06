@@ -1,0 +1,49 @@
+.paragraph--product-not-found {
+    color: #333333;
+    font-size: 24px;
+}
+
+.wrapper--not-found-list {
+    width: 100%;
+}
+
+.paragraph--not-found-list {
+    color: #333333;
+    font-size: 17px;
+    text-align: center;
+    width: 100%;
+    padding: 0 64px;
+    padding-bottom: 20px;
+}
+
+.list--not-found-list {
+    line-height: 2;
+    padding: 0;
+    padding-left: 25px;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.listItem--not-found-list {
+    font-size: 16px;
+    color: #333333;
+}
+
+.paragraph--slider__tilte--not-found {
+    color: #333333;
+    font-size: 17px;
+}
+
+.container--not__found--more-info {
+    padding-bottom: 20px;
+}
+
+.paragraph--not-found-text-slider {
+    color: #333333;
+    font-size: 12px;
+}
+
+.paragraph--not__found--more-info {
+    color: #333333;
+    font-size: 16px;
+}

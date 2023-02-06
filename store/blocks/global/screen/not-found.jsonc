@@ -1,0 +1,85 @@
+{
+    "store.not-found#product": {
+        "title": "not found url",
+        "blocks": [
+            "flex-layout.row#not__found--url"
+        ]
+    },
+    "flex-layout.row#not__found--url": {
+        "title": "not found layout",
+        "children": [
+            "flex-layout.col#not__found--url"
+        ],
+        "props": {
+            "blockClass": "not__found--url"
+        }
+    },
+    "flex-layout.col#not__found--url": {
+        "title": "not found layout",
+        "children": [
+            // "logo#header__middle--logo",
+            "rich-text#error__message",
+            "flex-layout.row#not__found--search",
+            "rich-text#access__list"
+        ],
+        "props": {
+            "blockClass": "not__found--url"
+        }
+    },
+    "flex-layout.row#not__found--search": {
+        "title": "not found search",
+        "children": [
+            "flex-layout.col#not__found--search",
+            "flex-layout.col#not__found--image"
+        ],
+        "props": {
+            "blockClass": "not__found--search"
+        }
+    },
+    "flex-layout.col#not__found--search": {
+        "title": "not found search",
+        "children": [
+            "search-bar#header__middle--desktop"
+        ],
+        "props": {
+            "width": "100%"
+        }
+    },
+    "flex-layout.col#not__found--image": {
+        "title": "not found image",
+        "children": [
+            "responsive-layout.desktop#error404__image"
+        ],
+        "props": {
+            "width": "0%"
+        }
+    },
+    "responsive-layout.desktop#error404__image": {
+        "title": "image error 404 on desktop",
+        "children": [
+            "image#error404"
+        ]
+    },
+    "image#error404": {
+        "title": "image error 404",
+        "props": {
+            "src": "assets/img/error404.jpeg",
+            "blockClass": "image__error"
+        }
+    },
+    "rich-text#error__message": {
+        "title": "prueba",
+        "props": {
+            "text": "# Error 404 \n ## ¡Ups! algo salió mal, intentalo de nuevo",
+            "textAlignment": "LEFT",
+            "blockClass": "error__message"
+        }
+    },
+    "rich-text#access__list": {
+        "title": "access list",
+        "props": {
+            "text": "**Accesos directo:** \n [Productos en promoción](/) \n[Especial %%nombre especial%%](/) \n [Portada del sitio](/)",
+            "blockClass": "access__list"
+        }
+    }
+}

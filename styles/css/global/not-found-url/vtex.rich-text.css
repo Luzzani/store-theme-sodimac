@@ -1,0 +1,19 @@
+.heading--error__message {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+
+.headingLevel2--error__message {
+    font-size: 24px;
+}
+
+.link--access__list,
+.strong--access__list {
+    color: #333333;
+    font-size: 14px;
+}
+
+.link--access__list {
+    text-decoration: none;
+}

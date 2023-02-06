@@ -1,0 +1,25 @@
+.link--coments__button,
+.link--QA__button {
+    width: 290px !important;
+    background-color: #FFFFFF;
+    color: #DD0021;
+    border: 1px solid #DD0021;
+    margin-top: 10px;
+    text-transform: none;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+.link--coments__button:active,
+.link--QA__button:active {
+    background-color: #A9011B;
+    color: #FFFFFF;
+}
+
+.link--coments__button:hover,
+.link--QA__button:hover {
+    background-color: #DD0021;
+    color: #FFFFFF;
+    border: 1px solid #DD0021;
+
+}

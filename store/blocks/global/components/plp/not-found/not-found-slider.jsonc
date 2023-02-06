@@ -1,0 +1,211 @@
+{
+    "flex-layout.row#not__found--slider-title": {
+        "title": "not found row 4",
+        "children": [
+            "rich-text#slider__tilte--not-found"
+        ],
+        "props": {
+            "blockClass": "not__found--slider-title"
+        }
+    },
+    "rich-text#slider__tilte--not-found": {
+        "title": "sldier title",
+        "props": {
+            "text": "**Categorías más buscadas**",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "slider__tilte--not-found"
+        }
+    },
+    "flex-layout.row#not__found--slider": {
+        "title": "not found row 5",
+        "children": [
+            "slider-layout#not-found-page"
+        ],
+        "props": {
+            "blockClass": "not__found--slider"
+        }
+    },
+    "slider-layout#not-found-page": {
+        "title": "slider not found page",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 8,
+                "tablet": 8,
+                "phone": 5
+            },
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never"
+        },
+        "children": [
+            "flex-layout.row#image__container-1",
+            "flex-layout.row#image__container-2",
+            "flex-layout.row#image__container-3",
+            "flex-layout.row#image__container-4",
+            "flex-layout.row#image__container-5",
+            "flex-layout.row#image__container-6",
+            "flex-layout.row#image__container-7",
+            "flex-layout.row#image__container-8",
+            "image#not-found-1",
+            "image#not-found-2",
+            "image#not-found-3",
+            "image#not-found-4",
+            "image#not-found-5",
+            "image#not-found-6",
+            "image#not-found-7",
+            "image#not-found-8"
+        ]
+    },
+    "flex-layout.row#image__container-1": {
+        "title": "image not found container",
+        "children": [
+            "flex-layout.col#image__container-1"
+        ],
+        "props": {
+            "blockClass": "not__found--slider-row"
+        }
+    },
+    "flex-layout.row#image__container-2": {
+        "title": "image not found container",
+        "children": [
+            "flex-layout.col#image__container-2"
+        ],
+        "props": {
+            "blockClass": "not__found--slider-row"
+        }
+    },
+    "flex-layout.row#image__container-3": {
+        "title": "image not found container",
+        "children": [
+            "flex-layout.col#image__container-3"
+        ],
+        "props": {
+            "blockClass": "not__found--slider-row"
+        }
+    },
+    "flex-layout.row#image__container-4": {
+        "title": "image not found container",
+        "children": [
+            "flex-layout.col#image__container-4"
+        ],
+        "props": {
+            "blockClass": "not__found--slider-row"
+        }
+    },
+    "flex-layout.row#image__container-5": {
+        "title": "image not found container",
+        "children": [
+            "flex-layout.col#image__container-5"
+        ],
+        "props": {
+            "blockClass": "not__found--slider-row"
+        }
+    },
+    "flex-layout.row#image__container-6": {
+        "title": "image not found container",
+        "children": [
+            "flex-layout.col#image__container-6"
+        ],
+        "props": {
+            "blockClass": "not__found--slider-row"
+        }
+    },
+    "flex-layout.row#image__container-7": {
+        "title": "image not found container",
+        "children": [
+            "flex-layout.col#image__container-7"
+        ],
+        "props": {
+            "blockClass": "not__found--slider-row"
+        }
+    },
+    "flex-layout.row#image__container-8": {
+        "title": "image not found container",
+        "children": [
+            "flex-layout.col#image__container-8"
+        ],
+        "props": {
+            "blockClass": "not__found--slider-row"
+        }
+    },
+    "flex-layout.col#image__container-1": {
+        "title": "image container",
+        "children": [
+            "image#not-found-1",
+            "rich-text#not-found-1"
+        ],
+        "props": {
+            "blockClass": "not__found--slider-col"
+        }
+    },
+    "flex-layout.col#image__container-2": {
+        "title": "image container",
+        "children": [
+            "image#not-found-2",
+            "rich-text#not-found-2"
+        ],
+        "props": {
+            "blockClass": "not__found--slider-col"
+        }
+    },
+    "flex-layout.col#image__container-3": {
+        "title": "image container",
+        "children": [
+            "image#not-found-3",
+            "rich-text#not-found-3"
+        ],
+        "props": {
+            "blockClass": "not__found--slider-col"
+        }
+    },
+    "flex-layout.col#image__container-4": {
+        "title": "image container",
+        "children": [
+            "image#not-found-4",
+            "rich-text#not-found-4"
+        ],
+        "props": {
+            "blockClass": "not__found--slider-col"
+        }
+    },
+    "flex-layout.col#image__container-5": {
+        "title": "image container",
+        "children": [
+            "image#not-found-5",
+            "rich-text#not-found-5"
+        ],
+        "props": {
+            "blockClass": "not__found--slider-col"
+        }
+    },
+    "flex-layout.col#image__container-6": {
+        "title": "image container",
+        "children": [
+            "image#not-found-6",
+            "rich-text#not-found-6"
+        ],
+        "props": {
+            "blockClass": "not__found--slider-col"
+        }
+    },
+    "flex-layout.col#image__container-7": {
+        "title": "image container",
+        "children": [
+            "image#not-found-7",
+            "rich-text#not-found-7"
+        ],
+        "props": {
+            "blockClass": "not__found--slider-col"
+        }
+    },
+    "flex-layout.col#image__container-8": {
+        "title": "image container",
+        "children": [
+            "image#not-found-8",
+            "rich-text#not-found-8"
+        ],
+        "props": {
+            "blockClass": "not__found--slider-col"
+        }
+    }
+}

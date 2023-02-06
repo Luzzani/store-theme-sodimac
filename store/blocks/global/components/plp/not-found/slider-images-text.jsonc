@@ -1,0 +1,139 @@
+{
+    "image#not-found-1": {
+        "title": "not found icon",
+        "props": {
+            "src": "assets/img/icon-not-found-1.png",
+            "maxHeight": "52px",
+            "maxWidth": "52px"
+        }
+    },
+    "rich-text#not-found-1": {
+        "title": "text not found image",
+        "props": {
+            "text": "Muebles",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "not-found-text-slider"
+        }
+    },
+    "rich-text#not-found-2": {
+        "title": "text not found image",
+        "props": {
+            "text": "Jardín",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "not-found-text-slider"
+        }
+    },
+    "rich-text#not-found-3": {
+        "title": "text not found image",
+        "props": {
+            "text": "Materias \n de \n contrucción",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "not-found-text-slider"
+        }
+    },
+    "rich-text#not-found-4": {
+        "title": "text not found image",
+        "props": {
+            "text": "Baño",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "not-found-text-slider"
+        }
+    },
+    "rich-text#not-found-5": {
+        "title": "text not found image",
+        "props": {
+            "text": "Cocina",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "not-found-text-slider"
+        }
+    },
+    "rich-text#not-found-6": {
+        "title": "text not found image",
+        "props": {
+            "text": "Decoración",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "not-found-text-slider"
+        }
+    },
+    "rich-text#not-found-7": {
+        "title": "text not found image",
+        "props": {
+            "text": "Aire Libre",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "not-found-text-slider"
+        }
+    },
+    "rich-text#not-found-8": {
+        "title": "text not found image",
+        "props": {
+            "text": "Pisos",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "not-found-text-slider"
+        }
+    },
+    "image#not-found-2": {
+        "title": "not found icon",
+        "props": {
+            "src": "assets/img/icon-not-found-2.png",
+            "maxHeight": "52px",
+            "maxWidth": "52px"
+        }
+    },
+    "image#not-found-3": {
+        "title": "not found icon",
+        "props": {
+            "src": "assets/img/icon-not-found-3.png",
+            "maxHeight": "52px",
+            "maxWidth": "52px",
+            "blockClass": "not-found-image-3"
+        }
+    },
+    "image#not-found-4": {
+        "title": "not found icon",
+        "props": {
+            "src": "assets/img/icon-not-found-4.png",
+            "maxHeight": "52px",
+            "maxWidth": "52px"
+        }
+    },
+    "image#not-found-5": {
+        "title": "not found icon",
+        "props": {
+            "src": "assets/img/icon-not-found-5.png",
+            "maxHeight": "52px",
+            "maxWidth": "52px"
+        }
+    },
+    "image#not-found-6": {
+        "title": "not found icon",
+        "props": {
+            "src": "assets/img/icon-not-found-6.png",
+            "maxHeight": "52px",
+            "maxWidth": "52px"
+        }
+    },
+    "image#not-found-7": {
+        "title": "not found icon",
+        "props": {
+            "src": "assets/img/icon-not-found-7.png",
+            "maxHeight": "52px",
+            "maxWidth": "52px"
+        }
+    },
+    "image#not-found-8": {
+        "title": "not found icon",
+        "props": {
+            "src": "assets/img/icon-not-found-8.png",
+            "maxHeight": "52px",
+            "maxWidth": "52px"
+        }
+    }
+}
