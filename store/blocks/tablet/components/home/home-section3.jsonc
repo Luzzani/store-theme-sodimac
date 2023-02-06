@@ -4,7 +4,10 @@
         "children": [
             "rich-text#section3__tablet--title",
             "list-context.product-list#tablet"
-        ]
+        ],
+        "props": {
+            "blockClass": "home__section3--mobile"
+        }
     },
     "rich-text#section3__tablet--title": {
         "title": "section 3 title",
@@ -15,7 +18,8 @@
     },
     "list-context.product-list#tablet": {
         "blocks": [
-            "product-summary.shelf#home__plp--mobile"
+            "product-summary.shelf#search__result"
+            // "product-summary.shelf#home__plp--mobile"
         ],
         "children": [
             "slider-layout#slider__tablet-product"

@@ -4,22 +4,3 @@
     width: 100%;
     height: 100%;
 }
-
-
-.buttonLink--product__button--mobile {
-    background-color: transparent;
-    border: 1px solid #DD0021;
-    color: #DD0021;
-    font-family: 'Lato';
-    font-size: 14px;
-    text-transform: none;
-    margin: 0 auto;
-    width: 100%;
-    transform: translateY(-6px);
-}
-
-.buttonLink--product__button--mobile:hover {
-    border: 1px solid #DD0021;
-    background-color: #DD0021;
-    color: white;
-}

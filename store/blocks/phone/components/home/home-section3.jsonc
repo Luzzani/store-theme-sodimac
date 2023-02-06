@@ -1,0 +1,12 @@
+{
+    "flex-layout.col#home__section-3--phone": {
+        "title": "section 3 col",
+        "children": [
+            "rich-text#section3__tablet--title",
+            "list-context.product-list#tablet"
+        ],
+        "props": {
+            "blockClass": "home__section3--phone"
+        }
+    }
+}

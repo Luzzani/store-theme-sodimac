@@ -36,6 +36,12 @@
       "blockClass": "home__section-2--phone"
     }
   },
+  "flex-layout.row#home__section-3--phone": {
+    "title": "section 3 phone",
+    "children": [
+      "flex-layout.col#home__section-3--phone"
+    ]
+  },
   "flex-layout.row#home__section-4--phone": {
     "title": "home row section 4",
     "children": [

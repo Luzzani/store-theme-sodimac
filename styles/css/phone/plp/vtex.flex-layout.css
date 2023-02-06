@@ -56,7 +56,7 @@
 }
 
 .flexRow--message__product--container :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
-    transform: translateX(5px);
+    transform:translateY(3px) translateX(5px);
 }
 
 .flexRow--message__product--container {
