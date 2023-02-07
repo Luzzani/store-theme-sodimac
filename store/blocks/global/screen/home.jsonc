@@ -3,6 +3,7 @@
     "title": "Store home",
     "blocks": [
       "whatsapp-button",
+      // "list-context.bullet-group",
       "responsive-layout.desktop#home__desktop",
       "responsive-layout.tablet#home__tablet",
       "responsive-layout.phone#home__phone",
@@ -11,4 +12,16 @@
       "modal-trigger#home__modal--opinion"
     ]
   }
+  // "list-context.bullet-group": {
+  //   "title": "bullet group",
+  //   "props": {
+  //     "bullets": {
+  //       "image": "mitexto.png",
+  //       "titleBullet": "computadores",
+  //       "link": {
+  //         "url": "/"
+  //       }
+  //     }
+  //   }
+  // }
 }
