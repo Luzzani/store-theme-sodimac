@@ -1,0 +1,11 @@
+{
+    "whatsapp-button": {
+        "props": {
+            "logo": "assets/img/whatsapp-image.png",
+            "phone": "+541124631919",
+            "message": "",
+            "width": 60,
+            "height": 60
+        }
+    }
+}
