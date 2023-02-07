@@ -2,6 +2,7 @@
   "responsive-layout.desktop#home__desktop": {
     "title": "Section Home Desktop",
     "children": [
+      "whatsapp-button",
       "flex-layout.row#home__section-financing",
       "flex-layout.row#home__section-1",
       "flex-layout.row#home__section-2",
@@ -12,5 +13,12 @@
       "flex-layout.row#home__section-7--desktop",
       "flex-layout.row#home__section-8--desktop"
     ]
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "logo-de-la-clase.png",
+      "phone": "77-77-77-77",
+      "message": "VTEX U RLZ"
+    }
   }
 }
