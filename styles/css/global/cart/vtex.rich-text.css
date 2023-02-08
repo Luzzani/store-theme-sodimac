@@ -1,0 +1,139 @@
+.container--cart__title {
+    padding: 20px 0;
+    margin-top: 80px;
+    color: #333333;
+}
+
+.link--empty__cart--message,
+.link--cart__title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0072CE;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+
+.paragraph--empty__cart--message,
+.paragraph--payments__politics,
+.link--step__cart--link,
+.paragraph--step__cart--delivery,
+.paragraph--step__cart--payment,
+.paragraph--cart__title {
+    color: #333333;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph--step__cart--link {
+    line-height: 17px;
+}
+
+.link--step__cart--link,
+.paragraph--step__cart--delivery,
+.paragraph--step__cart--payment {
+    position: relative;
+    text-align: center;
+}
+
+.paragraph--step__cart--delivery,
+.paragraph--step__cart--payment {
+    color: #ADADAD;
+}
+
+.link--step__cart--link::after,
+.paragraph--step__cart--delivery::after,
+.paragraph--step__cart--payment::after {
+    content: "";
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: 40%;
+    top: -27px;
+    z-index: 1;
+}
+
+.link--step__cart--link::after {
+    background-color: #333333;
+}
+
+.paragraph--step__cart--delivery::after,
+.paragraph--step__cart--payment::after {
+    left: 20px;
+    height: 18px;
+    width: 18px;
+    background-color: #FFFFFF;
+    border: 2px solid #ADADAD;
+}
+
+.paragraph--step__cart--delivery::after {
+    left: 10px;
+}
+
+.container--step__cart--delivery,
+.container--step__cart--payment,
+.container--step__cart--link {
+    justify-content: center;
+}
+
+.headingLevel3--cart__sub--title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.strong--empty__cart--message {
+    font-size: 19.5px;
+    color: #333333;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container--empty__cart--message {
+    margin-bottom: 10px;
+}
+
+.container--minicart__dispatch--withdrawal {
+    position: relative;
+    margin-left: 20px;
+}
+
+.paragraph--minicart__dispatch--withdrawal::before,
+.paragraph--minicart__dispatch--withdrawal::after {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: -15px;
+    background-color: #35b237f0;
+    border-radius: 50%;
+}
+
+.paragraph--minicart__dispatch--withdrawal::before {
+    top: 3px;
+}
+
+.paragraph--minicart__dispatch--withdrawal::after {
+    top: 22px;
+}
+
+.paragraph--minicart__dispatch--withdrawal {
+    font-size: 12px;
+    color: #333333;
+}
+
+.link--minicart__dispatch--withdrawal {
+    color: #0072CE;
+    font-size: 13px;
+    text-decoration: none;
+    position: absolute;
+    bottom: -25px;
+    left: -15px;
+}
+
+.paragraph--summary__delivery {
+    font-size: 15px;
+    color: #333333;
+}
