@@ -1,0 +1,29 @@
+.flexRow--container__top--desktop {
+    background-color: #EBEBEB;
+    padding: 13px;
+}
+
+.flexColChild--container__bottom--3 :global(.vtex-product-list-0-x-quantitySelectorContainer--minicart__quantity) {
+    max-width: 63px;
+}
+
+.flexColChild--container__bottom--4 :global(.vtex-product-list-0-x-price--minicart__price) {
+    text-align: left;
+}
+
+
+.flexRow--container__bottom--desktop {
+    padding: 1rem;
+    border-bottom: 3px solid #ADADAD;
+}
+
+.flexRow--minicart__summary--desktop {
+    position: absolute;
+    width: 100%;
+    top: 500px;
+}
+
+.flexRowContent--related-products-desktop {
+    position: relative;
+    top: 400px;
+}

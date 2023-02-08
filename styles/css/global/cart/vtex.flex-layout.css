@@ -1,0 +1,93 @@
+.flexRow--cart__layout {
+    background-color: #FFF;
+    min-height: 1950px;
+}
+
+.flexRow--cart__layout :global(.vtex-flex-layout-0-x-flexCol--related__products--card) {
+    position: relative;
+    max-width: 190px !important;
+}
+
+.flexRow--cart__layout :global(.vtex-flex-layout-0-x-flexColChild--related__products--card) {
+    height: fit-content !important;
+}
+
+.flexRow--cart__layout :global(.vtex-flex-layout-0-x-flexColChild--related__products--card):last-child {
+    position: absolute;
+    bottom: 0;
+}
+
+.flexRow--cart__layout :global(.vtex-minicart-2-x-minicartProductListContainer) {
+    padding: 0;
+}
+
+.flexRowContent--cart__layout {
+    max-width: 1030px;
+    margin: 0 auto;
+    padding: 0 7px;
+}
+
+.flexRow--cart__layout .paragraph {
+    background-color: black;
+}
+
+.flexRow--cart__line--steps {
+    position: relative;
+    padding: 1rem;
+    margin-top: 35px;
+}
+
+.flexRow--cart__line--steps::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #ADADAD;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.flexRowContent--cart__sub--tilte {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.flexRow--minicart__empty {
+    background-color: #FFFFFF;
+    padding: 100px 15px;
+    border: 1px solid #EBEBEB;
+    margin-bottom: 20px;
+    position: relative;
+    width: calc(100vw - 50px);
+    margin-top: 25px;
+}
+
+.flexColChild--container__top--middle {
+    height: fit-content !important;
+}
+
+.flexColChild--container__top--middle:last-child {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-top: 30px;
+    max-width: 200px;
+}
+
+.flexRow--product__container--top {
+    height: 115px;
+}
+
+.flexRow--product__container--bottom {
+    border-bottom: 2px solid #ADADAD;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+}
+
+.flexRow--payments__politics {
+    margin-top: 20px;
+    border-bottom: 3px solid #ADADAD;
+    padding-bottom: 10px;
+}

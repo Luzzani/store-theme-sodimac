@@ -1,0 +1,30 @@
+{
+    "flex-layout.row#cart__sub--title": {
+        "title": "cart sub title",
+        "children": [
+            "image#minicart",
+            "rich-text#cart__sub--title"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "blockClass": "cart__sub--tilte"
+        }
+    },
+    "image#minicart": {
+        "title": "minicart icon",
+        "props": {
+            "src": "assets/img/fa-shipping-cart.png",
+            "maxHeight": "30px",
+            "maxWidth": "30px",
+            "blockClass": "minicart__image"
+        }
+    },
+    "rich-text#cart__sub--title": {
+        "title": "cart sub title page",
+        "props": {
+            "text": "### Carro de compras",
+            "blockClass": "cart__sub--title"
+        }
+    }
+}

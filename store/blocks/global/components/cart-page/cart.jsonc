@@ -1,0 +1,28 @@
+{
+    "flex-layout.row#cart__layout": {
+        "title": "cart layout",
+        "children": [
+            "flex-layout.col#cart__layout"
+        ],
+        "props": {
+            "blockClass": "cart__layout"
+        }
+    },
+    "flex-layout.col#cart__layout": {
+        "title": "cart layout",
+        "children": [
+            "whatsapp-button",
+            "rich-text#cart__title",
+            "flex-layout.row#cart__line--steps",
+            "flex-layout.row#cart__sub--title",
+            "flex-layout.row#cart__products"
+        ]
+    },
+    "rich-text#cart__title": {
+        "title": "cart title page",
+        "props": {
+            "text": "[Sodimac.com.ar](/) | Carro de compras",
+            "blockClass": "cart__title"
+        }
+    }
+}
