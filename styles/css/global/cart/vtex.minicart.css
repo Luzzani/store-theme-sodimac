@@ -1,0 +1,32 @@
+.minicartTitle--minicart__static {
+    display: none;
+}
+
+.minicartContainer--static__minicart {
+    width: 100%;
+}
+
+.minicartContentContainer--minicart__static :global(.vtex-product-list-0-x-inputContainer) {
+    padding: 0;
+    width: 45px;
+    height: 39px;
+}
+
+.minicartContentContainer--minicart__static :global(.vtex-minicart-2-x-minicartSummary) {
+    padding: 20px;
+    background: #f5f5f5;
+    padding-bottom: 80px;
+}
+
+.minicartContentContainer--minicart__static :global(.vtex-checkout-summary-0-x-summaryTitle) {
+    line-height: 1.1;
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+}
+
+.minicartCheckoutButton--checkout__button :global(.vtex-button) {
+    background-color: #DD0021;
+    border: transparent;
+    border-radius: 0;
+}

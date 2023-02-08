@@ -1,0 +1,57 @@
+{
+    "flex-layout.row#minicart__summary": {
+        "title": "minicart summary container",
+        "children": [
+            "minicart-summary#minicart__summary"
+        ]
+    },
+    "minicart-summary#minicart__summary": {
+        "title": "minicart summary",
+        "blocks": [
+            "checkout-summary"
+        ]
+    },
+    "checkout-summary": {
+        "title": "checkout summary",
+        "props": {
+            "title": "Resumen de tu compra"
+        },
+        "children": [
+            "rich-text#summary__delivery",
+            "summary-totalizers",
+            "minicart-checkout-button",
+            "link#show__products"
+        ]
+    },
+    "rich-text#summary__delivery": {
+        "title": "summary delivery text",
+        "props": {
+            "text": "-No incluye costos de envío",
+            "blockClass": "summary__delivery"
+        }
+    },
+    "summary-totalizers": {
+        "title": "summary total",
+        "props": {
+            "showTotal": true,
+            "showDeliveryTotal": false,
+            "blockClass": "summary__totalizers"
+        }
+    },
+    "minicart-checkout-button": {
+        "props": {
+            "finishShoppingButtonLink": "/checkout",
+            "text": "asdas",
+            "blockClass": "checkout__button"
+        }
+    },
+    "link#show__products": {
+        "title": "show products link",
+        "props": {
+            "displayMode": "button",
+            "href": "/",
+            "label": "Ver más productos",
+            "blockClass":[ "back__to--home", "show__products"]
+        }
+    }
+}

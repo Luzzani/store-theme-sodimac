@@ -1,0 +1,48 @@
+{
+    "minicart-empty-state#minicart__static": {
+        "title": "minicart empty state",
+        "children": [
+            "flex-layout.row#minicart__empty"
+        ]
+    },
+    "flex-layout.row#minicart__empty": {
+        "title": "minicart empty container",
+        "children": [
+            "flex-layout.col#minicart__empty"
+        ],
+        "props": {
+            "blockClass": "minicart__empty"
+        }
+    },
+    "flex-layout.col#minicart__empty": {
+        "title": "minicart empty container",
+        "children": [
+            "image#minicart",
+            "rich-text#empty__cart--message",
+            "link#back__to--home"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "blockClass": "minicart__empty"
+        }
+    },
+    "rich-text#empty__cart--message": {
+        "title": "empty cart message",
+        "props": {
+            "text": "**Carro de compras vacío.** \n Quizás encuentres algo interesante en nuestros [productos imperdibles.](/)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "empty__cart--message"
+        }
+    },
+    "link#back__to--home": {
+        "title": "Back to home link",
+        "props": {
+            "displayMode": "button",
+            "href": "/",
+            "label": "Volver al Home",
+            "blockClass": "back__to--home"
+        }
+    }
+}

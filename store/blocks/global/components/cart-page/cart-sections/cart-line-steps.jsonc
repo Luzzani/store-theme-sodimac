@@ -1,0 +1,35 @@
+{
+    "flex-layout.row#cart__line--steps": {
+        "title": "cart line steps",
+        "children": [
+            "rich-text#step__1--shopping-cart",
+            "rich-text#step__1--delivery",
+            "rich-text#step__1--secure-payment"
+        ],
+        "props": {
+            "blockClass": "cart__line--steps",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "rich-text#step__1--shopping-cart": {
+        "title": "shopping cart",
+        "props": {
+            "text": "**[Carro de compras](/cart)**",
+            "blockClass": "step__cart--link"
+        }
+    },
+    "rich-text#step__1--delivery": {
+        "title": "Delivery",
+        "props": {
+            "text": "Entrega",
+            "blockClass": "step__cart--delivery"
+        }
+    },
+    "rich-text#step__1--secure-payment": {
+        "title": "secure payment",
+        "props": {
+            "text": "Pago seguro",
+            "blockClass": "step__cart--payment"
+        }
+    }
+}

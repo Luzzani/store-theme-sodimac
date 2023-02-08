@@ -1,0 +1,8 @@
+{
+    "store.custom#cart": {
+        "title": "cart page",
+        "blocks": [
+            "flex-layout.row#cart__layout"
+        ]
+    }
+}

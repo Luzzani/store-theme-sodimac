@@ -1,5 +1,10 @@
 {
     "store.custom#design__project": {
+        "title": "Design Project",
         "path": "/design"
+    },
+    "store.custom#cart": {
+        "title": "Cart Sodimac",
+        "path": "/cart"
     }
 }
