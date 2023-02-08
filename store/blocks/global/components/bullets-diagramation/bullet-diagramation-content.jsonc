@@ -1,0 +1,74 @@
+{
+    "list-context.bullet-group": {
+        "title": "bullet group",
+        // "children": [
+        //     "slider-layout#bullet-group"
+        // ],
+        "props": {
+            "bullets": [
+                {
+                    "image": "assets/img/aislante.jpg",
+                    "titleBullet": "Aislantes",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "assets/img/jardin.jpg",
+                    "titleBullet": "Jardín",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "assets/img/maderas.jpg",
+                    "titleBullet": "Maderas",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "assets/img/pintura.jpg",
+                    "titleBullet": "Pinturas",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "assets/img/sillones.jpg",
+                    "titleBullet": "Sillones",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "assets/img/parrillas-mobile.jpeg",
+                    "titleBullet": "Parrillas",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "assets/img/tv.jpg",
+                    "titleBullet": "Televisores",
+                    "link": {
+                        "url": "/"
+                    }
+                }
+            ]
+        }
+    }
+    // ,
+    // "slider-layout#bullet-group": {
+    //     "title": "slider layout bullet group",
+    //     "props": {
+    //         "itemsPerPage": {
+    //             "desktop": 3,
+    //             "tablet": 3,
+    //             "phone": 1
+    //         },
+    //         "showNavigationArrows": "desktopOnly",
+    //         "fullWidth": false
+    //     }
+    // }
+}
