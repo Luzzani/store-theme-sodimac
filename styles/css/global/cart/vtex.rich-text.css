@@ -12,7 +12,10 @@
     font-size: 13px;
 }
 
+
+
 .paragraph--empty__cart--message,
+.paragraph--payments__politics,
 .link--step__cart--link,
 .paragraph--step__cart--delivery,
 .paragraph--step__cart--payment,
@@ -48,7 +51,7 @@
     position: absolute;
     left: 40%;
     top: -27px;
-    z-index: 10;
+    z-index: 1;
 }
 
 .link--step__cart--link::after {

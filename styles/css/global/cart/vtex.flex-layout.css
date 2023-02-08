@@ -1,6 +1,6 @@
 .flexRow--cart__layout {
     background-color: #FFF;
-    min-height: 300vh;
+    min-height: 1950px;
 }
 
 .flexRow--cart__layout :global(.vtex-flex-layout-0-x-flexCol--related__products--card) {
@@ -84,4 +84,10 @@
     border-bottom: 2px solid #ADADAD;
     margin-bottom: 20px;
     padding-bottom: 50px;
+}
+
+.flexRow--payments__politics {
+    margin-top: 20px;
+    border-bottom: 3px solid #ADADAD;
+    padding-bottom: 10px;
 }

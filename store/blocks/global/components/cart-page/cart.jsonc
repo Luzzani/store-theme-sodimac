@@ -11,6 +11,7 @@
     "flex-layout.col#cart__layout": {
         "title": "cart layout",
         "children": [
+            "whatsapp-button",
             "rich-text#cart__title",
             "flex-layout.row#cart__line--steps",
             "flex-layout.row#cart__sub--title",

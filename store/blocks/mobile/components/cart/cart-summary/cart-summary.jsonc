@@ -41,7 +41,6 @@
     "minicart-checkout-button": {
         "props": {
             "finishShoppingButtonLink": "/checkout",
-            "text": "asdas",
             "blockClass": "checkout__button"
         }
     },
@@ -51,7 +50,7 @@
             "displayMode": "button",
             "href": "/",
             "label": "Ver más productos",
-            "blockClass":[ "back__to--home", "show__products"]
+            "blockClass": "show__products"
         }
     }
 }
