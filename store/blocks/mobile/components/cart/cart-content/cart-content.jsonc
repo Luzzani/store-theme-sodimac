@@ -1,0 +1,94 @@
+{
+    "responsive-layout.mobile#minicart__related-products": {
+        "title": "minicart related products",
+        "children": [
+            "flex-layout.row#related-products--minicart-mobile"
+        ]
+    },
+    "flex-layout.row#related-products--minicart-mobile": {
+        "title": "related products container",
+        "children": [
+            "flex-layout.col#related-products"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": [
+                "related-products",
+                "related-products-mobile"
+            ]
+        }
+    },
+    "responsive-layout.mobile#minicart__content": {
+        "title": "cart content on mobile",
+        "children": [
+            "flex-layout.row#minicart__summary",
+            "flex-layout.row#payments__politics"
+        ]
+    },
+    "flex-layout.row#payments__politics": {
+        "title": "payments and politics container",
+        "children": [
+            "flex-layout.col#payments__politics"
+        ],
+        "props": {
+            "blockClass": "payments__politics"
+        }
+    },
+    "flex-layout.col#payments__politics": {
+        "title": "payments and politics container",
+        "children": [
+            "flex-layout.row#payments",
+            "flex-layout.row#politics"
+        ]
+    },
+    "flex-layout.row#payments": {
+        "title": "payments container",
+        "children": [
+            "rich-text#payments",
+            "image#payments"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "colJustify": "left"
+        }
+    },
+    "flex-layout.row#politics": {
+        "title": "politics container",
+        "children": [
+            "rich-text#politics",
+            "image#politics"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "colJustify": "left"
+        }
+    },
+    "rich-text#payments": {
+        "props": {
+            "text": "Medios de pago:",
+            "blockClass": "payments__politics"
+        }
+    },
+    "image#payments": {
+        "title": "image payments",
+        "props": {
+            "src": "assets/img/payments-methods.jpeg",
+            "blockClass": "image__payments"
+        }
+    },
+    "rich-text#politics": {
+        "props": {
+            "text": "Políticas de seguridad:",
+            "blockClass": "payments__politics"
+        }
+    },
+    "image#politics": {
+        "title": "image politics",
+        "props": {
+            "src": "assets/img/politics.jpeg",
+            "blockClass": "image__politics"
+        }
+    }
+}
