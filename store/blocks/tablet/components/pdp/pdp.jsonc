@@ -91,12 +91,45 @@
         "title": "product details info",
         "children": [
             "flex-layout.row#product__info--tablet",
+            "modal-trigger#add-to-cart-info",
             "flex-layout.row#satisfaction__guaranteed--container",
             "flex-layout.row#shipping--pickup",
             "flex-layout.row#complementary-products"
         ],
         "props": {
             "blockClass": "product__details--row--info"
+        }
+    },
+    "modal-trigger#add-to-cart-info": {
+        "title": "trigger modal add to cart info",
+        "children": [
+            "modal-layout#add-to-cart-info"
+        ],
+        "props": {
+            "customPixelEventName": "addToCart"
+        }
+    },
+    "modal-layout#add-to-cart-info": {
+        "title": "modal layout add to cart info",
+        "children": [
+            "modal-header#add-to-cart-info",
+            "add-to-cart-info"
+        ],
+        "props": {
+            "blockClass": "add-to-cart-info"
+        }
+    },
+    "add-to-cart-info": {
+        "title": "custon info cart",
+        "props": {
+            "blockClass": "add__to-cart"
+        }
+    },
+    "modal-header#add-to-cart-info": {
+        "title": "modal header add to cart info",
+        "props": {
+            "showCloseButton": true,
+            "blockClass": "add-to-cart-info"
         }
     },
     "flex-layout.row#product__info--tablet": {
