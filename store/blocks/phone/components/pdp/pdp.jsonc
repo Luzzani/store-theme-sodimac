@@ -15,6 +15,7 @@
             "breadcrumb#prodcut__details--breadcrumb",
             "flex-layout.row#modal__trigger--container",
             "flex-layout.row#product__details--card",
+            // "add-to-cart-info",
             "flex-layout.row#satisfaction__guaranteed--container",
             "flex-layout.row#shipping--pickup",
             "flex-layout.row#complementary-products",
