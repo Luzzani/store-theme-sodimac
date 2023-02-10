@@ -64,6 +64,13 @@
             "blockClass": "minicart__price"
         }
     },
+    "unit-price#minicart__price": {
+        "title": "minicart unit price",
+        "props": {
+            "unitPriceDisplay": "always",
+            "blockClass": "minicart__unit--price"
+        }
+    },
     "vtex.product-list:product-brand#minicart__static": {
         "title": "product brand",
         "props": {

@@ -1,6 +1,12 @@
 .flexRow--cart__layout {
     background-color: #FFF;
-    min-height: 1950px;
+    min-height: 2650px;
+}
+
+@media screen and (min-width: 600px) {
+    .flexRow--cart__layout {
+        min-height: 2050px;
+    }
 }
 
 .flexRow--cart__layout :global(.vtex-flex-layout-0-x-flexCol--related__products--card) {
@@ -9,12 +15,7 @@
 }
 
 .flexRow--cart__layout :global(.vtex-flex-layout-0-x-flexColChild--related__products--card) {
-    height: fit-content !important;
-}
-
-.flexRow--cart__layout :global(.vtex-flex-layout-0-x-flexColChild--related__products--card):last-child {
-    position: absolute;
-    bottom: 0;
+    height: 230px !important;
 }
 
 .flexRow--cart__layout :global(.vtex-minicart-2-x-minicartProductListContainer) {
@@ -90,4 +91,9 @@
     margin-top: 20px;
     border-bottom: 3px solid #ADADAD;
     padding-bottom: 10px;
+}
+
+.flexCol--container__bottom--4 {
+    justify-content: flex-start;
+    align-items: flex-start;
 }

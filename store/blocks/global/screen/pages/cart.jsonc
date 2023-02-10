@@ -2,6 +2,7 @@
     "store.custom#cart": {
         "title": "cart page",
         "blocks": [
-            "flex-layout.row#cart__layout"        ]
+            "flex-layout.row#cart__layout"
+        ]
     }
 }
