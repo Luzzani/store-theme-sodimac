@@ -1,0 +1,8 @@
+{
+    "store.custom#custom__components": {
+        "title": "custom components",
+        "blocks": [
+            "flex-layout.row#custom__components--layout"
+        ]
+    }
+}

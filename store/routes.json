@@ -6,5 +6,9 @@
     "store.custom#cart": {
         "title": "Cart Sodimac",
         "path": "/cart"
+    },
+    "store.custom#custom__components": {
+        "title": "custom components",
+        "path": "/pdf-reader"
     }
 }
