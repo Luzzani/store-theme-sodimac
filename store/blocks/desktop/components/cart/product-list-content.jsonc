@@ -22,7 +22,6 @@
         "title": "product list content on desktop",
         "children": [
             "flex-layout.row#container__buttons--desktop",
-            "flex-layout.row#container__top--desktop",
             "flex-layout.row#minicart__summary--desktop"
         ]
     },
@@ -216,7 +215,7 @@
     "flex-layout.col#container__bottom--4": {
         "title": "container col 4",
         "children": [
-            "price#minicart__price"
+            "unit-price#minicart__price"
         ],
         "props": {
             "width": "15%",
@@ -227,7 +226,9 @@
     },
     "flex-layout.col#container__bottom--5": {
         "title": "container col 5",
-        "children": [],
+        "children": [
+            "price#minicart__price"
+        ],
         "props": {
             "width": "15%"
         }
