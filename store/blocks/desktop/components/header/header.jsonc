@@ -6,7 +6,8 @@
             "menu-item#top__tiendas",
             "menu-item#top__empresas",
             "menu-item#top__financiacion",
-            "menu-item#top__proyecto"
+            "menu-item#top__proyecto",
+            "menu-item#top__pdf--reader"
         ],
         "props": {
             "blockClass": [
