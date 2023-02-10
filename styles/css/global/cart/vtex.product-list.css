@@ -44,9 +44,22 @@
     top: 20px;
 }
 
+.unitPriceContainer--minicart__unit--price,
 .price--minicart__price {
-    text-align: right;
     font-size: 15px;
     color: #333333;
     font-weight: bold;
+    text-align: left;
+}
+
+.price--minicart__price {
+    text-align: right;
+}
+
+.currencyContainer--minicart__price {
+    display: none;
+}
+
+.unitPriceMeasurementUnit--minicart__unit--price {
+    display: none;
 }

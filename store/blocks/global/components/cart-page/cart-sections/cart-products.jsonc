@@ -21,8 +21,9 @@
             "minicart-empty-state#minicart__static"
         ],
         "children": [
-            "responsive-layout.desktop#minicart__row",
+            "responsive-layout.desktop#container__top--desktop",
             "flex-layout.row#minicart",
+            "responsive-layout.desktop#minicart__row",
             "responsive-layout.desktop#minicart__related-products",
             "responsive-layout.mobile#minicart__related-products",
             "responsive-layout.mobile#minicart__content"
@@ -30,6 +31,12 @@
         "props": {
             "blockClass": "minicart__static"
         }
+    },
+    "responsive-layout.desktop#container__top--desktop": {
+        "title": "container top only on desktop",
+        "children": [
+            "flex-layout.row#container__top--desktop"
+        ]
     },
     "flex-layout.row#minicart": {
         "title": "minicart",

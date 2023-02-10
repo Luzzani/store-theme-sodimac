@@ -33,6 +33,7 @@
 .nameContainer--realted__products {
     padding: 0;
     padding-bottom: 20px;
+    justify-content: left;
 }
 
 .productBrand--realted__products {

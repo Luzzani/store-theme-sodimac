@@ -18,12 +18,5 @@
 }
 
 .flexRow--minicart__summary--desktop {
-    position: absolute;
     width: 100%;
-    top: 500px;
-}
-
-.flexRowContent--related-products-desktop {
-    position: relative;
-    top: 400px;
 }

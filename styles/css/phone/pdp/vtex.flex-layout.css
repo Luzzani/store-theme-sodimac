@@ -183,6 +183,7 @@
 .flexColChild--related__products--card {
     color: #585858;
     font-size: 12px;
+    text-align: left;
 }
 
 .flexColChild--product__details--layout :global(.vtex-store-components-3-x-specificationsTableContainer) {
