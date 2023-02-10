@@ -56,5 +56,18 @@
                 "menu__item--top"
             ]
         }
+    },
+    "menu-item#top__pdf--reader": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "| PDF READER ",
+                "type": "internal",
+                "href": "/pdf-reader"
+            },
+            "blockClass": [
+                "menu__item--top"
+            ]
+        }
     }
 }

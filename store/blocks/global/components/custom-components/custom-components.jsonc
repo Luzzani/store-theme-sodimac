@@ -1,0 +1,16 @@
+{
+    "flex-layout.row#custom__components--layout": {
+        "title": "custom componentes layout",
+        "children": [
+            "pdf-reader"
+        ]
+    },
+    "pdf-reader": {
+        "title": "pdf reader",
+        "props": {
+            "pdfUrl": "assets/documents/random-document.pdf",
+            "width": 500,
+            "height": 800
+        }
+    }
+}
