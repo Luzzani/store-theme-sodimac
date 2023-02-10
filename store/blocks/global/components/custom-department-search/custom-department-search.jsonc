@@ -1,0 +1,14 @@
+{
+    "flex-layout.row#custom-department-search": {
+        "title": "container department serach",
+        "children": [
+            "department-search"
+        ]
+    },
+    "department-search": {
+        "title" : "department search",
+        "props": {
+            "blockClass": "custom__department--search"
+        }
+    }
+}
