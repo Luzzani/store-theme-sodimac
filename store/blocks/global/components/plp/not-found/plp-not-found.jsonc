@@ -22,6 +22,7 @@
             "flex-layout.row#not__found--list",
             "flex-layout.row#not__found--slider-title",
             "flex-layout.row#not__found--slider",
+            "flex-layout.row#custom-department-search",
             "responsive-layout.mobile#not__found--info",
             "responsive-layout.desktop#not__found--info"
         ],

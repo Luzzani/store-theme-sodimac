@@ -1,0 +1,12 @@
+.searchBarIcon--custom__department--search {
+    background-color: #FFFFFF !important;
+}
+
+.departmentGroup__select--custom__department--search,
+.autoCompleteOuterContainer--custom__department--search :global(.vtex-input-prefix__group) {
+    border: 0.0625rem solid #f0f0f0;
+}
+
+.externalSearchButtonWrapper--custom__department--search {
+    border-left: 0;
+}
