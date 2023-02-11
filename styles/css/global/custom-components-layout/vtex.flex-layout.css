@@ -1,0 +1,11 @@
+.flexRowContent--custom__components--layout {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.flexColChild--custom__components--layout:first-child {
+    background-color: #FFFFFF;
+    padding: 1rem;
+    margin-bottom: 10px;
+}
