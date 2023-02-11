@@ -1,0 +1,19 @@
+.quickOrder__button--quick__order {
+    background: #dd0021;
+    padding: .5rem;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.quickOrder__button--quick__order:hover {
+    background: #dd0021 !important;
+    color: #fff !important;
+    -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%) !important;
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+    box-shadow: 0 0px 5px 0 rgb(5 5 5 / 50%), 0 3px 7px 0 rgb(100 100 100 / 70%) !important;
+    -webkit-transition: box-shadow 0.6s !important;
+    transition: box-shadow 0.6s !important;
+    border: solid 1px #dd0000;
+}

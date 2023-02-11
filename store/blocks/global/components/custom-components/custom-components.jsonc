@@ -1,10 +1,23 @@
 {
     "flex-layout.row#custom__components--layout": {
-        "title": "custom componentes layout",
+        "title": "custom components layout",
+        "children": [
+            "flex-layout.col#custom__components--layout"
+        ],
+        "props": {
+            "blockClass": "custom__components--layout"
+        }
+    },
+    "flex-layout.col#custom__components--layout": {
+        "title": "custom components layout",
         "children": [
             "quick-order",
             "pdf-reader"
-        ]
+        ],
+        "props": {
+            "paddingLeft": 5,
+            "blockClass": "custom__components--layout"
+        }
     },
     "pdf-reader": {
         "title": "pdf reader",
@@ -12,6 +25,12 @@
             "pdfUrl": "assets/documents/random-document.pdf",
             "width": 500,
             "height": 800
+        }
+    },
+    "quick-order": {
+        "title": "quick order",
+        "props": {
+            "blockClass": "quick__order"
         }
     }
 }
