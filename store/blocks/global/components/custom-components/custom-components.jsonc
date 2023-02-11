@@ -2,6 +2,7 @@
     "flex-layout.row#custom__components--layout": {
         "title": "custom componentes layout",
         "children": [
+            "quick-order",
             "pdf-reader"
         ]
     },
