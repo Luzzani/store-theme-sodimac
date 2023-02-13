@@ -26,12 +26,22 @@
     "flex-layout.row#section__2--row2": {
         "title": "row images top",
         "children": [
-            "flex-layout.col#row2__image--left",
-            "flex-layout.col#row2__image--middle",
-            "flex-layout.col#row2__image--right"
+            "special-diagramation"
         ],
         "props": {
-            "height": "50%"
+            "height": "50%",
+            "blockClass": "section__2--row2"
+        }
+    },
+    "special-diagramation": {
+        "title": "custom grid",
+        "children": [
+            "image#row2__image--left",
+            "image#row2__image--middle",
+            "image#row2__image--right"
+        ],
+        "props": {
+            "blockClass": "special__diagramation"
         }
     },
     "flex-layout.col#row2__image--left": {
