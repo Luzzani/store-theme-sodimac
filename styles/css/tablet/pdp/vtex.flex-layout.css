@@ -78,20 +78,22 @@
     gap: 5px;
 }
 
-
-.flexRow--product__details--row--tablet :global(.vtex-product-summary-2-x-productNameContainer--realted__products) {
-    position: relative;
-    top: -25px;
+.flexColChild--related__products--card:last-child {
+    height: fit-content !important;
 }
 
-.flexRow--product__details--row--tablet :global(.vtex-flex-layout-0-x-flexCol--related__products--card) :global(.vtex-reviews-and-ratings-3-x-inlineContainer) {
-    position: relative;
-    top: -45px;
+.flexCol--product__card--top {
+    height: 225px;
+    justify-content: flex-start;
 }
 
-.flexRow--product__details--row--tablet :global(.vtex-product-price-1-x-sellingPrice--related__card--bottom) {
-    position: relative;
-    top: -55px;
+.flexColChild--product__card--middle :global(.vtex-reviews-and-ratings-3-x-summaryContainer) :global(.vtex-reviews-and-ratings-3-x-stars) {
+    font-size: 18px;
+}
+
+.flexColChild--product__card--middle :global(.vtex-reviews-and-ratings-3-x-summaryContainer) :global(.vtex-reviews-and-ratings-3-x-summaryTotalReviews) {
+    transform: translateY(4px);
+    font-size: 14px;
 }
 
 .flexColChild--product__details--col--tablet :global(.vtex-store-components-3-x-specificationsTitle) {
