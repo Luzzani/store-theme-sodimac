@@ -40,7 +40,10 @@
             "product-summary-image#realted__products",
             "product-summary-brand#realted__products",
             "product-summary-name#realted__products"
-        ]
+        ],
+        "props": {
+            "blockClass": "product__card--top"
+        }
     },
     "flex-layout.row#product__card--middle": {
         "title": "product card middle",
@@ -51,9 +54,13 @@
     "flex-layout.col#product__card--middle": {
         "title": "product card middle",
         "children": [
-            "product-rating-inline",
-            "product-selling-price#related__price"
-        ]
+            "product-rating-summary",
+            "product-selling-price#related__price",
+            "product-price-savings#home__page"
+        ],
+        "props": {
+            "blockClass": "product__card--middle"
+        }
     },
     "product-summary-image#realted__products": {
         "title": "realted products image",
